@@ -1,5 +1,7 @@
 # 项目状态与决策记录
 
+2026-10-10 Git备份实际结果：本地首次提交 `364a705c9fb3a0c9061f023288e8fd7dd9a560db` 已完成，379个文件；分支整理为main，origin已配置。用户在浏览器登录后，已创建私有GitHub仓库 [xukun4886-blip/mooc-teacher-generator](https://github.com/xukun4886-blip/mooc-teacher-generator)，连接工具核实visibility=private及admin/push权限，仓库当前为空。Git Credential Manager设备授权页面已准备，尚待用户批准较广的仓库/Gist/Workflow权限，未推送；终端网络使用现有代理的单命令配置，不改系统代理。备份预检及排除范围见[记录](evidence/M4/git-import-preflight.json)，原运行数据及素材保持本机受控存储。阶段退出未改变。
+
 2026-10-10 Git/GitHub备份准备（M4-F04/F05、NFR05/NFR07）：用户授权本地提交及上传，并选定 `xukun4886-blip/mooc-teacher-generator` 私有仓库。初次检查当前master无提交、无远端，GitHub连接账号已核实；内置浏览器待用户登录，本机Git尚无可用GitHub凭据。初步检查414个候选文件约12.38MB，未发现常见格式的真实密钥；补充忽略环境/凭据/数据库/权重/音视频和可能包含教师素材的证据截图，源文件仍保留。备份范围及恢复限制见[说明](GIT_BACKUP.md)。本地首次提交范围已核验（排除37张截图，保留原需求），使用GitHub noreply邮箱署名；[备份预检](evidence/M4/git-import-preflight.json)记录扫描和忽略检查。本记录不代表远端上传成功；M1–M4退出和人工质量状态不变。
 
 2026-10-10 分享访问方案咨询（M4-F04/F05、NFR05/NFR06）：只读核实当前入口固定监听127.0.0.1，API限制本机Host并使用共享本机会话，项目creator为local-teacher，尚无多用户账户及按用户授权隔离。现有云端仅照片人物计算，原页仍依赖本机Windows PowerPoint。对外试用需配置受控网络入口、登录及明确数据访问范围；长期多人使用需账户/项目与下载授权隔离、资源配额和持续部署，并处理Windows渲染依赖。以上为方案，用户尚未选择部署范围；未修改运行配置、开放端口或部署，原阶段状态不变。

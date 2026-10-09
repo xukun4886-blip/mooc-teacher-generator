@@ -31,7 +31,13 @@
   },
   "source_requirement_documents": "Original docx files retained; embedded figures inspected as project workflow diagram",
   "git_author": "xukun4886-blip <291233546+xukun4886-blip@users.noreply.github.com>",
-  "remote_upload_status": "pending authenticated repository creation and push",
+  "remote_upload_status": "Repository created and origin configured; empty repository, push awaiting user Git Credential Manager authorization",
   "behavior_tests": "Not rerun: backup rules and documentation changed; application source behavior unchanged",
-  "excluded_runtime_data": "Local original project files, database, teacher media and model environments retained; source backup requires separate controlled data backup for recovery"
+  "excluded_runtime_data": "Local original project files, database, teacher media and model environments retained; source backup requires separate controlled data backup for recovery",
+  "local_initial_commit": "364a705c9fb3a0c9061f023288e8fd7dd9a560db",
+  "local_branch": "main",
+  "remote_repository": "https://github.com/xukun4886-blip/mooc-teacher-generator",
+  "remote_repository_id": 1412208614,
+  "remote_visibility_verified": "private",
+  "remote_metadata_check": "GitHub connector verified admin/push permissions and size=0"
 }
