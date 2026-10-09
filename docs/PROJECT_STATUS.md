@@ -1,5 +1,7 @@
 # 项目状态与决策记录
 
+2026-10-10 GitHub备份已上传（M4-F04/F05、NFR05/NFR07）：用户完成Git Credential Manager设备授权后，已成功推送379个受版本管理文件到私有仓库 [xukun4886-blip/mooc-teacher-generator](https://github.com/xukun4886-blip/mooc-teacher-generator) 的main分支。首次实际远端核验 `a29dfdfefcaae0cfdf9967c4352537cb356ba946` 与本地HEAD完全一致，main已跟踪origin/main；本记录随后正常提交和推送。连接工具确认仓库仍为private。只使用既有代理的单命令参数，凭据由Git Credential Manager管理，不写入仓库；教师素材、运行数据、模型权重和37张证据截图仍保存在本机。范围与检查见[备份说明](GIT_BACKUP.md)及[预检记录](evidence/M4/git-import-preflight.json)。代码上传不等于数据完整备份、另机重建或阶段验收通过，M1–M4状态不变。下方待授权/未上传记录为历史过程。
+
 2026-10-10 Git备份实际结果：本地首次提交 `364a705c9fb3a0c9061f023288e8fd7dd9a560db` 已完成，379个文件；分支整理为main，origin已配置。用户在浏览器登录后，已创建私有GitHub仓库 [xukun4886-blip/mooc-teacher-generator](https://github.com/xukun4886-blip/mooc-teacher-generator)，连接工具核实visibility=private及admin/push权限，仓库当前为空。Git Credential Manager设备授权页面已准备，尚待用户批准较广的仓库/Gist/Workflow权限，未推送；终端网络使用现有代理的单命令配置，不改系统代理。备份预检及排除范围见[记录](evidence/M4/git-import-preflight.json)，原运行数据及素材保持本机受控存储。阶段退出未改变。
 
 2026-10-10 Git/GitHub备份准备（M4-F04/F05、NFR05/NFR07）：用户授权本地提交及上传，并选定 `xukun4886-blip/mooc-teacher-generator` 私有仓库。初次检查当前master无提交、无远端，GitHub连接账号已核实；内置浏览器待用户登录，本机Git尚无可用GitHub凭据。初步检查414个候选文件约12.38MB，未发现常见格式的真实密钥；补充忽略环境/凭据/数据库/权重/音视频和可能包含教师素材的证据截图，源文件仍保留。备份范围及恢复限制见[说明](GIT_BACKUP.md)。本地首次提交范围已核验（排除37张截图，保留原需求），使用GitHub noreply邮箱署名；[备份预检](evidence/M4/git-import-preflight.json)记录扫描和忽略检查。本记录不代表远端上传成功；M1–M4退出和人工质量状态不变。

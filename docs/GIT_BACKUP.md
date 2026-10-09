@@ -1,6 +1,6 @@
 # Git 与 GitHub 备份范围
 
-2026-10-10：用户授权建立本地 Git 提交，并上传至账号 `xukun4886-blip` 的私有仓库 `mooc-teacher-generator`。实际上传状态以 [项目状态](PROJECT_STATUS.md) 和远端提交核对结果为准。
+2026-10-10：用户授权建立本地 Git 提交，并上传至账号 `xukun4886-blip` 的私有仓库 `mooc-teacher-generator`。已完成上传，main分支跟踪origin/main；实际推送退出码和远端提交一致性已核实，见 [项目状态](PROJECT_STATUS.md) 及 [备份预检记录](evidence/M4/git-import-preflight.json)。
 
 仓库保存应用源代码、项目 Skills、需求文档、阶段规格、配置模板、依赖锁定文件、测试、部署说明及文字验收记录。现有需求文档保持原文件；上传不表示 M1–M4 或首版验收已通过。
 

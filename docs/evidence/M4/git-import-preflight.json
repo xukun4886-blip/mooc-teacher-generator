@@ -31,7 +31,7 @@
   },
   "source_requirement_documents": "Original docx files retained; embedded figures inspected as project workflow diagram",
   "git_author": "xukun4886-blip <291233546+xukun4886-blip@users.noreply.github.com>",
-  "remote_upload_status": "Repository created and origin configured; empty repository, push awaiting user Git Credential Manager authorization",
+  "remote_upload_status": "Uploaded successfully; git push -u origin main exited 0 and git ls-remote matched local HEAD",
   "behavior_tests": "Not rerun: backup rules and documentation changed; application source behavior unchanged",
   "excluded_runtime_data": "Local original project files, database, teacher media and model environments retained; source backup requires separate controlled data backup for recovery",
   "local_initial_commit": "364a705c9fb3a0c9061f023288e8fd7dd9a560db",
@@ -39,5 +39,9 @@
   "remote_repository": "https://github.com/xukun4886-blip/mooc-teacher-generator",
   "remote_repository_id": 1412208614,
   "remote_visibility_verified": "private",
-  "remote_metadata_check": "GitHub connector verified admin/push permissions and size=0"
+  "remote_metadata_check": "GitHub connector verified visibility=private, default_branch=main and admin/push permissions; repository size can lag behind push, so commit identity was verified with ls-remote instead",
+  "verified_source_commit": "a29dfdfefcaae0cfdf9967c4352537cb356ba946",
+  "git_authentication": "User completed Git Credential Manager device authorization; credential stored by the credential manager, no token included in repository",
+  "push_network": "Used existing local proxy http://127.0.0.1:7890 as a per-command git option; no global Git or system proxy changes",
+  "tracked_files": 379
 }
