@@ -98,7 +98,7 @@ git clone https://github.com/xukun4886-blip/mooc-teacher-generator.git
 Set-Location -LiteralPath 'mooc-teacher-generator'
 ```
 
-私有仓库需要具有访问权限的 GitHub 账号。**克隆后需完成环境、权重和本地配置准备才能生成课程**，另机完整重建目前仍待验证：
+仓库现已公开，可直接克隆。**克隆后需完成环境、权重和本地配置准备才能生成课程**，另机完整重建目前仍待验证：
 
 1. 按 [部署说明](docs/DEPLOYMENT.md) 建立控制环境，使用 `requirements-m2.txt` 安装控制端依赖；分别准备模型环境与权重。
 2. 在 `frontend` 中执行 `npm.cmd ci --no-audit --no-fund` 和 `npm.cmd run build`。

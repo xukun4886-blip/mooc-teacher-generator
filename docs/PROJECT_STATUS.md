@@ -1,5 +1,9 @@
 # 项目状态与决策记录
 
+2026-10-10 GitHub已公开（M4-F04/F05、NFR05/NFR07）：用户选择先脱敏历史再公开，8份证据JSON的1个教师邮箱/历史49处已替换；原始Git bundle及证据保留本机。已用预期远端提交租约发布脱敏历史；为避免原仓库旧提交缓存公开，原仓库改名为mooc-teacher-generator-private-archive-20261010并保持private，原地址创建独立仓库仅上传脱敏历史，现visibility=public且匿名API HTTP200。原根提交和原最新提交在公开仓库均HTTP422不可访问，私有存档匿名HTTP404。公开核验见[记录](evidence/M4/github-public-visibility-20261010.json)，[备份说明](GIT_BACKUP.md)与README克隆说明已同步；远端用户README改动及本地Cloudflare相关未提交修改保留。此操作不部署应用，不改变正式验收状态。
+
+2026-10-10 GitHub公开准备（M4-F04/F05、NFR05/NFR07）：用户要求仓库改为公开，先核对远端main及387个历史blob；未发现常见密钥或受控媒体入库，但8份课程证据JSON含1个教师私人联系邮箱，历史合计49处。已在受控storage/git-import保存原始Git bundle与仅替换邮箱的独立裸仓库，Git对象完整性、bundle可恢复性及脱敏历史无该邮箱均核验通过；远端最新README提交已快进同步，本地部署/状态/追踪及三份Cloudflare未提交记录保持。当前GitHub仍private，未重写远端历史，待用户确认先脱敏历史再公开，或确认该联系方式已有公开授权。原始证据与模型/课程素材保留，不改变验收结论。
+
 2026-10-10 GitHub README更新（M4-F05、NFR06/NFR07）：依据现有代码、模板和真实证据重写仓库首页，补齐三项输入/草稿后确认、功能与真实双路径边界、24页12分钟照片成片、正文优先讲稿、可选云端、技术结构、已有机器启动、新机器配置、检查命令、目录与备份范围。旧首页停留在M1/M2概况，现明确M1–M4未正式通过，保留读法/人工质量/限流/PowerPoint/另机及多人部署限制；不改变需求、接口、运行配置或阶段结论。本文仅文档更新，27处本地引用均存在且受Git管理，代码块配对、启动路径与git diff --check核验通过；未重跑生成或覆盖原验收证据。
 
 2026-10-10 GitHub备份已上传（M4-F04/F05、NFR05/NFR07）：用户完成Git Credential Manager设备授权后，已成功推送379个受版本管理文件到私有仓库 [xukun4886-blip/mooc-teacher-generator](https://github.com/xukun4886-blip/mooc-teacher-generator) 的main分支。首次实际远端核验 `a29dfdfefcaae0cfdf9967c4352537cb356ba946` 与本地HEAD完全一致，main已跟踪origin/main；本记录随后正常提交和推送。连接工具确认仓库仍为private。只使用既有代理的单命令参数，凭据由Git Credential Manager管理，不写入仓库；教师素材、运行数据、模型权重和37张证据截图仍保存在本机。范围与检查见[备份说明](GIT_BACKUP.md)及[预检记录](evidence/M4/git-import-preflight.json)。代码上传不等于数据完整备份、另机重建或阶段验收通过，M1–M4状态不变。下方待授权/未上传记录为历史过程。

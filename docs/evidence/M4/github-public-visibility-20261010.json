@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-10",
+  "repository": "https://github.com/xukun4886-blip/mooc-teacher-generator",
+  "repository_id": 1412295193,
+  "visibility": "public",
+  "anonymous_metadata_http_status": 200,
+  "sanitized_source_commit": "23e5e1044895083b5e2bf314721418e83f3e1f38",
+  "redacted_files": 8,
+  "redacted_historical_occurrences": 49,
+  "original_history_retained": "Local controlled Git bundle and a private GitHub archive; original source evidence also retained locally",
+  "private_archive": "https://github.com/xukun4886-blip/mooc-teacher-generator-private-archive-20261010",
+  "private_archive_anonymous_http_status": 404,
+  "old_commit_anonymous_checks": {
+    "46f604b98014e7be36a3bbd437399c6deeae9f96": 422,
+    "364a705c9fb3a0c9061f023288e8fd7dd9a560db": 422
+  },
+  "repository_creation": "Independent repository, not forked; only sanitized reachable history pushed",
+  "original_teacher_media_and_runtime_data": "Not uploaded",
+  "scope": "Repository visibility and privacy review; no application deployment or quality acceptance"
+}
