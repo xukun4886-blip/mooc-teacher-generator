@@ -1,0 +1,17 @@
+{
+  "recorded_at": "2026-10-08T17:38:45.139934+00:00",
+  "project_id": "c156d76b-7daa-497d-a601-64c8513b937b",
+  "provider_record": {
+    "response_id": "20261009013400f425d4648054437b",
+    "response_sha256": "5657f5a93e3218cc863dc394a7cb72cd3b33931685eff7bc3fa38aa4f6c8c18a",
+    "path": "ai-responses/792a815e-e76f-41b6-9187-5cc3c5f7ab5b-0e639941-3a8d-4241-8729-2a6a17ef5328.json"
+  },
+  "first_error": "AI_FORMAT_INVALID",
+  "display_characters": 96,
+  "reading_characters": 27,
+  "provided_pair_count": 2,
+  "display_pairs_complete": true,
+  "reading_pairs_complete": false,
+  "result_published": false,
+  "repair": "Strictly reject incomplete body; preserve first response; bounded generation 2 retry queued. No fabricated reading text."
+}

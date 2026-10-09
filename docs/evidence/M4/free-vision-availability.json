@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-08T17:21:58.164806+00:00",
+  "calls": [
+    {
+      "at": "2026-10-08T17:21:56.537771+00:00",
+      "model": "glm-4.1v-thinking-flash",
+      "http_status": 200,
+      "provider_error_code": null,
+      "provider_message": null,
+      "finish_reason": "length",
+      "usage": {
+        "completion_tokens": 64,
+        "prompt_tokens": 9,
+        "total_tokens": 73
+      },
+      "scope": "minimal diagnostic only; no teacher/course materials",
+      "current_official_free_source": "https://docs.bigmodel.cn/cn/guide/start/model-overview.md"
+    },
+    {
+      "at": "2026-10-08T17:21:58.164806+00:00",
+      "model": "glm-4v-flash",
+      "http_status": 200,
+      "provider_error_code": null,
+      "provider_message": null,
+      "finish_reason": "length",
+      "usage": {
+        "completion_tokens": 64,
+        "prompt_tokens": 62,
+        "total_tokens": 126
+      },
+      "scope": "minimal diagnostic only; no teacher/course materials",
+      "current_official_free_source": "https://docs.bigmodel.cn/cn/guide/start/model-overview.md"
+    }
+  ],
+  "default_changed": false,
+  "paid_calls": false
+}

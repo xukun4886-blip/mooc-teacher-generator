@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="13" time="35.857" timestamp="2026-10-09T10:27:30.731114+08:00" hostname="LAPTOP-94TPVL4F"><testcase classname="tests.test_ppt_reselect" name="test_reselect_owns_selected_teacher_inputs_without_old_scripts_or_outputs" time="0.889"><failure message="KeyError: 'mode'">rig = (&lt;mooc_m2.service.Service object at 0x000001C959759030&gt;, {'assets': {'photo': {'authorization': {'confirmed': True}, '...[], &lt;starlette.testclient.TestClient object at 0x000001C95978D330&gt;, &lt;function rig.&lt;locals&gt;.fake at 0x000001C959795990&gt;)
+
+    def test_reselect_owns_selected_teacher_inputs_without_old_scripts_or_outputs(rig):
+        service, p, _, client, _ = rig
+        store = service.store
+        selected = store.folder(p['id']) / 'chosen-reference.wav'
+        selected.write_bytes(store.file(p['id'], 'reference.wav').read_bytes())
+        with store.edit(p['id']) as source:
+            source['assets']['reference_audio'].update(selected=selected.name, selected_sha256=digest(selected))
+            source['scenes'][0]['confirmed'] = {'version_id': source['scenes'][0]['current_version']}
+        p = store.get(p['id'])
+        old_jobs = copy.deepcopy(store.jobs(p['id']))
+        old_output = store.folder(p['id']) / 'old-course.mp4'
+        old_output.write_bytes(b'preserve published output')
+        response = upload(client, p)
+        assert response.status_code == 200, response.text
+        result = response.json()
+        new = store.get(result['project_id'])
+        assert new['id'] != p['id'] and result['source_project_id'] == new['source_project_id'] == p['id']
+        assert new['slides'] == new['scenes'] == [] and service.course.latest(new['id']) is None
+&gt;       assert new['config']['mode'] == p['config']['mode']
+E       KeyError: 'mode'
+
+tests\test_ppt_reselect.py:33: KeyError</failure></testcase><testcase classname="tests.test_ppt_reselect" name="test_reselect_failure_does_not_create_course_or_modify_source[empty]" time="0.698" /><testcase classname="tests.test_ppt_reselect" name="test_reselect_failure_does_not_create_course_or_modify_source[stale]" time="0.725" /><testcase classname="tests.test_ppt_reselect" name="test_reselect_failure_does_not_create_course_or_modify_source[busy]" time="0.703" /><testcase classname="tests.test_ppt_reselect" name="test_reselect_failure_does_not_create_course_or_modify_source[changed_teacher]" time="0.716" /><testcase classname="tests.test_ppt_reselect" name="test_advanced_upload_still_protects_existing_page_mapping" time="0.688" /><testcase classname="tests.test_one_click" name="test_complete_unreviewed_course_and_explicit_bound_confirmation" time="24.636" /><testcase classname="tests.test_one_click" name="test_script_failure_retry_and_worker_recovery_reuse_finished_pages" time="0.880" /><testcase classname="tests.test_one_click" name="test_missing_assets_are_chinese_and_do_not_queue" time="0.707" /><testcase classname="tests.test_one_click" name="test_actual_process_death_recovers_same_course_job" time="1.554" /><testcase classname="tests.test_one_click" name="test_cancelled_media_can_be_generated_again" time="0.808" /><testcase classname="tests.test_one_click" name="test_quick_upload_reuses_teacher_and_keeps_previous_asset" time="0.787" /><testcase classname="tests.test_one_click" name="test_retry_after_input_revision_creates_current_draft" time="0.920" /></testsuite></testsuites>

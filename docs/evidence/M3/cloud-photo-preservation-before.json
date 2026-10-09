@@ -1,0 +1,19 @@
+{
+  "tables": {
+    "projects": "ad9ed686bab7768733648f3d7c389587d747b7ded3bb3c9e9c61ebb1cb7723a1",
+    "jobs": "b4963f263a6e670d366edfd6dd900710e9682794a3db422d8949db07fc0118f2",
+    "snapshots": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "m3_reviews": "abd539953527d6bc98d5dd274522a2b2fce589216882e8ad5fb7e4968fe783ad",
+    "m3_cache": "e9c054903619e79229391357164b04d95cc52258989d9870beb12d0073e05459",
+    "m3_review_history": "b4954debcddecbd9c00eb8326c3a7659e0d92619849e68079a89fb78fbc1aa6b"
+  },
+  "row_counts": {
+    "projects": 20,
+    "jobs": 220,
+    "snapshots": 0,
+    "m3_reviews": 2,
+    "m3_cache": 196,
+    "m3_review_history": 3
+  },
+  "active_jobs": 0
+}

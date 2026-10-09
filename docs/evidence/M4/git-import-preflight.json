@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-10",
+  "scope": "Initial Git source backup; does not certify media quality or stage acceptance",
+  "github_owner": "xukun4886-blip",
+  "requested_repository": "mooc-teacher-generator",
+  "requested_visibility": "private",
+  "source_files_before_audit_report": 378,
+  "source_bytes_before_audit_report": 9995391,
+  "excluded_evidence_screenshots": 37,
+  "credential_scan": "No common provider tokens, private-key blocks, credential query values, or literal JSON credentials detected in staged candidates; manual review identified an authorization description and runtime data-URL construction, not embedded credentials/media. Pattern scanning is not an absolute guarantee.",
+  "ignore_probes_passed": [
+    "storage/m2/content.sqlite3",
+    "config/m1.local.json",
+    ".venv-m1/Scripts/python.exe",
+    ".tools/SadTalker/checkpoints/model.safetensors",
+    "docs/evidence/M3/one-click-photo-result.jpg",
+    ".env",
+    "private.key"
+  ],
+  "changed_document_link_checks": "README.md and docs/GIT_BACKUP.md local links exist",
+  "existing_whitespace_findings": {
+    "upstream_license": "MuseTalk-LICENSE original text retained",
+    "historical_test_records": [
+      "lecture9-contract-v5-regression.xml",
+      "tests-content.xml"
+    ],
+    "frontend_existing_eof": [
+      "frontend/index.html",
+      "frontend/src/App.vue"
+    ]
+  },
+  "source_requirement_documents": "Original docx files retained; embedded figures inspected as project workflow diagram",
+  "git_author": "xukun4886-blip <291233546+xukun4886-blip@users.noreply.github.com>",
+  "remote_upload_status": "pending authenticated repository creation and push",
+  "behavior_tests": "Not rerun: backup rules and documentation changed; application source behavior unchanged",
+  "excluded_runtime_data": "Local original project files, database, teacher media and model environments retained; source backup requires separate controlled data backup for recovery"
+}

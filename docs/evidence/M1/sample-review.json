@@ -1,0 +1,270 @@
+{
+  "audio_correspondence": {
+    "photo": {
+      "request_id": "80cce8da-f59d-40ee-ba91-544097f9fada",
+      "driver_audio_sha256": "25795c9a9dd2e52aadbd3514162d5e49ba566f22b410dd3dad6aeb582e632c91",
+      "output_sha256": "38d46a442aff76a1c7d552a28892db52ecfec14693cd34f8b1d51f0fc8cdfdf1",
+      "decoded_audio_correlation_at_zero_offset": 0.9995460124562434,
+      "scope": "acoustic waveform correspondence only; does not measure mouth synchronization or voice similarity",
+      "quality_verified": false
+    },
+    "video": {
+      "request_id": "687eeec7-7064-44d1-9bfd-b6e8574f5a2c",
+      "driver_audio_sha256": "25795c9a9dd2e52aadbd3514162d5e49ba566f22b410dd3dad6aeb582e632c91",
+      "output_sha256": "5d1273caecca59fbc0359d59d877ea9a2c1e4d288d98494dd33bce2f1003f94a",
+      "decoded_audio_correlation_at_zero_offset": 0.9975909694117697,
+      "scope": "acoustic waveform correspondence only; does not measure mouth synchronization or voice similarity",
+      "quality_verified": false
+    }
+  },
+  "video_sequence": {
+    "source_frames": 450,
+    "output_frames": 900,
+    "fps": 30,
+    "native_sequence_policy": "forward 0..449 then reverse 449..0; original full frame sequence, mouth area regenerated",
+    "boundary_frame": 450,
+    "comparisons": [
+      {
+        "output_frame": 0,
+        "source_frame": 0,
+        "top_background_rgb_mean_absolute_error": [
+          1.0939444444444444,
+          1.5035,
+          1.7046805555555555
+        ],
+        "lower_clothing_rgb_mean_absolute_error": [
+          0.9879166666666667,
+          0.962688492063492,
+          1.2372867063492063
+        ]
+      },
+      {
+        "output_frame": 90,
+        "source_frame": 90,
+        "top_background_rgb_mean_absolute_error": [
+          1.1867013888888889,
+          1.3132708333333334,
+          1.7078472222222223
+        ],
+        "lower_clothing_rgb_mean_absolute_error": [
+          0.9190724206349207,
+          0.9072569444444445,
+          1.7940228174603174
+        ]
+      },
+      {
+        "output_frame": 210,
+        "source_frame": 210,
+        "top_background_rgb_mean_absolute_error": [
+          1.4177222222222223,
+          1.1005694444444445,
+          1.8060208333333334
+        ],
+        "lower_clothing_rgb_mean_absolute_error": [
+          0.9334722222222223,
+          0.8755952380952381,
+          1.8578720238095239
+        ]
+      },
+      {
+        "output_frame": 449,
+        "source_frame": 449,
+        "top_background_rgb_mean_absolute_error": [
+          0.9974305555555556,
+          1.5637777777777777,
+          1.7433194444444444
+        ],
+        "lower_clothing_rgb_mean_absolute_error": [
+          0.8575843253968254,
+          0.8324751984126985,
+          1.5226636904761905
+        ]
+      },
+      {
+        "output_frame": 450,
+        "source_frame": 449,
+        "top_background_rgb_mean_absolute_error": [
+          1.0121458333333333,
+          1.5730208333333333,
+          1.7653541666666666
+        ],
+        "lower_clothing_rgb_mean_absolute_error": [
+          0.8751240079365079,
+          0.8430009920634921,
+          1.5480753968253969
+        ]
+      },
+      {
+        "output_frame": 451,
+        "source_frame": 448,
+        "top_background_rgb_mean_absolute_error": [
+          0.9978611111111111,
+          1.587611111111111,
+          1.745951388888889
+        ],
+        "lower_clothing_rgb_mean_absolute_error": [
+          0.8495932539682539,
+          0.8203968253968253,
+          1.5115625
+        ]
+      },
+      {
+        "output_frame": 600,
+        "source_frame": 299,
+        "top_background_rgb_mean_absolute_error": [
+          1.2677152777777778,
+          1.4036319444444445,
+          1.7825555555555554
+        ],
+        "lower_clothing_rgb_mean_absolute_error": [
+          0.9070188492063492,
+          0.8879315476190476,
+          1.5399900793650794
+        ]
+      },
+      {
+        "output_frame": 870,
+        "source_frame": 29,
+        "top_background_rgb_mean_absolute_error": [
+          1.0368402777777779,
+          1.663923611111111,
+          1.7492430555555556
+        ],
+        "lower_clothing_rgb_mean_absolute_error": [
+          0.9610168650793651,
+          0.9414037698412698,
+          1.3438492063492065
+        ]
+      }
+    ],
+    "seam_frame_changes": [
+      {
+        "from_frame": 443,
+        "to_frame": 444,
+        "rgb_mean_absolute_frame_change": [
+          1.6180078125,
+          1.570427517361111,
+          1.5686002604166667
+        ]
+      },
+      {
+        "from_frame": 444,
+        "to_frame": 445,
+        "rgb_mean_absolute_frame_change": [
+          1.6141612413194444,
+          1.53732421875,
+          1.5401768663194444
+        ]
+      },
+      {
+        "from_frame": 445,
+        "to_frame": 446,
+        "rgb_mean_absolute_frame_change": [
+          0.636474609375,
+          0.5784917534722223,
+          0.6419704861111111
+        ]
+      },
+      {
+        "from_frame": 446,
+        "to_frame": 447,
+        "rgb_mean_absolute_frame_change": [
+          1.2145724826388888,
+          1.1213498263888888,
+          1.1281987847222221
+        ]
+      },
+      {
+        "from_frame": 447,
+        "to_frame": 448,
+        "rgb_mean_absolute_frame_change": [
+          0.943330078125,
+          0.8893901909722223,
+          0.8957497829861111
+        ]
+      },
+      {
+        "from_frame": 448,
+        "to_frame": 449,
+        "rgb_mean_absolute_frame_change": [
+          0.7041145833333333,
+          0.6671744791666666,
+          0.6787326388888889
+        ]
+      },
+      {
+        "from_frame": 449,
+        "to_frame": 450,
+        "rgb_mean_absolute_frame_change": [
+          0.166318359375,
+          0.14614691840277777,
+          0.17216688368055555
+        ]
+      },
+      {
+        "from_frame": 450,
+        "to_frame": 451,
+        "rgb_mean_absolute_frame_change": [
+          0.7225748697916666,
+          0.6989724392361111,
+          0.713564453125
+        ]
+      },
+      {
+        "from_frame": 451,
+        "to_frame": 452,
+        "rgb_mean_absolute_frame_change": [
+          0.8860481770833334,
+          0.8414203559027778,
+          0.8599001736111112
+        ]
+      },
+      {
+        "from_frame": 452,
+        "to_frame": 453,
+        "rgb_mean_absolute_frame_change": [
+          0.9187510850694445,
+          0.8764930555555556,
+          0.8846994357638889
+        ]
+      },
+      {
+        "from_frame": 453,
+        "to_frame": 454,
+        "rgb_mean_absolute_frame_change": [
+          0.505927734375,
+          0.47522677951388886,
+          0.5185232204861111
+        ]
+      },
+      {
+        "from_frame": 454,
+        "to_frame": 455,
+        "rgb_mean_absolute_frame_change": [
+          1.5387272135416667,
+          1.4841731770833333,
+          1.5005305989583333
+        ]
+      },
+      {
+        "from_frame": 455,
+        "to_frame": 456,
+        "rgb_mean_absolute_frame_change": [
+          1.5010633680555556,
+          1.446892361111111,
+          1.4530425347222222
+        ]
+      }
+    ],
+    "contact_sheet": {
+      "path": "D:\\XuTao_Task\\storage\\m1\\correspondence-review\\source-vs-output.png",
+      "sha256": "541998b0044f33cafc2b27173a16288c2d89f54196c875106a281acae817e1aa"
+    },
+    "visual_review": "contact frames show varying gaze/head pose and similar surrounding source imagery; no scene cut visible at the sampled turnaround",
+    "continuous_playback_and_audiovisual_sync": "pending human review"
+  },
+  "photo_review": "visible face/head changes in sampled frames; original 180x168 source limits mouth detail; human identity and lipsync pending",
+  "full_script_listening": "pending human review; local Whisper-tiny has recognition errors and is not acceptance evidence",
+  "quality_verified": false,
+  "m1_passed": false
+}

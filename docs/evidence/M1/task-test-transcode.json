@@ -1,0 +1,47 @@
+{
+  "scope": "codec preparation only, not lip-sync generation",
+  "source": {
+    "path": "D:\\Task_test\\DANK1NG_孩子们记住_性格决定命运_态度决定成败_7645412515383862181.mp4",
+    "sha256": "873838fceb297444e333e910e5628933f7917d910b3f4a6b1bdabc586e1ef54b"
+  },
+  "output": {
+    "path": "D:\\XuTao_Task\\storage\\m1\\task-test-review\\source-h264.mp4",
+    "sha256": "75efbc6b90b1803d8821421c8d8c0276f54b7483117bd1bdcae0a9c2f61a4133",
+    "size_bytes": 3713120,
+    "duration_seconds": 15.0,
+    "format": "mov,mp4,m4a,3gp,3g2,mj2",
+    "codec": "h264",
+    "sample_rate": null,
+    "width": 720,
+    "height": 1280,
+    "fps": 30.0
+  },
+  "command": [
+    "D:\\XuTao_Task\\.tools\\ffmpeg\\ffmpeg-9.0.2-essentials_build\\bin\\ffmpeg.exe",
+    "-nostdin",
+    "-y",
+    "-i",
+    "D:\\Task_test\\DANK1NG_孩子们记住_性格决定命运_态度决定成败_7645412515383862181.mp4",
+    "-map",
+    "0:v:0",
+    "-map",
+    "0:a?",
+    "-c:v",
+    "libx264",
+    "-crf",
+    "18",
+    "-pix_fmt",
+    "yuv420p",
+    "-c:a",
+    "copy",
+    "-movflags",
+    "+faststart",
+    "D:\\XuTao_Task\\storage\\m1\\task-test-review\\source-h264.mp4"
+  ],
+  "elapsed_seconds": 2.7714336999997613,
+  "frame_count": 450,
+  "source_video_sequence_preserved": true,
+  "selected_generation_input": false,
+  "generation_called": false,
+  "original_modified": false
+}

@@ -1,0 +1,67 @@
+{
+  "original_job_unchanged": true,
+  "lecture9_project_matches_latest_completed_snapshot": true,
+  "photo_execution": {
+    "mode": "local"
+  },
+  "original_state": "completed",
+  "latest_state": "completed",
+  "active_jobs": [],
+  "source_evidence_unchanged": {
+    "docs/evidence/M3/lecture9-finish.md": true,
+    "docs/evidence/M3/lecture9-media-before-short-repair.json": true,
+    "docs/evidence/M2/lecture9-contract-v3-latest.json": true,
+    "docs/evidence/M4/lecture9-final-check.json": true
+  },
+  "comparison_scope": "Complete original SQLite job equals historical before-repair JSON, including failures and elapsed_before_execution.",
+  "retained_exports": [
+    {
+      "job_id": "89055bfa-566c-4e86-b4e9-969073b1a9ae",
+      "export": "mp4",
+      "path": "D:\\XuTao_Task\\storage\\m2\\projects\\11604689-6106-451f-b40b-95089e07b5b5\\m3\\jobs\\89055bfa-566c-4e86-b4e9-969073b1a9ae\\generation-2\\course.mp4",
+      "sha256_matches": true
+    },
+    {
+      "job_id": "89055bfa-566c-4e86-b4e9-969073b1a9ae",
+      "export": "srt",
+      "path": "D:\\XuTao_Task\\storage\\m2\\projects\\11604689-6106-451f-b40b-95089e07b5b5\\m3\\jobs\\89055bfa-566c-4e86-b4e9-969073b1a9ae\\generation-2\\course.srt",
+      "sha256_matches": true
+    },
+    {
+      "job_id": "89055bfa-566c-4e86-b4e9-969073b1a9ae",
+      "export": "script",
+      "path": "D:\\XuTao_Task\\storage\\m2\\projects\\11604689-6106-451f-b40b-95089e07b5b5\\m3\\jobs\\89055bfa-566c-4e86-b4e9-969073b1a9ae\\generation-2\\scripts.md",
+      "sha256_matches": true
+    },
+    {
+      "job_id": "89055bfa-566c-4e86-b4e9-969073b1a9ae",
+      "export": "manifest",
+      "path": "D:\\XuTao_Task\\storage\\m2\\projects\\11604689-6106-451f-b40b-95089e07b5b5\\m3\\jobs\\89055bfa-566c-4e86-b4e9-969073b1a9ae\\generation-2\\manifest.json",
+      "sha256_matches": true
+    },
+    {
+      "job_id": "3c71bde5-a379-452b-9992-2064c7878a46",
+      "export": "mp4",
+      "path": "D:\\XuTao_Task\\storage\\m2\\projects\\11604689-6106-451f-b40b-95089e07b5b5\\m3\\jobs\\3c71bde5-a379-452b-9992-2064c7878a46\\generation-1\\course.mp4",
+      "sha256_matches": true
+    },
+    {
+      "job_id": "3c71bde5-a379-452b-9992-2064c7878a46",
+      "export": "srt",
+      "path": "D:\\XuTao_Task\\storage\\m2\\projects\\11604689-6106-451f-b40b-95089e07b5b5\\m3\\jobs\\3c71bde5-a379-452b-9992-2064c7878a46\\generation-1\\course.srt",
+      "sha256_matches": true
+    },
+    {
+      "job_id": "3c71bde5-a379-452b-9992-2064c7878a46",
+      "export": "script",
+      "path": "D:\\XuTao_Task\\storage\\m2\\projects\\11604689-6106-451f-b40b-95089e07b5b5\\m3\\jobs\\3c71bde5-a379-452b-9992-2064c7878a46\\generation-1\\scripts.md",
+      "sha256_matches": true
+    },
+    {
+      "job_id": "3c71bde5-a379-452b-9992-2064c7878a46",
+      "export": "manifest",
+      "path": "D:\\XuTao_Task\\storage\\m2\\projects\\11604689-6106-451f-b40b-95089e07b5b5\\m3\\jobs\\3c71bde5-a379-452b-9992-2064c7878a46\\generation-1\\manifest.json",
+      "sha256_matches": true
+    }
+  ]
+}

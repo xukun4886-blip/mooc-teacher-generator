@@ -1,0 +1,88 @@
+{
+  "fixture_kind": "self_authored_engineering_only",
+  "not_teacher_capability_evidence": true,
+  "source": {
+    "path": "D:\\XuTao_Task\\storage\\m1\\engineering\\20261001-093655Z\\engineering-10-pages.pptx",
+    "sha256": "f15de180b370bbce50c7c7614c869ad6edb66f1d22f93b309be13e90e150e9a4"
+  },
+  "parsed_path": "D:\\XuTao_Task\\storage\\m1\\engineering\\20261001-093655Z\\parsed\\structure.json",
+  "rendered_path": "D:\\XuTao_Task\\storage\\m1\\engineering\\20261001-093655Z\\rendered\\render.json",
+  "pages": [
+    {
+      "source_index": 1,
+      "path": "page-001.png",
+      "sha256": "0f0a40ea8a98906a40811e4ac4d4459b40807bc5fd0fd0913e685933640c47b5"
+    },
+    {
+      "source_index": 2,
+      "path": "page-002.png",
+      "sha256": "d4308c02335cfe5f0d34ecb415a2ec37dad901dcf63cdf5631bb879a84e25335"
+    },
+    {
+      "source_index": 3,
+      "path": "page-003.png",
+      "sha256": "c2b463cfe26ae5dc0a84fa5f735cfa283f2fcb6070088bf4be136480faa04ff3"
+    },
+    {
+      "source_index": 4,
+      "path": "page-004.png",
+      "sha256": "97a395f254b4b4ac4c1a5b642995a5c165675b53f00034fae9a1aa55787838b5"
+    },
+    {
+      "source_index": 5,
+      "path": "page-005.png",
+      "sha256": "fe91effd73b03e24c77981251dd48d421fd95dabfcde696768a685b77e182f49"
+    },
+    {
+      "source_index": 6,
+      "path": "page-006.png",
+      "sha256": "c5af4c726d9d37b95de9224c2a493849d07638083fb867ec98a86825271a52ea"
+    },
+    {
+      "source_index": 7,
+      "path": "page-007.png",
+      "sha256": "25fa59252c6a005943184a2848f58cb8b3a0a89f2470e8b6c59bf56ee7979533"
+    },
+    {
+      "source_index": 8,
+      "path": "page-008.png",
+      "sha256": "2ac7e03198295ffc599eb455cca7ceb39d4cfd402c3cd5f1aa5711243991cf22"
+    },
+    {
+      "source_index": 9,
+      "path": "page-009.png",
+      "sha256": "33ce60639dfce90f3d6356136fbead919e8dc6151c0e17365647c7fca67b6326"
+    },
+    {
+      "source_index": 10,
+      "path": "page-010.png",
+      "sha256": "6000d93d107e84500104324d17759ff18453033c955dd02e9f62a34f2a7e4076"
+    }
+  ],
+  "timings": {
+    "office_start_and_open_seconds": 3.758264899999631,
+    "first_export_seconds": 0.5340359000001627,
+    "warm_export_same_loaded_document_seconds": 0.48759509999945294
+  },
+  "checks": {
+    "page_count": 10,
+    "page_order": "matched",
+    "notes_original": "matched",
+    "native_chart_flag": true,
+    "native_equation_flag": true,
+    "image_only_flag": true,
+    "embedded_media_flag": true,
+    "formula_ooxml_preserved": true
+  },
+  "renderer": "Microsoft PowerPoint COM",
+  "renderer_version": "16.0",
+  "authorized_course_review": "pending",
+  "stage_passed": false,
+  "parsed_sha256": "5a6aea33fe6c6f0bc4a105f04f2110fa6144e823d3c3b1d47b8d0089895e1a5f",
+  "visual_review": {
+    "reviewer": "Codex visual inspection",
+    "scope": "10-page contact sheet and full-size equation page",
+    "result": "engineering fixture content visible; chart/equation/image/media-poster located",
+    "authorized_teacher_review": "pending"
+  }
+}

@@ -1,0 +1,428 @@
+{
+  "started_at": "2026-10-09T04:02:08.848777+00:00",
+  "original_media_job": "89055bfa-566c-4e86-b4e9-969073b1a9ae",
+  "events": [
+    {
+      "at": "2026-10-09T05:52:58.455127+00:00",
+      "event": "original_media_terminal",
+      "state": "completed",
+      "generation": 2,
+      "error": null
+    },
+    {
+      "at": "2026-10-09T05:56:11.510251+00:00",
+      "event": "original_media_terminal",
+      "state": "completed",
+      "generation": 2,
+      "error": null
+    },
+    {
+      "at": "2026-10-09T05:56:11.672281+00:00",
+      "event": "ready_server_reused",
+      "health_status": 200,
+      "draft_contract": "complete-object-v4"
+    },
+    {
+      "at": "2026-10-09T05:56:11.688805+00:00",
+      "event": "single_bounded_ai_job_queued",
+      "job_id": "7b59d596-4cb1-4546-a421-72d38e1f7249",
+      "scene_id": "3caada09-b0b2-4942-a374-e17f0cd92964"
+    },
+    {
+      "at": "2026-10-09T05:57:11.810651+00:00",
+      "event": "ai_job_terminal",
+      "state": "failed",
+      "error": {
+        "code": "AI_FORMAT_INVALID",
+        "message": "第24页自动讲稿未通过检查：显示和读法正文不能完整逐句对应；已生成讲稿保留",
+        "source": "3caada09-b0b2-4942-a374-e17f0cd92964",
+        "remedy": "系统已有限纠正格式；可直接重试生成"
+      }
+    }
+  ],
+  "paid_allowed": false,
+  "automatic_retries": 0,
+  "teacher_confirmation": false,
+  "launcher_issue": {
+    "at": "2026-10-09T05:56:08.478235+00:00",
+    "server_pid": 32332,
+    "health_worker_alive": true,
+    "problem": "detached server inherited capture pipes; launcher process had exited, helper awaited EOF",
+    "ai_request_issued_before_repair": false
+  },
+  "old_page24_version": {
+    "id": "23f637e3-c925-4607-a9c1-5b9c1e061113",
+    "number": 1,
+    "mode": "ai",
+    "raw_display": "感 谢 THANKYOU!",
+    "raw_reading": "gan xie Thank you!",
+    "display_text": "感 谢 THANKYOU!",
+    "reading_text": "gan xie Thank you!",
+    "control_events": [],
+    "provenance": {
+      "model": "glm-4.1v-thinking-flash",
+      "provider": "open.bigmodel.cn",
+      "response_id": "20261009112352ccdba32881884849",
+      "usage": {
+        "completion_tokens": 1165,
+        "prompt_tokens": 5079,
+        "total_tokens": 6244
+      },
+      "context_sha256": "834d670eda7ad35d2d9f444fc885e9137b52a28f8f06cdb73e2ba5040f7f4348",
+      "source_page_ids": [
+        "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-281"
+      ],
+      "image_sha256": [
+        "22ba516f836a49c611288af17cb34738220da5a860a4c6384aff820c9be24f9d"
+      ],
+      "extensions": [
+        "感谢页是课程结束页，用于表达对听众和合作方的感谢，也是课程内容的总结性呈现"
+      ],
+      "batch_id": null,
+      "instruction_sha256": "afde8491eb8906fe20952520f665194248eed9febcc9a9bed7ab502099d998eb",
+      "draft_contract": "complete-object-v3",
+      "sentence_pairs": [
+        {
+          "display": "感 谢",
+          "reading": "gan xie"
+        },
+        {
+          "display": "THANK YOU!",
+          "reading": "Thank you!"
+        }
+      ],
+      "pairing_method": "provider_validated",
+      "provider_record": {
+        "response_id": "20261009112352ccdba32881884849",
+        "response_sha256": "e6c16c7fa2f3882fc866eab997a91ba92d13b371e6cbf8f42196fed95f2c3e21",
+        "path": "ai-responses/84d7c4ab-221a-4fd6-b404-1104713acf5d-710e2230-0792-4f4b-935a-a8f3587dec2d.json"
+      },
+      "expanded_current_source_count": 0
+    },
+    "created_at": "2026-10-09T03:24:08.447922+00:00",
+    "author": "ai:glm-4.1v-thinking-flash",
+    "checks": {
+      "knowledge_points": [
+        "本节课主要介绍了移动互联网技术相关卫星通信知识，包括低轨、中轨、同步轨道卫星特点，卫星互联网架构，以及AI与卫星通信的未来发展方向"
+      ],
+      "questions": [],
+      "terms": [],
+      "pending": []
+    },
+    "teacher_review": null
+  },
+  "ai_job": {
+    "id": "7b59d596-4cb1-4546-a421-72d38e1f7249",
+    "project_id": "11604689-6106-451f-b40b-95089e07b5b5",
+    "kind": "ai",
+    "payload": {
+      "scene_id": "3caada09-b0b2-4942-a374-e17f0cd92964",
+      "base_version": "23f637e3-c925-4607-a9c1-5b9c1e061113",
+      "context": {
+        "config": {
+          "course_name": "Lecture 9",
+          "chapter": "",
+          "audience": "",
+          "detail": "标准",
+          "target_seconds": 12,
+          "resolution": "1080p",
+          "subtitles": true,
+          "mode": "photo",
+          "show_teacher": true,
+          "position": "bottom-right",
+          "size": 0.25,
+          "speed": 1.0,
+          "pause_before": 0.0,
+          "pause_after": 0.0,
+          "terms": {},
+          "layout": "sidebar"
+        },
+        "kind": "lecture",
+        "pages": [
+          {
+            "source_page_id": "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-281",
+            "body": "感  谢\nTHANK YOU!",
+            "notes_original": "",
+            "anomalies": [
+              {
+                "code": "FONT_REVIEW_REQUIRED",
+                "explicit_fonts": [
+                  "Microsoft YaHei"
+                ],
+                "message": "Check installed fonts, inherited fonts and rendered glyphs"
+              }
+            ]
+          }
+        ],
+        "course_outline": [
+          {
+            "source_index": 1,
+            "source_page_id": "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-275",
+            "body": "移 动 互 联 网 技 术\n授 课 老 师：王辛迪\nMobile Internet Technology\n授 课 对 象：网络工程系大三本科\n课 程 性 质：专业核心\n联 系 方 式：[teacher-email-redacted]"
+          },
+          {
+            "source_index": 2,
+            "source_page_id": "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-276",
+            "body": "章节目录\n9.1\n概述\n9.2\n卫星互联网架构"
+          },
+          {
+            "source_index": 3,
+            "source_page_id": "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-352",
+            "body": "9.1 概述\nLEO（低地球轨道，Low Earth Orbit）​​\n             ​高度​：200–2,000公里（不同资料略有差异，常见范围为200–1,200公里。\n     特点​：轨道周期短（约90分钟），常用于对地观测卫星（如气象卫星）、空间站（如国际空间站）及部分通信卫星（如星链星座）。\nMEO（中地球轨道，Medium Earth Orbit）​​\n   ​高度​：2,000–36,000公里（部分资料定义为1,200–36,000公里)\n   ​特点​：典型应用为导航卫星（如GPS、GLONASS），轨道周期约12小时2。\nGEO（地球同步轨道，Geostationary Earth Orbit）​​\n   ​高度​：约35,786公里（精确值为地球同步轨道高度。\n   特点​：卫星运行周期与地球自转同步（24小时），​静止轨道（GSO）​是GEO的一种特殊形式（倾角0°，固定于赤道上空，主要用于通信和气象卫星。\nHEO（高地球轨道，High Earth Orbit）​​\n   高度​：通常指高于36,000公里的轨道，部分资料将GEO归类为HEO\n   ​特点​：包括大椭圆轨道（如莫尼亚轨道），适用于覆盖高纬度地区的通信或科研任务。"
+          },
+          {
+            "source_index": 4,
+            "source_page_id": "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-311",
+            "body": "9.1 概述\n同步轨道卫星的通信弊端：\n1、同步轨道距离较远，长距离传输对信号的传输延时和干扰都较大\n2、同步卫星必须运行在赤道平面上空约35,786公里的轨道，波束覆盖范围主要集中在赤道及中低纬度地区\n\n高地球轨道卫星的通信弊端：\n1、需应对剧烈的高度变化和轨道倾角，因轨道速度变化（近地点快、远地点慢），需自适应调整多普勒频移和信号强度"
+          },
+          {
+            "source_index": 5,
+            "source_page_id": "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-349",
+            "body": "9.1 概述\n1、低轨卫星（LEO，Low Earth Orbit）是运行在距地球表面160公里至2000公里轨道上的卫星，具有低延迟、高带宽、全球覆盖等优势，近年来成为卫星通信、互联网接入、导航增强等领域的热点技术。\n轨道特性​：\n高度500-2000km（如Starlink 550km，OneWeb 1200km），绕地球周期约90-120分钟。\n信号延迟仅20-50ms，远低于GEO卫星的500ms，适合实时通信。\n​全球覆盖​：需大规模星座组网（如Starlink计划4.2万颗），单星覆盖直径约800km"
+          },
+          {
+            "source_index": 6,
+            "source_page_id": "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-350",
+            "body": "9.2卫星互联网架构\n提供信息终极服务的卫星星座\n手持设备、便携站等终端\n卫星测控网络、控制中心和信关站"
+          },
+          {
+            "source_index": 7,
+            "source_page_id": "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-353",
+            "body": "9.2卫星互联网架构\n卫星 透明转发工作模式：\n用户终端只能通过卫星与地面的信关站建立连接，再经由信关站接入地面互联网，如果连接卫星区域内无覆盖\n的信关站，则用户无法上网。核心：足够多的地面信关站部署密度。\n\n卫星 处理转发工作模式：\n卫星具备星上处理和交换能力以及星间通信能力，用户通过多颗卫星中继建立与地面信关站的连接，从而访问互\n联网。 核心：多卫星构建中继通信能力。"
+          },
+          {
+            "source_index": 8,
+            "source_page_id": "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-354",
+            "body": "9.2卫星互联网架构\nGEO通信模式的数据流路径示例 (以VSAT互联网接入为例):\n用户发起请求: 用户终端（VSAT Modem）发送数据（如网页请求）向上行链路到GEO卫星。\n卫星转发: 卫星接收到信号，进行放大、变频，然后转发向下行链路到中心站（Hub）。\n中心站处理: Hub接收到信号，解调、解码，将数据包路由到地面互联网。\n地面互联网响应: 地面服务器处理请求并发送响应数据回Hub。\n中心站发送响应: Hub将响应数据编码、调制，通过上行链路发送到GEO卫星。\n卫星转发: 卫星接收到信号，放大、变频，然后转发向下行链路到用户的VSAT终端。\n用户接收: 用户终端接收、解调、解码信号，将数据交给用户的设备（电脑、路由器）。"
+          },
+          {
+            "source_index": 9,
+            "source_page_id": "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-356",
+            "body": "9.2卫星互联网架构\nGEO卫星是否能跟用户手机直接通信？\n\n答：不可以，涉及的地面设备通常是VSAT（Very Small Aperture Terminal，甚小孔径终端）。虽然叫“甚小”，但为了弥补与GEO卫星的远距离，VSAT终端通常需要0.75米到几米的碟形天线，以及一个需要一定发射功率的收发一体化设备。这些VSAT终端不仅能接收卫星信号，还能向卫星发送信号。\nGEO卫星距离地面非常远（约36000公里）。这导致信号传输的衰减（路径损耗）非常高。\n要克服高衰减，需要发送端有更高的发射功率和接收端有更高的接收灵敏度和天线增益。\n小型个人设备（如手机）的发射功率非常有限，天线增益很低。它们的信号强度不足以可靠地到达36000公里外的GEO卫星。\n即使卫星设计得非常先进，能接收微弱信号，但要将高速数据信号以足够强的功率广播回来并让小型设备的低增益天线稳定接收也很困难"
+          },
+          {
+            "source_index": 10,
+            "source_page_id": "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-355",
+            "body": "9.2卫星互联网架构\nLEO通信模式的数据流路径示例 (以StarLink互联网接入为例):\n用户发起请求: 用户终端发送数据向上行链路到LEO卫星。\n卫星转发: 卫星接收到用户数据后，判断数据的目的地址，进行内部处理与星间路由。\n卫星路由: 数据通过卫星之间的激光链路或射频链路进行高速传输。数据可以在卫星之间进行多次跳传，如同地面光纤网络中的路由器一样。。\n卫星到地面接收站:经过星间链路跳传后，数据到达一颗与目标区域的地面站有通信连接的 LEO 卫星。\n接收站到互联网: 地面站将数据包注入到本地连接的地面光纤骨干网或互联网中。\n互联网到地面站\n地面站到卫星直至用户端"
+          },
+          {
+            "source_index": 11,
+            "source_page_id": "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-357",
+            "body": "9.2卫星互联网架构\nLEO卫星是否能跟用户手机直接通信？\n\n答：可以，信号在自由空间传播时会衰减，衰减程度与距离的平方成正比。\nGEO 卫星距离地面约 36000 公里。\nLEO 卫星距离地面通常只有几百公里（例如 200-2000 公里，大部分互联网星座在 500-600 公里）。\n距离大幅缩短，意味着信号衰减急剧减少。粗略计算，从 36000 公里缩短到 500 公里，距离减小了 72 倍，信号衰减理论上可以减少约 72² ≈ 5000 倍以上 (约 37 dB)。\n更小的衰减意味着：\n从用户设备到卫星，所需的发射功率可以大大降低。标准手机的发射功率很低，足以到达 LEO 卫星（虽然仍然是挑战，但比到达 GEO 可能所需功率低几个数量级）。\n从卫星到用户设备，所需的卫星发射功率可以降低，或用户设备所需的接收灵敏度/天线增益可以降低"
+          },
+          {
+            "source_index": 12,
+            "source_page_id": "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-358",
+            "body": "卫星通信 AI 与科技未来"
+          },
+          {
+            "source_index": 13,
+            "source_page_id": "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-359",
+            "body": "卫星通信 AI 与科技未来"
+          },
+          {
+            "source_index": 14,
+            "source_page_id": "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-360",
+            "body": "卫星通信 AI 与科技未来\n火箭\n通信\nAI"
+          },
+          {
+            "source_index": 15,
+            "source_page_id": "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-361",
+            "body": "卫星通信 AI 与科技未来\n猎鹰9号\n单枚火箭重复发射次数达到34次\n发射成本650美元/公斤\n\n同类型中国火箭运载成本的\n10%-20%"
+          },
+          {
+            "source_index": 16,
+            "source_page_id": "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-362",
+            "body": "卫星通信 AI 与科技未来\n星舰（Starship）是由美国太空探索技术公司（SpaceX）正在研发的超重型运载火箭系统，旨在成为人类首个完全可重复使用的航天器，以执行前往月球、火星及更深远太空的探索任\n发射成本150美元/公斤\n\n\n长征5号火箭的1/50"
+          },
+          {
+            "source_index": 17,
+            "source_page_id": "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-363",
+            "body": "卫星通信 AI 与科技未来\n星链\n\n\n目前活跃人数1000万"
+          },
+          {
+            "source_index": 18,
+            "source_page_id": "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-364",
+            "body": "卫星通信 AI 与科技未来\n几万颗低轨卫星代替不计其数的基站"
+          },
+          {
+            "source_index": 19,
+            "source_page_id": "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-365",
+            "body": "卫星通信 AI 与科技未来\n第一步战略：\n有限的卫星发射成本+部署数量\n\n构建未来基础设施\n无限的通信服务盈利\n2025年星链营收114亿美元"
+          },
+          {
+            "source_index": 20,
+            "source_page_id": "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-366",
+            "body": "卫星通信 AI 与科技未来\nAI 大模型\n芯片制造"
+          },
+          {
+            "source_index": 21,
+            "source_page_id": "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-367",
+            "body": "卫星通信 AI 与科技未来\n火箭 + 通信 + AI + 芯片\n将所有AI芯片发射到太空，基于已有的星链网络构建太空算力网\n第一步战略："
+          },
+          {
+            "source_index": 22,
+            "source_page_id": "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-369",
+            "body": "卫星通信 AI 与科技未来\nAI算力部署到太空主要有以下几大核心优势：\n1. 无限且免费的清洁能源（太阳能）光伏发电强度是地球10倍\n太空算力最核心的优势。在地面，大型AI数据中心不仅消耗巨量电力，还需要庞大的电网支持。而在近地轨道（LEO），没有大气层和天气的遮挡，也没有昼夜交替（在特定轨道上），太阳能电池板可以几乎24小时不间断地接收阳光。太空中的太阳能辐射强度远高于地面，这意味着太空数据中心可以获得近乎无限、免费且零碳排放的清洁能源，彻底摆脱地面电网的束缚。\n2. 极致的散热效率  太空温度约为零下200°\nAI芯片在高速运算时会产生惊人的热量。数据中心需要耗费大量电力（通常占总能耗的30%-40%）用于水冷或风冷散热。而在太空可以利用接近绝对零度（约-270℃）的深空背景作为天然的“冷源” 散热。\n3. 数据“就近处理”，消除传输延迟\nAI算力直接部署在太空，与星链（Starlink）卫星网络结合，就可以实现数据的“在轨处理” ，只把有价值的结果传回地球，极大地节省了宝贵的通信带宽，并实现了全球无死角的低延迟响应。"
+          },
+          {
+            "source_index": 23,
+            "source_page_id": "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-370",
+            "body": "卫星通信 AI 与科技未来\n星舰：将百万颗卫星以低成本的方式发射到太空\n\n星链：实现算力卫星之间的数据通信，并且可以直接与地面用户进行通信服务响应\n算力网：低成本构建总规模1000GW总算力，碾压地球总规模70GW"
+          },
+          {
+            "source_index": 24,
+            "source_page_id": "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-281",
+            "body": "感  谢\nTHANK YOU!"
+          }
+        ],
+        "neighbors": [
+          {
+            "kind": "lecture",
+            "summary": "卫星通信 AI 与科技未来\n星舰：将百万颗卫星以低成本的方式发射到太空\n\n星链：实现算力卫星之间的数据通信，并且可以直接与地面用户进行通信服务响应\n算力网：低成本构建总规模1000GW总算力，碾压地球总规模70GW"
+          }
+        ]
+      },
+      "source_slides": [
+        {
+          "source_page_id": "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-281",
+          "source_index": 24,
+          "slide_id": 281,
+          "body": "感  谢\nTHANK YOU!",
+          "notes_original": "",
+          "images": [],
+          "shapes": [
+            {
+              "id": 2,
+              "name": "文本占位符 1",
+              "kind": "PLACEHOLDER (14)",
+              "bounds_emu": [
+                3048000,
+                1942174,
+                6095999,
+                1033462
+              ],
+              "text": "感  谢"
+            },
+            {
+              "id": 3,
+              "name": "文本占位符 2",
+              "kind": "PLACEHOLDER (14)",
+              "bounds_emu": [
+                3047999,
+                3088068,
+                6095999,
+                1033462
+              ],
+              "text": "THANK YOU!"
+            }
+          ],
+          "source_xml_path": "source-xml/slide-024.xml",
+          "media_relations": [],
+          "anomalies": [
+            {
+              "code": "FONT_REVIEW_REQUIRED",
+              "explicit_fonts": [
+                "Microsoft YaHei"
+              ],
+              "message": "Check installed fonts, inherited fonts and rendered glyphs"
+            }
+          ],
+          "image": "assets/152abb98-2288-4e30-ba2c-aecf6715fca5/render-0a4a4faa-6e32-4e97-a990-585d6476ffa9/page-024.png",
+          "image_sha256": "22ba516f836a49c611288af17cb34738220da5a860a4c6384aff820c9be24f9d",
+          "source_xml": "assets/152abb98-2288-4e30-ba2c-aecf6715fca5/parsed/source-xml/slide-024.xml"
+        }
+      ],
+      "input_key": "659459a96c5a6d4f30be0a1239184f306b28cec849712aa152b1ca611bf0a109",
+      "course_draft": true,
+      "batch_id": "e25e3972-f12a-4856-82bc-42dea9dfb0a0"
+    },
+    "state": "failed",
+    "stage": "retrying_ai_format",
+    "created_at": "2026-10-09T05:56:11.684289+00:00",
+    "result": null,
+    "error": {
+      "code": "AI_FORMAT_INVALID",
+      "message": "第24页自动讲稿未通过检查：显示和读法正文不能完整逐句对应；已生成讲稿保留",
+      "source": "3caada09-b0b2-4942-a374-e17f0cd92964",
+      "remedy": "系统已有限纠正格式；可直接重试生成"
+    },
+    "started_at": "2026-10-09T05:56:12.197653+00:00",
+    "ai_attempts": [
+      {
+        "at": "2026-10-09T05:56:30.697229+00:00",
+        "scene_id": "3caada09-b0b2-4942-a374-e17f0cd92964",
+        "status": 200,
+        "attempt": 1,
+        "generation": 1,
+        "elapsed_seconds": 18.422,
+        "request_sha256": "a93900843ed40373b42413e4d5d0f6869af354c71d82c835e765b37b8c2cfe9a",
+        "request_options": {
+          "max_tokens": 8000
+        },
+        "prompt_text_sha256": "cf6cabf242a57d909e0ba7bbf0d0266b12febfe161e3c97a0ac1a6bafd62798a",
+        "provider_record": {
+          "response_id": "2026100913562385e75a2bea0f454d",
+          "response_sha256": "93120291291a3cd83a58cb4e8de24f767e15e2c5664a96bd42f50efc7d853968",
+          "path": "ai-responses/7b59d596-4cb1-4546-a421-72d38e1f7249-458997c7-b085-426a-8060-880076fc4e68.json"
+        },
+        "draft_contract": "complete-object-v4",
+        "finish_reason": "stop",
+        "format_error": "AI_OUTPUT_JSON_INVALID",
+        "format_reason": "输出不是完整JSON对象",
+        "format_retry": 1
+      },
+      {
+        "at": "2026-10-09T05:56:46.182645+00:00",
+        "scene_id": "3caada09-b0b2-4942-a374-e17f0cd92964",
+        "status": 200,
+        "attempt": 2,
+        "generation": 1,
+        "elapsed_seconds": 15.453,
+        "request_sha256": "3ecf276e5fda1b03b366765a8a342c8a31be80f5ab9266929c60c2525b510bed",
+        "request_options": {
+          "max_tokens": 8000
+        },
+        "prompt_text_sha256": "cf6cabf242a57d909e0ba7bbf0d0266b12febfe161e3c97a0ac1a6bafd62798a",
+        "provider_record": {
+          "response_id": "202610091356319fee57af7f1a475e",
+          "response_sha256": "4b3b167e1b916942daab20b961012b684e27843618024432bd7c37143b0056aa",
+          "path": "ai-responses/7b59d596-4cb1-4546-a421-72d38e1f7249-7454cd2e-b8c1-4fe9-abf5-547820217f16.json"
+        },
+        "draft_contract": "complete-object-v4",
+        "finish_reason": "stop",
+        "format_error": "SUBTITLE_MAPPING_REQUIRED",
+        "format_reason": "显示和读法正文不能完整逐句对应",
+        "format_retry": 2
+      },
+      {
+        "at": "2026-10-09T05:56:51.828691+00:00",
+        "scene_id": "3caada09-b0b2-4942-a374-e17f0cd92964",
+        "status": 200,
+        "attempt": 3,
+        "generation": 1,
+        "elapsed_seconds": 5.625,
+        "request_sha256": "addf4843e5c4a83e3cb4c27ea43530514b0833bc718064be45addf8552ae20d3",
+        "request_options": {
+          "max_tokens": 8000
+        },
+        "prompt_text_sha256": "cf6cabf242a57d909e0ba7bbf0d0266b12febfe161e3c97a0ac1a6bafd62798a",
+        "provider_record": {
+          "response_id": "202610091356464bffbc27ed934298",
+          "response_sha256": "8032935e1369dec4e17fdc9ea788d9b426b99662b528cd2dd89271251c2fc3dd",
+          "path": "ai-responses/7b59d596-4cb1-4546-a421-72d38e1f7249-6732368f-7d79-4921-ad7d-90aa18c8cfd7.json"
+        },
+        "draft_contract": "complete-object-v4",
+        "finish_reason": "stop",
+        "format_error": "SUBTITLE_MAPPING_REQUIRED",
+        "format_reason": "显示和读法正文不能完整逐句对应"
+      }
+    ],
+    "provider_record": {
+      "response_id": "202610091356464bffbc27ed934298",
+      "response_sha256": "8032935e1369dec4e17fdc9ea788d9b426b99662b528cd2dd89271251c2fc3dd",
+      "path": "ai-responses/7b59d596-4cb1-4546-a421-72d38e1f7249-6732368f-7d79-4921-ad7d-90aa18c8cfd7.json"
+    },
+    "finished_at": "2026-10-09T05:56:51.848994+00:00"
+  }
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="2" time="0.987" timestamp="2026-10-09T14:00:53.131267+08:00" hostname="LAPTOP-94TPVL4F"><testcase classname="tests.test_ai_draft_repair" name="test_layout_whitespace_identity_preserves_complete_hanzi_bodies" time="0.024" /><testcase classname="tests.test_m3" name="test_identity_layout_breaks_keep_original_spans_and_measured_timing" time="0.001"><failure message="AssertionError: assert 3 == 2&#10; +  where 3 = len([{'display': '第一\n', 'end_offset': 4, 'reading': '第一句。\n', 'start_offset': 0}, {'display': '句。', 'end_offset': 8, 'reading': ' 第二\n', 'start_offset': 4}, {'display': '第二句。', 'end_offset': 13, 'reading': '句。', 'start_offset': 8}])">def test_identity_layout_breaks_keep_original_spans_and_measured_timing():
+        v={'id':'identity','display_text':'第一\n句。第二句。  ', 'reading_text':'第一句。\n 第二\n句。  ', 'control_events':[]}
+        paired=units(v)
+&gt;       assert len(paired)==2
+E       AssertionError: assert 3 == 2
+E        +  where 3 = len([{'display': '第一\n', 'end_offset': 4, 'reading': '第一句。\n', 'start_offset': 0}, {'display': '句。', 'end_offset': 8, 'reading': ' 第二\n', 'start_offset': 4}, {'display': '第二句。', 'end_offset': 13, 'reading': '句。', 'start_offset': 8}])
+
+tests\test_m3.py:266: AssertionError</failure></testcase></testsuite></testsuites>

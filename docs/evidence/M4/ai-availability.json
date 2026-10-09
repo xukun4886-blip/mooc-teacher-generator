@@ -1,0 +1,9 @@
+{
+  "at": "2026-10-08T16:03:54.205552+00:00",
+  "scope": "single minimal provider availability diagnosis, no teaching or teacher media sent",
+  "model": "glm-4.6v-flash",
+  "http_status": 429,
+  "provider_error_code": "1305",
+  "error_message": "该模型当前访问量过大，请您稍后再试",
+  "paid_fallback": false
+}

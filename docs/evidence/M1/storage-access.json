@@ -1,0 +1,9 @@
+{
+  "storage": "D:\\XuTao_Task\\storage\\m1",
+  "inherited_access_disabled": true,
+  "allowed_principal_count": 3,
+  "scope": "local M1 only; no product authentication",
+  "mode": "Initialize",
+  "synthetic_request_deletion_checked": true,
+  "real_teacher_material_present": false
+}

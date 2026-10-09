@@ -1,0 +1,63 @@
+{
+  "request_id": "b48f13bf-4e91-4546-ae80-74f5f0885e77",
+  "role": "video",
+  "checks": [
+    {
+      "label": "a",
+      "driver_audio_sha256": "25795c9a9dd2e52aadbd3514162d5e49ba566f22b410dd3dad6aeb582e632c91",
+      "output": "D:\\XuTao_Task\\storage\\m1\\requests\\b48f13bf-4e91-4546-ae80-74f5f0885e77\\video.mp4",
+      "output_sha256": "a0c575c805d6ca8bda5da1e80946e8c1911f2f7c0d771cc8c8c28ab2f3273e9d",
+      "decoded_frame_count": 900,
+      "frame_checksum_file": "D:\\XuTao_Task\\storage\\m1\\driver-comparison\\b48f13bf-4e91-4546-ae80-74f5f0885e77\\a-frames.md5",
+      "frame_checksum_file_sha256": "3a2ffca82baceed6e137589ba9c43888f2a52e5c63103820b0b8f40f6dc3a1e3",
+      "decoded_audio_correlation_at_zero_offset": 0.9975909694117697
+    },
+    {
+      "label": "b",
+      "driver_audio_sha256": "aa428b8af9a374c7a203b9e09bf5f7fb7978cf908f3968884d78d1aee91933e1",
+      "output": "D:\\XuTao_Task\\storage\\m1\\requests\\b48f13bf-4e91-4546-ae80-74f5f0885e77\\video-warm.mp4",
+      "output_sha256": "f3e57c42b3481a49b61e37fe13e2b3e5de19f98f5a7b49f0b7842525218bfe03",
+      "decoded_frame_count": 900,
+      "frame_checksum_file": "D:\\XuTao_Task\\storage\\m1\\driver-comparison\\b48f13bf-4e91-4546-ae80-74f5f0885e77\\b-frames.md5",
+      "frame_checksum_file_sha256": "a8a47554bd18dd4b9b6da160fa6c0e5eb21de6764e6b3d705c963a0acd5ae3ac",
+      "decoded_audio_correlation_at_zero_offset": 0.9976971563156555
+    }
+  ],
+  "different_decoded_frames": 900,
+  "total_frames": 900,
+  "native_driving": [
+    {
+      "audio_path": "D:\\XuTao_Task\\storage\\m1\\muse-native\\b48f13bf-4e91-4546-ae80-74f5f0885e77\\driver.wav",
+      "audio_sha256": "25795c9a9dd2e52aadbd3514162d5e49ba566f22b410dd3dad6aeb582e632c91",
+      "decoded_samples_16k": 480000,
+      "mel_features_sha256": "5b2f2daf7d1e80ca2a1fe112804ed2d22e11e7c20b5aae187610b095df550532",
+      "whisper_chunks_shape": [
+        900,
+        50,
+        384
+      ],
+      "whisper_chunks_sha256": "0da9514316ba2c9d248eb37202581dfc616cb7502e47942d5c6a39464ca1cc8f"
+    },
+    {
+      "audio_path": "D:\\XuTao_Task\\storage\\m1\\muse-native\\b48f13bf-4e91-4546-ae80-74f5f0885e77\\driver-warm.wav",
+      "audio_sha256": "aa428b8af9a374c7a203b9e09bf5f7fb7978cf908f3968884d78d1aee91933e1",
+      "decoded_samples_16k": 480000,
+      "mel_features_sha256": "3f1d473fb030ca23e7f4d8c83383996d674b0335e74e950d661ee35c92b78c49",
+      "whisper_chunks_shape": [
+        900,
+        50,
+        384
+      ],
+      "whisper_chunks_sha256": "0b5bc56d21a57bc57163824f2bf43fbea952cb75807e285ea0d05566351709d9"
+    }
+  ],
+  "warm_seconds": 405.42225559999497,
+  "same_loaded_native_models": true,
+  "contact": {
+    "path": "D:\\XuTao_Task\\storage\\m1\\driver-comparison\\b48f13bf-4e91-4546-ae80-74f5f0885e77\\a-vs-b.png",
+    "sha256": "fbc5beaac5386cc2c3219bf0b7f682878651dd42ff64e25ca7337242075a6dd4"
+  },
+  "scope": "actual separate native renders and current audio correspondence; differing frames alone do not prove lip synchronization",
+  "human_lipsync_review": "pending",
+  "quality_verified": false
+}

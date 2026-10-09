@@ -1,0 +1,49 @@
+.venv*/
+.tools/
+storage/
+config/*.local.json
+__pycache__/
+.pytest_cache/
+*.pyc
+frontend/node_modules/
+frontend/dist/
+
+# Local credentials, session state and database backups
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+.session-token
+runtime.env
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+
+# Model weights and generated media belong in controlled storage
+*.ckpt
+*.pth
+*.pth.tar
+*.pt
+*.safetensors
+*.onnx
+*.mp4
+*.mov
+*.avi
+*.wav
+*.mp3
+*.m4a
+
+# Evidence screenshots can contain teacher faces and course pages
+docs/evidence/**/*.png
+docs/evidence/**/*.jpg
+docs/evidence/**/*.jpeg
+docs/evidence/**/*.webp
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db

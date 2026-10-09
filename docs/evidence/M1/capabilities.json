@@ -1,0 +1,133 @@
+{
+  "models": {
+    "tts": {
+      "capabilities": {
+        "schema_version": "m1.adapter.v1",
+        "role": "tts",
+        "provider": "GPT-SoVITS",
+        "configured": false,
+        "code_revision": null,
+        "weight_version": null,
+        "input_types": [
+          "confirmed_chinese_text",
+          "reference_audio"
+        ],
+        "chinese": {
+          "declared": null,
+          "verified": false
+        },
+        "reference_timbre": {
+          "declared": null,
+          "verified": false
+        },
+        "constraints": {},
+        "quality_verified": false,
+        "immediate_cancellation": false,
+        "execution": "isolated_local_process",
+        "fee": 0,
+        "cold_seconds": null,
+        "warm_seconds": null,
+        "peak_model_vram_mib": null
+      },
+      "health": {
+        "role": "tts",
+        "ready": false,
+        "blockers": [
+          {
+            "code": "SERVICE_CONFIG_MISSING",
+            "message": "Local model configuration missing",
+            "source": "tts",
+            "remedy": "Configure an isolated interpreter, pinned code and complete weights"
+          }
+        ],
+        "model_loaded": false
+      }
+    },
+    "photo": {
+      "capabilities": {
+        "schema_version": "m1.adapter.v1",
+        "role": "photo",
+        "provider": "SadTalker",
+        "configured": false,
+        "code_revision": null,
+        "weight_version": null,
+        "input_types": [
+          "photo",
+          "current_audio"
+        ],
+        "chinese": {
+          "declared": null,
+          "verified": false
+        },
+        "reference_timbre": {
+          "declared": null,
+          "verified": false
+        },
+        "constraints": {},
+        "quality_verified": false,
+        "immediate_cancellation": false,
+        "execution": "isolated_local_process",
+        "fee": 0,
+        "cold_seconds": null,
+        "warm_seconds": null,
+        "peak_model_vram_mib": null
+      },
+      "health": {
+        "role": "photo",
+        "ready": false,
+        "blockers": [
+          {
+            "code": "SERVICE_CONFIG_MISSING",
+            "message": "Local model configuration missing",
+            "source": "photo",
+            "remedy": "Configure an isolated interpreter, pinned code and complete weights"
+          }
+        ],
+        "model_loaded": false
+      }
+    },
+    "video": {
+      "capabilities": {
+        "schema_version": "m1.adapter.v1",
+        "role": "video",
+        "provider": "MuseTalk",
+        "configured": false,
+        "code_revision": null,
+        "weight_version": null,
+        "input_types": [
+          "video_sequence",
+          "current_audio"
+        ],
+        "chinese": {
+          "declared": null,
+          "verified": false
+        },
+        "reference_timbre": {
+          "declared": null,
+          "verified": false
+        },
+        "constraints": {},
+        "quality_verified": false,
+        "immediate_cancellation": false,
+        "execution": "isolated_local_process",
+        "fee": 0,
+        "cold_seconds": null,
+        "warm_seconds": null,
+        "peak_model_vram_mib": null
+      },
+      "health": {
+        "role": "video",
+        "ready": false,
+        "blockers": [
+          {
+            "code": "SERVICE_CONFIG_MISSING",
+            "message": "Local model configuration missing",
+            "source": "video",
+            "remedy": "Configure an isolated interpreter, pinned code and complete weights"
+          }
+        ],
+        "model_loaded": false
+      }
+    }
+  }
+}

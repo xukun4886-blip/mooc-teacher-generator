@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="22" time="14.135" timestamp="2026-10-01T23:58:34.083739+08:00" hostname="LAPTOP-94TPVL4F"><testcase classname="tests.test_m2" name="test_auth_and_cross_site" time="0.649" /><testcase classname="tests.test_m2" name="test_project_reopen_conflict_copy_delete" time="1.103" /><testcase classname="tests.test_m2" name="test_symbol_and_pause_offsets" time="0.001" /><testcase classname="tests.test_m2" name="test_mapping_reorder_skip_merge_split" time="0.613" /><testcase classname="tests.test_m2" name="test_notes_external_ai_missing_and_rollback" time="0.610" /><testcase classname="tests.test_m2" name="test_empty_notes_blocked" time="0.569" /><testcase classname="tests.test_m2" name="test_review_invalidation_and_snapshot_isolation" time="0.614" /><testcase classname="tests.test_m2" name="test_three_page_inheritance_and_media_invalidation" time="0.651" /><testcase classname="tests.test_m2" name="test_preflight_missing_input_and_teacher_questions" time="0.567" /><testcase classname="tests.test_m2" name="test_upload_actual_format_limits_and_path_isolation" time="0.652" /><testcase classname="tests.test_m2" name="test_photo_crop_is_real_and_copy_owned" time="0.798" /><testcase classname="tests.test_m2" name="test_job_restart_reports_interruption_and_delete_busy" time="1.077" /><testcase classname="tests.test_m2" name="test_real_subprocess_crash_persistence" time="1.758" /><testcase classname="tests.test_m2" name="test_single_worker_process_lock" time="1.073"><failure message="PermissionError: [Errno 13] Permission denied">app = &lt;fastapi.applications.FastAPI object at 0x0000020D1FD1BE80&gt;
+
+    def test_single_worker_process_lock(app):
+        from mooc_m2.service import Service
+        first = app.state.service
+        second = Service(first.config, first.base)
+        first.start()
+        try:
+            with pytest.raises(Failure, match="已有内容工作进程"):
+&gt;               second.start()
+
+tests\test_m2.py:258: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;mooc_m2.service.Service object at 0x0000020D1FD1B010&gt;
+
+    def start(self):
+        lock = (self.store.root / ".worker.lock").open("a+b")
+        lock.seek(0)
+&gt;       if not lock.read(1):
+E       PermissionError: [Errno 13] Permission denied
+
+mooc_m2\service.py:48: PermissionError</failure></testcase><testcase classname="tests.test_m2" name="test_ai_provider_context_and_non_overwrite" time="0.692" /><testcase classname="tests.test_m2" name="test_layout_retains_audio_speech_controls_stale_only_affected" time="0.676" /><testcase classname="tests.test_m2" name="test_snapshot_http_success_and_frozen_model_input" time="1.102" /><testcase classname="tests.test_m2" name="test_config_rejects_invalid[values0]" time="0.001" /><testcase classname="tests.test_m2" name="test_config_rejects_invalid[values1]" time="0.001" /><testcase classname="tests.test_m2" name="test_config_rejects_invalid[values2]" time="0.001" /><testcase classname="tests.test_m2" name="test_config_rejects_invalid[values3]" time="0.000" /><testcase classname="tests.test_m2" name="test_config_rejects_invalid[values4]" time="0.001" /></testsuite></testsuites>

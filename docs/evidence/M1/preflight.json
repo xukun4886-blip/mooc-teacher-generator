@@ -1,0 +1,101 @@
+{
+  "schema_version": "m1.preflight.v1",
+  "ready": false,
+  "blockers": [
+    {
+      "code": "INPUT_MISSING",
+      "message": "Required sample is missing",
+      "source": "pptx",
+      "remedy": "Supply a local authorized sample and authorization record"
+    },
+    {
+      "code": "INPUT_MISSING",
+      "message": "Required sample is missing",
+      "source": "photo",
+      "remedy": "Supply a local authorized sample and authorization record"
+    },
+    {
+      "code": "INPUT_MISSING",
+      "message": "Required sample is missing",
+      "source": "video",
+      "remedy": "Supply a local authorized sample and authorization record"
+    },
+    {
+      "code": "INPUT_MISSING",
+      "message": "Required sample is missing",
+      "source": "reference_audio",
+      "remedy": "Supply a local authorized sample and authorization record"
+    },
+    {
+      "code": "INPUT_INCOMPATIBLE",
+      "message": "Human-confirmed Chinese test script is missing",
+      "source": "script",
+      "remedy": null
+    },
+    {
+      "code": "SERVICE_CONFIG_MISSING",
+      "message": "Local model configuration missing",
+      "source": "tts",
+      "remedy": "Configure an isolated interpreter, pinned code and complete weights"
+    },
+    {
+      "code": "SERVICE_CONFIG_MISSING",
+      "message": "Local model configuration missing",
+      "source": "photo",
+      "remedy": "Configure an isolated interpreter, pinned code and complete weights"
+    },
+    {
+      "code": "SERVICE_CONFIG_MISSING",
+      "message": "Local model configuration missing",
+      "source": "video",
+      "remedy": "Configure an isolated interpreter, pinned code and complete weights"
+    }
+  ],
+  "warnings": [],
+  "assets": {},
+  "health": {
+    "tts": {
+      "role": "tts",
+      "ready": false,
+      "blockers": [
+        {
+          "code": "SERVICE_CONFIG_MISSING",
+          "message": "Local model configuration missing",
+          "source": "tts",
+          "remedy": "Configure an isolated interpreter, pinned code and complete weights"
+        }
+      ],
+      "model_loaded": false
+    },
+    "photo": {
+      "role": "photo",
+      "ready": false,
+      "blockers": [
+        {
+          "code": "SERVICE_CONFIG_MISSING",
+          "message": "Local model configuration missing",
+          "source": "photo",
+          "remedy": "Configure an isolated interpreter, pinned code and complete weights"
+        }
+      ],
+      "model_loaded": false
+    },
+    "video": {
+      "role": "video",
+      "ready": false,
+      "blockers": [
+        {
+          "code": "SERVICE_CONFIG_MISSING",
+          "message": "Local model configuration missing",
+          "source": "video",
+          "remedy": "Configure an isolated interpreter, pinned code and complete weights"
+        }
+      ],
+      "model_loaded": false
+    }
+  },
+  "generation_called": false,
+  "estimated_seconds": null,
+  "estimated_peak_vram_mib": null,
+  "model_quality_passed": false
+}

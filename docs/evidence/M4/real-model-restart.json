@@ -1,0 +1,47 @@
+{
+  "started_at": "2026-10-08T16:03:08.427262+00:00",
+  "project_id": "92f7b222-dace-42c7-8be7-140beaa0497f",
+  "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+  "before": {
+    "stage": "photo_native_generation",
+    "state": "running",
+    "recoveries": 2,
+    "valid_scenes": 2,
+    "completed_media": [
+      {
+        "scene_id": "5d2cd65b-e2df-4210-b5e9-410bbf341b02",
+        "tts_sha256": "6eea09d1b24e32f58bd2bc9c0a68c04af4166b572fae0510b0bbfff453c1ef30",
+        "portrait_sha256": "3f225a71cf370a6c60dfb86c4da97b75000badc8297353eb84a2276c98874fc8",
+        "compose_sha256": "3d9b197fd6bc038328b0d4d0f55b36ad9a4fd210d1fd1253491b00a65a5734b5"
+      },
+      {
+        "scene_id": "d50edeb4-f920-4bf0-a46c-bbbc764c3a59",
+        "tts_sha256": "871108e620537773605cede7a9ecd8a67e4c6faf430b8b2ab8b6e9896e59e270",
+        "portrait_sha256": "4e0d66021b52615c0e71d4d63e91e89d4e3d99895d682b02d8059e60aacda976",
+        "compose_sha256": "5ec81197c0710580f930c6433e4f909dcb93d244c5d3d3d48c7bc783dc0308fc"
+      }
+    ]
+  },
+  "processes": {
+    "native_model_pids": [
+      29560,
+      29728
+    ],
+    "server_pid": 31516,
+    "child_pids": [
+      29560,
+      27360,
+      29728
+    ]
+  },
+  "teacher_confirmation_submitted": false,
+  "owned_children_exited": true,
+  "after": {
+    "state": "running",
+    "stage": "tts_native_generation",
+    "recoveries": 3,
+    "same_job_id": true,
+    "completed_media_hashes_unchanged": true
+  },
+  "finished_at": "2026-10-08T16:03:11.551521+00:00"
+}

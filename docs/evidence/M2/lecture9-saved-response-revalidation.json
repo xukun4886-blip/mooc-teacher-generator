@@ -1,0 +1,96 @@
+{
+  "at": "2026-10-09T06:10:09.968131+00:00",
+  "operation": "strict_saved_provider_revalidation",
+  "source_failed_job": "7b59d596-4cb1-4546-a421-72d38e1f7249",
+  "source_attempt": 2,
+  "provider_record": {
+    "response_id": "202610091356319fee57af7f1a475e",
+    "response_sha256": "4b3b167e1b916942daab20b961012b684e27843618024432bd7c37143b0056aa",
+    "path": "ai-responses/7b59d596-4cb1-4546-a421-72d38e1f7249-7454cd2e-b8c1-4fe9-abf5-547820217f16.json"
+  },
+  "contract": "complete-object-v5",
+  "parsed": {
+    "expanded_current_source_count": 0,
+    "format_error": "SUBTITLE_MAPPING_REQUIRED",
+    "pairing_method": "complete_text_identical_except_whitespace"
+  },
+  "http_model_calls": 0,
+  "teacher_confirmation": false,
+  "paid_allowed": false,
+  "old_version_ids": [
+    "23f637e3-c925-4607-a9c1-5b9c1e061113"
+  ],
+  "new_version": {
+    "id": "cfc97915-f742-4d9c-817b-cb1055b619f6",
+    "number": 2,
+    "mode": "ai",
+    "raw_display": "感 谢\nTHANK YOU!",
+    "raw_reading": "感 谢 THANK YOU!",
+    "display_text": "感 谢\nTHANK YOU!",
+    "reading_text": "感 谢 THANK YOU!",
+    "control_events": [],
+    "provenance": {
+      "model": "glm-4.1v-thinking-flash",
+      "provider": "open.bigmodel.cn",
+      "response_id": "202610091356319fee57af7f1a475e",
+      "usage": {
+        "completion_tokens": 1118,
+        "prompt_tokens": 5253,
+        "total_tokens": 6371
+      },
+      "provider_record": {
+        "response_id": "202610091356319fee57af7f1a475e",
+        "response_sha256": "4b3b167e1b916942daab20b961012b684e27843618024432bd7c37143b0056aa",
+        "path": "ai-responses/7b59d596-4cb1-4546-a421-72d38e1f7249-7454cd2e-b8c1-4fe9-abf5-547820217f16.json"
+      },
+      "context_sha256": "834d670eda7ad35d2d9f444fc885e9137b52a28f8f06cdb73e2ba5040f7f4348",
+      "source_page_ids": [
+        "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-281"
+      ],
+      "image_sha256": [
+        "22ba516f836a49c611288af17cb34738220da5a860a4c6384aff820c9be24f9d"
+      ],
+      "extensions": [],
+      "draft_contract": "complete-object-v5",
+      "sentence_pairs": [
+        {
+          "display": "感 谢\nTHANK YOU!",
+          "reading": "感 谢 THANK YOU!"
+        }
+      ],
+      "pairing_method": "complete_text_identical_except_whitespace",
+      "revalidated_from_job": "7b59d596-4cb1-4546-a421-72d38e1f7249",
+      "revalidated_from_attempt": 2,
+      "revalidation_operation": "strict_saved_provider_revalidation",
+      "input_key": "659459a96c5a6d4f30be0a1239184f306b28cec849712aa152b1ca611bf0a109",
+      "expanded_current_source_count": 0
+    },
+    "created_at": "2026-10-09T06:10:09.977575+00:00",
+    "author": "ai:glm-4.1v-thinking-flash",
+    "checks": {
+      "knowledge_points": [
+        "本节课关于移动互联网技术的讲解到此结束"
+      ],
+      "questions": [],
+      "terms": [],
+      "pending": []
+    },
+    "teacher_review": null
+  },
+  "old_versions_retained": true,
+  "failed_job_unchanged": true,
+  "full_bodies_unchanged": true,
+  "input_compatible": true,
+  "course": {
+    "id": "a9c7bd42-2fe8-46ac-8bb8-6af67cd837e0",
+    "project_id": "11604689-6106-451f-b40b-95089e07b5b5",
+    "state": "queued",
+    "stage": "queued",
+    "error": null,
+    "scripts_ready": 0,
+    "total": 24,
+    "generation": 1,
+    "media": null,
+    "retry_allowed": false
+  }
+}

@@ -1,0 +1,483 @@
+{
+  "checked_at": "2026-10-09T02:56:39.720308+00:00",
+  "project_id": "11604689-6106-451f-b40b-95089e07b5b5",
+  "state": "failed",
+  "stage": "retrying_ai_format",
+  "scripts_ready": 6,
+  "total": 24,
+  "latest": {
+    "id": "b37b5c2a-0c8f-48d9-b32e-a06f4b1e7a23",
+    "project_id": "11604689-6106-451f-b40b-95089e07b5b5",
+    "state": "failed",
+    "stage": "retrying_ai_format",
+    "error": {
+      "code": "AI_RATE_LIMITED",
+      "message": "第7页：讲稿服务当前繁忙，请稍后重试；已生成讲稿保留",
+      "source": "82568956-8cb3-4a34-9637-84a25f0ca2c2",
+      "remedy": "等待后直接重试；需要修订时打开高级编辑",
+      "source_page_index": 7
+    },
+    "scripts_ready": 6,
+    "total": 24,
+    "generation": 1,
+    "media": null,
+    "retry_allowed": true
+  },
+  "first_failure_unchanged": true,
+  "first_two_versions_unchanged": true,
+  "teacher_confirmations": 0,
+  "ai_attempts": [
+    {
+      "at": "2026-10-09T02:51:01.138114+00:00",
+      "scene_id": "b2db94c6-3a53-4845-8c19-f00f6268f34e",
+      "status": 200,
+      "attempt": 1,
+      "generation": 1,
+      "provider_record": {
+        "response_id": "20261009105048a76b2a702c884b30",
+        "response_sha256": "225671b863b992812648a8e9712887b0f02c8f2765456797f01c8df11fe7b84e",
+        "path": "ai-responses/b37b5c2a-0c8f-48d9-b32e-a06f4b1e7a23-d8972f44-ab3a-44a3-b2b7-d957f6a0ae1b.json"
+      },
+      "draft_contract": "complete-object-v2",
+      "finish_reason": "stop",
+      "format_error": "SUBTITLE_MAPPING_REQUIRED",
+      "format_reason": "显示和读法正文不能完整逐句对应",
+      "format_retry": 1
+    },
+    {
+      "at": "2026-10-09T02:51:44.099272+00:00",
+      "scene_id": "b2db94c6-3a53-4845-8c19-f00f6268f34e",
+      "status": 200,
+      "attempt": 2,
+      "generation": 1,
+      "provider_record": {
+        "response_id": "202610091051019cd9eda348684900",
+        "response_sha256": "a1637de272ea073f23781b24043dd8d8b7eab350ef065e401451eb15ad8d0dd9",
+        "path": "ai-responses/b37b5c2a-0c8f-48d9-b32e-a06f4b1e7a23-1fc56e07-b7f8-451c-831f-87c864c51845.json"
+      },
+      "draft_contract": "complete-object-v2",
+      "finish_reason": "stop",
+      "format_error": "AI_OUTPUT_FIELDS_INVALID",
+      "format_reason": "讲稿字段缺失",
+      "format_retry": 2
+    },
+    {
+      "at": "2026-10-09T02:52:29.299374+00:00",
+      "scene_id": "b2db94c6-3a53-4845-8c19-f00f6268f34e",
+      "status": 200,
+      "attempt": 3,
+      "generation": 1,
+      "provider_record": {
+        "response_id": "20261009105144ad58feae826a4d63",
+        "response_sha256": "f068bb26b0d8d6ddf9e843a9006792d861e0fb8d3dde2c4cd0a0b655dc857411",
+        "path": "ai-responses/b37b5c2a-0c8f-48d9-b32e-a06f4b1e7a23-4d317aa7-17c3-4e9c-8f3c-733e58d1f4e9.json"
+      },
+      "draft_contract": "complete-object-v2",
+      "finish_reason": "stop",
+      "expanded_current_source_count": 0,
+      "format_error": "SUBTITLE_MAPPING_REQUIRED",
+      "pairing_method": "complete_text_sentence_boundaries"
+    },
+    {
+      "at": "2026-10-09T02:53:04.142012+00:00",
+      "scene_id": "36bf7744-77f6-46f1-9965-fe011afb9ca5",
+      "status": 200,
+      "attempt": 1,
+      "generation": 1,
+      "provider_record": {
+        "response_id": "202610091052401cab720e07924875",
+        "response_sha256": "920024864cb2000e3c0039fe2d6c19f6b570ba2416a84cfae0257a4ada1d9fe3",
+        "path": "ai-responses/b37b5c2a-0c8f-48d9-b32e-a06f4b1e7a23-933274c0-1385-4106-88b5-895f2a43782a.json"
+      },
+      "draft_contract": "complete-object-v2",
+      "finish_reason": "stop",
+      "expanded_current_source_count": 0,
+      "pairing_method": "provider_validated"
+    },
+    {
+      "at": "2026-10-09T02:53:04.635973+00:00",
+      "scene_id": "98eeb49f-f4d2-4c6c-bbbe-087b03fae8f8",
+      "status": 429,
+      "attempt": 1,
+      "generation": 1,
+      "provider_error_code": "1305",
+      "wait_seconds": 5
+    },
+    {
+      "at": "2026-10-09T02:53:22.748950+00:00",
+      "scene_id": "98eeb49f-f4d2-4c6c-bbbe-087b03fae8f8",
+      "status": 200,
+      "attempt": 2,
+      "generation": 1,
+      "provider_record": {
+        "response_id": "20261009105310189dfa19aa8141a2",
+        "response_sha256": "db67eedf19ffdc2c08026c4b569b9eeb80832e1efaedb1609229abc788d6127c",
+        "path": "ai-responses/b37b5c2a-0c8f-48d9-b32e-a06f4b1e7a23-971633e0-d475-482a-8ea8-2a06391e0b84.json"
+      },
+      "draft_contract": "complete-object-v2",
+      "finish_reason": "stop",
+      "expanded_current_source_count": 0,
+      "format_error": "SUBTITLE_MAPPING_REQUIRED",
+      "pairing_method": "complete_text_sentence_boundaries"
+    },
+    {
+      "at": "2026-10-09T02:54:32.945303+00:00",
+      "scene_id": "3b3e6fe3-5ada-4725-b271-8502cd71ccd0",
+      "status": 200,
+      "attempt": 1,
+      "generation": 1,
+      "provider_record": {
+        "response_id": "2026100910532362533dac6f5149c2",
+        "response_sha256": "f3f21b735f02bb5283d61f578e6de0d4a2c5974cff719dd54c588e5c2140deb3",
+        "path": "ai-responses/b37b5c2a-0c8f-48d9-b32e-a06f4b1e7a23-adc669a5-7412-4137-b104-3cd49d463517.json"
+      },
+      "draft_contract": "complete-object-v2",
+      "finish_reason": "stop",
+      "format_error": "AI_OUTPUT_JSON_INVALID",
+      "format_reason": "输出不是完整JSON对象",
+      "format_retry": 1
+    },
+    {
+      "at": "2026-10-09T02:54:41.158078+00:00",
+      "scene_id": "3b3e6fe3-5ada-4725-b271-8502cd71ccd0",
+      "status": 200,
+      "attempt": 2,
+      "generation": 1,
+      "provider_record": {
+        "response_id": "2026100910543320cea6e7c14845da",
+        "response_sha256": "3a26f0c63d1aeede23afdb86b1be0cfe44adbea48f9efc5eef42b0d42cdc31e0",
+        "path": "ai-responses/b37b5c2a-0c8f-48d9-b32e-a06f4b1e7a23-9936069f-aee9-41ed-81ca-fe962c0be2b0.json"
+      },
+      "draft_contract": "complete-object-v2",
+      "finish_reason": "stop",
+      "expanded_current_source_count": 0,
+      "pairing_method": "provider_validated"
+    },
+    {
+      "at": "2026-10-09T02:55:01.633099+00:00",
+      "scene_id": "82568956-8cb3-4a34-9637-84a25f0ca2c2",
+      "status": 200,
+      "attempt": 1,
+      "generation": 1,
+      "provider_record": {
+        "response_id": "202610091054416303e9dd8b114bd4",
+        "response_sha256": "96f648455e65f871765634abd725591a2296ed653d1e74505f02ee2e63abbdde",
+        "path": "ai-responses/b37b5c2a-0c8f-48d9-b32e-a06f4b1e7a23-5e7351c1-0f53-4148-8fcf-8fd45b6badfe.json"
+      },
+      "draft_contract": "complete-object-v2",
+      "finish_reason": "stop",
+      "format_error": "AI_OUTPUT_TOPLEVEL_INVALID",
+      "format_reason": "输出必须是单个对象，不能混入输入或数组",
+      "format_retry": 1
+    },
+    {
+      "at": "2026-10-09T02:55:01.775013+00:00",
+      "scene_id": "82568956-8cb3-4a34-9637-84a25f0ca2c2",
+      "status": 429,
+      "attempt": 2,
+      "generation": 1,
+      "provider_error_code": "1305",
+      "wait_seconds": 15
+    },
+    {
+      "at": "2026-10-09T02:56:32.202162+00:00",
+      "scene_id": "82568956-8cb3-4a34-9637-84a25f0ca2c2",
+      "status": 200,
+      "attempt": 3,
+      "generation": 1,
+      "provider_record": {
+        "response_id": "202610091055172de02080905f4b8d",
+        "response_sha256": "9064a060cfaa5a9abfdc7cb53e2a904ec51b1f3aaa64ff1c68df956ea6764852",
+        "path": "ai-responses/b37b5c2a-0c8f-48d9-b32e-a06f4b1e7a23-afdf945a-c5ed-4361-8864-9764beb85650.json"
+      },
+      "draft_contract": "complete-object-v2",
+      "finish_reason": "stop",
+      "format_error": "AI_OUTPUT_JSON_INVALID",
+      "format_reason": "输出不是完整JSON对象",
+      "format_retry": 2
+    },
+    {
+      "at": "2026-10-09T02:56:32.385826+00:00",
+      "scene_id": "82568956-8cb3-4a34-9637-84a25f0ca2c2",
+      "status": 429,
+      "attempt": 4,
+      "generation": 1,
+      "provider_error_code": "1305"
+    }
+  ],
+  "new_job_id": "b37b5c2a-0c8f-48d9-b32e-a06f4b1e7a23",
+  "source_versions": [
+    {
+      "source_page_ids": [
+        "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-275"
+      ],
+      "version_id": "2c941402-4987-4825-87b1-226b20dc48e0",
+      "display_sha256": "1e36ae484d316afd5391d5aa4d016671a605f9e8a5c0fef58efdab3b916b9f2e",
+      "reading_sha256": "85539c304dc08f88a620aa388c27d84a00b1a8ddb86308a5f864ebfb4555294a",
+      "provenance": {
+        "model": "glm-4.1v-thinking-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "202610091035507666b5baf7904e9a",
+        "usage": {
+          "completion_tokens": 1354,
+          "prompt_tokens": 7508,
+          "total_tokens": 8862
+        },
+        "context_sha256": "0740cd5fb82920f1727359de043a23428675de62831cbf8fdf7dc9b1725ba26d",
+        "source_page_ids": [
+          "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-275"
+        ],
+        "image_sha256": [
+          "8ba1ea094c941a9896a6125948dd3b116d6fde362d2117af7a000337448fe2ae"
+        ],
+        "extensions": [],
+        "batch_id": null,
+        "instruction_sha256": "f386f2f0dfc31f6b7e7889585525602a0242528903ca3c5c5a7fa0cc0e04deea",
+        "sentence_pairs": [
+          {
+            "display": "移动互联网络技术，授课老师是王辛迪，授课对象为网络工程系大三本科生，该课程属于专业核心课程，联系方式是[teacher-email-redacted]。",
+            "reading": "移 动 互 联 网 技 术，授 课 老 师：王 辛 迪 ，授 课 对 象 ：网 络 工 程 系 大 三 本 科 ，课 程 性 质 ：专 业 核 心 ，联 系 方 式 ：[teacher-email-redacted]"
+          }
+        ],
+        "pairing_method": "provider_validated",
+        "provider_record": {
+          "response_id": "202610091035507666b5baf7904e9a",
+          "response_sha256": "1bad2a2e42dbc7fc1e24058bcf6f285ed3744ac4da7cc453209c5718703262a1",
+          "path": "ai-responses/0eaf6185-d796-4be2-95a7-8a3218c75fb6-0e50b9ab-d89c-4f66-aa2c-8474e68cabba.json"
+        },
+        "expanded_current_source_count": 1
+      },
+      "teacher_review": false
+    },
+    {
+      "source_page_ids": [
+        "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-276"
+      ],
+      "version_id": "01baf483-5ac4-45a5-943a-9b654d934197",
+      "display_sha256": "fd54bf6feb548e9269264d76cab31c17ffab158da7f7c404e1d90261ab53b11f",
+      "reading_sha256": "b104e70aae4a06f2c2e43f6ff310b2dc89a759976e3bcfcb4c1f29ce31f68f55",
+      "provenance": {
+        "model": "glm-4.1v-thinking-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "202610091036040ff5dc0fc1554ea4",
+        "usage": {
+          "completion_tokens": 973,
+          "prompt_tokens": 7834,
+          "total_tokens": 8807
+        },
+        "context_sha256": "bb9ae196a950cdd27165a20a728f6308d2f5142a8b8c2b079925d2a3ed3dadf7",
+        "source_page_ids": [
+          "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-276"
+        ],
+        "image_sha256": [
+          "d83200c7d04ba4019d89630007de740beeb798ec8d9f4f5f0bed6b30031a4b63"
+        ],
+        "extensions": [],
+        "batch_id": null,
+        "instruction_sha256": "f386f2f0dfc31f6b7e7889585525602a0242528903ca3c5c5a7fa0cc0e04deea",
+        "sentence_pairs": [
+          {
+            "display": "本页面展示的是章节目录，包含第九章的两个主要部分，分别是9.1概述和9.2卫星互联网架构，这两部分构成了本章的核心内容框架。",
+            "reading": "本页面展示的是章节目录，包含第九章的两个主要部分，分别是九点一概述和九点二卫星互联网架构，这两部分构成了本章的核心内容框架。"
+          }
+        ],
+        "pairing_method": "provider_validated",
+        "provider_record": {
+          "response_id": "202610091036040ff5dc0fc1554ea4",
+          "response_sha256": "5a5ecf6291e44ec14d952add9924a89f5604df6ee67296ba3ffc916dd536ba34",
+          "path": "ai-responses/0eaf6185-d796-4be2-95a7-8a3218c75fb6-5f216333-5b8c-43a2-a481-9d800bb8933a.json"
+        },
+        "expanded_current_source_count": 1
+      },
+      "teacher_review": false
+    },
+    {
+      "source_page_ids": [
+        "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-352"
+      ],
+      "version_id": "c8f245f2-8cd2-4a39-9d45-8fe6e4fdeb91",
+      "display_sha256": "85f7c333394fe312b8774e792c4fa33d3bfc2e973748f3108c141b6f32f006c6",
+      "reading_sha256": "ac35e0684934cb1abf44d489baee03d20e900ad14180b1c63c02e70b5809a2ec",
+      "provenance": {
+        "model": "glm-4.1v-thinking-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "20261009105144ad58feae826a4d63",
+        "usage": {
+          "completion_tokens": 3724,
+          "prompt_tokens": 8034,
+          "total_tokens": 11758
+        },
+        "context_sha256": "e30375b7d280935e4f411c2162bbe97e788ef4f702a74dcf52a2f093d6631c80",
+        "source_page_ids": [
+          "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-352"
+        ],
+        "image_sha256": [
+          "8b463047aacca4cfdbf721508a87d5417302fbec00c1df3c288cf8f02e26c1a6"
+        ],
+        "extensions": [],
+        "batch_id": null,
+        "instruction_sha256": "afde8491eb8906fe20952520f665194248eed9febcc9a9bed7ab502099d998eb",
+        "draft_contract": "complete-object-v2",
+        "sentence_pairs": [
+          {
+            "display": "本页介绍四种地球轨道类型及其相关参数与应用特点。",
+            "reading": "本页介绍四种地球轨道类型及其相关参数与应用特点。"
+          },
+          {
+            "display": "LEO（低地球轨道）高度为200–2,000公里（常见200–1,200公里），特点是轨道周期短（约90分钟），常用于对地观测卫星（如气象卫星）、空间站（如国际空间站）及部分通信卫星（如星链星座）；MEO（中地球轨道）高度为2,000–36,000公里（部分资料定义1,200–36,000公里），典型应用为导航卫星（如GPS、GLONASS），轨道周期约12小时；GEO（地球同步轨道）高度约35,786公里，卫星运行周期与地球自转同步（24小时），静止轨道（GSO）是GEO的特殊形式（主要应用于通信和气象卫星；HEO（高地球轨道）通常指高于36,000公里的轨道（部分资料将GEO归为此类），包括大椭圆轨道（如莫尼亚轨道），适用于覆盖高纬度地区的通信或科研任务。",
+            "reading": "利欧（低地球轨道）高度为二零零到二千公里（常见范围二零零到一千二百公里），特点是轨道周期短约九十分钟，常用于对地观测卫星（如气象卫星）、空间站（如国际空间站）及部分通信卫星（如星链星座）；美欧（中地球轨道）高度为二千到三万六千公里（部分资料定义为一二百到三万六千公里），典型应用为导航卫星（如GPS、格洛纳斯），轨道周期约十二小时；吉欧（地球同步轨道）高度约三万五千七百八十六公里，卫星运行周期与地球自转同步（二十四小时），静止轨道（GSO）是吉欧的一种特殊形式，主要应用于通信和气象卫星；黑欧（高地球轨道）高度通常指高于三万六千公里的轨道（部分资料将吉欧归为此类），包括大椭圆轨道（如莫尼亚轨道），适用于覆盖高纬度地区的通信或科研任务。"
+          }
+        ],
+        "pairing_method": "complete_text_sentence_boundaries",
+        "provider_record": {
+          "response_id": "20261009105144ad58feae826a4d63",
+          "response_sha256": "f068bb26b0d8d6ddf9e843a9006792d861e0fb8d3dde2c4cd0a0b655dc857411",
+          "path": "ai-responses/b37b5c2a-0c8f-48d9-b32e-a06f4b1e7a23-4d317aa7-17c3-4e9c-8f3c-733e58d1f4e9.json"
+        },
+        "expanded_current_source_count": 0
+      },
+      "teacher_review": false
+    },
+    {
+      "source_page_ids": [
+        "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-311"
+      ],
+      "version_id": "da92454c-e143-499c-8a54-29394eea413f",
+      "display_sha256": "cdcbb3adc3cd9f6071c89c12d36cce363a6ec2309065750a45580a5547519b8a",
+      "reading_sha256": "8ed4fe314b926f56394155421af88db66f107da13b73b1673916ebe7a8971c25",
+      "provenance": {
+        "model": "glm-4.1v-thinking-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "202610091052401cab720e07924875",
+        "usage": {
+          "completion_tokens": 1695,
+          "prompt_tokens": 8045,
+          "total_tokens": 9740
+        },
+        "context_sha256": "a464322fbd1a2553d94912e2ec58019ebb252196fa6c971c83cd692fa2f28d93",
+        "source_page_ids": [
+          "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-311"
+        ],
+        "image_sha256": [
+          "fb2c7a0c98248d4e715d7bcee6e6e3aa98fe3eb77761fa9708d75d801cd4b45c"
+        ],
+        "extensions": [],
+        "batch_id": null,
+        "instruction_sha256": "afde8491eb8906fe20952520f665194248eed9febcc9a9bed7ab502099d998eb",
+        "draft_contract": "complete-object-v2",
+        "sentence_pairs": [
+          {
+            "display": "本页介绍同步轨道卫星和高地球轨道卫星的通信弊端。同步轨道卫星的通信弊端有两点：第一，同步轨道距离较远，长距离传输对信号的传输延时和干扰都比较大；第二，同步卫星必须运行在赤道平面上空约35,786公里的轨道，波束覆盖范围主要集中在赤道及中低纬度地区。高地球轨道卫星的通信弊端也有两点：第一，需应对剧烈的高度变化和轨道倾角，因轨道速度变化（近地点快、远地点慢），需自适应调整多普勒频移和信号强度。",
+            "reading": "本页介绍同步轨道卫星和高地球轨道卫星的通信弊端。同步轨道卫星的通信弊端有两点：第一，同步轨道距离较远，长距离传输对信号的传输延时和干扰都比较大；第二，同步卫星必须运行在赤道平面上空约三十五万七千八百六公里的轨道，波束覆盖范围主要集中在赤道及中低纬度地区。高地球轨道卫星的通信弊端也有两点：第一，需应对剧烈的高度变化和轨道倾角，因轨道速度变化（近地点快、远地点慢），需自适应调整多普勒频移和信号强度。"
+          }
+        ],
+        "pairing_method": "provider_validated",
+        "provider_record": {
+          "response_id": "202610091052401cab720e07924875",
+          "response_sha256": "920024864cb2000e3c0039fe2d6c19f6b570ba2416a84cfae0257a4ada1d9fe3",
+          "path": "ai-responses/b37b5c2a-0c8f-48d9-b32e-a06f4b1e7a23-933274c0-1385-4106-88b5-895f2a43782a.json"
+        },
+        "expanded_current_source_count": 0
+      },
+      "teacher_review": false
+    },
+    {
+      "source_page_ids": [
+        "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-349"
+      ],
+      "version_id": "4a7faa1f-40e4-494b-9c0d-b87a526d3084",
+      "display_sha256": "ef4840429bc1fb567f0fc1dcdc44d18babee0a390af7dd2e84406ea01edb6ca1",
+      "reading_sha256": "66bb7e19d5c0aafc3a38670811cdba1f0da33c42d83c0c4d14a2cb21cf2406a7",
+      "provenance": {
+        "model": "glm-4.1v-thinking-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "20261009105310189dfa19aa8141a2",
+        "usage": {
+          "completion_tokens": 989,
+          "prompt_tokens": 7771,
+          "total_tokens": 8760
+        },
+        "context_sha256": "f59234e86d6e70ed78d96c8a1e89b8744797abec0f7a665ef62e3da7dbf32450",
+        "source_page_ids": [
+          "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-349"
+        ],
+        "image_sha256": [
+          "a796e58678f576ac129a801c97a28791bdaf4131d3d2039ee13d53cf3fdb58de"
+        ],
+        "extensions": [],
+        "batch_id": null,
+        "instruction_sha256": "afde8491eb8906fe20952520f665194248eed9febcc9a9bed7ab502099d998eb",
+        "draft_contract": "complete-object-v2",
+        "sentence_pairs": [
+          {
+            "display": "本页主要介绍低轨卫星（LEO）的基本概念、轨道特性和全球覆盖情况。",
+            "reading": "本页主要介绍低轨卫星（LEO）的基本概念、轨道特性和全球覆盖情况。"
+          },
+          {
+            "display": "低点说明低轨卫星是：是运行在距地球表面160公里至2000公里轨道上的卫星，具有低延迟、高带宽、全球覆盖等优势，近年成为卫星通信等领域热点技术。",
+            "reading": "第一点说明低轨卫星的定义：它是运行在距地球表面160公里至2000公里轨道上的卫星，具有低延迟、高带宽、全球覆盖等优势，近年成为卫星通信等领域热点技术。"
+          },
+          {
+            "display": "第二点轨道特性，高度高度500（500Starlink 550km、OneWeb 1200km），绕地球周期约90 - 120分钟，信号延迟仅20 - 50毫秒（远低于GEO卫星的500毫秒），适合实时通信。",
+            "reading": "第二点是轨道特性，包括高度范围（如Starlink的550公里、OneWeb的1200公里），绕地球周期约90到120分钟，信号延迟仅20到50毫秒，远低于地球同步轨道卫星的500毫秒，适合实时通信。"
+          },
+          {
+            "display": "第三点是全球覆盖，需要大规模星座组网（如Starlink计划4.2万颗），单星覆盖直径约800公里。",
+            "reading": "第三点是全球覆盖，需要大规模星座组网（如Starlink计划4.2万颗卫星），单颗卫星的覆盖直径大约是800公里。"
+          }
+        ],
+        "pairing_method": "complete_text_sentence_boundaries",
+        "provider_record": {
+          "response_id": "20261009105310189dfa19aa8141a2",
+          "response_sha256": "db67eedf19ffdc2c08026c4b569b9eeb80832e1efaedb1609229abc788d6127c",
+          "path": "ai-responses/b37b5c2a-0c8f-48d9-b32e-a06f4b1e7a23-971633e0-d475-482a-8ea8-2a06391e0b84.json"
+        },
+        "expanded_current_source_count": 0
+      },
+      "teacher_review": false
+    },
+    {
+      "source_page_ids": [
+        "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-350"
+      ],
+      "version_id": "a3e227f5-8e9f-4519-a3c2-3b517ccfbfc7",
+      "display_sha256": "7e97adcdb3d61d5e74efce099d7c7ccf6dd1eedd04a2e8a149b25bce7f91d6ed",
+      "reading_sha256": "7e97adcdb3d61d5e74efce099d7c7ccf6dd1eedd04a2e8a149b25bce7f91d6ed",
+      "provenance": {
+        "model": "glm-4.1v-thinking-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "2026100910543320cea6e7c14845da",
+        "usage": {
+          "completion_tokens": 464,
+          "prompt_tokens": 7835,
+          "total_tokens": 8299
+        },
+        "context_sha256": "40c67f6a4b0232d884f6425fb3d9a550eeb8f58d3780ff5ff71c2cdcb797115f",
+        "source_page_ids": [
+          "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-350"
+        ],
+        "image_sha256": [
+          "7a446443b39e6026fe285d3a3c9cd10303f890c8ce12860ec1d3ed383ee2bcca"
+        ],
+        "extensions": [],
+        "batch_id": null,
+        "instruction_sha256": "afde8491eb8906fe20952520f665194248eed9febcc9a9bed7ab502099d998eb",
+        "draft_contract": "complete-object-v2",
+        "sentence_pairs": [
+          {
+            "display": "本页介绍卫星互联网架构相关内容，包含提供信息终极服务的卫星星座、手持设备与便携站等终端，以及卫星测控网络、控制中心和信关站等要素。",
+            "reading": "本页介绍卫星互联网架构相关内容，包含提供信息终极服务的卫星星座、手持设备与便携站等终端，以及卫星测控网络、控制中心和信关站等要素。"
+          }
+        ],
+        "pairing_method": "provider_validated",
+        "provider_record": {
+          "response_id": "2026100910543320cea6e7c14845da",
+          "response_sha256": "3a26f0c63d1aeede23afdb86b1be0cfe44adbea48f9efc5eef42b0d42cdc31e0",
+          "path": "ai-responses/b37b5c2a-0c8f-48d9-b32e-a06f4b1e7a23-9936069f-aee9-41ed-81ca-fe962c0be2b0.json"
+        },
+        "expanded_current_source_count": 0
+      },
+      "teacher_review": false
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "original_job_equals_before_repair": true,
+  "current_project_equals_completed_draft_snapshot": true,
+  "photo_provider_still_local": true,
+  "teacher_confirmations_changed_by_this_task": false,
+  "source_evidence_hashes_unchanged": {
+    "docs/evidence/M3/lecture9-finish.md": true,
+    "docs/evidence/M3/lecture9-media-before-short-repair.json": true,
+    "docs/evidence/M2/lecture9-contract-v3-latest.json": true,
+    "docs/evidence/M4/lecture9-final-check.json": true
+  },
+  "retained_outputs": [
+    {
+      "label": "original",
+      "path": "D:\\XuTao_Task\\storage\\m2\\projects\\11604689-6106-451f-b40b-95089e07b5b5\\m3\\jobs\\89055bfa-566c-4e86-b4e9-969073b1a9ae\\generation-2\\course.mp4",
+      "sha_matches": true
+    },
+    {
+      "label": "latest",
+      "path": "D:\\XuTao_Task\\storage\\m2\\projects\\11604689-6106-451f-b40b-95089e07b5b5\\m3\\jobs\\3c71bde5-a379-452b-9992-2064c7878a46\\generation-1\\course.mp4",
+      "sha_matches": true
+    }
+  ],
+  "tables_equal_before": {
+    "projects": false,
+    "jobs": false,
+    "snapshots": true,
+    "m3_reviews": true,
+    "m3_cache": true,
+    "m3_review_history": true
+  },
+  "counts_before": {
+    "projects": 20,
+    "jobs": 220,
+    "snapshots": 0,
+    "m3_reviews": 2,
+    "m3_cache": 196,
+    "m3_review_history": 3
+  },
+  "counts_after": {
+    "projects": 21,
+    "jobs": 224,
+    "snapshots": 0,
+    "m3_reviews": 2,
+    "m3_cache": 196,
+    "m3_review_history": 3
+  },
+  "active_projects_now": [],
+  "scope": "Read-only verification. Concurrent Lecture 8 project activity is not rolled back or altered by this task."
+}

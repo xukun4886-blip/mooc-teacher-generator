@@ -1,0 +1,17 @@
+{
+  "schema_version": "m2.config.v1",
+  "storage": "storage/m2",
+  "m1_config": "config/m1.local.json",
+  "max_ppt_pages": 50,
+  "limits_mb": {"pptx": 100, "photo": 20, "video": 500, "reference_audio": 50},
+  "m3": {"job_timeout_seconds": 21600},
+  "ai": {
+    "base_url": "",
+    "model": "",
+    "api_key_env": "MOOC_AI_API_KEY",
+    "allow_external": false,
+    "allow_paid": false,
+    "timeout_seconds": 180,
+    "request_options": {"max_tokens": 8000, "response_format": {"type": "json_object"}}
+  }
+}

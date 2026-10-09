@@ -1,0 +1,46 @@
+{
+  "checked_at": "2026-10-01T16:02:50.523844+00:00",
+  "python": "3.10.4",
+  "versions": {
+    "fastapi": "0.135.1",
+    "uvicorn": "0.41.0",
+    "starlette": "1.2.1",
+    "python-multipart": "0.0.22",
+    "httpx": "0.28.1",
+    "python-pptx": "1.0.2",
+    "Pillow": "12.3.0",
+    "pydantic": "2.13.4"
+  },
+  "checks": {
+    "pip_check": "No broken requirements found.",
+    "node": "v24.16.0",
+    "vue": "3.5.43",
+    "vite": "6.4.3",
+    "frontend_build": "passed; npm run build; production files in ignored frontend/dist",
+    "test_report": "tests.xml",
+    "known_test_warning": "Starlette 1.2.1 deprecates httpx TestClient transport; all behavior tests still execute",
+    "windows_acl": "private root: current user, SYSTEM, Administrators; real icacls inspected",
+    "storage": "D:\\XuTao_Task\\storage\\m2"
+  },
+  "source_hashes": {
+    "mooc_m2/api.py": "410eaef0607d14fe46c148c6e31c575bb3dc10a502e388ea5ce9727b1f57a1e3",
+    "mooc_m2/content.py": "d9ba268c95c5e5c3f1d4c463a8a583a353fad8a8f9275601bf053b8aefbd0a99",
+    "mooc_m2/office_convert.py": "caa22d506c43b022c87e06b3e13ab618662b13f0d743d8f6a0362014da9b8171",
+    "mooc_m2/service.py": "dc3de7c95f84856bf0fc47fc5048d5578e96821708547f26dd4806d50ec7910a",
+    "mooc_m2/store.py": "0e64077b14ab4d00caec16d477f3b0aad8aebedac0944bb66c809b5368490be1",
+    "mooc_m2/__init__.py": "ef268156d01ecbdb0a5640026054516ee5a5ccdba5091651d3ca499307676432",
+    "mooc_m2/__main__.py": "04e484e2ee8d8f00140ec5fd826eea906140ba1869c57087b3e12841ee987181",
+    "mooc_m1/adapters.py": "6a05d1c4064fd1330a89313f36430cf905bac5dd89e6bfc061a444f9df81667b",
+    "mooc_m1/model_worker.py": "d54f0f3e5d70eccaf89f9bcdcd1964bc936d5566ac67195bd85131a8defb8628",
+    "mooc_m1/office_worker.py": "cad5cc87b49a2914de11bed0f8de1959c7c4848aed9579f85b811853de858461",
+    "frontend/src/App.vue": "b54c8075ff92dcfb0963e9c8589abc97f5fbbe3e294cd3976e03be9fb61e2a70",
+    "frontend/src/main.js": "376d6b79d3eb52d0193d316f5b32e23251fc6d54ff0fa84094a3552e28e1286b",
+    "frontend/src/style.css": "62832bf24dcca225329e32551bdedf08a54d71c62e86418b5d97a4e21a413fbf",
+    "frontend/package.json": "038b842d19663648fd060061d58400e6389b3916926097ae63fb635b4a960b6b",
+    "frontend/package-lock.json": "9164565014ea2a6c6ba5d21c49b94894c8f016a2d9c58b68ae22ab5288375082",
+    "requirements-m2.txt": "ad996f5727738980b3b04fccf0998913900b755cd55967b4a818a93a660be840",
+    "tests/test_m2.py": "12b8898b39ac9b1542655b0a2e40cfec190266d7cab9322cad0eb4c013ee22cf"
+  },
+  "total_real_audition_seconds": 48.64000000000001,
+  "stage_passed": false
+}

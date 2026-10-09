@@ -1,0 +1,16 @@
+{
+  "recorded_at": "2026-10-01T12:25:39.977688+00:00",
+  "scope": "current original source document hashes; no source document edited during implementation",
+  "files": [
+    {
+      "path": "D:\\XuTao_Task\\数字人教师慕课生成系统需求文档.docx",
+      "size_bytes": 242168,
+      "sha256": "c5cc38bc222dcd330b240d3b7f1bb87d151096844daa7b3457d9c7e25ef60bcc"
+    },
+    {
+      "path": "D:\\XuTao_Task\\数字人教师慕课生成系统需求文档_V1.1.docx",
+      "size_bytes": 249406,
+      "sha256": "5d6b8dba9e0bbda41f2019747bf4def306d487190d13ddd6b48788c8c13e79e1"
+    }
+  ]
+}

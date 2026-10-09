@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-08",
+  "issue": "Browser ERR_CONNECTION_REFUSED at http://127.0.0.1:8765/",
+  "before": {
+    "port_listening": false,
+    "workbench_python_process_found": false,
+    "why_service_stopped": "unknown"
+  },
+  "action": {
+    "existing_runtime": ".venv-m1/Scripts/python.exe",
+    "arguments": "-m mooc_m2 --port 8765 --open",
+    "window_hidden": true,
+    "stdout": "storage/workbench-20261008.stdout.log",
+    "stderr": "storage/workbench-20261008.stderr.log"
+  },
+  "after": {
+    "listen_address": "127.0.0.1",
+    "port": 8765,
+    "server_process_id": 9880,
+    "startup_complete": true,
+    "root_http_status": 200,
+    "vue_mount_present": true,
+    "browser_open_requested": true,
+    "browser_ui_retested": false,
+    "media_quality_retested": false
+  },
+  "human_reviews_changed": false,
+  "formal_stage_pass_changed": false,
+  "automatic_startup_configured": false
+}

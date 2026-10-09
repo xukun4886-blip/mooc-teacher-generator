@@ -1,0 +1,16 @@
+{
+  "checked_at": "2026-10-09T03:44:40.032449+00:00",
+  "request_id": "62cc1e9e-aa3f-42df-8a52-5068d8e15c66",
+  "log_path": "storage\\m2\\projects\\11604689-6106-451f-b40b-95089e07b5b5\\m3\\native\\requests\\62cc1e9e-aa3f-42df-8a52-5068d8e15c66\\native.log",
+  "log_sha256": "4ee1a0e4af43b8c76237a0ddb0158dc09561eb099d12e5d5c5c56628112afe52",
+  "failure_at_frame": 1694,
+  "frames_total": 1733,
+  "audio_seconds": 69.34,
+  "oom_allocate_mib": 64,
+  "gpu_capacity_gib": 4,
+  "torch_allocated_gib": 2.86,
+  "torch_reserved_gib": 3.43,
+  "fix": "native predictions offloaded to CPU per frame; no tensor precision/resolution/weights/audio change",
+  "prior_media_retained": true,
+  "real_long_rerun": "pending"
+}

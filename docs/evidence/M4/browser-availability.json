@@ -1,0 +1,9 @@
+{
+  "at": "2026-10-08T17:02:15.537Z",
+  "enabled_browsers": [
+    "Codex In-app Browser",
+    "Codex MCP Apps"
+  ],
+  "mainstream_desktop_browser_control_available": false,
+  "note": "Enabled surface inventory only; does not assert Chrome or Edge is absent from the computer."
+}

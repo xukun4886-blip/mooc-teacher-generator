@@ -1,0 +1,82 @@
+{
+  "checked_at": "2026-10-08T15:30:50.963981+00:00",
+  "scope": "one-click engineering and short real draft media; not formal acceptance",
+  "tests": {
+    "one-click-final-tests.xml": {
+      "tests": "75",
+      "failures": "0",
+      "errors": "0",
+      "time": "166.421"
+    },
+    "one-click-coordinator-final.xml": {
+      "tests": "7",
+      "failures": "0",
+      "errors": "0",
+      "time": "24.995"
+    }
+  },
+  "documents": 29,
+  "local_links_checked": 285,
+  "errors": [],
+  "traceability": {
+    "work_items": 24,
+    "FR": 20,
+    "NFR": 8,
+    "AC": 18
+  },
+  "source_unchanged": true,
+  "source_teacher_confirmation_count": 0,
+  "formal_snapshot_count": 0,
+  "source_documents": {
+    "数字人教师慕课生成系统需求文档.docx": "c5cc38bc222dcd330b240d3b7f1bb87d151096844daa7b3457d9c7e25ef60bcc",
+    "数字人教师慕课生成系统需求文档_V1.1.docx": "5d6b8dba9e0bbda41f2019747bf4def306d487190d13ddd6b48788c8c13e79e1"
+  },
+  "browser_evidence": "one-click-browser.json",
+  "media": {
+    "saved_photo": {
+      "project_id": "0149cf34-bc8a-4f15-af29-93ed66c3899b",
+      "sha256": "b115b88d125399a2ce5133fdb6997890dd23548120ff3db249f0d889df071236",
+      "duration_seconds": 7.08,
+      "download_sha256_verified": true,
+      "media_generation": 1,
+      "attempts": []
+    },
+    "saved_video": {
+      "project_id": "73f4f33b-e14a-4817-acaf-b690de9f85c2",
+      "sha256": "679c64d2fb8fbc5a8832037afdd482526f0aaa866cd6a5889d1dc4cb96ffa611",
+      "duration_seconds": 7.08,
+      "download_sha256_verified": true,
+      "media_generation": 2,
+      "attempts": [
+        {
+          "generation": 1,
+          "error": {
+            "code": "PROCESS_OWNERSHIP_FAILED",
+            "message": "Cannot fence the owned native process tree",
+            "source": "video",
+            "remedy": "查看受控原生日志；检查资源及配置后有限重试，不降级人物或声音"
+          },
+          "stage": "video_native_generation",
+          "finished_at": "2026-10-08T15:15:28.238184+00:00"
+        }
+      ]
+    }
+  },
+  "fresh_upload_auto_ai_complete": false,
+  "fresh_upload_blocker": "AI_RATE_LIMITED / HTTP429",
+  "html_no_store_verified": true,
+  "implementation_sha256": {
+    "frontend/src/OneClick.vue": "a3002dbb49e5db3a475a401407796a4779f4059b2534b18188605570ba11b060",
+    "frontend/src/App.vue": "180b17864518fe6e1d1754ad37677cf4bc34eb2323b2febab03fe8f52b0566e8",
+    "frontend/src/style.css": "fd29dc2bd5edd7a4884dc4da4d22c1ed084ff7f04783125c8edfc2428cecbb3f",
+    "frontend/src/main.js": "9086249a9084c8581fa15c4f2af1f27034b03aef4bb20d12276580acc1adf020",
+    "frontend/dist/index.html": "637e21101e681d0ee960f037046ba395386ebd23dcd39aa70b873b54542c53ab",
+    "mooc_m2/course.py": "9321ac7e2d6b5132c18d16cab13d7772c6ce05d0a2c11a60a548b530a7912254",
+    "mooc_m2/service.py": "01d44792dc6d13da9253a61d47a1641f434ad9412bb9827b19553da48512f70f",
+    "mooc_m2/api.py": "353a002d71cacc83ba1873a5f388af063727a0b7c6533cc225600d5d2655655f",
+    "mooc_m3/pipeline.py": "03db5d66282d4823a9ac6c2d95fd42f99cdaa9809923d90dbbb1b6eab18d7d8f",
+    "mooc_m3/render.py": "c896f204bcb7dbd872e44291175fe55738d1bb6b1c1cff7551bcad45e287e510",
+    "tools/course_reference_asr.py": "6a6e9807d16d555af42065ce38fdc8ce1f1233ac8e06dcad3e7472ae49cd0c18",
+    "tests/test_one_click.py": "51c239e7b130005ce9caaefcc40d0ba837b6e913d3d6ccabddab707ae3c1092b"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "created_at": "2026-10-08T15:55:49.475853+00:00",
+  "scope": "local startup/restart on independent validation storage; not clean-machine installation",
+  "port": 8766,
+  "config_path": "D:\\XuTao_Task\\storage\\m4-delivery\\m2.delivery.json",
+  "teacher_confirmation_submitted": false,
+  "checks": [
+    "root_200",
+    "unauthenticated_401",
+    "cross_origin_403",
+    "host_403",
+    "one_use_ticket",
+    "missing_input_422_no_media",
+    "project_survives_actual_restart",
+    "reuse_existing_healthy_service"
+  ],
+  "startup_health": {
+    "application": "mooc-workbench",
+    "version": "0.3.0",
+    "worker_alive": true,
+    "scope": "local service liveness; does not certify model or teaching quality"
+  },
+  "project_id": "0b65a68d-4ae3-41ab-909b-f48889ae99f9",
+  "restart_health": {
+    "application": "mooc-workbench",
+    "version": "0.3.0",
+    "worker_alive": true,
+    "scope": "local service liveness; does not certify model or teaching quality"
+  },
+  "state": "passed",
+  "finished_at": "2026-10-08T15:56:07.129361+00:00"
+}

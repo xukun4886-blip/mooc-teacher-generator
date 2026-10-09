@@ -1,0 +1,43 @@
+{
+  "checked_date": "2026-10-02",
+  "method": "Real Codex in-app browser operations against localhost FastAPI/Vue",
+  "base_url": "http://127.0.0.1:8765/",
+  "formal_project_id": "b7022084-d5b4-44e0-9321-3bfc78434b24",
+  "isolated_engineering_project_id": "aab9b1e5-dce7-4f4d-a864-af5e38e2a33c",
+  "observations": {
+    "chinese_course_list_and_separate_development_projects": true,
+    "four_step_navigation_and_m3_boundary_visible": true,
+    "review_form_save_reopen_preserves_version_and_source": true,
+    "review_form_requires_no_json_editing": true,
+    "reading_mapping_applied_in_isolated_project": true,
+    "applied_reading": "工程表单测试读法，零到一的闭区间与数组一二三。",
+    "display_text_unchanged_and_arrays_preserved": true,
+    "isolated_scene_version_after_reading_application": 8,
+    "isolated_scene_still_unconfirmed_and_old_audition_stale": true,
+    "formal_active_scene_count": 10,
+    "formal_unique_draft_questions": 10,
+    "formal_teacher_confirmations": 0,
+    "formal_reference_items_visible": 54,
+    "reference_packet_authenticated_link_visible": true,
+    "formal_draft_audition_label_and_formal_audition_blocked": true,
+    "preflight_blocks_unreviewed_content": true,
+    "desktop_viewport": "1280x900",
+    "narrow_viewport": "390x844",
+    "narrow_sticky_scene_list_overlap_fixed_and_rechecked": true,
+    "launch_fragment_cleared_after_exchange": true,
+    "same_tab_launch_hashchange_rechecked": true,
+    "consumed_launch_ticket_replay_http_status": 401,
+    "final_browser_console_errors": [],
+    "temporary_viewport_reset": true
+  },
+  "screenshots": [
+    "browser-review-form.png",
+    "browser-review-narrow.png",
+    "browser-reading-applied.png",
+    "browser-preflight-blocked.png",
+    "browser-formal-lesson.png",
+    "browser-review-reference.png"
+  ],
+  "teacher_review_performed": false,
+  "stage_passed": false
+}

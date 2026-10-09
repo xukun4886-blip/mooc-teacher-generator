@@ -1,0 +1,34 @@
+{
+  "recorded_at": "2026-10-08T17:18:13.305674+00:00",
+  "scope": "Evidence-helper implementation errors; not model or course failures",
+  "repairs": [
+    {
+      "tool": "m4_review_pack",
+      "first_error": "TypeError: Store.job() missing payload",
+      "reason": "Called job creation API as reader; Python rejected arguments before invocation",
+      "repair": "Read the existing job through Store.jobs; no task submitted",
+      "recheck": "Photo form created and idempotent rerun preserved existing form"
+    },
+    {
+      "tool": "m4_real_validation",
+      "first_error": "AssertionError requiring native_driving for photo",
+      "reason": "SadTalker does not emit MuseTalk-specific native-driving instrumentation",
+      "repair": "Validate native request image/audio hashes for both modes; require feature-driving records only for video; photo feature result null",
+      "recheck": "Both ten-page native requests and both two-page AI native requests verified; video feature-driving required, photo feature measurement null"
+    },
+    {
+      "tool": "m4_fresh_ai_validation",
+      "first_error": "ConnectError WinError 10061",
+      "reason": "Started before final startup verification completed; no project or upload had been submitted",
+      "repair": "Await confirmed worker health before preparing fresh uploads",
+      "recorded_at": "2026-10-08T17:33:27.278811+00:00"
+    },
+    {
+      "tool": "inline_browser_download_hash_check",
+      "first_error": "UnicodeDecodeError from Windows default GBK",
+      "reason": "Evidence JSON was read without explicit UTF-8",
+      "repair": "Use explicit UTF-8 for JSON evidence",
+      "recheck": "Three actual video advanced downloads matched saved export hashes; no media task submitted"
+    }
+  ]
+}

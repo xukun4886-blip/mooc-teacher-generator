@@ -1,0 +1,95 @@
+{
+  "records": [
+    {
+      "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\chinese-hubert-base\\config.json",
+      "source": "https://huggingface.co/lj1995/GPT-SoVITS/blob/336b2ec4e8d4ac74740798dd40af44e74659ecaf/chinese-hubert-base/config.json",
+      "revision": "336b2ec4e8d4ac74740798dd40af44e74659ecaf",
+      "bytes": 1449,
+      "sha256": "c3e5060a1277e0f078cc6be9da4528a605dba6ece93018981fe2c820e5c7b103",
+      "official_lfs_sha256": null,
+      "ready": true,
+      "usage_review": "pending complete auxiliary license review"
+    },
+    {
+      "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\chinese-hubert-base\\preprocessor_config.json",
+      "source": "https://huggingface.co/lj1995/GPT-SoVITS/blob/336b2ec4e8d4ac74740798dd40af44e74659ecaf/chinese-hubert-base/preprocessor_config.json",
+      "revision": "336b2ec4e8d4ac74740798dd40af44e74659ecaf",
+      "bytes": 212,
+      "sha256": "dcd684124d06722947939d41ea6ae58dbf10968c60a11a29f23ddc602c64a29b",
+      "official_lfs_sha256": null,
+      "ready": true,
+      "usage_review": "pending complete auxiliary license review"
+    },
+    {
+      "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\chinese-hubert-base\\pytorch_model.bin",
+      "source": "https://huggingface.co/lj1995/GPT-SoVITS/blob/336b2ec4e8d4ac74740798dd40af44e74659ecaf/chinese-hubert-base/pytorch_model.bin",
+      "revision": "336b2ec4e8d4ac74740798dd40af44e74659ecaf",
+      "bytes": 188811417,
+      "sha256": "24164f129c66499d1346e2aa55f183250c223161ec2770c0da3d3b08cf432d3c",
+      "official_lfs_sha256": "24164f129c66499d1346e2aa55f183250c223161ec2770c0da3d3b08cf432d3c",
+      "ready": true,
+      "usage_review": "pending complete auxiliary license review"
+    },
+    {
+      "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\chinese-roberta-wwm-ext-large\\config.json",
+      "source": "https://huggingface.co/lj1995/GPT-SoVITS/blob/336b2ec4e8d4ac74740798dd40af44e74659ecaf/chinese-roberta-wwm-ext-large/config.json",
+      "revision": "336b2ec4e8d4ac74740798dd40af44e74659ecaf",
+      "bytes": 963,
+      "sha256": "3d57de2fd7e80d0e5c8ff194f0bbb6baa10df7e43fc262a0cc71298a78b0a3e5",
+      "official_lfs_sha256": null,
+      "ready": true,
+      "usage_review": "pending complete auxiliary license review"
+    },
+    {
+      "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\chinese-roberta-wwm-ext-large\\pytorch_model.bin",
+      "source": "https://huggingface.co/lj1995/GPT-SoVITS/blob/336b2ec4e8d4ac74740798dd40af44e74659ecaf/chinese-roberta-wwm-ext-large/pytorch_model.bin",
+      "revision": "336b2ec4e8d4ac74740798dd40af44e74659ecaf",
+      "bytes": 651225145,
+      "sha256": "e53a693acc59ace251d143d068096ae0d7b79e4b1b503fa84c9dcf576448c1d8",
+      "official_lfs_sha256": "e53a693acc59ace251d143d068096ae0d7b79e4b1b503fa84c9dcf576448c1d8",
+      "ready": true,
+      "usage_review": "pending complete auxiliary license review"
+    },
+    {
+      "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\chinese-roberta-wwm-ext-large\\tokenizer.json",
+      "source": "https://huggingface.co/lj1995/GPT-SoVITS/blob/336b2ec4e8d4ac74740798dd40af44e74659ecaf/chinese-roberta-wwm-ext-large/tokenizer.json",
+      "revision": "336b2ec4e8d4ac74740798dd40af44e74659ecaf",
+      "bytes": 268962,
+      "sha256": "173796956820ea27bd14f76bf28162607ff4254807e2948253eb5b46f5bb643b",
+      "official_lfs_sha256": null,
+      "ready": true,
+      "usage_review": "pending complete auxiliary license review"
+    },
+    {
+      "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\gsv-v2final-pretrained\\s1bert25hz-5kh-longer-epoch=12-step=369668.ckpt",
+      "source": "https://huggingface.co/lj1995/GPT-SoVITS/blob/336b2ec4e8d4ac74740798dd40af44e74659ecaf/gsv-v2final-pretrained/s1bert25hz-5kh-longer-epoch=12-step=369668.ckpt",
+      "revision": "336b2ec4e8d4ac74740798dd40af44e74659ecaf",
+      "bytes": 155315150,
+      "sha256": "732f94e63b148066e24c7f9d2637f3374083e637635f07fbdb695dee20ddbe1f",
+      "official_lfs_sha256": "732f94e63b148066e24c7f9d2637f3374083e637635f07fbdb695dee20ddbe1f",
+      "ready": true,
+      "usage_review": "pending complete auxiliary license review"
+    },
+    {
+      "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\gsv-v2final-pretrained\\s2G2333k.pth",
+      "source": "https://huggingface.co/lj1995/GPT-SoVITS/blob/336b2ec4e8d4ac74740798dd40af44e74659ecaf/gsv-v2final-pretrained/s2G2333k.pth",
+      "revision": "336b2ec4e8d4ac74740798dd40af44e74659ecaf",
+      "bytes": 106035259,
+      "sha256": "924fdccaa3c574bf139c25c9759aa1ed3b3f99e19a7c529ee996c2bc17663695",
+      "official_lfs_sha256": "924fdccaa3c574bf139c25c9759aa1ed3b3f99e19a7c529ee996c2bc17663695",
+      "ready": true,
+      "usage_review": "pending complete auxiliary license review"
+    },
+    {
+      "path": "D:\\XuTao_Task\\.tools\\G2PWModel.zip",
+      "source": "https://huggingface.co/XXXXRT/GPT-SoVITS-Pretrained/blob/0c47645e02a7bc3688d7b263b0042c81e3cd82cd/G2PWModel.zip",
+      "revision": "0c47645e02a7bc3688d7b263b0042c81e3cd82cd",
+      "bytes": 588856634,
+      "sha256": "46292be0374a49308069233cd5c147ae4c41806558e4781a2467a31a4d8099da",
+      "official_lfs_sha256": "46292be0374a49308069233cd5c147ae4c41806558e4781a2467a31a4d8099da",
+      "ready": true,
+      "usage_review": "pending complete auxiliary license review"
+    }
+  ],
+  "generation_called": false
+}

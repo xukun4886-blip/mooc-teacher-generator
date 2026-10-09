@@ -1,0 +1,297 @@
+{
+  "state": "media_ready",
+  "request_id": "9a12761bc3710f5bc67d66d4ab603024db3d2fbd97fa05d4e7259a602fb6616e",
+  "actual_provider": "SadTalker",
+  "output": {
+    "path": "D:\\XuTao_Task\\storage\\cloud-samples\\requests\\9a12761bc3710f5bc67d66d4ab603024db3d2fbd97fa05d4e7259a602fb6616e\\portrait.mp4",
+    "sha256": "9466cc102d7454e75ceb2949f592d3efca8e1eac11a52b48ca018ff1dcad9467",
+    "size_bytes": 2915748,
+    "duration_seconds": 30.0,
+    "format": "mov,mp4,m4a,3gp,3g2,mj2",
+    "codec": "mpeg4",
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "mpeg4",
+        "codec_long_name": "MPEG-4 part 2",
+        "profile": "Simple Profile",
+        "codec_type": "video",
+        "codec_tag_string": "mp4v",
+        "codec_tag": "0x7634706d",
+        "mime_codec_string": "mp4v.20",
+        "width": 670,
+        "height": 670,
+        "coded_width": 670,
+        "coded_height": 670,
+        "has_b_frames": 0,
+        "sample_aspect_ratio": "1:1",
+        "display_aspect_ratio": "1:1",
+        "pix_fmt": "yuv420p",
+        "level": 1,
+        "chroma_location": "left",
+        "quarter_sample": "false",
+        "divx_packed": "false",
+        "id": "0x1",
+        "r_frame_rate": "25/1",
+        "avg_frame_rate": "25/1",
+        "time_base": "1/12800",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 384000,
+        "duration": "30.000000",
+        "bit_rate": "702803",
+        "nb_frames": "750",
+        "extradata_size": 47,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler"
+        }
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_long_name": "AAC (Advanced Audio Coding)",
+        "profile": "LC",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "mime_codec_string": "mp4a.40.2",
+        "sample_fmt": "fltp",
+        "sample_rate": "16000",
+        "channels": 1,
+        "channel_layout": "mono",
+        "bits_per_sample": 0,
+        "initial_padding": 1024,
+        "id": "0x2",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/16000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 480000,
+        "duration": "30.000000",
+        "bit_rate": "70773",
+        "nb_frames": "470",
+        "extradata_size": 5,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "SoundHandler"
+        }
+      }
+    ],
+    "sample_rate": null,
+    "width": 670,
+    "height": 670,
+    "fps": 25.0
+  },
+  "code_revision": "cd4c0465ae0b54a6f85af57f5c65fec9fe23e7f8",
+  "actual_weight_version": "v0.0.2_256_full",
+  "native_model_record": {
+    "model_load_seconds": 0.0,
+    "model_warm": true,
+    "photo_preprocess_cache_hit": true,
+    "photo_preprocess_seconds": 4.5291148126125336e-05,
+    "audio_preprocess_seconds": 0.46456865034997463,
+    "audio_to_coeff_seconds": 0.30123375449329615,
+    "render_data_seconds": 0.10514991916716099,
+    "render_clone_encode_seconds": 64.30116949696094,
+    "renderer_breakdown": {
+      "face_renderer_with_cpu_offload_seconds": 38.49506194982678,
+      "small_video_encoding_seconds": 1.3656747434288263,
+      "ffmpeg_audio_mux_seconds": 0.37340153101831675,
+      "seamless_clone_seconds": 19.091696768067777,
+      "full_photo_decode_clone_encode_mux_seconds": 21.792180510237813
+    },
+    "inference_seconds": 65.17891286313534,
+    "actual_loaded_weights": [
+      {
+        "name": "gfpgan/weights/alignment_WFLW_4HG.pth",
+        "sha256": "bbfd137307a4c7debd5c283b9b0ce539466cee417ac0a155e184d857f9f2899c"
+      },
+      {
+        "name": "gfpgan/weights/detection_Resnet50_Final.pth",
+        "sha256": "6d1de9c2944f2ccddca5f5e010ea5ae64a39845a86311af6fdf30841b0a5a16d"
+      },
+      {
+        "name": "checkpoints/SadTalker_V0.0.2_256.safetensors",
+        "sha256": "c211f5d6de003516bf1bbda9f47049a4c9c99133b1ab565c6961e5af16477bff"
+      },
+      {
+        "name": "checkpoints/SadTalker_V0.0.2_256.safetensors",
+        "sha256": "c211f5d6de003516bf1bbda9f47049a4c9c99133b1ab565c6961e5af16477bff"
+      },
+      {
+        "name": "checkpoints/SadTalker_V0.0.2_256.safetensors",
+        "sha256": "c211f5d6de003516bf1bbda9f47049a4c9c99133b1ab565c6961e5af16477bff"
+      },
+      {
+        "name": "checkpoints/SadTalker_V0.0.2_256.safetensors",
+        "sha256": "c211f5d6de003516bf1bbda9f47049a4c9c99133b1ab565c6961e5af16477bff"
+      },
+      {
+        "name": "checkpoints/mapping_00109-model.pth.tar",
+        "sha256": "84a8642468a3fcfdd9ab6be955267043116c2bec2284686a5262f1eaf017f64c"
+      }
+    ],
+    "resources": {
+      "peak_allocated_mib": 3263.29541015625,
+      "peak_reserved_mib": 4804.0,
+      "device": "NVIDIA GeForce RTX 4080 SUPER",
+      "device_total_mib": 32230.8125
+    },
+    "batch_size": 4,
+    "quality_verified": false,
+    "output_validation_seconds": 0.7078338041901588,
+    "worker_wall_seconds": 65.88932521361858
+  },
+  "native_driving": {
+    "photo_sha256": "ce1d8e92e640c5b32bfd5c160f71738fa9c8c16b0418737c5c5b3b849bc4e92a",
+    "audio_sha256": "25795c9a9dd2e52aadbd3514162d5e49ba566f22b410dd3dad6aeb582e632c91",
+    "model_key": "163159a0a1368f3797850abe2218fee960c40a591bcdc6af90f0dba99d4eacc4",
+    "batch_size": 4
+  },
+  "native_loads": [
+    {
+      "name": "checkpoints/mapping_00109-model.pth.tar",
+      "sha256": "84a8642468a3fcfdd9ab6be955267043116c2bec2284686a5262f1eaf017f64c",
+      "bytes": 155779231
+    },
+    {
+      "name": "checkpoints/SadTalker_V0.0.2_256.safetensors",
+      "sha256": "c211f5d6de003516bf1bbda9f47049a4c9c99133b1ab565c6961e5af16477bff",
+      "bytes": 725066984
+    },
+    {
+      "name": "gfpgan/weights/alignment_WFLW_4HG.pth",
+      "sha256": "bbfd137307a4c7debd5c283b9b0ce539466cee417ac0a155e184d857f9f2899c",
+      "bytes": 193670248
+    },
+    {
+      "name": "gfpgan/weights/detection_Resnet50_Final.pth",
+      "sha256": "6d1de9c2944f2ccddca5f5e010ea5ae64a39845a86311af6fdf30841b0a5a16d",
+      "bytes": 109497761
+    }
+  ],
+  "resources": {
+    "peak_allocated_mib": 3263.29541015625,
+    "peak_reserved_mib": 4804.0,
+    "device": "NVIDIA GeForce RTX 4080 SUPER",
+    "device_total_mib": 32230.8125
+  },
+  "elapsed_seconds": 68.33953260000271,
+  "remote_receipt": {
+    "id": "0fd94ebfed62cb9b8a585a5b506b38b722d2d584b9f6f268bd2a974936246a96",
+    "inputs": {
+      "photo_sha256": "ce1d8e92e640c5b32bfd5c160f71738fa9c8c16b0418737c5c5b3b849bc4e92a",
+      "audio_sha256": "25795c9a9dd2e52aadbd3514162d5e49ba566f22b410dd3dad6aeb582e632c91",
+      "model_key": "163159a0a1368f3797850abe2218fee960c40a591bcdc6af90f0dba99d4eacc4",
+      "batch_size": 4
+    },
+    "timings": {
+      "upload_seconds": 0.174540000007255,
+      "remote_wait_seconds": 66.43613360000018,
+      "download_seconds": 0.4655389999970794
+    },
+    "metrics": {
+      "model_load_seconds": 0.0,
+      "model_warm": true,
+      "photo_preprocess_cache_hit": true,
+      "photo_preprocess_seconds": 4.5291148126125336e-05,
+      "audio_preprocess_seconds": 0.46456865034997463,
+      "audio_to_coeff_seconds": 0.30123375449329615,
+      "render_data_seconds": 0.10514991916716099,
+      "render_clone_encode_seconds": 64.30116949696094,
+      "renderer_breakdown": {
+        "face_renderer_with_cpu_offload_seconds": 38.49506194982678,
+        "small_video_encoding_seconds": 1.3656747434288263,
+        "ffmpeg_audio_mux_seconds": 0.37340153101831675,
+        "seamless_clone_seconds": 19.091696768067777,
+        "full_photo_decode_clone_encode_mux_seconds": 21.792180510237813
+      },
+      "inference_seconds": 65.17891286313534,
+      "actual_loaded_weights": [
+        {
+          "name": "gfpgan/weights/alignment_WFLW_4HG.pth",
+          "sha256": "bbfd137307a4c7debd5c283b9b0ce539466cee417ac0a155e184d857f9f2899c"
+        },
+        {
+          "name": "gfpgan/weights/detection_Resnet50_Final.pth",
+          "sha256": "6d1de9c2944f2ccddca5f5e010ea5ae64a39845a86311af6fdf30841b0a5a16d"
+        },
+        {
+          "name": "checkpoints/SadTalker_V0.0.2_256.safetensors",
+          "sha256": "c211f5d6de003516bf1bbda9f47049a4c9c99133b1ab565c6961e5af16477bff"
+        },
+        {
+          "name": "checkpoints/SadTalker_V0.0.2_256.safetensors",
+          "sha256": "c211f5d6de003516bf1bbda9f47049a4c9c99133b1ab565c6961e5af16477bff"
+        },
+        {
+          "name": "checkpoints/SadTalker_V0.0.2_256.safetensors",
+          "sha256": "c211f5d6de003516bf1bbda9f47049a4c9c99133b1ab565c6961e5af16477bff"
+        },
+        {
+          "name": "checkpoints/SadTalker_V0.0.2_256.safetensors",
+          "sha256": "c211f5d6de003516bf1bbda9f47049a4c9c99133b1ab565c6961e5af16477bff"
+        },
+        {
+          "name": "checkpoints/mapping_00109-model.pth.tar",
+          "sha256": "84a8642468a3fcfdd9ab6be955267043116c2bec2284686a5262f1eaf017f64c"
+        }
+      ],
+      "resources": {
+        "peak_allocated_mib": 3263.29541015625,
+        "peak_reserved_mib": 4804.0,
+        "device": "NVIDIA GeForce RTX 4080 SUPER",
+        "device_total_mib": 32230.8125
+      },
+      "batch_size": 4,
+      "quality_verified": false,
+      "output_validation_seconds": 0.7078338041901588,
+      "worker_wall_seconds": 65.88932521361858
+    }
+  },
+  "quality_verified": false
+}

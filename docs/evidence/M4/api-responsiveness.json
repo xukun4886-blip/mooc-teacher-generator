@@ -1,0 +1,38 @@
+{
+  "at": "2026-10-08T16:35:31.030540+00:00",
+  "scope": "five real HTTP status requests while a real course generation task is running, observed TTS phase; no frozen UI SLA",
+  "measurements": [
+    {
+      "request": 1,
+      "elapsed_seconds": 0.024035599999479018,
+      "state": "running",
+      "stage": "tts_native_generation"
+    },
+    {
+      "request": 2,
+      "elapsed_seconds": 0.02531040000030771,
+      "state": "running",
+      "stage": "tts_native_generation"
+    },
+    {
+      "request": 3,
+      "elapsed_seconds": 0.023670699998547207,
+      "state": "running",
+      "stage": "tts_native_generation"
+    },
+    {
+      "request": 4,
+      "elapsed_seconds": 0.023948899999595596,
+      "state": "running",
+      "stage": "tts_native_generation"
+    },
+    {
+      "request": 5,
+      "elapsed_seconds": 0.023172699999122415,
+      "state": "running",
+      "stage": "tts_native_generation"
+    }
+  ],
+  "median_seconds": 0.023948899999595596,
+  "max_seconds": 0.02531040000030771
+}

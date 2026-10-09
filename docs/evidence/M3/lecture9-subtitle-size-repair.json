@@ -1,0 +1,30 @@
+{
+  "checked_at": "2026-10-09T03:57:10.625623+00:00",
+  "scope": "real first page recomposition only, not whole-course result",
+  "new_canvas": [
+    1920,
+    1080
+  ],
+  "font_pixels": 36,
+  "same_audio_sha256": "836908684bd496778d5d7803561c8d6ce2c96210bfa6fdc87e544d3fcab8c7bd",
+  "same_portrait_sha256": "1c812b9daece27230aa7c7211079ea074ca981fd51efa24c67a95b35360233df",
+  "same_captions": true,
+  "media_check": {
+    "sha256": "3b49932bcb2920593cd4a624d9ba428436863832f59e88aabdf14e1393e10c47",
+    "size_bytes": 795111,
+    "duration_seconds": 19.04,
+    "format": "mov,mp4,m4a,3gp,3g2,mj2",
+    "codec": "h264",
+    "sample_rate": null,
+    "width": 1920,
+    "height": 1080,
+    "fps": 25.0,
+    "audio_check": {
+      "duration_seconds": 19.04,
+      "silence_ratio": 0.0,
+      "max_volume_db": -3.9
+    },
+    "frame_padding_seconds": 0.019999999999999574
+  },
+  "controlled_preview_path": "D:\\XuTao_Task\\storage\\m4-review\\lecture9-subtitle-preview\\page.mp4"
+}

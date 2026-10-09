@@ -1,0 +1,2126 @@
+{
+  "scope": "actual foreground read-only observations; no timer percentages",
+  "observations": [
+    {
+      "at": "2026-10-08T16:20:23.215393+00:00",
+      "paths": {
+        "photo": {
+          "state": "running",
+          "stage": "photo_native_generation",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 7,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "queued",
+          "stage": "queued",
+          "job_id": "62e88602-9237-434b-94b0-8811b5f0e46f",
+          "valid": 0,
+          "total": 0,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:21:03.252529+00:00",
+      "paths": {
+        "photo": {
+          "state": "running",
+          "stage": "photo_native_generation",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 7,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "queued",
+          "stage": "queued",
+          "job_id": "62e88602-9237-434b-94b0-8811b5f0e46f",
+          "valid": 0,
+          "total": 0,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:21:43.281030+00:00",
+      "paths": {
+        "photo": {
+          "state": "running",
+          "stage": "composing_original_page",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 7,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "queued",
+          "stage": "queued",
+          "job_id": "62e88602-9237-434b-94b0-8811b5f0e46f",
+          "valid": 0,
+          "total": 0,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:22:23.308578+00:00",
+      "paths": {
+        "photo": {
+          "state": "running",
+          "stage": "photo_native_generation",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 8,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "queued",
+          "stage": "queued",
+          "job_id": "62e88602-9237-434b-94b0-8811b5f0e46f",
+          "valid": 0,
+          "total": 0,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:23:03.342010+00:00",
+      "paths": {
+        "photo": {
+          "state": "running",
+          "stage": "photo_native_generation",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 8,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "queued",
+          "stage": "queued",
+          "job_id": "62e88602-9237-434b-94b0-8811b5f0e46f",
+          "valid": 0,
+          "total": 0,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:23:43.379593+00:00",
+      "paths": {
+        "photo": {
+          "state": "running",
+          "stage": "photo_native_generation",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 8,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "queued",
+          "stage": "queued",
+          "job_id": "62e88602-9237-434b-94b0-8811b5f0e46f",
+          "valid": 0,
+          "total": 0,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:24:23.415663+00:00",
+      "paths": {
+        "photo": {
+          "state": "running",
+          "stage": "photo_native_generation",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 8,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "queued",
+          "stage": "queued",
+          "job_id": "62e88602-9237-434b-94b0-8811b5f0e46f",
+          "valid": 0,
+          "total": 0,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:25:03.444526+00:00",
+      "paths": {
+        "photo": {
+          "state": "running",
+          "stage": "photo_native_generation",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 8,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "queued",
+          "stage": "queued",
+          "job_id": "62e88602-9237-434b-94b0-8811b5f0e46f",
+          "valid": 0,
+          "total": 0,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:25:43.489513+00:00",
+      "paths": {
+        "photo": {
+          "state": "running",
+          "stage": "tts_native_generation",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 9,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "queued",
+          "stage": "queued",
+          "job_id": "62e88602-9237-434b-94b0-8811b5f0e46f",
+          "valid": 0,
+          "total": 0,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:26:23.515992+00:00",
+      "paths": {
+        "photo": {
+          "state": "running",
+          "stage": "photo_native_generation",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 9,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "queued",
+          "stage": "queued",
+          "job_id": "62e88602-9237-434b-94b0-8811b5f0e46f",
+          "valid": 0,
+          "total": 0,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:27:03.552609+00:00",
+      "paths": {
+        "photo": {
+          "state": "running",
+          "stage": "photo_native_generation",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 9,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "queued",
+          "stage": "queued",
+          "job_id": "62e88602-9237-434b-94b0-8811b5f0e46f",
+          "valid": 0,
+          "total": 0,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:27:43.591223+00:00",
+      "paths": {
+        "photo": {
+          "state": "running",
+          "stage": "photo_native_generation",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 9,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "queued",
+          "stage": "queued",
+          "job_id": "62e88602-9237-434b-94b0-8811b5f0e46f",
+          "valid": 0,
+          "total": 0,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:28:23.624663+00:00",
+      "paths": {
+        "photo": {
+          "state": "running",
+          "stage": "photo_native_generation",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 9,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "queued",
+          "stage": "queued",
+          "job_id": "62e88602-9237-434b-94b0-8811b5f0e46f",
+          "valid": 0,
+          "total": 0,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:29:03.667558+00:00",
+      "paths": {
+        "photo": {
+          "state": "running",
+          "stage": "composing_original_page",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 9,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "queued",
+          "stage": "queued",
+          "job_id": "62e88602-9237-434b-94b0-8811b5f0e46f",
+          "valid": 0,
+          "total": 0,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:29:43.724156+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "tts_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 0,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:30:23.756639+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 0,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:31:03.794799+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 0,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:31:43.834340+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 0,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:32:23.863386+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 0,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:33:03.895788+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 0,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:33:43.935552+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 0,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:34:23.959213+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 0,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:35:03.998979+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 0,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:35:44.029395+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "tts_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 1,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:36:24.054798+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 1,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:37:04.082504+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 1,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:37:44.122224+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 1,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:38:24.149220+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 1,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:39:04.190539+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 1,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:39:44.228664+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 1,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:40:24.274416+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 1,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:41:04.303034+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "composing_original_page",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 1,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:41:44.389120+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 2,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:42:24.417601+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 2,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:43:04.450624+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 2,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:43:44.473350+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 2,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:44:24.499869+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 2,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:45:04.530602+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 2,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:45:44.557865+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 2,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:46:24.593052+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "tts_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 3,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:47:04.630327+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 3,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:47:44.668350+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 3,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:48:24.709469+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 3,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:49:04.742100+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 3,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:49:44.776702+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 3,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:50:24.810929+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 3,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:51:04.854003+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 3,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:51:44.901182+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 3,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:52:24.956580+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "tts_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 4,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:53:04.994057+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 4,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:53:45.046302+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 4,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:54:25.074336+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 4,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:55:05.111048+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 4,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:55:45.153363+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 4,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:56:25.184095+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 4,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:57:05.219124+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 4,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:57:45.251076+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "composing_original_page",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 4,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:58:25.282120+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 5,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:59:05.309921+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 5,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T16:59:45.345190+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 5,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T17:00:25.389037+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 5,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T17:01:05.433701+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 5,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T17:01:45.475003+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 5,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T17:02:25.519381+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 5,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T17:03:05.549608+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 5,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T17:03:45.618254+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "tts_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 6,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T17:04:25.664858+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 6,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T17:05:05.739517+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 6,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T17:05:45.775829+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 6,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T17:06:25.814574+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 6,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T17:07:05.857435+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 6,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T17:07:45.897057+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 6,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T17:08:25.942448+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "composing_original_page",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 6,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T17:09:06.020859+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 7,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T17:09:46.061943+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 7,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T17:10:26.100499+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 7,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T17:11:06.139288+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 7,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T17:11:46.171253+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 7,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T17:12:26.211046+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 7,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T17:13:06.251217+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 7,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T17:13:46.297031+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 7,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T17:14:26.345217+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "tts_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 8,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T17:15:06.389080+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 8,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T17:15:46.423799+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 8,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T17:16:26.470978+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 8,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T17:17:06.518644+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 8,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T17:17:46.553943+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 8,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T17:18:26.598224+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 8,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T17:19:06.642063+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 8,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T17:19:46.676573+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 8,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T17:20:26.706701+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "tts_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 9,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T17:21:06.743000+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 9,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T17:21:46.771231+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 9,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T17:22:26.808837+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 9,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T17:23:06.861126+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 9,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T17:23:46.910691+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 9,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T17:24:26.964926+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 9,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T17:25:07.014179+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 9,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T17:25:47.052395+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "video_native_generation",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 9,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T17:26:27.108439+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "running",
+          "stage": "validating_and_exporting_course",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-08T17:27:07.195022+00:00",
+      "paths": {
+        "photo": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        },
+        "video": {
+          "state": "completed",
+          "stage": "draft_preview_ready",
+          "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+          "valid": 10,
+          "total": 10,
+          "error": null
+        }
+      }
+    }
+  ]
+}

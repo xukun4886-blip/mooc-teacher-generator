@@ -1,0 +1,74 @@
+{
+  "project_id": "877fc5f9-cd0e-445f-b3f9-59c1e00cd1d5",
+  "old_course_job_id": "f9fcb2f7-669a-4fa1-9585-09914929fc2e",
+  "single_page_job_id": "f1563bdc-0711-4c71-9dc1-09751d5d40ea",
+  "source_page_index": 17,
+  "contract": "complete-object-v6",
+  "state": "completed",
+  "scripts_ready": 17,
+  "total": 22,
+  "ai_attempts": [
+    {
+      "at": "2026-10-09T10:35:29.240781+00:00",
+      "scene_id": "163627df-24e7-4451-9f94-1c690c782b0e",
+      "status": 200,
+      "attempt": 1,
+      "generation": 1,
+      "elapsed_seconds": 41.36,
+      "request_sha256": "fe1a70160ae1973eb661b7e407cc841456352555b1cb9e2a8efb82b3b0e50e71",
+      "request_options": {
+        "max_tokens": 8000
+      },
+      "prompt_text_sha256": "f8ec71b622b69e73043accc03aca8ed73dfcf210f06492f9ea5cafd5e3a0a988",
+      "provider_record": {
+        "response_id": "202610091834596c3497b69cc84e4c",
+        "response_sha256": "8cafa87fd18f0670bb71c8de0476f777ff61a3a7f6a7013900c93b85686b371f",
+        "path": "ai-responses/f1563bdc-0711-4c71-9dc1-09751d5d40ea-5a4a79fd-a596-4f8e-bce2-e1a7f87590d9.json"
+      },
+      "draft_contract": "complete-object-v6",
+      "finish_reason": "stop",
+      "format_error": "SUBTITLE_MAPPING_REQUIRED",
+      "format_reason": "显示和读法正文不能完整逐句对应",
+      "format_retry": 1
+    },
+    {
+      "at": "2026-10-09T10:35:57.348211+00:00",
+      "scene_id": "163627df-24e7-4451-9f94-1c690c782b0e",
+      "status": 200,
+      "attempt": 2,
+      "generation": 1,
+      "elapsed_seconds": 28.062,
+      "request_sha256": "8f87665bbaa7fa627d2ac60ad1a050f49905b38e891c02fe9e32998cb58b0d14",
+      "request_options": {
+        "max_tokens": 8000
+      },
+      "prompt_text_sha256": "f8ec71b622b69e73043accc03aca8ed73dfcf210f06492f9ea5cafd5e3a0a988",
+      "provider_record": {
+        "response_id": "202610091835299e9bf08782d14ae7",
+        "response_sha256": "41d005e678726fc795e69d65373d5efbba2b52d565482a9d2dc7d8a342243781",
+        "path": "ai-responses/f1563bdc-0711-4c71-9dc1-09751d5d40ea-ba7bd6ad-e78d-4a81-a241-36083fe79c89.json"
+      },
+      "draft_contract": "complete-object-v6",
+      "finish_reason": "stop",
+      "expanded_current_source_count": 0,
+      "format_error": "SUBTITLE_MAPPING_REQUIRED",
+      "pairing_method": "complete_text_sentence_boundaries"
+    }
+  ],
+  "preservation_checks": {
+    "assets_unchanged": true,
+    "slides_unchanged": true,
+    "config_unchanged": true,
+    "other_scenes_unchanged": true,
+    "all_old_jobs_unchanged": true,
+    "all_other_projects_unchanged": true,
+    "teacher_review_unset": true
+  },
+  "tests": {
+    "passed": 36,
+    "seconds": 62.25
+  },
+  "new_version_id": "29465037-806d-4be7-9729-393de388774e",
+  "new_media_jobs": 0,
+  "scope": "single page JSON and complete Mandarin/subtitle structure; teaching quality and full course not verified"
+}

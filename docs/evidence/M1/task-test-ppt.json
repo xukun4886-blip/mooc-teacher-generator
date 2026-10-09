@@ -1,0 +1,51 @@
+{
+  "source": "D:\\Task_test\\Lecture 2.pptx",
+  "source_sha256": "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592",
+  "page_count": 63,
+  "rendered_count": 63,
+  "parser_manifest": "D:\\XuTao_Task\\storage\\m1\\course-lecture2\\parsed\\structure.json",
+  "render_manifest": "D:\\XuTao_Task\\storage\\m1\\course-lecture2\\rendered\\render.json",
+  "timings": {
+    "office_start_and_open_seconds": 15.455965600001946,
+    "first_export_seconds": 5.95328309999968,
+    "warm_export_same_loaded_document_seconds": 6.004514099997323
+  },
+  "max_pages_default": 50,
+  "max_pages_this_local_run": 63,
+  "mapping_preserved": true,
+  "notes_pages": 0,
+  "native_chart_pages": [],
+  "native_formula_pages": [],
+  "image_only_pages": [],
+  "review_pages": [
+    2,
+    3,
+    9,
+    13,
+    25,
+    26,
+    31,
+    42,
+    59,
+    62
+  ],
+  "contact_sheet": "D:\\XuTao_Task\\storage\\m1\\course-lecture2\\review-contact.png",
+  "manual_review": {
+    "reviewer": "Codex visual inspection",
+    "pages": [
+      2,
+      3,
+      9,
+      13,
+      25,
+      26,
+      31,
+      42,
+      59,
+      62
+    ],
+    "findings": "Chinese text, diagrams, table-like text layout and formula text readable in original PowerPoint export; page59 source raster labels faint; not a teacher content audit",
+    "scope": "10 representative pages; not all63 visual fidelity certified"
+  },
+  "quality_passed": false
+}

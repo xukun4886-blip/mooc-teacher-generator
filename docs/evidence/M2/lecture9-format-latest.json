@@ -1,0 +1,2187 @@
+{
+  "checked_at": "2026-10-09T06:54:18.626742+00:00",
+  "project_id": "11604689-6106-451f-b40b-95089e07b5b5",
+  "state": "completed",
+  "stage": "draft_preview_ready",
+  "scripts_ready": 24,
+  "total": 24,
+  "latest": {
+    "id": "a9c7bd42-2fe8-46ac-8bb8-6af67cd837e0",
+    "project_id": "11604689-6106-451f-b40b-95089e07b5b5",
+    "state": "completed",
+    "stage": "draft_preview_ready",
+    "error": null,
+    "scripts_ready": 24,
+    "total": 24,
+    "generation": 1,
+    "media": {
+      "id": "3c71bde5-a379-452b-9992-2064c7878a46",
+      "project_id": "11604689-6106-451f-b40b-95089e07b5b5",
+      "kind": "m3",
+      "state": "completed",
+      "stage": "draft_preview_ready",
+      "created_at": "2026-10-09T06:10:11.034290+00:00",
+      "generation": 1,
+      "execution": "0281f636-7e18-41f8-b663-1c9b25ddb39f",
+      "cancel_requested": false,
+      "result": {
+        "sha256": "053d5486b22e2d41b80f5526d401f303d60ff83281db8f822ad44666e882c4c0",
+        "duration_seconds": 720.6,
+        "video_start_seconds": 0.0,
+        "export_version": 2,
+        "width": 1920,
+        "height": 1080,
+        "audio_start_seconds": 0.0,
+        "video_end_seconds": 720.6,
+        "audio_end_seconds": 720.6,
+        "av_end_delta_seconds": 0.0,
+        "fps": 25.0,
+        "audio_check": {
+          "duration_seconds": 720.6,
+          "silence_ratio": 0.015546217041354424,
+          "max_volume_db": -3.3
+        },
+        "path": "m3/jobs/3c71bde5-a379-452b-9992-2064c7878a46/generation-1/course.mp4",
+        "preview": true,
+        "output_kind": "course",
+        "timeline": [
+          {
+            "scene_id": "b241fb64-f99f-4ff8-aa25-12ecf4d42a10",
+            "source_page_ids": [
+              "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-275"
+            ],
+            "play_page_id": "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-275",
+            "start": 0.0,
+            "end": 13.76,
+            "duration_seconds": 13.76
+          },
+          {
+            "scene_id": "6b17e715-e35a-41b3-85ba-1ee2b69031dc",
+            "source_page_ids": [
+              "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-276"
+            ],
+            "play_page_id": "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-276",
+            "start": 13.76,
+            "end": 27.439999999999998,
+            "duration_seconds": 13.68
+          },
+          {
+            "scene_id": "b2db94c6-3a53-4845-8c19-f00f6268f34e",
+            "source_page_ids": [
+              "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-352"
+            ],
+            "play_page_id": "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-352",
+            "start": 27.439999999999998,
+            "end": 96.8,
+            "duration_seconds": 69.36
+          },
+          {
+            "scene_id": "36bf7744-77f6-46f1-9965-fe011afb9ca5",
+            "source_page_ids": [
+              "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-311"
+            ],
+            "play_page_id": "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-311",
+            "start": 96.8,
+            "end": 142.24,
+            "duration_seconds": 45.44
+          },
+          {
+            "scene_id": "98eeb49f-f4d2-4c6c-bbbe-087b03fae8f8",
+            "source_page_ids": [
+              "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-349"
+            ],
+            "play_page_id": "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-349",
+            "start": 142.24,
+            "end": 197.68,
+            "duration_seconds": 55.44
+          },
+          {
+            "scene_id": "3b3e6fe3-5ada-4725-b271-8502cd71ccd0",
+            "source_page_ids": [
+              "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-350"
+            ],
+            "play_page_id": "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-350",
+            "start": 197.68,
+            "end": 213.72,
+            "duration_seconds": 16.04
+          },
+          {
+            "scene_id": "82568956-8cb3-4a34-9637-84a25f0ca2c2",
+            "source_page_ids": [
+              "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-353"
+            ],
+            "play_page_id": "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-353",
+            "start": 213.72,
+            "end": 250.8,
+            "duration_seconds": 37.08
+          },
+          {
+            "scene_id": "6ec6087f-4ba3-4fcb-951a-cc4c6e81b9c4",
+            "source_page_ids": [
+              "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-354"
+            ],
+            "play_page_id": "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-354",
+            "start": 250.8,
+            "end": 284.52,
+            "duration_seconds": 33.72
+          },
+          {
+            "scene_id": "4991bc56-31cb-4902-a546-ae61f8f2c09d",
+            "source_page_ids": [
+              "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-356"
+            ],
+            "play_page_id": "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-356",
+            "start": 284.52,
+            "end": 366.56,
+            "duration_seconds": 82.04
+          },
+          {
+            "scene_id": "4ea07dee-9245-4d75-ab5e-f54ef9ba38ba",
+            "source_page_ids": [
+              "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-355"
+            ],
+            "play_page_id": "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-355",
+            "start": 366.56,
+            "end": 422.28,
+            "duration_seconds": 55.72
+          },
+          {
+            "scene_id": "d02c3e35-c42f-4541-b4d7-0955788242e9",
+            "source_page_ids": [
+              "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-357"
+            ],
+            "play_page_id": "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-357",
+            "start": 422.28,
+            "end": 496.84,
+            "duration_seconds": 74.56
+          },
+          {
+            "scene_id": "b2b83170-f9ab-43e5-9c67-49b18166c5a6",
+            "source_page_ids": [
+              "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-358"
+            ],
+            "play_page_id": "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-358",
+            "start": 496.84,
+            "end": 516.0799999999999,
+            "duration_seconds": 19.24
+          },
+          {
+            "scene_id": "6bb6207d-b9ef-452c-b8f9-17d2a581d79f",
+            "source_page_ids": [
+              "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-359"
+            ],
+            "play_page_id": "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-359",
+            "start": 516.0799999999999,
+            "end": 538.8399999999999,
+            "duration_seconds": 22.76
+          },
+          {
+            "scene_id": "cae4ae72-cd06-42f9-bdf3-1e8c2dac3186",
+            "source_page_ids": [
+              "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-360"
+            ],
+            "play_page_id": "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-360",
+            "start": 538.8399999999999,
+            "end": 558.8,
+            "duration_seconds": 19.96
+          },
+          {
+            "scene_id": "3a057bcc-fbc9-4252-a6bb-79145dc1d430",
+            "source_page_ids": [
+              "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-361"
+            ],
+            "play_page_id": "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-361",
+            "start": 558.8,
+            "end": 573.9599999999999,
+            "duration_seconds": 15.16
+          },
+          {
+            "scene_id": "336ef90d-3bdb-40a3-bfe3-0aa6f917178d",
+            "source_page_ids": [
+              "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-362"
+            ],
+            "play_page_id": "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-362",
+            "start": 573.9599999999999,
+            "end": 598.92,
+            "duration_seconds": 24.96
+          },
+          {
+            "scene_id": "016bf11e-034a-421c-92bb-94e1843d84c5",
+            "source_page_ids": [
+              "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-363"
+            ],
+            "play_page_id": "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-363",
+            "start": 598.92,
+            "end": 611.5999999999999,
+            "duration_seconds": 12.68
+          },
+          {
+            "scene_id": "9dbaaece-590d-4300-acfb-ac28682e0e7a",
+            "source_page_ids": [
+              "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-364"
+            ],
+            "play_page_id": "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-364",
+            "start": 611.5999999999999,
+            "end": 617.5999999999999,
+            "duration_seconds": 6.0
+          },
+          {
+            "scene_id": "3df7b4c1-f4e7-40f9-840c-3db85a236047",
+            "source_page_ids": [
+              "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-365"
+            ],
+            "play_page_id": "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-365",
+            "start": 617.5999999999999,
+            "end": 634.5199999999999,
+            "duration_seconds": 16.92
+          },
+          {
+            "scene_id": "bbe0cc21-0061-43b5-9cb6-6bbb6bb82ac8",
+            "source_page_ids": [
+              "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-366"
+            ],
+            "play_page_id": "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-366",
+            "start": 634.5199999999999,
+            "end": 652.0399999999998,
+            "duration_seconds": 17.52
+          },
+          {
+            "scene_id": "038aa1b3-0f6c-4151-ac93-6dc502558d2c",
+            "source_page_ids": [
+              "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-367"
+            ],
+            "play_page_id": "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-367",
+            "start": 652.0399999999998,
+            "end": 667.7199999999998,
+            "duration_seconds": 15.68
+          },
+          {
+            "scene_id": "8bf96710-9762-4530-a34c-150f82ad76ae",
+            "source_page_ids": [
+              "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-369"
+            ],
+            "play_page_id": "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-369",
+            "start": 667.7199999999998,
+            "end": 691.9599999999998,
+            "duration_seconds": 24.24
+          },
+          {
+            "scene_id": "1e3abe2c-aced-440a-b488-4c49718feeb0",
+            "source_page_ids": [
+              "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-370"
+            ],
+            "play_page_id": "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-370",
+            "start": 691.9599999999998,
+            "end": 717.5199999999998,
+            "duration_seconds": 25.56
+          },
+          {
+            "scene_id": "3caada09-b0b2-4942-a374-e17f0cd92964",
+            "source_page_ids": [
+              "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-281"
+            ],
+            "play_page_id": "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-281",
+            "start": 717.5199999999998,
+            "end": 720.5999999999998,
+            "duration_seconds": 3.08
+          }
+        ],
+        "snapshot_id": "draft:035383bf967554f74195dec9b9f6f5429fccd1d9d380fa9c7a5139c51cc9bf02",
+        "input_key": "a4b90ae4187c2a49466960f49663e92ab70342f298fa7c09b2f9688f5b82d297",
+        "quality_verified": false,
+        "exports": {
+          "mp4": "m3/jobs/3c71bde5-a379-452b-9992-2064c7878a46/generation-1/course.mp4",
+          "srt": "m3/jobs/3c71bde5-a379-452b-9992-2064c7878a46/generation-1/course.srt",
+          "script": "m3/jobs/3c71bde5-a379-452b-9992-2064c7878a46/generation-1/scripts.md",
+          "manifest": "m3/jobs/3c71bde5-a379-452b-9992-2064c7878a46/generation-1/manifest.json"
+        },
+        "file_hashes": {
+          "mp4": "053d5486b22e2d41b80f5526d401f303d60ff83281db8f822ad44666e882c4c0",
+          "srt": "ff4563e24884fdd8f7f728e9ed3236bef3035f0526dd84d0cc55202248371f9f",
+          "script": "5cc8b810f91057df3b6be27e87218929c48a3d87de26f85868d53a2835d1001a",
+          "manifest": "6184a2bbbe88dcb3c0e098c3b6cec04ea958192a382cc0d6e1098cb95df7765c"
+        }
+      },
+      "error": null,
+      "recoveries": 0,
+      "started_at": "2026-10-09T06:10:11.056917+00:00",
+      "updated_at": "2026-10-09T06:20:26.243889+00:00",
+      "elapsed_seconds": 615.1759959000046,
+      "finished_at": "2026-10-09T06:20:26.230269+00:00",
+      "preview": true,
+      "snapshot_id": "draft:035383bf967554f74195dec9b9f6f5429fccd1d9d380fa9c7a5139c51cc9bf02",
+      "mode": "photo",
+      "output_kind": "course",
+      "scenes": [
+        {
+          "id": "b241fb64-f99f-4ff8-aa25-12ecf4d42a10",
+          "source_index": 1,
+          "state": "valid",
+          "active_stage": null,
+          "stage_states": {
+            "tts": "valid",
+            "portrait": "valid",
+            "compose": "valid"
+          },
+          "cache_hits": {
+            "tts": {
+              "hit": false,
+              "key": "9cf1ac4dd7d9b716aea1af969fe74f222610a7878a471ebb496334a988d71668",
+              "reason": "no_valid_compatible_media"
+            },
+            "portrait": {
+              "hit": false,
+              "key": "0b65155f4f97d33e7f8792a9aff6bddf64ce47b6ffd3b4d351a35bb35f817576",
+              "reason": "current_audio_or_person_inputs_require_generation"
+            },
+            "compose": {
+              "hit": false,
+              "key": "4fcaabd684561d85423fb70a02fb9e20f5792501e2777cb85f99644bf43fffe3",
+              "reason": "composition_inputs_changed_or_missing"
+            }
+          },
+          "error": null,
+          "preview_path": "m3/cache/compose/4fcaabd684561d85423fb70a02fb9e20f5792501e2777cb85f99644bf43fffe3/page.mp4"
+        },
+        {
+          "id": "6b17e715-e35a-41b3-85ba-1ee2b69031dc",
+          "source_index": 2,
+          "state": "valid",
+          "active_stage": null,
+          "stage_states": {
+            "tts": "valid",
+            "portrait": "valid",
+            "compose": "valid"
+          },
+          "cache_hits": {
+            "tts": {
+              "hit": true,
+              "key": "45ca22141f02a11bed2284ec92e54d79a11f58dbb140d63afa0f4d4bb8fbe5a8",
+              "reason": "verified_compatible_speech_inputs"
+            },
+            "portrait": {
+              "hit": true,
+              "key": "d55fc9be889403e6239094d13d4cb4a7cb71aa933dc4ad01109242f3f206e12d",
+              "reason": "same_current_audio_and_person_model"
+            },
+            "compose": {
+              "hit": false,
+              "key": "5cb2346eb9d79b7daf7e2feb81945e2ecfd7cc2a6cd36c4cae1c3f16d9bf153c",
+              "reason": "composition_inputs_changed_or_missing"
+            }
+          },
+          "error": null,
+          "preview_path": "m3/cache/compose/5cb2346eb9d79b7daf7e2feb81945e2ecfd7cc2a6cd36c4cae1c3f16d9bf153c/page.mp4"
+        },
+        {
+          "id": "b2db94c6-3a53-4845-8c19-f00f6268f34e",
+          "source_index": 3,
+          "state": "valid",
+          "active_stage": null,
+          "stage_states": {
+            "tts": "valid",
+            "portrait": "valid",
+            "compose": "valid"
+          },
+          "cache_hits": {
+            "tts": {
+              "hit": true,
+              "key": "22fcba93d8ea0e91ba0462d75b33f3f3964333013ed1674dfade138300bfa00a",
+              "reason": "verified_compatible_speech_inputs"
+            },
+            "portrait": {
+              "hit": true,
+              "key": "050326eb42fe11512bc3d4fdd95b0f7e158be345215e25e8079d759219e53eac",
+              "reason": "same_current_audio_and_person_model"
+            },
+            "compose": {
+              "hit": false,
+              "key": "1556e73ab86b7ab9fe81940f7244349cf6e479abbebdbae5e9b614ec36cfd169",
+              "reason": "composition_inputs_changed_or_missing"
+            }
+          },
+          "error": null,
+          "preview_path": "m3/cache/compose/1556e73ab86b7ab9fe81940f7244349cf6e479abbebdbae5e9b614ec36cfd169/page.mp4"
+        },
+        {
+          "id": "36bf7744-77f6-46f1-9965-fe011afb9ca5",
+          "source_index": 4,
+          "state": "valid",
+          "active_stage": null,
+          "stage_states": {
+            "tts": "valid",
+            "portrait": "valid",
+            "compose": "valid"
+          },
+          "cache_hits": {
+            "tts": {
+              "hit": true,
+              "key": "555392011c8c7789539ac6dce752ba1573a28fa78d76c3d1700b1fbbd757818c",
+              "reason": "verified_compatible_speech_inputs"
+            },
+            "portrait": {
+              "hit": true,
+              "key": "b31d5ece4488947183dd77670e0a6b948668705c06ebb2e0c2303d91ae4e5b25",
+              "reason": "same_current_audio_and_person_model"
+            },
+            "compose": {
+              "hit": false,
+              "key": "0e0efe9c1f669416de8cf15fa864e5192ed76b4abc39b7dc1808d2e5630b53d2",
+              "reason": "composition_inputs_changed_or_missing"
+            }
+          },
+          "error": null,
+          "preview_path": "m3/cache/compose/0e0efe9c1f669416de8cf15fa864e5192ed76b4abc39b7dc1808d2e5630b53d2/page.mp4"
+        },
+        {
+          "id": "98eeb49f-f4d2-4c6c-bbbe-087b03fae8f8",
+          "source_index": 5,
+          "state": "valid",
+          "active_stage": null,
+          "stage_states": {
+            "tts": "valid",
+            "portrait": "valid",
+            "compose": "valid"
+          },
+          "cache_hits": {
+            "tts": {
+              "hit": true,
+              "key": "584394da4130f4d04ba0dee912fa5b2dfa66b059ef2dac93be3cb5af3de0aafc",
+              "reason": "verified_compatible_speech_inputs"
+            },
+            "portrait": {
+              "hit": true,
+              "key": "f8256f858cd69228388527b74fc658086814d561e285ffcc95decd5e28396369",
+              "reason": "same_current_audio_and_person_model"
+            },
+            "compose": {
+              "hit": false,
+              "key": "634b6fba1953e77bc076bf733b8a8ee6cf0cd65b417d6250c55d779ab4810e9a",
+              "reason": "composition_inputs_changed_or_missing"
+            }
+          },
+          "error": null,
+          "preview_path": "m3/cache/compose/634b6fba1953e77bc076bf733b8a8ee6cf0cd65b417d6250c55d779ab4810e9a/page.mp4"
+        },
+        {
+          "id": "3b3e6fe3-5ada-4725-b271-8502cd71ccd0",
+          "source_index": 6,
+          "state": "valid",
+          "active_stage": null,
+          "stage_states": {
+            "tts": "valid",
+            "portrait": "valid",
+            "compose": "valid"
+          },
+          "cache_hits": {
+            "tts": {
+              "hit": true,
+              "key": "1d03b02826b614a6b10dd4db34e4f80367905346d38a0b819504014e4a42de7a",
+              "reason": "verified_compatible_speech_inputs"
+            },
+            "portrait": {
+              "hit": true,
+              "key": "ec5f4ec2cc30e44fa3067c231434ca15ecf83c426d150f7715cd7e2ebc6eeac7",
+              "reason": "same_current_audio_and_person_model"
+            },
+            "compose": {
+              "hit": false,
+              "key": "0798cf5469cd1509ec82f07233097bc78cf5d5974ab7f6463b8b87e68fbc0e1b",
+              "reason": "composition_inputs_changed_or_missing"
+            }
+          },
+          "error": null,
+          "preview_path": "m3/cache/compose/0798cf5469cd1509ec82f07233097bc78cf5d5974ab7f6463b8b87e68fbc0e1b/page.mp4"
+        },
+        {
+          "id": "82568956-8cb3-4a34-9637-84a25f0ca2c2",
+          "source_index": 7,
+          "state": "valid",
+          "active_stage": null,
+          "stage_states": {
+            "tts": "valid",
+            "portrait": "valid",
+            "compose": "valid"
+          },
+          "cache_hits": {
+            "tts": {
+              "hit": true,
+              "key": "59f73976715a499c88e4c3ec4e87ad8713709941f7ca399668c2d2928b3a910c",
+              "reason": "verified_compatible_speech_inputs"
+            },
+            "portrait": {
+              "hit": true,
+              "key": "84832495f150410cc1e5824725265e53c39459894b5c59a2b789a753d3fee28b",
+              "reason": "same_current_audio_and_person_model"
+            },
+            "compose": {
+              "hit": false,
+              "key": "bde632638ab38e148f8477560db1365144f188c3f5900830e9d62ef6607168fa",
+              "reason": "composition_inputs_changed_or_missing"
+            }
+          },
+          "error": null,
+          "preview_path": "m3/cache/compose/bde632638ab38e148f8477560db1365144f188c3f5900830e9d62ef6607168fa/page.mp4"
+        },
+        {
+          "id": "6ec6087f-4ba3-4fcb-951a-cc4c6e81b9c4",
+          "source_index": 8,
+          "state": "valid",
+          "active_stage": null,
+          "stage_states": {
+            "tts": "valid",
+            "portrait": "valid",
+            "compose": "valid"
+          },
+          "cache_hits": {
+            "tts": {
+              "hit": true,
+              "key": "1ae1b8fbfe2cd038456f24b602bd0e35e7369cace3248458482b8bc4c9566fc1",
+              "reason": "verified_compatible_speech_inputs"
+            },
+            "portrait": {
+              "hit": true,
+              "key": "fa8c10c6e508fe9f94771775f87a5214f0f7518e529e40e0769529f67fca9318",
+              "reason": "same_current_audio_and_person_model"
+            },
+            "compose": {
+              "hit": false,
+              "key": "d1b4765290551e569ffdc4b23a5ff08540295e72d6099b215ed9f0e65dc293ee",
+              "reason": "composition_inputs_changed_or_missing"
+            }
+          },
+          "error": null,
+          "preview_path": "m3/cache/compose/d1b4765290551e569ffdc4b23a5ff08540295e72d6099b215ed9f0e65dc293ee/page.mp4"
+        },
+        {
+          "id": "4991bc56-31cb-4902-a546-ae61f8f2c09d",
+          "source_index": 9,
+          "state": "valid",
+          "active_stage": null,
+          "stage_states": {
+            "tts": "valid",
+            "portrait": "valid",
+            "compose": "valid"
+          },
+          "cache_hits": {
+            "tts": {
+              "hit": true,
+              "key": "cf16ad95f5b6036b09d6373b5fd3957a5ef4ab94931e3aeaee210c6e5c790230",
+              "reason": "verified_compatible_speech_inputs"
+            },
+            "portrait": {
+              "hit": true,
+              "key": "829456c6acad6dedff74e901c5fc33c0f8dd7435173842ae21381d45dc3f93cb",
+              "reason": "same_current_audio_and_person_model"
+            },
+            "compose": {
+              "hit": false,
+              "key": "29f82e19f1ee2013ed41b317786048478827c916f4f9c3405020ed7d9a180b05",
+              "reason": "composition_inputs_changed_or_missing"
+            }
+          },
+          "error": null,
+          "preview_path": "m3/cache/compose/29f82e19f1ee2013ed41b317786048478827c916f4f9c3405020ed7d9a180b05/page.mp4"
+        },
+        {
+          "id": "4ea07dee-9245-4d75-ab5e-f54ef9ba38ba",
+          "source_index": 10,
+          "state": "valid",
+          "active_stage": null,
+          "stage_states": {
+            "tts": "valid",
+            "portrait": "valid",
+            "compose": "valid"
+          },
+          "cache_hits": {
+            "tts": {
+              "hit": true,
+              "key": "cfa1f61412c5ad79e1b7f0bc8162c5a9c594fc9d16d457ac04887503f0e7ca74",
+              "reason": "verified_compatible_speech_inputs"
+            },
+            "portrait": {
+              "hit": true,
+              "key": "9d509071083b8012e964699c23e029d12770c9297fadfce0723dada88ecba3ae",
+              "reason": "same_current_audio_and_person_model"
+            },
+            "compose": {
+              "hit": false,
+              "key": "6ddbe9d5cf7233275edc0a645185ff9094357a0c895cd06048a59cb0dc1ca905",
+              "reason": "composition_inputs_changed_or_missing"
+            }
+          },
+          "error": null,
+          "preview_path": "m3/cache/compose/6ddbe9d5cf7233275edc0a645185ff9094357a0c895cd06048a59cb0dc1ca905/page.mp4"
+        },
+        {
+          "id": "d02c3e35-c42f-4541-b4d7-0955788242e9",
+          "source_index": 11,
+          "state": "valid",
+          "active_stage": null,
+          "stage_states": {
+            "tts": "valid",
+            "portrait": "valid",
+            "compose": "valid"
+          },
+          "cache_hits": {
+            "tts": {
+              "hit": true,
+              "key": "2e118c290193c594a13a51235315ac77d13ca0d07f8bcf1bd1b05c0adc75e679",
+              "reason": "verified_compatible_speech_inputs"
+            },
+            "portrait": {
+              "hit": true,
+              "key": "9770e719efa6ae035225ff972051814eb5ed297dc196159846205974bedf3c26",
+              "reason": "same_current_audio_and_person_model"
+            },
+            "compose": {
+              "hit": false,
+              "key": "59767573328377f147c7a7081d66f9c5794c50f82c3ae1b3e1b6d520e7608d91",
+              "reason": "composition_inputs_changed_or_missing"
+            }
+          },
+          "error": null,
+          "preview_path": "m3/cache/compose/59767573328377f147c7a7081d66f9c5794c50f82c3ae1b3e1b6d520e7608d91/page.mp4"
+        },
+        {
+          "id": "b2b83170-f9ab-43e5-9c67-49b18166c5a6",
+          "source_index": 12,
+          "state": "valid",
+          "active_stage": null,
+          "stage_states": {
+            "tts": "valid",
+            "portrait": "valid",
+            "compose": "valid"
+          },
+          "cache_hits": {
+            "tts": {
+              "hit": true,
+              "key": "1bc61ead8969ee1f8947ad7dcb0e68027210d424243aa1900ab33cd8ee636f11",
+              "reason": "verified_compatible_speech_inputs"
+            },
+            "portrait": {
+              "hit": true,
+              "key": "49e4cb98e699fe0df2a2d9c07aa2637e3990c742b54a3efb632b37a65204b5d4",
+              "reason": "same_current_audio_and_person_model"
+            },
+            "compose": {
+              "hit": false,
+              "key": "09f9221b0cfeb6ca6d011a6d6c5c96e9f593129e47f52248f2a71e8e840c96b7",
+              "reason": "composition_inputs_changed_or_missing"
+            }
+          },
+          "error": null,
+          "preview_path": "m3/cache/compose/09f9221b0cfeb6ca6d011a6d6c5c96e9f593129e47f52248f2a71e8e840c96b7/page.mp4"
+        },
+        {
+          "id": "6bb6207d-b9ef-452c-b8f9-17d2a581d79f",
+          "source_index": 13,
+          "state": "valid",
+          "active_stage": null,
+          "stage_states": {
+            "tts": "valid",
+            "portrait": "valid",
+            "compose": "valid"
+          },
+          "cache_hits": {
+            "tts": {
+              "hit": true,
+              "key": "ca8a2f2331a6b95da94a4a70d7136677ff2735bc70537ad6b2e45d61dd2033e8",
+              "reason": "verified_compatible_speech_inputs"
+            },
+            "portrait": {
+              "hit": true,
+              "key": "69d8498853062e7b1bb0f9614be4644f00cd03fa8a8f4585ba0491e413319114",
+              "reason": "same_current_audio_and_person_model"
+            },
+            "compose": {
+              "hit": false,
+              "key": "83d421603fb3432e14863a606230648a2e40a4d6bee53b2f8483402ac33d3b06",
+              "reason": "composition_inputs_changed_or_missing"
+            }
+          },
+          "error": null,
+          "preview_path": "m3/cache/compose/83d421603fb3432e14863a606230648a2e40a4d6bee53b2f8483402ac33d3b06/page.mp4"
+        },
+        {
+          "id": "cae4ae72-cd06-42f9-bdf3-1e8c2dac3186",
+          "source_index": 14,
+          "state": "valid",
+          "active_stage": null,
+          "stage_states": {
+            "tts": "valid",
+            "portrait": "valid",
+            "compose": "valid"
+          },
+          "cache_hits": {
+            "tts": {
+              "hit": true,
+              "key": "b1aeddad151e9846fbf9b9dfdb8d76793dc7355717028f117ad6164d1f6469e6",
+              "reason": "verified_compatible_speech_inputs"
+            },
+            "portrait": {
+              "hit": true,
+              "key": "4192f22e3c7901dfa6026f4d9d7e7b601dd928b0b0e41ae5dbb57196ee685ff1",
+              "reason": "same_current_audio_and_person_model"
+            },
+            "compose": {
+              "hit": false,
+              "key": "c589302fc1c860b3a5b11d9b23c6c59b0b87657278036e844a9ceaa9caf992d2",
+              "reason": "composition_inputs_changed_or_missing"
+            }
+          },
+          "error": null,
+          "preview_path": "m3/cache/compose/c589302fc1c860b3a5b11d9b23c6c59b0b87657278036e844a9ceaa9caf992d2/page.mp4"
+        },
+        {
+          "id": "3a057bcc-fbc9-4252-a6bb-79145dc1d430",
+          "source_index": 15,
+          "state": "valid",
+          "active_stage": null,
+          "stage_states": {
+            "tts": "valid",
+            "portrait": "valid",
+            "compose": "valid"
+          },
+          "cache_hits": {
+            "tts": {
+              "hit": true,
+              "key": "b90361df29a94c3c6f553b2cab230fb5e2431b1a0fddee1c038b12df114fbecc",
+              "reason": "verified_compatible_speech_inputs"
+            },
+            "portrait": {
+              "hit": true,
+              "key": "838f7f1828a34c86c9b92cb3415affd80a4c217d53bff7b1df3de5157177c284",
+              "reason": "same_current_audio_and_person_model"
+            },
+            "compose": {
+              "hit": false,
+              "key": "f6a43f0d863c656ac15d2df5f5e37df3b58ae6a9e335ee33f3916e50799b31e9",
+              "reason": "composition_inputs_changed_or_missing"
+            }
+          },
+          "error": null,
+          "preview_path": "m3/cache/compose/f6a43f0d863c656ac15d2df5f5e37df3b58ae6a9e335ee33f3916e50799b31e9/page.mp4"
+        },
+        {
+          "id": "336ef90d-3bdb-40a3-bfe3-0aa6f917178d",
+          "source_index": 16,
+          "state": "valid",
+          "active_stage": null,
+          "stage_states": {
+            "tts": "valid",
+            "portrait": "valid",
+            "compose": "valid"
+          },
+          "cache_hits": {
+            "tts": {
+              "hit": true,
+              "key": "cc0f1c1729f07f0216a7056187e69bb1cf9fe95627cf65beb6ceef48c7a58a0f",
+              "reason": "verified_compatible_speech_inputs"
+            },
+            "portrait": {
+              "hit": true,
+              "key": "cbac125e93a52d126de7f9a498cac3f8b0f2690b6fc41882ef4039962144bf63",
+              "reason": "same_current_audio_and_person_model"
+            },
+            "compose": {
+              "hit": false,
+              "key": "e2bd6436000180bd8ea27ff4f85c18d1512e87b8300f011c4bc60b4b535dfd63",
+              "reason": "composition_inputs_changed_or_missing"
+            }
+          },
+          "error": null,
+          "preview_path": "m3/cache/compose/e2bd6436000180bd8ea27ff4f85c18d1512e87b8300f011c4bc60b4b535dfd63/page.mp4"
+        },
+        {
+          "id": "016bf11e-034a-421c-92bb-94e1843d84c5",
+          "source_index": 17,
+          "state": "valid",
+          "active_stage": null,
+          "stage_states": {
+            "tts": "valid",
+            "portrait": "valid",
+            "compose": "valid"
+          },
+          "cache_hits": {
+            "tts": {
+              "hit": true,
+              "key": "b7650b9588f01fb661de3a348cb9f61a570b2721bbec93fb818bd965531e88d0",
+              "reason": "verified_compatible_speech_inputs"
+            },
+            "portrait": {
+              "hit": true,
+              "key": "750792f62a16dc2646721690e8bcf9485802869593d9f7caeadf0234c486217b",
+              "reason": "same_current_audio_and_person_model"
+            },
+            "compose": {
+              "hit": false,
+              "key": "9339dc332ee765e5d97998f90a98599098585a1783a877816ac2a0ade30c32d5",
+              "reason": "composition_inputs_changed_or_missing"
+            }
+          },
+          "error": null,
+          "preview_path": "m3/cache/compose/9339dc332ee765e5d97998f90a98599098585a1783a877816ac2a0ade30c32d5/page.mp4"
+        },
+        {
+          "id": "9dbaaece-590d-4300-acfb-ac28682e0e7a",
+          "source_index": 18,
+          "state": "valid",
+          "active_stage": null,
+          "stage_states": {
+            "tts": "valid",
+            "portrait": "valid",
+            "compose": "valid"
+          },
+          "cache_hits": {
+            "tts": {
+              "hit": true,
+              "key": "e9ab5df194ebde9adce0b6398359ecbe920a448714efa0a6e873bd1eb100c49b",
+              "reason": "verified_compatible_speech_inputs"
+            },
+            "portrait": {
+              "hit": true,
+              "key": "1c62084c32a0b07e73c789c90b84866f39ceaa44683bfd1a115ae2f5e42840d4",
+              "reason": "same_current_audio_and_person_model"
+            },
+            "compose": {
+              "hit": false,
+              "key": "02aef18e4fcbde86e48876d4b5021cbb4ee972d4443c6b572c47b70903e9b0f7",
+              "reason": "composition_inputs_changed_or_missing"
+            }
+          },
+          "error": null,
+          "preview_path": "m3/cache/compose/02aef18e4fcbde86e48876d4b5021cbb4ee972d4443c6b572c47b70903e9b0f7/page.mp4"
+        },
+        {
+          "id": "3df7b4c1-f4e7-40f9-840c-3db85a236047",
+          "source_index": 19,
+          "state": "valid",
+          "active_stage": null,
+          "stage_states": {
+            "tts": "valid",
+            "portrait": "valid",
+            "compose": "valid"
+          },
+          "cache_hits": {
+            "tts": {
+              "hit": true,
+              "key": "6ed954411b1155fd4c8e4ebe4602df08ab75ffb80be67f70231524d283b84440",
+              "reason": "verified_compatible_speech_inputs"
+            },
+            "portrait": {
+              "hit": true,
+              "key": "86b5bcc25454d34fb881a47fa294bdae26bd7bebe73fbdfea659f68b71b8b1f4",
+              "reason": "same_current_audio_and_person_model"
+            },
+            "compose": {
+              "hit": false,
+              "key": "af4e52cee56de147efb0e49e5a158c2bcbe9a8e04e00bda3ec8f8e918377b685",
+              "reason": "composition_inputs_changed_or_missing"
+            }
+          },
+          "error": null,
+          "preview_path": "m3/cache/compose/af4e52cee56de147efb0e49e5a158c2bcbe9a8e04e00bda3ec8f8e918377b685/page.mp4"
+        },
+        {
+          "id": "bbe0cc21-0061-43b5-9cb6-6bbb6bb82ac8",
+          "source_index": 20,
+          "state": "valid",
+          "active_stage": null,
+          "stage_states": {
+            "tts": "valid",
+            "portrait": "valid",
+            "compose": "valid"
+          },
+          "cache_hits": {
+            "tts": {
+              "hit": true,
+              "key": "a33665f713197c971b6be1bca2014cd730854e5378c83750add86b41c4ec2a90",
+              "reason": "verified_compatible_speech_inputs"
+            },
+            "portrait": {
+              "hit": true,
+              "key": "40a4284bf79b1ba05f944ad690c58a1adf80707c80be12b37cb36bc17b3a6205",
+              "reason": "same_current_audio_and_person_model"
+            },
+            "compose": {
+              "hit": false,
+              "key": "a974697e25ca15eb08a895b43afd30db6b17763e4a56a0a364326dcb6e7225d6",
+              "reason": "composition_inputs_changed_or_missing"
+            }
+          },
+          "error": null,
+          "preview_path": "m3/cache/compose/a974697e25ca15eb08a895b43afd30db6b17763e4a56a0a364326dcb6e7225d6/page.mp4"
+        },
+        {
+          "id": "038aa1b3-0f6c-4151-ac93-6dc502558d2c",
+          "source_index": 21,
+          "state": "valid",
+          "active_stage": null,
+          "stage_states": {
+            "tts": "valid",
+            "portrait": "valid",
+            "compose": "valid"
+          },
+          "cache_hits": {
+            "tts": {
+              "hit": true,
+              "key": "cef2de37d6682a665692ffbe15ed124023649ee9155f955500992e95e17e1072",
+              "reason": "verified_compatible_speech_inputs"
+            },
+            "portrait": {
+              "hit": true,
+              "key": "aac0344f26fc6aa19ae6905c4c66491e541c96e56e3daa851e6c53d8f2f44afa",
+              "reason": "same_current_audio_and_person_model"
+            },
+            "compose": {
+              "hit": false,
+              "key": "594c5de1072f240f133edaf1089cfd1d38bb46f4e012e3886321c187f0a6e2c1",
+              "reason": "composition_inputs_changed_or_missing"
+            }
+          },
+          "error": null,
+          "preview_path": "m3/cache/compose/594c5de1072f240f133edaf1089cfd1d38bb46f4e012e3886321c187f0a6e2c1/page.mp4"
+        },
+        {
+          "id": "8bf96710-9762-4530-a34c-150f82ad76ae",
+          "source_index": 22,
+          "state": "valid",
+          "active_stage": null,
+          "stage_states": {
+            "tts": "valid",
+            "portrait": "valid",
+            "compose": "valid"
+          },
+          "cache_hits": {
+            "tts": {
+              "hit": true,
+              "key": "9e482a36198af5239da8e5b4b6686ba8fddb0b0909c59217740e39fd55c161ea",
+              "reason": "verified_compatible_speech_inputs"
+            },
+            "portrait": {
+              "hit": true,
+              "key": "7ab6f5bba9d6cc3433b66181307d91034824c62914b3f865cbf170f45f2681f9",
+              "reason": "same_current_audio_and_person_model"
+            },
+            "compose": {
+              "hit": false,
+              "key": "41f8cd0e507938d79cbd9cd119688124a539d0e822decf02f66258aceef54fe1",
+              "reason": "composition_inputs_changed_or_missing"
+            }
+          },
+          "error": null,
+          "preview_path": "m3/cache/compose/41f8cd0e507938d79cbd9cd119688124a539d0e822decf02f66258aceef54fe1/page.mp4"
+        },
+        {
+          "id": "1e3abe2c-aced-440a-b488-4c49718feeb0",
+          "source_index": 23,
+          "state": "valid",
+          "active_stage": null,
+          "stage_states": {
+            "tts": "valid",
+            "portrait": "valid",
+            "compose": "valid"
+          },
+          "cache_hits": {
+            "tts": {
+              "hit": true,
+              "key": "53f6d37af52286e47d5457b1a37ae58ad8df04bbce608a74c1d44430a0d0be27",
+              "reason": "verified_compatible_speech_inputs"
+            },
+            "portrait": {
+              "hit": true,
+              "key": "c7bb7ede29bf8354be5f39e881883142451a4e146ab7f3a1ec031756cf42d366",
+              "reason": "same_current_audio_and_person_model"
+            },
+            "compose": {
+              "hit": false,
+              "key": "38e297d020dd3181fea75ed117a82d4291e60980653a547ff754c9d65e28cf57",
+              "reason": "composition_inputs_changed_or_missing"
+            }
+          },
+          "error": null,
+          "preview_path": "m3/cache/compose/38e297d020dd3181fea75ed117a82d4291e60980653a547ff754c9d65e28cf57/page.mp4"
+        },
+        {
+          "id": "3caada09-b0b2-4942-a374-e17f0cd92964",
+          "source_index": 24,
+          "state": "valid",
+          "active_stage": null,
+          "stage_states": {
+            "tts": "valid",
+            "portrait": "valid",
+            "compose": "valid"
+          },
+          "cache_hits": {
+            "tts": {
+              "hit": false,
+              "key": "acae64d600b62a6367fbe89adfc2fc715950a7928e6ce532a165c5854b2b0e16",
+              "reason": "no_valid_compatible_media"
+            },
+            "portrait": {
+              "hit": false,
+              "key": "4eb32e39fd90229f11784fe19148940a820b250019328615afc9e584a5826e46",
+              "reason": "current_audio_or_person_inputs_require_generation"
+            },
+            "compose": {
+              "hit": false,
+              "key": "63640d245820c194862ef0ca787daabebd9e7a445c06bb07f8d7bb7b7e1504b5",
+              "reason": "composition_inputs_changed_or_missing"
+            }
+          },
+          "error": null,
+          "preview_path": "m3/cache/compose/63640d245820c194862ef0ca787daabebd9e7a445c06bb07f8d7bb7b7e1504b5/page.mp4"
+        }
+      ],
+      "progress": {
+        "tts": 24,
+        "portrait": 24,
+        "compose": 24,
+        "total": 24,
+        "valid": 24,
+        "failed": 0
+      }
+    },
+    "teacher_confirmation": null,
+    "is_current": true,
+    "retry_allowed": false
+  },
+  "first_failure_unchanged": true,
+  "first_two_original_version_histories_preserved": true,
+  "teacher_confirmations": 0,
+  "ai_attempts": [],
+  "new_job_id": "a9c7bd42-2fe8-46ac-8bb8-6af67cd837e0",
+  "source_versions": [
+    {
+      "source_page_ids": [
+        "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-275"
+      ],
+      "version_id": "acd5c0fb-2676-48a6-b729-35c7f0fbd82b",
+      "display_sha256": "c472c949e504d76f6868415f6f2b1c55e8ef8346a8d47a0107cc5631cf12396a",
+      "reading_sha256": "a41d6bdc81981f3ddf2cf5004bd04c5733d489ee2f9c7807cc127d64b56cc013",
+      "provenance": {
+        "edited_from": "4b7b4f9a-f682-4803-b10a-0fa32c1855a4"
+      },
+      "teacher_review": false
+    },
+    {
+      "source_page_ids": [
+        "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-276"
+      ],
+      "version_id": "01baf483-5ac4-45a5-943a-9b654d934197",
+      "display_sha256": "fd54bf6feb548e9269264d76cab31c17ffab158da7f7c404e1d90261ab53b11f",
+      "reading_sha256": "b104e70aae4a06f2c2e43f6ff310b2dc89a759976e3bcfcb4c1f29ce31f68f55",
+      "provenance": {
+        "model": "glm-4.1v-thinking-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "202610091036040ff5dc0fc1554ea4",
+        "usage": {
+          "completion_tokens": 973,
+          "prompt_tokens": 7834,
+          "total_tokens": 8807
+        },
+        "context_sha256": "bb9ae196a950cdd27165a20a728f6308d2f5142a8b8c2b079925d2a3ed3dadf7",
+        "source_page_ids": [
+          "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-276"
+        ],
+        "image_sha256": [
+          "d83200c7d04ba4019d89630007de740beeb798ec8d9f4f5f0bed6b30031a4b63"
+        ],
+        "extensions": [],
+        "batch_id": null,
+        "instruction_sha256": "f386f2f0dfc31f6b7e7889585525602a0242528903ca3c5c5a7fa0cc0e04deea",
+        "sentence_pairs": [
+          {
+            "display": "本页面展示的是章节目录，包含第九章的两个主要部分，分别是9.1概述和9.2卫星互联网架构，这两部分构成了本章的核心内容框架。",
+            "reading": "本页面展示的是章节目录，包含第九章的两个主要部分，分别是九点一概述和九点二卫星互联网架构，这两部分构成了本章的核心内容框架。"
+          }
+        ],
+        "pairing_method": "provider_validated",
+        "provider_record": {
+          "response_id": "202610091036040ff5dc0fc1554ea4",
+          "response_sha256": "5a5ecf6291e44ec14d952add9924a89f5604df6ee67296ba3ffc916dd536ba34",
+          "path": "ai-responses/0eaf6185-d796-4be2-95a7-8a3218c75fb6-5f216333-5b8c-43a2-a481-9d800bb8933a.json"
+        },
+        "expanded_current_source_count": 1
+      },
+      "teacher_review": false
+    },
+    {
+      "source_page_ids": [
+        "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-352"
+      ],
+      "version_id": "c8f245f2-8cd2-4a39-9d45-8fe6e4fdeb91",
+      "display_sha256": "85f7c333394fe312b8774e792c4fa33d3bfc2e973748f3108c141b6f32f006c6",
+      "reading_sha256": "ac35e0684934cb1abf44d489baee03d20e900ad14180b1c63c02e70b5809a2ec",
+      "provenance": {
+        "model": "glm-4.1v-thinking-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "20261009105144ad58feae826a4d63",
+        "usage": {
+          "completion_tokens": 3724,
+          "prompt_tokens": 8034,
+          "total_tokens": 11758
+        },
+        "context_sha256": "e30375b7d280935e4f411c2162bbe97e788ef4f702a74dcf52a2f093d6631c80",
+        "source_page_ids": [
+          "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-352"
+        ],
+        "image_sha256": [
+          "8b463047aacca4cfdbf721508a87d5417302fbec00c1df3c288cf8f02e26c1a6"
+        ],
+        "extensions": [],
+        "batch_id": null,
+        "instruction_sha256": "afde8491eb8906fe20952520f665194248eed9febcc9a9bed7ab502099d998eb",
+        "draft_contract": "complete-object-v2",
+        "sentence_pairs": [
+          {
+            "display": "本页介绍四种地球轨道类型及其相关参数与应用特点。",
+            "reading": "本页介绍四种地球轨道类型及其相关参数与应用特点。"
+          },
+          {
+            "display": "LEO（低地球轨道）高度为200–2,000公里（常见200–1,200公里），特点是轨道周期短（约90分钟），常用于对地观测卫星（如气象卫星）、空间站（如国际空间站）及部分通信卫星（如星链星座）；MEO（中地球轨道）高度为2,000–36,000公里（部分资料定义1,200–36,000公里），典型应用为导航卫星（如GPS、GLONASS），轨道周期约12小时；GEO（地球同步轨道）高度约35,786公里，卫星运行周期与地球自转同步（24小时），静止轨道（GSO）是GEO的特殊形式（主要应用于通信和气象卫星；HEO（高地球轨道）通常指高于36,000公里的轨道（部分资料将GEO归为此类），包括大椭圆轨道（如莫尼亚轨道），适用于覆盖高纬度地区的通信或科研任务。",
+            "reading": "利欧（低地球轨道）高度为二零零到二千公里（常见范围二零零到一千二百公里），特点是轨道周期短约九十分钟，常用于对地观测卫星（如气象卫星）、空间站（如国际空间站）及部分通信卫星（如星链星座）；美欧（中地球轨道）高度为二千到三万六千公里（部分资料定义为一二百到三万六千公里），典型应用为导航卫星（如GPS、格洛纳斯），轨道周期约十二小时；吉欧（地球同步轨道）高度约三万五千七百八十六公里，卫星运行周期与地球自转同步（二十四小时），静止轨道（GSO）是吉欧的一种特殊形式，主要应用于通信和气象卫星；黑欧（高地球轨道）高度通常指高于三万六千公里的轨道（部分资料将吉欧归为此类），包括大椭圆轨道（如莫尼亚轨道），适用于覆盖高纬度地区的通信或科研任务。"
+          }
+        ],
+        "pairing_method": "complete_text_sentence_boundaries",
+        "provider_record": {
+          "response_id": "20261009105144ad58feae826a4d63",
+          "response_sha256": "f068bb26b0d8d6ddf9e843a9006792d861e0fb8d3dde2c4cd0a0b655dc857411",
+          "path": "ai-responses/b37b5c2a-0c8f-48d9-b32e-a06f4b1e7a23-4d317aa7-17c3-4e9c-8f3c-733e58d1f4e9.json"
+        },
+        "expanded_current_source_count": 0
+      },
+      "teacher_review": false
+    },
+    {
+      "source_page_ids": [
+        "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-311"
+      ],
+      "version_id": "da92454c-e143-499c-8a54-29394eea413f",
+      "display_sha256": "cdcbb3adc3cd9f6071c89c12d36cce363a6ec2309065750a45580a5547519b8a",
+      "reading_sha256": "8ed4fe314b926f56394155421af88db66f107da13b73b1673916ebe7a8971c25",
+      "provenance": {
+        "model": "glm-4.1v-thinking-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "202610091052401cab720e07924875",
+        "usage": {
+          "completion_tokens": 1695,
+          "prompt_tokens": 8045,
+          "total_tokens": 9740
+        },
+        "context_sha256": "a464322fbd1a2553d94912e2ec58019ebb252196fa6c971c83cd692fa2f28d93",
+        "source_page_ids": [
+          "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-311"
+        ],
+        "image_sha256": [
+          "fb2c7a0c98248d4e715d7bcee6e6e3aa98fe3eb77761fa9708d75d801cd4b45c"
+        ],
+        "extensions": [],
+        "batch_id": null,
+        "instruction_sha256": "afde8491eb8906fe20952520f665194248eed9febcc9a9bed7ab502099d998eb",
+        "draft_contract": "complete-object-v2",
+        "sentence_pairs": [
+          {
+            "display": "本页介绍同步轨道卫星和高地球轨道卫星的通信弊端。同步轨道卫星的通信弊端有两点：第一，同步轨道距离较远，长距离传输对信号的传输延时和干扰都比较大；第二，同步卫星必须运行在赤道平面上空约35,786公里的轨道，波束覆盖范围主要集中在赤道及中低纬度地区。高地球轨道卫星的通信弊端也有两点：第一，需应对剧烈的高度变化和轨道倾角，因轨道速度变化（近地点快、远地点慢），需自适应调整多普勒频移和信号强度。",
+            "reading": "本页介绍同步轨道卫星和高地球轨道卫星的通信弊端。同步轨道卫星的通信弊端有两点：第一，同步轨道距离较远，长距离传输对信号的传输延时和干扰都比较大；第二，同步卫星必须运行在赤道平面上空约三十五万七千八百六公里的轨道，波束覆盖范围主要集中在赤道及中低纬度地区。高地球轨道卫星的通信弊端也有两点：第一，需应对剧烈的高度变化和轨道倾角，因轨道速度变化（近地点快、远地点慢），需自适应调整多普勒频移和信号强度。"
+          }
+        ],
+        "pairing_method": "provider_validated",
+        "provider_record": {
+          "response_id": "202610091052401cab720e07924875",
+          "response_sha256": "920024864cb2000e3c0039fe2d6c19f6b570ba2416a84cfae0257a4ada1d9fe3",
+          "path": "ai-responses/b37b5c2a-0c8f-48d9-b32e-a06f4b1e7a23-933274c0-1385-4106-88b5-895f2a43782a.json"
+        },
+        "expanded_current_source_count": 0
+      },
+      "teacher_review": false
+    },
+    {
+      "source_page_ids": [
+        "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-349"
+      ],
+      "version_id": "4a7faa1f-40e4-494b-9c0d-b87a526d3084",
+      "display_sha256": "ef4840429bc1fb567f0fc1dcdc44d18babee0a390af7dd2e84406ea01edb6ca1",
+      "reading_sha256": "66bb7e19d5c0aafc3a38670811cdba1f0da33c42d83c0c4d14a2cb21cf2406a7",
+      "provenance": {
+        "model": "glm-4.1v-thinking-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "20261009105310189dfa19aa8141a2",
+        "usage": {
+          "completion_tokens": 989,
+          "prompt_tokens": 7771,
+          "total_tokens": 8760
+        },
+        "context_sha256": "f59234e86d6e70ed78d96c8a1e89b8744797abec0f7a665ef62e3da7dbf32450",
+        "source_page_ids": [
+          "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-349"
+        ],
+        "image_sha256": [
+          "a796e58678f576ac129a801c97a28791bdaf4131d3d2039ee13d53cf3fdb58de"
+        ],
+        "extensions": [],
+        "batch_id": null,
+        "instruction_sha256": "afde8491eb8906fe20952520f665194248eed9febcc9a9bed7ab502099d998eb",
+        "draft_contract": "complete-object-v2",
+        "sentence_pairs": [
+          {
+            "display": "本页主要介绍低轨卫星（LEO）的基本概念、轨道特性和全球覆盖情况。",
+            "reading": "本页主要介绍低轨卫星（LEO）的基本概念、轨道特性和全球覆盖情况。"
+          },
+          {
+            "display": "低点说明低轨卫星是：是运行在距地球表面160公里至2000公里轨道上的卫星，具有低延迟、高带宽、全球覆盖等优势，近年成为卫星通信等领域热点技术。",
+            "reading": "第一点说明低轨卫星的定义：它是运行在距地球表面160公里至2000公里轨道上的卫星，具有低延迟、高带宽、全球覆盖等优势，近年成为卫星通信等领域热点技术。"
+          },
+          {
+            "display": "第二点轨道特性，高度高度500（500Starlink 550km、OneWeb 1200km），绕地球周期约90 - 120分钟，信号延迟仅20 - 50毫秒（远低于GEO卫星的500毫秒），适合实时通信。",
+            "reading": "第二点是轨道特性，包括高度范围（如Starlink的550公里、OneWeb的1200公里），绕地球周期约90到120分钟，信号延迟仅20到50毫秒，远低于地球同步轨道卫星的500毫秒，适合实时通信。"
+          },
+          {
+            "display": "第三点是全球覆盖，需要大规模星座组网（如Starlink计划4.2万颗），单星覆盖直径约800公里。",
+            "reading": "第三点是全球覆盖，需要大规模星座组网（如Starlink计划4.2万颗卫星），单颗卫星的覆盖直径大约是800公里。"
+          }
+        ],
+        "pairing_method": "complete_text_sentence_boundaries",
+        "provider_record": {
+          "response_id": "20261009105310189dfa19aa8141a2",
+          "response_sha256": "db67eedf19ffdc2c08026c4b569b9eeb80832e1efaedb1609229abc788d6127c",
+          "path": "ai-responses/b37b5c2a-0c8f-48d9-b32e-a06f4b1e7a23-971633e0-d475-482a-8ea8-2a06391e0b84.json"
+        },
+        "expanded_current_source_count": 0
+      },
+      "teacher_review": false
+    },
+    {
+      "source_page_ids": [
+        "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-350"
+      ],
+      "version_id": "a3e227f5-8e9f-4519-a3c2-3b517ccfbfc7",
+      "display_sha256": "7e97adcdb3d61d5e74efce099d7c7ccf6dd1eedd04a2e8a149b25bce7f91d6ed",
+      "reading_sha256": "7e97adcdb3d61d5e74efce099d7c7ccf6dd1eedd04a2e8a149b25bce7f91d6ed",
+      "provenance": {
+        "model": "glm-4.1v-thinking-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "2026100910543320cea6e7c14845da",
+        "usage": {
+          "completion_tokens": 464,
+          "prompt_tokens": 7835,
+          "total_tokens": 8299
+        },
+        "context_sha256": "40c67f6a4b0232d884f6425fb3d9a550eeb8f58d3780ff5ff71c2cdcb797115f",
+        "source_page_ids": [
+          "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-350"
+        ],
+        "image_sha256": [
+          "7a446443b39e6026fe285d3a3c9cd10303f890c8ce12860ec1d3ed383ee2bcca"
+        ],
+        "extensions": [],
+        "batch_id": null,
+        "instruction_sha256": "afde8491eb8906fe20952520f665194248eed9febcc9a9bed7ab502099d998eb",
+        "draft_contract": "complete-object-v2",
+        "sentence_pairs": [
+          {
+            "display": "本页介绍卫星互联网架构相关内容，包含提供信息终极服务的卫星星座、手持设备与便携站等终端，以及卫星测控网络、控制中心和信关站等要素。",
+            "reading": "本页介绍卫星互联网架构相关内容，包含提供信息终极服务的卫星星座、手持设备与便携站等终端，以及卫星测控网络、控制中心和信关站等要素。"
+          }
+        ],
+        "pairing_method": "provider_validated",
+        "provider_record": {
+          "response_id": "2026100910543320cea6e7c14845da",
+          "response_sha256": "3a26f0c63d1aeede23afdb86b1be0cfe44adbea48f9efc5eef42b0d42cdc31e0",
+          "path": "ai-responses/b37b5c2a-0c8f-48d9-b32e-a06f4b1e7a23-9936069f-aee9-41ed-81ca-fe962c0be2b0.json"
+        },
+        "expanded_current_source_count": 0
+      },
+      "teacher_review": false
+    },
+    {
+      "source_page_ids": [
+        "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-353"
+      ],
+      "version_id": "89f8567e-b795-4835-8a61-157f14afb942",
+      "display_sha256": "e0f423bc214b0309ee469a7e95573e1a7e2c78b94cd5f6b1884e136f8bfd6573",
+      "reading_sha256": "a7c120a2d1518bc015eae6be62139bafdfb38961352035f66bceaece805768fe",
+      "provenance": {
+        "model": "glm-4.1v-thinking-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "20261009105847e3b0ecbebc624e54",
+        "usage": {
+          "completion_tokens": 2303,
+          "prompt_tokens": 7889,
+          "total_tokens": 10192
+        },
+        "context_sha256": "7a993124918e7bfd40b591d41a8c7df3642198e05a592e88900069044905343c",
+        "source_page_ids": [
+          "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-353"
+        ],
+        "image_sha256": [
+          "1a177d7fc4885cfd53ba233e61adee32218e84060dd11d7d18cdec7b8a182310"
+        ],
+        "extensions": [],
+        "batch_id": null,
+        "instruction_sha256": "afde8491eb8906fe20952520f665194248eed9febcc9a9bed7ab502099d998eb",
+        "draft_contract": "complete-object-v2",
+        "sentence_pairs": [
+          {
+            "display": "本页介绍卫星互联网的两种工作模式。第一种是卫星透明转发工作模式，用户终端只能通过与卫星连接后再经地面信关站接入互联网，若该区域内没有覆盖的信关站，则用户无法上网，其核心在于足够多的地面信关站部署密度；",
+            "reading": "本页介绍卫星互联网的两种工作模式。第一种是卫 星 透 明 转 发 工 作 模 式 ， 用 户 终 端 只 能 通 过 与 卫 星 连 接 后 再 经 地 面 信 关 站 接 入 电 子 联 网 ， 若 该 区 域 内 没 有 覆 盖 的 信 关 站 ， 则 用 户 无 法 上 网 ， 其 核 心 在 于 足 够 多 的 地 面 信 关 站 部 署 密 度 ；"
+          },
+          {
+            "display": "第二种是卫星处理转发工作模式，卫星具备星上处理和交换能力以及星间通信能力，用户通过多颗卫星中继建立与地面信关站的连接来访问互联网，其核心是多卫星构建的中继通信能力。",
+            "reading": "第 二 种 是 卫 星 处 理 转 发 工 作 模 式 ， 卫 星 具 备 星 上 处 理 和 交 换 能 力 以 及 星 间 通 信 能 力 ， 用 户 通 过 多 颗 卫 星 中 继 建 立 与 地 面 信 关 站 的 连 接 来 访 问 电 子 联 网 ， 其 核 心 是 多 卫 星 构 建 的 中 继 通 信 能 力 。"
+          }
+        ],
+        "pairing_method": "provider_validated",
+        "provider_record": {
+          "response_id": "20261009105847e3b0ecbebc624e54",
+          "response_sha256": "08393798450ff6a97e9f455f1daa55177fede56bea0ee0744711a711881b903e",
+          "path": "ai-responses/b37b5c2a-0c8f-48d9-b32e-a06f4b1e7a23-e267c096-d31b-434d-9c31-8405615d69f5.json"
+        },
+        "expanded_current_source_count": 0
+      },
+      "teacher_review": false
+    },
+    {
+      "source_page_ids": [
+        "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-354"
+      ],
+      "version_id": "d0d5978d-2ea5-4a09-bf4b-fba2a9554607",
+      "display_sha256": "0ad827c8f9c56d0445b7d236143d9b77b47404d2989d39c94d7ecb6a1d8b4332",
+      "reading_sha256": "0f7a33811c1e3371fd24ffcb707d305f70993f8d41448fa21defdaf3d50c718f",
+      "provenance": {
+        "model": "glm-4.1v-thinking-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "2026100910592443223b88988b4f1b",
+        "usage": {
+          "completion_tokens": 1582,
+          "prompt_tokens": 8022,
+          "total_tokens": 9604
+        },
+        "context_sha256": "9f278f04cb3e6e4999dff8812d52b128c3cc205198a979c9260137f378112780",
+        "source_page_ids": [
+          "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-354"
+        ],
+        "image_sha256": [
+          "01e8dc27cf6790653a691a3479ed7f6b09cda9bbca98fae0fbfe4657f8f8c2b6"
+        ],
+        "extensions": [],
+        "batch_id": null,
+        "instruction_sha256": "afde8491eb8906fe20952520f665194248eed9febcc9a9bed7ab502099d998eb",
+        "draft_contract": "complete-object-v2",
+        "sentence_pairs": [
+          {
+            "display": "本页介绍GEO通信模式下卫星互联网架构的数据流路径示例，以VSAT互联网接入为例，详细说明了用户发起请求、卫星转发、中心站处理、地面互联网响应、中心站发送响应、卫星转发以及用户接收等数据传输流程，展现了从用户终端到卫星、中心站再到地面网络再到用户设备的完整数据流路径。",
+            "reading": "本页介紹GEO通訊模式下衛星互聯網架構的數據流路徑示範，以VSAT互聯網接入為例，詳細說明了用戶發起請求、衛星轉發、中心站處理、地面互聯網響應、中心站發送響應、衛星轉發以及用戶接收等數據傳輸流程，展現了從用戶終端到衛星、中心站、地面網絡再到用戶設備的完整數據流路徑。"
+          }
+        ],
+        "pairing_method": "complete_text_sentence_boundaries",
+        "provider_record": {
+          "response_id": "2026100910592443223b88988b4f1b",
+          "response_sha256": "94129541a6047fbf7134c10520b84b49930ae0561abd34be37cc54bb5c53bd05",
+          "path": "ai-responses/b37b5c2a-0c8f-48d9-b32e-a06f4b1e7a23-bfb8e0da-0fd9-4e37-b842-b368081cfba0.json"
+        },
+        "expanded_current_source_count": 1
+      },
+      "teacher_review": false
+    },
+    {
+      "source_page_ids": [
+        "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-356"
+      ],
+      "version_id": "7c562f5f-e001-4985-a735-42e6d96c710b",
+      "display_sha256": "1cfb0ed8d6f34388d7331bc6c79f671028af61a58149336917719cff7ab8bac4",
+      "reading_sha256": "8585aa69816b91d5fae426ddcb03fb41f11a78784162c195ae2c2ce4a509e34d",
+      "provenance": {
+        "model": "glm-4.1v-thinking-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "20261009110018485ad48be253405e",
+        "usage": {
+          "completion_tokens": 2273,
+          "prompt_tokens": 8134,
+          "total_tokens": 10407
+        },
+        "context_sha256": "632f171209454003956a394c8244a9e0b9c25fcc5c1a4e88962bf61b3ed173fd",
+        "source_page_ids": [
+          "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-356"
+        ],
+        "image_sha256": [
+          "e7468cc5a1c0262f0b7ad4528ce7f92029c099794e6fec2df9ee635f7ba42807"
+        ],
+        "extensions": [
+          "VSAT终端需要较大尺寸天线是为了应对与EO卫星远距离带来的信号衰减问题"
+        ],
+        "batch_id": null,
+        "instruction_sha256": "afde8491eb8906fe20952520f665194248eed9febcc9a9bed7ab502099d998eb",
+        "draft_contract": "complete-object-v2",
+        "sentence_pairs": [
+          {
+            "display": "9.2卫星互联网架构",
+            "reading": "九点二卫星互联网架构"
+          },
+          {
+            "display": "GEO卫星是否能跟用户手机直接通信？",
+            "reading": "GEO卫星是否能跟用户手机直接通信？"
+          },
+          {
+            "display": "答：不可以，涉及的地面设备通常是VSAT（Very Small Aperture Terminal，甚小孔径终端）。虽然叫“甚小”，但为了弥补与GEO卫星的远距离，VSAT终端通常需要0.75米到几米的碟形天线，以及一个需要一定发射功率的收发一体化设备。这些VSAT终端不仅能接收卫星信号，还能向卫星发送信号。",
+            "reading": "答：不可以，涉及的地面设备通常是VSAT（Very Small Aperture Terminal，甚小孔径终端）。虽然叫‘甚小’，但为了弥补与GEO卫星的远距离，VSAT终端通常需要零点七五米到几米的碟形天线，以及一个需要一定发射功率的收发一体化设备。这些VSAT终端不仅能接收卫星信号，还能向卫星发送信号。"
+          },
+          {
+            "display": "GEO卫星距离地面非常远（约36000公里）。这导致信号传输的衰减（路径损耗）非常高。",
+            "reading": "GEO卫星距离地面非常远（约三万六千公里）。这导致信号传输的衰减（路径损耗）非常高。"
+          },
+          {
+            "display": "要克服高衰减，需要发送端有更高的发射功率和接收端有更高的接收灵敏度和天线增益。",
+            "reading": "要克服高衰减，需要发送端有更高的发射功率和接收端有更高的接收灵敏度和天线增益。"
+          },
+          {
+            "display": "小型个人设备（如手机）的发射功率非常有限，天线增益很低。它们的信号强度不足以可靠地到达36000公里外的GEO卫星。",
+            "reading": "小型个人设备（如手机）的发射功率非常有限，天线增益很低。它们的信号强度不足以可靠地到达三万六千公里外的GEO卫星。"
+          },
+          {
+            "display": "即使卫星设计得非常先进，能接收微弱信号，但要将高速数据信号以足够强的功率广播回来并让小型设备的低增益天线稳定接收也很困难",
+            "reading": "即使卫星设计得非常先进，能接收微弱信号，但要将高速数据信号以足够强的功率广播回来并让小型设备的低增益天线稳定接收也很困难"
+          }
+        ],
+        "pairing_method": "provider_validated",
+        "provider_record": {
+          "response_id": "20261009110018485ad48be253405e",
+          "response_sha256": "5ff42c9d7c3b80a99ca45bce59d65fcf631807c259551c7fadae026a4a791a0a",
+          "path": "ai-responses/b37b5c2a-0c8f-48d9-b32e-a06f4b1e7a23-4b5c07ab-44f0-47a7-92d9-daf8cf27add3.json"
+        },
+        "expanded_current_source_count": 0
+      },
+      "teacher_review": false
+    },
+    {
+      "source_page_ids": [
+        "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-355"
+      ],
+      "version_id": "bbdc04c4-b0dd-4766-98e1-f483100b9c50",
+      "display_sha256": "459e5c73d223412b189630118d70c242b8b674c359441e6f6f9d63a0ae927d8e",
+      "reading_sha256": "eeead4baaf36b85baafe12b396dd5f9333a5b62703607cbb788cccd03299609a",
+      "provenance": {
+        "model": "glm-4.1v-thinking-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "202610091102492df74f1e9b374067",
+        "usage": {
+          "completion_tokens": 3247,
+          "prompt_tokens": 8169,
+          "total_tokens": 11416
+        },
+        "context_sha256": "82d1275e25eadd3742002c0bae2b75af3455b46a1752cb5f5fdff19b259fd2d2",
+        "source_page_ids": [
+          "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-355"
+        ],
+        "image_sha256": [
+          "bc2c53bc212b60f1386857b03ce4f82b96a61d252cd4bf5878554a6e2cdfe7f7"
+        ],
+        "extensions": [],
+        "batch_id": null,
+        "instruction_sha256": "afde8491eb8906fe20952520f665194248eed9febcc9a9bed7ab502099d998eb",
+        "draft_contract": "complete-object-v2",
+        "sentence_pairs": [
+          {
+            "display": "本页讲解LEO卫星互联网架构的数据流路径，以StarLink为例，说明用户请求如何通过上行链路到LEO卫星，卫星转发、路由，再到地面接收站和互联网的过程。",
+            "reading": "本页讲解LEO卫星互联网架构的数据流路径，以StarLink互联网接入为例，说明发起请求，用户终端发送数据向上行链路到LEO卫星，卫星接收到用户数据后，判断数据的目的地址，进行内部处理与星间路由，数据通过卫星之间的激光链路或射频链路进行高速传输，数据可以在卫星之间多次跳传，如同地面光纤网络的路由器，经过星间链路跳传后，数据到达与目标区域地面站有通信连接的LEO卫星，地面站将数据包注入到本地地面光纤骨干网或互联网中，互联网与地面站，地面站到卫星直至用户端。"
+          }
+        ],
+        "pairing_method": "complete_text_sentence_boundaries",
+        "provider_record": {
+          "response_id": "202610091102492df74f1e9b374067",
+          "response_sha256": "d70fb27897b17fbde878209ca56efd7311c4d0f72aa904e2729d6b344c691a05",
+          "path": "ai-responses/b37b5c2a-0c8f-48d9-b32e-a06f4b1e7a23-5ffdb56f-486d-49cb-afcd-28692e244602.json"
+        },
+        "expanded_current_source_count": 0
+      },
+      "teacher_review": false
+    },
+    {
+      "source_page_ids": [
+        "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-357"
+      ],
+      "version_id": "6f2acb0a-247a-48b8-b046-fa3ca4d5bfc2",
+      "display_sha256": "b5b5e3f8f6f9e5261c613570fb57e3fe826181b866323dd8099414045b8d8e12",
+      "reading_sha256": "148cee55da251ae1edb46376e1aecf2ee31ef9ce0823926ce19c166303a4492f",
+      "provenance": {
+        "model": "glm-4.1v-thinking-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "20261009111932ec86b28021314769",
+        "usage": {
+          "completion_tokens": 2377,
+          "prompt_tokens": 6351,
+          "total_tokens": 8728
+        },
+        "context_sha256": "0918d1979be89cc5da14d6b16a84f06e869b7b7284e1226b9e611a45ce214248",
+        "source_page_ids": [
+          "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-357"
+        ],
+        "image_sha256": [
+          "90e822b2d917bc29e251bcc400f308639326788edc6ab8297a7037da358f35dc"
+        ],
+        "extensions": [],
+        "batch_id": null,
+        "instruction_sha256": "afde8491eb8906fe20952520f665194248eed9febcc9a9bed7ab502099d998eb",
+        "draft_contract": "complete-object-v3",
+        "sentence_pairs": [
+          {
+            "display": "9.2卫星互联网架构 LEO卫星是否能跟用户手机直接通信？\n",
+            "reading": "9.2卫星互联网架构 LEO卫星是否能跟用户手机直接通信？\n"
+          },
+          {
+            "display": "答：可以，信号在自由空间传播时会衰减，衰减程度与距离的平方成正比。\n",
+            "reading": "答：可以，信 号 在 自 由 空 间 传 播 时 会 衰 减 ，衰 减 程 度 与 距 离 的 平 方 成 正 比 。\n"
+          },
+          {
+            "display": "GEO卫星距离地面约36000公里。\n",
+            "reading": "GEO 卫 星 距 离 地 面 约 三 万 六 千 公 里 。\n"
+          },
+          {
+            "display": "LEO卫星距离地面通常只有几百公里（例如200-2000公里，大部分互联网星座在500-600公里）。\n",
+            "reading": "LEO 卫 星 距 离 地 面 通 常 只 有 几 百 公 里 （ 例 如 二 零 零 至 二 零 零 公 里 ， 大 部 分 电 子 网 星 座 在 五 百 至 六 百 公 里 ） 。\n"
+          },
+          {
+            "display": "距离大幅缩短，意味着信号衰减急剧减少。",
+            "reading": "距 离 大 幅 缩 短 ，意 味 着 信 号 衰 减 急 剧 减 少 。"
+          },
+          {
+            "display": "粗略计算，从36000公里缩短到500公里，距离减小了72倍，信号衰减理论上可以减少约72²≈5000倍以上（约37 dB）。\n",
+            "reading": "粗 略 计 算 ，从 三 万 六 千 公 里 缩 短 到 五 百 公 里 ，距 离 减 小 了 七 十 二 倍 ，信 号 衰 减 理 论 上 可 以 减 少 约 七 十 二 二 次 方 约 五 千 倍 以 上 （ 约 三 七 分 贝 ）。\n"
+          },
+          {
+            "display": "更小的衰减意味着：\n",
+            "reading": "更 小 的 衰 减 意 味 着 ：\n"
+          },
+          {
+            "display": "从用户设备到卫星，所需的发射功率可以大大降低。",
+            "reading": "从 用 户 设 备 到 卫 星 ，所 需 的 发 射 功 率 可 以 大 大 低 下 。"
+          },
+          {
+            "display": "标准手机的发射功率很低，足以到达LEO卫星（虽然仍然是挑战，但比到达GEO可能所需功率低几个数量级）。\n",
+            "reading": "标 准 手 机 的 发 射 功 率 很 低 ，足 以 到 达 LEO 卫 星 （虽 然 仍 然 是 挑 战 ，但 比 到 达 GEO 可 能 所 需 功 率 低 几 个 数 量 级 ） 。\n"
+          },
+          {
+            "display": "从卫星到用户设备，所需的卫星发射功率可以降低，或用户设备所需的接收灵敏度/天线增益可以降低",
+            "reading": "从 卫 星 到 用 户 设 备 ，所 需 的 卫 星 发 射 功 率 可 以 低 下 ，或 用 户 设 备 所 需 的 接 收 灵 敏 度 / 天 线 增 益 可 以 低 下"
+          }
+        ],
+        "pairing_method": "complete_text_sentence_boundaries",
+        "provider_record": {
+          "response_id": "20261009111932ec86b28021314769",
+          "response_sha256": "401fa09b5c90aaeeef0affcda568198c92707cb3c6759cae38325d5eed4a461a",
+          "path": "ai-responses/84d7c4ab-221a-4fd6-b404-1104713acf5d-f4b4ecdc-1e7d-4a13-9255-6920fae1f346.json"
+        },
+        "expanded_current_source_count": 0
+      },
+      "teacher_review": false
+    },
+    {
+      "source_page_ids": [
+        "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-358"
+      ],
+      "version_id": "d170b29e-2647-45e7-80ea-b5de1b1c1e06",
+      "display_sha256": "0606aa15cceb12b18ae34c02e73017a0fa4223ec27be366e24aa331a8628ee30",
+      "reading_sha256": "2f3e0f5637e630acdb0f9439ca0d161a20a1e72528d4d096a65f5c0e70f79927",
+      "provenance": {
+        "model": "glm-4.1v-thinking-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "20261009112011a0a14161b5204d31",
+        "usage": {
+          "completion_tokens": 1386,
+          "prompt_tokens": 5242,
+          "total_tokens": 6628
+        },
+        "context_sha256": "b37fe4b88567d656a5a14377169784bab1d9b70e414b7b12a6a4176bc3a37df7",
+        "source_page_ids": [
+          "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-358"
+        ],
+        "image_sha256": [
+          "8a3a759c724db795c2f61304a5cbb7764e0b83d30cf7f203c05e9d6e5cd9d544"
+        ],
+        "extensions": [],
+        "batch_id": null,
+        "instruction_sha256": "afde8491eb8906fe20952520f665194248eed9febcc9a9bed7ab502099d998eb",
+        "draft_contract": "complete-object-v3",
+        "sentence_pairs": [
+          {
+            "display": "本页主题为卫星通信 AI 与科技未来，展示了该领域的前沿发展方向，包括星链、星舰等技术在卫星通信中的应用，以及基于现有卫星网络的太空算力网构建等创新举措。",
+            "reading": "本页主題為衛星通信用 AI 與科技未來，展現該領域的前沿發展方向，包括星鍵、星艦等技術在衛星通訊中的应用，以及基於已有衛星網絡的太空算力網構建等創新舉措。"
+          }
+        ],
+        "pairing_method": "provider_validated",
+        "provider_record": {
+          "response_id": "20261009112011a0a14161b5204d31",
+          "response_sha256": "b16d5224c380870975ed52a772734eb81b011fd74e4f775dd7104d0819a8827c",
+          "path": "ai-responses/84d7c4ab-221a-4fd6-b404-1104713acf5d-3f59b195-a734-4cc0-b43b-4d16c4163a32.json"
+        },
+        "expanded_current_source_count": 1
+      },
+      "teacher_review": false
+    },
+    {
+      "source_page_ids": [
+        "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-359"
+      ],
+      "version_id": "11e01c2d-a0da-4062-be42-9575943bf1a6",
+      "display_sha256": "3ff67f43b29b93e3c614a8ad1aa38177cdc757128955f55685023e17d4b08ed5",
+      "reading_sha256": "3b56447f0fac29eaaf086813b872260fc9bc06985cc173007be4008f08c74363",
+      "provenance": {
+        "model": "glm-4.1v-thinking-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "202610091120314350e872fb1f4370",
+        "usage": {
+          "completion_tokens": 994,
+          "prompt_tokens": 5035,
+          "total_tokens": 6029
+        },
+        "context_sha256": "45e090fb4cf448c94f46aeb42683e8543d32954c79696009fc46e13fb34e8ee1",
+        "source_page_ids": [
+          "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-359"
+        ],
+        "image_sha256": [
+          "95f018d2a1308523cc9a93e85f3c68f28c20780a291d5c9c838a98856e8dcce1"
+        ],
+        "extensions": [],
+        "batch_id": null,
+        "instruction_sha256": "afde8491eb8906fe20952520f665194248eed9febcc9a9bed7ab502099d998eb",
+        "draft_contract": "complete-object-v3",
+        "sentence_pairs": [
+          {
+            "display": "本页呈现了卫星通信、AI与科技未来的相关企业IPO募资情况，SpaceX预计2026年募资750亿美元，沙特阿美2019年募资294亿美元，阿里巴巴2014年募资250亿美元，软银集团2018年募资235亿美元。",
+            "reading": "本页呈现了卫星通信、AI与科技未来的相关企业IPO募资情况，SpaceX预计二〇二六年募资七百五十亿美元，沙特阿美二〇一九年募资二亿九千四百万美元，阿里巴巴二〇一四年募资二亿五千万美元，软银集团二〇一八年募资二亿三千五百万美元。"
+          }
+        ],
+        "pairing_method": "complete_text_sentence_boundaries",
+        "provider_record": {
+          "response_id": "202610091120314350e872fb1f4370",
+          "response_sha256": "8a06274c8c982033410bbb2c59a436881b3a83c9b083a7f5e978cbf4e3f57209",
+          "path": "ai-responses/84d7c4ab-221a-4fd6-b404-1104713acf5d-2026bd93-4e34-4f4e-93b7-30589c6b4d69.json"
+        },
+        "expanded_current_source_count": 1
+      },
+      "teacher_review": false
+    },
+    {
+      "source_page_ids": [
+        "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-360"
+      ],
+      "version_id": "4b3d79ac-dab5-4d3c-99ee-32a1a5521639",
+      "display_sha256": "dbba61a2557291654a5e21fedb486154a1430646c7d03c7f072772be8eab6f11",
+      "reading_sha256": "2ab0824801e3843e0378aa5f1c0b6904716893dfc670422dbe2f7d7680843fb3",
+      "provenance": {
+        "model": "glm-4.1v-thinking-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "202610091120444a1534112c094463",
+        "usage": {
+          "completion_tokens": 515,
+          "prompt_tokens": 5067,
+          "total_tokens": 5582
+        },
+        "context_sha256": "a163cc41f41ea1c589ac043912c8acd8b0adf77594c77af470120128e4f62da1",
+        "source_page_ids": [
+          "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-360"
+        ],
+        "image_sha256": [
+          "7f3d9125b310db84929f0d61d39022f4e45ef201fa299e2c8ccf1d72558b6b4d"
+        ],
+        "extensions": [],
+        "batch_id": null,
+        "instruction_sha256": "afde8491eb8906fe20952520f665194248eed9febcc9a9bed7ab502099d998eb",
+        "draft_contract": "complete-object-v3",
+        "sentence_pairs": [
+          {
+            "display": "本页展示卫星卫星通信 AI 与科技未来相关内容，分为太空、连接性和、人工智能三大板块，下方分别对应火箭、通信、AI 板块，呈现了相关领域的发展亮点与技术应用情况。",
+            "reading": "本页展示的是卫星通信 AI 与科技未来相关内容，分为太空、连接性、人工智能三大板块，下方分别对应火箭、通信、AI 板块，呈现了相关领域的发展亮点与技术应用情况。"
+          }
+        ],
+        "pairing_method": "complete_text_sentence_boundaries",
+        "provider_record": {
+          "response_id": "202610091120444a1534112c094463",
+          "response_sha256": "e301a9bd74973e01f55725a417ea6ec04a9263e655bd68df09de318af05f78e6",
+          "path": "ai-responses/84d7c4ab-221a-4fd6-b404-1104713acf5d-2918b147-5033-4e4c-bd6a-4c7b5d00fb3a.json"
+        },
+        "expanded_current_source_count": 0
+      },
+      "teacher_review": false
+    },
+    {
+      "source_page_ids": [
+        "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-361"
+      ],
+      "version_id": "f9a67ed5-8dca-4676-85ab-c68aa7de1402",
+      "display_sha256": "1b2c631221cd9216dbd072c30898790e88f70ad99e5ef832eacd20896469bd74",
+      "reading_sha256": "cbd4acd5d100e3f6fb01def0ad47b9e947aede3c7fd4d6697814552503ddb267",
+      "provenance": {
+        "model": "glm-4.1v-thinking-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "202610091120510cef6a77815c45b8",
+        "usage": {
+          "completion_tokens": 1367,
+          "prompt_tokens": 5133,
+          "total_tokens": 6500
+        },
+        "context_sha256": "6faefaed0a227997b1702501141512aa536664eb9850939d8adb23329f1b68c0",
+        "source_page_ids": [
+          "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-361"
+        ],
+        "image_sha256": [
+          "7a63710f6d7550bb204bd8f2badf2c0f347c811c55634de312ad7f4cbe67905f"
+        ],
+        "extensions": [],
+        "batch_id": null,
+        "instruction_sha256": "afde8491eb8906fe20952520f665194248eed9febcc9a9bed7ab502099d998eb",
+        "draft_contract": "complete-object-v3",
+        "sentence_pairs": [
+          {
+            "display": "卫星通信 AI 与科技未来 猎鹰9号 单枚火箭重复发射次数达到34次 发射成本650美元/公斤 同类型中国火箭运载成本的10%-20%",
+            "reading": "卫星通信 AI 与科技未来 猎鹰九号 单枚火箭重复发射次数达到三十四次 发射成本六百五十美元每公斤 同类型中国火箭运载成本的百分之十至百分之二十。"
+          }
+        ],
+        "pairing_method": "complete_text_sentence_boundaries",
+        "provider_record": {
+          "response_id": "202610091120510cef6a77815c45b8",
+          "response_sha256": "6ddd2bca8f3953f644125d2e5806c10e830ecc930d774a6f7d72cd55d0229bf9",
+          "path": "ai-responses/84d7c4ab-221a-4fd6-b404-1104713acf5d-99051163-1c81-4a8f-9a44-050907f93497.json"
+        },
+        "expanded_current_source_count": 1
+      },
+      "teacher_review": false
+    },
+    {
+      "source_page_ids": [
+        "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-362"
+      ],
+      "version_id": "12ae5854-14d8-4a85-ab58-da2cd33fec45",
+      "display_sha256": "1c697e96d284255171299e06cccd3d3387190c2b106c736342950d19ddff0850",
+      "reading_sha256": "c86da47bbfb3ba37f986cf71d72c1ee2790eb09fb2654d9ec5d121e86bb677f5",
+      "provenance": {
+        "model": "glm-4.1v-thinking-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "20261009112106f111cb1ab94e4bff",
+        "usage": {
+          "completion_tokens": 1493,
+          "prompt_tokens": 5143,
+          "total_tokens": 6636
+        },
+        "context_sha256": "931aa7aceb97a75d389023e93faa550f2268b7c7a1312eb2016a40ae859bf5b8",
+        "source_page_ids": [
+          "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-362"
+        ],
+        "image_sha256": [
+          "fda2c8fa04c4113bc1f1e63c29b6f9dc44f8e12ca2408b9b5f84298727ff11fb"
+        ],
+        "extensions": [],
+        "batch_id": null,
+        "instruction_sha256": "afde8491eb8906fe20952520f665194248eed9febcc9a9bed7ab502099d998eb",
+        "draft_contract": "complete-object-v3",
+        "sentence_pairs": [
+          {
+            "display": "卫星通信 AI 与科技未来 星舰（Starship）是由美国太空探索技术公司（SpaceX）正在研发的超重型运载火箭系统，旨在成为人类首个完全可重复使用的航天器，以执行前往月球、火星及更深远太空的探索任务",
+            "reading": "卫星通信 AI 与科技未来 斯塔尔希普是由美国太空探索技术公司（太空探索技术公司）正在研发的超重型运载火箭系统，旨在成为人类首个完全可重复使用的航天器，以执行前往月球、火星及更深远太空的探索任务"
+          },
+          {
+            "display": "发射成本150美元/公斤",
+            "reading": "发射成本一百五十美元每公斤"
+          },
+          {
+            "display": "长征5号火箭的1/50",
+            "reading": "长征五号火箭的五十分之一"
+          }
+        ],
+        "pairing_method": "provider_validated",
+        "provider_record": {
+          "response_id": "20261009112106f111cb1ab94e4bff",
+          "response_sha256": "11316b64c0c9c8ca5d9efc36c94bd80b5642ade817da1aec0fc4c4ce40d3f6ac",
+          "path": "ai-responses/84d7c4ab-221a-4fd6-b404-1104713acf5d-1d83abca-3706-4020-9ce0-e795943b558b.json"
+        },
+        "expanded_current_source_count": 1
+      },
+      "teacher_review": false
+    },
+    {
+      "source_page_ids": [
+        "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-363"
+      ],
+      "version_id": "a6599ade-961a-413e-adbe-4e627b3f50d9",
+      "display_sha256": "8180e3d2721a1d8b2406cdd63085ff3abef80319384c7bf5aae8f08b678a8fd1",
+      "reading_sha256": "fd5fd735f3a112fdabe394b5f828d0fe668132585db5f0c74cd1773814d5c77b",
+      "provenance": {
+        "model": "glm-4.1v-thinking-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "20261009112124cdabf19370b646c7",
+        "usage": {
+          "completion_tokens": 982,
+          "prompt_tokens": 5116,
+          "total_tokens": 6098
+        },
+        "context_sha256": "5a2be79152571da14965845b59f8917daf44ab2e364af737e5db8ed693578e40",
+        "source_page_ids": [
+          "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-363"
+        ],
+        "image_sha256": [
+          "ca316b03c0578d95a2255b465017e014b157f90febdafe8f417ed9698255ca4c"
+        ],
+        "extensions": [
+          "星链是由SpaceX运营的低轨卫星星座项目，致力于提供全球宽带互联网服务"
+        ],
+        "batch_id": null,
+        "instruction_sha256": "afde8491eb8906fe20952520f665194248eed9febcc9a9bed7ab502099d998eb",
+        "draft_contract": "complete-object-v3",
+        "sentence_pairs": [
+          {
+            "display": "本页展示卫星通信与AI科技未来的相关内容，呈现了星链项目标识和相关图像，同时标注了目前活跃人数为1000万。",
+            "reading": "本页展示卫星通信与AI科技未来的相关内容，呈现了星链项目标识和相关图像，同时标注了目前活跃人数为一百万。"
+          }
+        ],
+        "pairing_method": "provider_validated",
+        "provider_record": {
+          "response_id": "20261009112124cdabf19370b646c7",
+          "response_sha256": "dbbd7bc1012be774039b33e6353f3f48231649c1f77c8d631807156654a6c55f",
+          "path": "ai-responses/84d7c4ab-221a-4fd6-b404-1104713acf5d-311b913b-b96e-4c74-ab83-301783c2f9c9.json"
+        },
+        "expanded_current_source_count": 0
+      },
+      "teacher_review": false
+    },
+    {
+      "source_page_ids": [
+        "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-364"
+      ],
+      "version_id": "a37d9a36-9041-445c-9664-bc55cae32e7c",
+      "display_sha256": "97a500dce60d50f1a48523336647edbdff28dccc8fba116d16b9b978f68f70b0",
+      "reading_sha256": "6d81ffd4d3b22790a83ce6be42d639b9b51822583b85c1c371cc99b27109d64f",
+      "provenance": {
+        "model": "glm-4.1v-thinking-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "20261009112155d9edc638654540f2",
+        "usage": {
+          "completion_tokens": 261,
+          "prompt_tokens": 6100,
+          "total_tokens": 6361
+        },
+        "context_sha256": "2dc156224584fa91a9513a0a04a46122204c6776ef01e39da66f26f2cd53cd49",
+        "source_page_ids": [
+          "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-364"
+        ],
+        "image_sha256": [
+          "15a5fdda423e9e59254e9c0908aa99889a9ec42a6b28a2532ecc321342422352"
+        ],
+        "extensions": [],
+        "batch_id": null,
+        "instruction_sha256": "afde8491eb8906fe20952520f665194248eed9febcc9a9bed7ab502099d998eb",
+        "draft_contract": "complete-object-v3",
+        "sentence_pairs": [
+          {
+            "display": "卫星通信 AI 与科技未来 几万颗低轨卫星代替不计其数的基站",
+            "reading": "卫 星 通 信 AI 与 科 技 未 来 ，几 万 颗 低 轨 卫 星 代 替 不 计 其 数 的 基 站 。"
+          }
+        ],
+        "pairing_method": "provider_validated",
+        "provider_record": {
+          "response_id": "20261009112155d9edc638654540f2",
+          "response_sha256": "25081ee694a111b8dce2d6fb1382dd0acb0540597c3b3943372026045b96f06f",
+          "path": "ai-responses/84d7c4ab-221a-4fd6-b404-1104713acf5d-7f8461bb-3d0b-4f65-a8f6-96b57047a2a8.json"
+        },
+        "expanded_current_source_count": 1
+      },
+      "teacher_review": false
+    },
+    {
+      "source_page_ids": [
+        "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-365"
+      ],
+      "version_id": "a1f32611-fa4a-440e-b0ff-45f69db9c783",
+      "display_sha256": "1fe62d14ba659b03e7f0e0a630a5c64a42503f76dd33c7909fb59eff3baaba3c",
+      "reading_sha256": "a6257f96175be93fe40db155f3922fc6c3e80af217956ee2cfc28f06c4c7a805",
+      "provenance": {
+        "model": "glm-4.1v-thinking-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "202610091122000b9af191895d43a2",
+        "usage": {
+          "completion_tokens": 1462,
+          "prompt_tokens": 5076,
+          "total_tokens": 6538
+        },
+        "context_sha256": "f42172a835b2c28763d54a6bc9f61dd6169abfcb590d13ead65499b50be4d0c8",
+        "source_page_ids": [
+          "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-365"
+        ],
+        "image_sha256": [
+          "9c1ca5f4e8ac8107122b1c9aabe72dca3365ae2735ffe922d2749a96f8a63130"
+        ],
+        "extensions": [],
+        "batch_id": null,
+        "instruction_sha256": "afde8491eb8906fe20952520f665194248eed9febcc9a9bed7ab502099d998eb",
+        "draft_contract": "complete-object-v3",
+        "sentence_pairs": [
+          {
+            "display": "卫星通信 AI 与科技未来",
+            "reading": "卫 星 通 信 AI 与 科 技 未 来"
+          },
+          {
+            "display": "第一步战略：",
+            "reading": "第 一 步 战 略 ："
+          },
+          {
+            "display": "有限的卫星发射成本 + 部署数量",
+            "reading": "有 限 的 卫 星 发 射 成 本 加 部 署 数 量"
+          },
+          {
+            "display": "构建 未来 基础设施",
+            "reading": "构 建 未 来 基 础 设 施"
+          },
+          {
+            "display": "无限的通信服务盈利",
+            "reading": "无 限 的 通 信 服 务 盈 利"
+          },
+          {
+            "display": "2025年星链营收114亿美元",
+            "reading": "二 零 二 五 年 星 链 营 收 一 十 四 亿 美 元"
+          }
+        ],
+        "pairing_method": "provider_validated",
+        "provider_record": {
+          "response_id": "202610091122000b9af191895d43a2",
+          "response_sha256": "e52b6d84a6fab17fc0dca17e76ae140a47e7bf3ab96738f5e4ac914f5455bd28",
+          "path": "ai-responses/84d7c4ab-221a-4fd6-b404-1104713acf5d-33424561-730d-4269-96b5-143d4bc50c56.json"
+        },
+        "expanded_current_source_count": 1
+      },
+      "teacher_review": false
+    },
+    {
+      "source_page_ids": [
+        "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-366"
+      ],
+      "version_id": "1119ba1d-2553-499f-b386-e506da898344",
+      "display_sha256": "2f5e9278f8ad7f8a767b329379ce78c75cf8ad782392c87064c0ac9d0a36cc43",
+      "reading_sha256": "08a7f7073a09a63d0500bd58e167e4d0d97b0d5b0d76ac3d7850dd8de019757f",
+      "provenance": {
+        "model": "glm-4.1v-thinking-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "20261009112229041fc7bf440b4282",
+        "usage": {
+          "completion_tokens": 633,
+          "prompt_tokens": 5580,
+          "total_tokens": 6213
+        },
+        "context_sha256": "9a196757779dbda83721f0dfbae87fe8ed7187ccbc6d35e7f8c9c744a11544b8",
+        "source_page_ids": [
+          "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-366"
+        ],
+        "image_sha256": [
+          "c17d610b9f4585ef85fb0ce496b7969a495cd0e3a3120c5c27e5fa2629f8024b"
+        ],
+        "extensions": [],
+        "batch_id": null,
+        "instruction_sha256": "afde8491eb8906fe20952520f665194248eed9febcc9a9bed7ab502099d998eb",
+        "draft_contract": "complete-object-v3",
+        "sentence_pairs": [
+          {
+            "display": "本页主题为卫星通信AI与科技未来，展示了AI大模型（左图为带有Grok标志的画面）和芯片制造（右图为带有TERAFAB标志的画面），体现了这两个技术在卫星通信科技未来发展中的重要地位。",
+            "reading": "卫 星 通 信 A I 与 科 技 未 来，展 示 了 A I 大 模 型 （ 左 图 带 有 G r o k 标 志 的 画 面 ） 和 芯 片 制 造 （ 右 图 带 有 T E R A F A B 标 志 的 画 面 ） ，体 现 了 这 两 个 技 术 在 卫 星 通 信 未 来 发 展 中 的 重 要 地 位 。"
+          }
+        ],
+        "pairing_method": "provider_validated",
+        "provider_record": {
+          "response_id": "20261009112229041fc7bf440b4282",
+          "response_sha256": "8f95de70107e8e733e74b28356a639200652f69793c578f3d8d9f103476ea3c9",
+          "path": "ai-responses/84d7c4ab-221a-4fd6-b404-1104713acf5d-52262bee-d371-4580-8b26-c4d3dbd87816.json"
+        },
+        "expanded_current_source_count": 1
+      },
+      "teacher_review": false
+    },
+    {
+      "source_page_ids": [
+        "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-367"
+      ],
+      "version_id": "c0cc0353-a119-4867-b3a8-4316d8c2665f",
+      "display_sha256": "a8061deb9b6c7573a35a0d2fac92a22e5d4017b925e7737c04de6874adfb62b1",
+      "reading_sha256": "ac0b9b7b5125d8a47b5c57d1c5c02f85fa92d889a22e85dc9508c80687a08659",
+      "provenance": {
+        "model": "glm-4.1v-thinking-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "202610091122547876a1f106214eae",
+        "usage": {
+          "completion_tokens": 1205,
+          "prompt_tokens": 5751,
+          "total_tokens": 6956
+        },
+        "context_sha256": "81586fa67a0a0f23726e58fd8ba2abddba82367bc4807b7b323f0234c06c2e75",
+        "source_page_ids": [
+          "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-367"
+        ],
+        "image_sha256": [
+          "10691ab4b8e6183601a5edd098a544a560da0f7f5c5d488528459233a4261f0c"
+        ],
+        "extensions": [],
+        "batch_id": null,
+        "instruction_sha256": "afde8491eb8906fe20952520f665194248eed9febcc9a9bed7ab502099d998eb",
+        "draft_contract": "complete-object-v3",
+        "sentence_pairs": [
+          {
+            "display": "卫星通信 AI 与科技未来 火箭 + 通信 + AI + 芯片",
+            "reading": "卫星通信 AI 与科技未来 火箭 加 通信 加 AI 加 芯片"
+          },
+          {
+            "display": "将所有AI芯片发射到太空，基于已有的星链网络构建太空算力网",
+            "reading": "将所有AI芯片发射到太空，基于已有的星链网络构建太空算力网"
+          },
+          {
+            "display": "第一步战略：",
+            "reading": "第一步战略："
+          }
+        ],
+        "pairing_method": "provider_validated",
+        "provider_record": {
+          "response_id": "202610091122547876a1f106214eae",
+          "response_sha256": "4c6e42891f6d54b2de797a254a6e0ebdd0592e397a0185ac0703bbdbd7dfc6b0",
+          "path": "ai-responses/84d7c4ab-221a-4fd6-b404-1104713acf5d-2795f6ec-e41e-407f-936b-31a6eececf62.json"
+        },
+        "expanded_current_source_count": 1
+      },
+      "teacher_review": false
+    },
+    {
+      "source_page_ids": [
+        "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-369"
+      ],
+      "version_id": "b4645ef1-ec87-4163-9389-a80003baab75",
+      "display_sha256": "66e3a5d08cc36c6b0a92cf800d126905ecc041874463989bfb6dfc0e3e9ffeeb",
+      "reading_sha256": "275acd32129d76deb301cea810dfb50cc9d4d80fcbb13a2672800222ec7eb759",
+      "provenance": {
+        "model": "glm-4.1v-thinking-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "20261009112312b5b30eb5ffb148e5",
+        "usage": {
+          "completion_tokens": 2310,
+          "prompt_tokens": 5389,
+          "total_tokens": 7699
+        },
+        "context_sha256": "3c4c9a3d2423d1cd5294c5831ae5a99d7291d49a0f0aa5c036f9cb39ff616a9f",
+        "source_page_ids": [
+          "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-369"
+        ],
+        "image_sha256": [
+          "973df214f5b5eb34b71db4be0b1d976e2a40846656732a3c3bbda94cb1fd9a7b"
+        ],
+        "extensions": [],
+        "batch_id": null,
+        "instruction_sha256": "afde8491eb8906fe20952520f665194248eed9febcc9a9bed7ab502099d998eb",
+        "draft_contract": "complete-object-v3",
+        "sentence_pairs": [
+          {
+            "display": "卫星通信AI与科技未来，AI算力部署到太空主要有三大核心优势：一是无限且免费的清洁能源（太阳能），光伏发电强度是地球10倍；二是极致散热效率，太空温度极低；三是数据就近处理，消除传输延迟。",
+            "reading": "卫 星 通 信 AI 与 科 技 未 来 ， AI 算 力 部 署 到 太 空 主 要 有 三 大 核 心 优 势 ： 一 是 无 限 且 免 费 的 清 洁 能 源 （ 太 阳 能 ） ， 光 伏 发 电 强 度 是 地 球 10 倍 ； 二 是 极 致 的 散 热 效 率 ， 太 空 温 度 约 为 零 下 200 摄氏 度 ； 三 是 数 据 ‘ 就 近 处 理 ’ ， 消 除 传 输 延 迟 。"
+          }
+        ],
+        "pairing_method": "complete_text_sentence_boundaries",
+        "provider_record": {
+          "response_id": "20261009112312b5b30eb5ffb148e5",
+          "response_sha256": "e17c129f3f384873501e80c1f2fbb682b93762b47e100fdfed085709dad3ff5e",
+          "path": "ai-responses/84d7c4ab-221a-4fd6-b404-1104713acf5d-f420ca7e-7913-4fd9-bcdc-e1e2e9ee929f.json"
+        },
+        "expanded_current_source_count": 1
+      },
+      "teacher_review": false
+    },
+    {
+      "source_page_ids": [
+        "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-370"
+      ],
+      "version_id": "fe2bfa26-1638-4d36-80d0-b68985c14bf4",
+      "display_sha256": "47f8e26e2777dd7c1d3b2602e15799224f3f0bb9e575e73f73a1b5bf792a4f43",
+      "reading_sha256": "f1839714ebc59d062f92f66cced7e34b97d549635c2f8b95a7be363f8407d02f",
+      "provenance": {
+        "model": "glm-4.1v-thinking-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "20261009112339e3239a8e624047f6",
+        "usage": {
+          "completion_tokens": 911,
+          "prompt_tokens": 5349,
+          "total_tokens": 6260
+        },
+        "context_sha256": "fc763b34d5f8e47f518146307aec8bc5089de19a74145ff268d50844dc3c1bed",
+        "source_page_ids": [
+          "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-370"
+        ],
+        "image_sha256": [
+          "2bf4a757c793f46c26f38f16a9d5716bb2b5b330956e4e8da550ada200ff2eb7"
+        ],
+        "extensions": [],
+        "batch_id": null,
+        "instruction_sha256": "afde8491eb8906fe20952520f665194248eed9febcc9a9bed7ab502099d998eb",
+        "draft_contract": "complete-object-v3",
+        "sentence_pairs": [
+          {
+            "display": "卫星通信 AI 与科技未来 星舰：将百万颗卫星以低成本的方式发射到太空",
+            "reading": "卫 星 通 信 AI 与 科 技 未 来 星 舰 ： 将 百 万 颗 卫 星 以 低 成 本 的 方 式 发 射 到 太 空"
+          },
+          {
+            "display": "星链：实现算力卫星之间的数据通信，并且可以直接与地面用户进行通信服务响应",
+            "reading": "星 链 ： 实 现 算 力 卫 星 之 间 的 数 据 通 信 ， 并 且 可 以 直 接 与 地 面 用 户 进 行 通 信 服 务 响 应"
+          },
+          {
+            "display": "算力网：低成本构建总规模1000GW总算力，碾压地球总规模70GW",
+            "reading": "算 力 网 ： 低 成 本 构 建 总 规 模 一 千 GW 总 算 力 ， 碾 压 地 球 总 规 模 七 十 GW"
+          }
+        ],
+        "pairing_method": "provider_validated",
+        "provider_record": {
+          "response_id": "20261009112339e3239a8e624047f6",
+          "response_sha256": "dbaa8584705f39a9fdc4b097b26e33d71d5109fd181f0a4ec2df0b1dc3b3bd8e",
+          "path": "ai-responses/84d7c4ab-221a-4fd6-b404-1104713acf5d-25aef96b-6bee-4c37-adb9-89a6421409cf.json"
+        },
+        "expanded_current_source_count": 1
+      },
+      "teacher_review": false
+    },
+    {
+      "source_page_ids": [
+        "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-281"
+      ],
+      "version_id": "cfc97915-f742-4d9c-817b-cb1055b619f6",
+      "display_sha256": "edcf9006a7b6d64844cd5e9ba2d4be7910ecdd298621546cba880a193d6f772a",
+      "reading_sha256": "3820a593d3771f6c4d49b0a1ec4a097f82fa9fb857f9479c00617bab77f6fba3",
+      "provenance": {
+        "model": "glm-4.1v-thinking-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "202610091356319fee57af7f1a475e",
+        "usage": {
+          "completion_tokens": 1118,
+          "prompt_tokens": 5253,
+          "total_tokens": 6371
+        },
+        "provider_record": {
+          "response_id": "202610091356319fee57af7f1a475e",
+          "response_sha256": "4b3b167e1b916942daab20b961012b684e27843618024432bd7c37143b0056aa",
+          "path": "ai-responses/7b59d596-4cb1-4546-a421-72d38e1f7249-7454cd2e-b8c1-4fe9-abf5-547820217f16.json"
+        },
+        "context_sha256": "834d670eda7ad35d2d9f444fc885e9137b52a28f8f06cdb73e2ba5040f7f4348",
+        "source_page_ids": [
+          "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-281"
+        ],
+        "image_sha256": [
+          "22ba516f836a49c611288af17cb34738220da5a860a4c6384aff820c9be24f9d"
+        ],
+        "extensions": [],
+        "draft_contract": "complete-object-v5",
+        "sentence_pairs": [
+          {
+            "display": "感 谢\nTHANK YOU!",
+            "reading": "感 谢 THANK YOU!"
+          }
+        ],
+        "pairing_method": "complete_text_identical_except_whitespace",
+        "revalidated_from_job": "7b59d596-4cb1-4546-a421-72d38e1f7249",
+        "revalidated_from_attempt": 2,
+        "revalidation_operation": "strict_saved_provider_revalidation",
+        "input_key": "659459a96c5a6d4f30be0a1239184f306b28cec849712aa152b1ca611bf0a109",
+        "expanded_current_source_count": 0
+      },
+      "teacher_review": false
+    }
+  ]
+}

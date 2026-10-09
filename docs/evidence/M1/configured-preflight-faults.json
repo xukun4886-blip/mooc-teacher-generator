@@ -1,0 +1,31 @@
+{
+  "scope": "actual configured environments with intentionally incomplete in-memory copies; no original files or weights changed",
+  "cases": [
+    {
+      "name": "missing_explicit_offline_language_asset",
+      "ready": false,
+      "blockers": [
+        {
+          "code": "MODEL_NOT_READY",
+          "message": "Explicit offline language asset missing: fasttext_cache/lid.176.bin",
+          "source": "tts",
+          "remedy": "Install the inventoried language asset; automatic download/fallback is disabled"
+        }
+      ],
+      "native_generation_called": false
+    },
+    {
+      "name": "missing_video_weight_in_actual_model_configuration",
+      "ready": false,
+      "blockers": [
+        {
+          "code": "MODEL_NOT_READY",
+          "message": "Weight missing or checksum unconfigured",
+          "source": "video",
+          "remedy": null
+        }
+      ],
+      "native_generation_called": false
+    }
+  ]
+}

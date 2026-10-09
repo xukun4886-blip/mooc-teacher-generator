@@ -1,0 +1,21 @@
+{
+  "checked_at": "2026-10-08T18:05:24.210853+00:00",
+  "scope": "M4 preacceptance closeout, not formal acceptance",
+  "health": {
+    "application": "mooc-workbench",
+    "version": "0.3.0",
+    "worker_alive": true,
+    "scope": "local service liveness; does not certify model or teaching quality"
+  },
+  "root_http_status": 200,
+  "active_jobs": 0,
+  "original_project_unchanged": true,
+  "browser_fresh_downloads_verified": true,
+  "teacher_confirmation_submitted": false,
+  "formal_passed": false,
+  "metrics_frozen": false,
+  "browser_long_evidence_sha256": "70b5ae1320e0b8aa4cf24d9fca0596652a2870d9fd119823e1c42e48d93ff23c",
+  "browser_fresh_evidence_sha256": "597efeac6a2d4d2979b6ff341398232b8687b219fd6019e710879cdc7b9f6f1d",
+  "result_screenshot": "D:\\XuTao_Task\\docs\\evidence\\M4\\browser-final-result.png",
+  "result_screenshot_sha256": "2a7a7c48638b65bea46fbe57586a441ef9302deb235412dfb8e11b11ad898fec"
+}

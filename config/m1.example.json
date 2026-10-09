@@ -1,0 +1,9 @@
+{
+  "schema_version": "m1.config.v1",
+  "storage": "storage/m1",
+  "max_ppt_pages": 50,
+  "tools": {},
+  "limits_mb": {"pptx": 100, "photo": 20, "video": 500, "reference_audio": 50},
+  "quality_policy": {"silence_db": -45, "silence_seconds": 1, "max_silence_ratio": 0.95},
+  "models": {"tts": null, "photo": null, "video": null}
+}

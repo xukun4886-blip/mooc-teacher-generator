@@ -1,0 +1,208 @@
+{
+  "prepared_at": "2026-10-09T02:30:22.447069+00:00",
+  "source_project_id": "0091c9cc-f11c-43d0-adcc-82263d176f3f",
+  "source_fingerprint_before": "c050739bbf9ad16012a6f65076ac8984595e0ef8595a440a473a9cab45635f55",
+  "source_page_count": 2,
+  "input_ppt_path": "D:\\XuTao_Task\\storage\\m4-validation\\lecture2-pages5-14.pptx",
+  "input_ppt_sha256": "4b4baadd2a9157c8b3f87044cdbbb0d2ef804bddfc34353a114ea066ec06f8de",
+  "source_generation": {
+    "id": "77b97de1-f491-419b-bccf-de0cc1c648eb",
+    "project_id": "0091c9cc-f11c-43d0-adcc-82263d176f3f",
+    "state": "completed",
+    "stage": "draft_preview_ready",
+    "error": null,
+    "scripts_ready": 2,
+    "total": 2,
+    "generation": 1,
+    "media": {
+      "id": "d9ef8619-94ed-47af-99ff-70ac62211785",
+      "project_id": "0091c9cc-f11c-43d0-adcc-82263d176f3f",
+      "kind": "m3",
+      "state": "completed",
+      "stage": "draft_preview_ready",
+      "created_at": "2026-10-08T17:34:54.879398+00:00",
+      "generation": 1,
+      "execution": "5bd318f6-3e7b-432c-811b-666922bad672",
+      "cancel_requested": false,
+      "result": {
+        "sha256": "dc8e0ec0569e0c2a780544e14c2d6f379dd67dca8b387cf2fcbc6ec78ad2edaa",
+        "duration_seconds": 26.16,
+        "video_start_seconds": 0.0,
+        "export_version": 2,
+        "width": 1920,
+        "height": 1080,
+        "audio_start_seconds": 0.0,
+        "video_end_seconds": 26.16,
+        "audio_end_seconds": 26.16,
+        "av_end_delta_seconds": 0.0,
+        "fps": 25.0,
+        "audio_check": {
+          "duration_seconds": 26.16,
+          "silence_ratio": 0.039984709480122324,
+          "max_volume_db": -3.7
+        },
+        "path": "m3/jobs/d9ef8619-94ed-47af-99ff-70ac62211785/generation-1/course.mp4",
+        "preview": true,
+        "output_kind": "course",
+        "timeline": [
+          {
+            "scene_id": "472aa7c0-b8cc-4413-ab4d-791699482bc9",
+            "source_page_ids": [
+              "5916db55767f622db9d0383a33c8ffd961f04b385dff1e835aa9a3c7331523c5:slide-256"
+            ],
+            "play_page_id": "5916db55767f622db9d0383a33c8ffd961f04b385dff1e835aa9a3c7331523c5:slide-256",
+            "start": 0.0,
+            "end": 14.8,
+            "duration_seconds": 14.8
+          },
+          {
+            "scene_id": "f6da5394-7387-49f0-99cc-47d9205f8f62",
+            "source_page_ids": [
+              "5916db55767f622db9d0383a33c8ffd961f04b385dff1e835aa9a3c7331523c5:slide-257"
+            ],
+            "play_page_id": "5916db55767f622db9d0383a33c8ffd961f04b385dff1e835aa9a3c7331523c5:slide-257",
+            "start": 14.8,
+            "end": 26.16,
+            "duration_seconds": 11.36
+          }
+        ],
+        "snapshot_id": "draft:d15cbda44b93bd3c56011c9db68627172bb21aa7222fee5e2fc6092883b512b6",
+        "input_key": "70ae0658d6eb6b46d4813ed4a0c7aafcd8f400ccd9e4be380dc5f8eef9f9c245",
+        "quality_verified": false,
+        "exports": {
+          "mp4": "m3/jobs/d9ef8619-94ed-47af-99ff-70ac62211785/generation-1/course.mp4",
+          "srt": "m3/jobs/d9ef8619-94ed-47af-99ff-70ac62211785/generation-1/course.srt",
+          "script": "m3/jobs/d9ef8619-94ed-47af-99ff-70ac62211785/generation-1/scripts.md",
+          "manifest": "m3/jobs/d9ef8619-94ed-47af-99ff-70ac62211785/generation-1/manifest.json"
+        },
+        "file_hashes": {
+          "mp4": "dc8e0ec0569e0c2a780544e14c2d6f379dd67dca8b387cf2fcbc6ec78ad2edaa",
+          "srt": "55370c49f9a05ffbe7613307dbc422a8f9c8a7a565fae8fa1c3466b7ef3258c1",
+          "script": "a644278bbe3886066c123e8544846d9eacb4b467f8ec6f674c484dc6a42a53d6",
+          "manifest": "4308480dc723929918220f1e815fc42a360adbc4ebfd2ec9c3bb908d6299532c"
+        }
+      },
+      "error": null,
+      "recoveries": 0,
+      "started_at": "2026-10-08T17:34:54.890429+00:00",
+      "updated_at": "2026-10-08T17:45:14.367903+00:00",
+      "elapsed_seconds": 619.4740234000001,
+      "finished_at": "2026-10-08T17:45:14.364881+00:00",
+      "preview": true,
+      "snapshot_id": "draft:d15cbda44b93bd3c56011c9db68627172bb21aa7222fee5e2fc6092883b512b6",
+      "mode": "video",
+      "output_kind": "course",
+      "scenes": [
+        {
+          "id": "472aa7c0-b8cc-4413-ab4d-791699482bc9",
+          "source_index": 1,
+          "state": "valid",
+          "active_stage": null,
+          "stage_states": {
+            "tts": "valid",
+            "portrait": "valid",
+            "compose": "valid"
+          },
+          "cache_hits": {
+            "tts": {
+              "hit": false,
+              "key": "6ca6d02f2a8d423c910f0195b95ee6add5fc3f3e35b4cd302e82be023cdde105",
+              "reason": "no_valid_compatible_media"
+            },
+            "portrait": {
+              "hit": false,
+              "key": "d418bdcf27dda7392e09372405778552d70440a86b7e3e10081ae2ceda67e54c",
+              "reason": "current_audio_or_person_inputs_require_generation"
+            },
+            "compose": {
+              "hit": false,
+              "key": "a79102d530ec287b6a307740039b1070f2325962affae64952002a1ad3496b1c",
+              "reason": "composition_inputs_changed_or_missing"
+            }
+          },
+          "error": null,
+          "preview_path": "m3/cache/compose/a79102d530ec287b6a307740039b1070f2325962affae64952002a1ad3496b1c/page.mp4"
+        },
+        {
+          "id": "f6da5394-7387-49f0-99cc-47d9205f8f62",
+          "source_index": 2,
+          "state": "valid",
+          "active_stage": null,
+          "stage_states": {
+            "tts": "valid",
+            "portrait": "valid",
+            "compose": "valid"
+          },
+          "cache_hits": {
+            "tts": {
+              "hit": false,
+              "key": "186e3c6cafe742fe47c6c001b1d4bfd02077d4e576a76afc7585c7c198843a11",
+              "reason": "no_valid_compatible_media"
+            },
+            "portrait": {
+              "hit": false,
+              "key": "45e0ba63c9aafcd283a02011575b8a4bcc770be24ee2630a876a1c063511f8f3",
+              "reason": "current_audio_or_person_inputs_require_generation"
+            },
+            "compose": {
+              "hit": false,
+              "key": "678533c8b67a15460d592875e695674fb0e420dd082a884eab7ddeecd9c2948a",
+              "reason": "composition_inputs_changed_or_missing"
+            }
+          },
+          "error": null,
+          "preview_path": "m3/cache/compose/678533c8b67a15460d592875e695674fb0e420dd082a884eab7ddeecd9c2948a/page.mp4"
+        }
+      ],
+      "progress": {
+        "tts": 2,
+        "portrait": 2,
+        "compose": 2,
+        "total": 2,
+        "valid": 2,
+        "failed": 0
+      }
+    },
+    "teacher_confirmation": null,
+    "is_current": false
+  },
+  "scope": "Actual browser reselect and original-page rendering; no new AI/media generation or teacher confirmation",
+  "checked_at": "2026-10-09T02:32:47.674671+00:00",
+  "state": "passed",
+  "new_project_id": "c75361e9-6432-4546-b07f-0264b0dc9a39",
+  "source_unchanged": true,
+  "new_page_count": 10,
+  "new_script_versions": 0,
+  "inherited_inputs_owned": true,
+  "selected_person_mode": "photo",
+  "old_mp4_download_sha256_verified": true,
+  "old_teacher_confirmation_unchanged": true,
+  "browser": {
+    "at": "2026-10-09T02:32:10.400Z",
+    "browser": "Codex in-app browser",
+    "source_project_id": "0091c9cc-f11c-43d0-adcc-82263d176f3f",
+    "new_project_id": "c75361e9-6432-4546-b07f-0264b0dc9a39",
+    "ppt_button_enabled_before": true,
+    "ppt_button_enabled_after": true,
+    "generate_enabled_after": true,
+    "visible_page_count": "10 页",
+    "notice": "已切换到新课件，教师形象和参考语音已沿用。原课程、讲稿和成片已保留。",
+    "old_completion_not_shown": true,
+    "teacher_confirmation_submitted": false,
+    "refresh_restored_new_course": true,
+    "ppt_enabled_after_refresh": true
+  },
+  "new_jobs": [
+    {
+      "id": "2480ca41-79d8-41ca-ac0f-1b4a5ac52543",
+      "kind": "asset",
+      "state": "completed"
+    }
+  ],
+  "code_sha256": {
+    "mooc_m2\\store.py": "30a83b51e02dc347848182ddfabaefa6c02b957835d951834d34b26fd734740f",
+    "mooc_m2\\service.py": "25fc71f8170be4844568437f47f3ee72c7cd5b85f8f0b289cfb684ab12173c9f",
+    "mooc_m2\\api.py": "d3c54bbc456919a016be4786cc204c1fc457c2cfb0f372067c3ca246f5641e98",
+    "frontend\\src\\OneClick.vue": "07039e870219bf9e2efcc13ce9a20bb6ae6f0a80210f5c0993aafc3a99a24d8e"
+  }
+}

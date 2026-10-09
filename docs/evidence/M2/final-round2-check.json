@@ -1,0 +1,12 @@
+{
+  "checked_at": "2026-10-02T06:04:04.841473+00:00",
+  "credential_value_not_in_public_files": true,
+  "public_files_scanned": 125,
+  "tests": 54,
+  "test_errors": 0,
+  "test_failures": 0,
+  "built_frontend_index_sha256": "1832d171c1c08b172274603cff0d5acc30f65ab3fdc661e1e8c55e685347fb4c",
+  "isolated_reading_reopened_from_database": true,
+  "formal_teacher_confirmations": 0,
+  "stage_passed": false
+}

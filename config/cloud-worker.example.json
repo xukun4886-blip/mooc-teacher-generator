@@ -1,0 +1,19 @@
+{
+  "repo": "/root/autodl-tmp/mooc-cloud/SadTalker",
+  "storage": "/root/autodl-tmp/mooc-cloud/storage",
+  "token_env": "MOOC_CLOUD_TOKEN",
+  "expected_code_revision": "cd4c0465ae0b54a6f85af57f5c65fec9fe23e7f8",
+  "expected_weights": {
+    "checkpoints/SadTalker_V0.0.2_256.safetensors": "c211f5d6de003516bf1bbda9f47049a4c9c99133b1ab565c6961e5af16477bff",
+    "checkpoints/mapping_00109-model.pth.tar": "84a8642468a3fcfdd9ab6be955267043116c2bec2284686a5262f1eaf017f64c",
+    "gfpgan/weights/alignment_WFLW_4HG.pth": "bbfd137307a4c7debd5c283b9b0ce539466cee417ac0a155e184d857f9f2899c",
+    "gfpgan/weights/detection_Resnet50_Final.pth": "6d1de9c2944f2ccddca5f5e010ea5ae64a39845a86311af6fdf30841b0a5a16d"
+  },
+  "price": {
+    "hourly_rate": 0,
+    "currency": "CNY",
+    "scope": "API has no per-call fee; existing VM rental, idle and storage billing are outside this field"
+  },
+  "max_clip_seconds": 120,
+  "max_job_seconds": 7200
+}

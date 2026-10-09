@@ -1,0 +1,15 @@
+{
+  "submitted_at": 1791515946.9169953,
+  "job": {
+    "id": "84d7c4ab-221a-4fd6-b404-1104713acf5d",
+    "project_id": "11604689-6106-451f-b40b-95089e07b5b5",
+    "state": "queued",
+    "stage": "queued",
+    "error": null,
+    "scripts_ready": 0,
+    "total": 24,
+    "generation": 1,
+    "media": null,
+    "retry_allowed": false
+  }
+}

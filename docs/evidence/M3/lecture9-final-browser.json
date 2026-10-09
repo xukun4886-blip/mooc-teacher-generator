@@ -1,0 +1,42 @@
+{
+  "at": "2026-10-09T06:50:15.746Z",
+  "url": "http://127.0.0.1:8765/?project=11604689-6106-451f-b40b-95089e07b5b5",
+  "media_id": "3c71bde5-a379-452b-9992-2064c7878a46",
+  "scope": "Actual initial continuous playback, native control seeking and final tail playback; not a full pedagogical or mouth-sync assessment",
+  "initial_playback_observed_seconds": 78.383707,
+  "page11": {
+    "currentTime": 446.772,
+    "duration": 720.6,
+    "paused": true,
+    "readyState": 1,
+    "src": "http://127.0.0.1:8765/api/projects/11604689-6106-451f-b40b-95089e07b5b5/files/m3/jobs/3c71bde5-a379-452b-9992-2064c7878a46/generation-1/course.mp4"
+  },
+  "tail_start": {
+    "currentTime": 713.415333,
+    "duration": 720.6,
+    "paused": false,
+    "readyState": 4
+  },
+  "tail_end": {
+    "currentTime": 720.6,
+    "duration": 720.6,
+    "ended": true,
+    "paused": true,
+    "readyState": 4
+  },
+  "download_path": "C:\\Users\\及时行乐\\Downloads\\draft-course (6).mp4",
+  "teacher_confirmation_clicked": false,
+  "user_original_browser_cache_verified": false,
+  "bundle": "index-Mfzcx2aY.js",
+  "page11_settled": {
+    "currentTime": 446.772,
+    "duration": 720.6,
+    "paused": true,
+    "readyState": 4
+  },
+  "page11_playback_observed": {
+    "currentTime": 473.464721,
+    "paused": false,
+    "readyState": 4
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "at": "2026-10-08T17:20:09.437018+00:00",
+  "sources": [
+    {
+      "url": "https://docs.bigmodel.cn/llms.txt",
+      "http_status": 200,
+      "relevant_lines": [
+        "- [API 定价](https://docs.bigmodel.cn/cn/guide/start/pricing.md): 模型推理、搜索工具、知识库、模型微调及私有实例等服务价格说明"
+      ]
+    },
+    {
+      "url": "https://docs.bigmodel.cn/cn/guide/models/free/glm-4v-flash.md",
+      "http_status": 200,
+      "relevant_lines": [
+        "# GLM-4V-Flash",
+        "GLM-4V-Flash 是智谱推出的首个完全免费的图像理解模型。在图像识别、图像问答、图像推理等多项任务中展现出卓越的性能。在企业应用场景中，GLM-4V-Flash 表现突出，不仅能够帮助企业实现高效图像处理，还能紧密贴合不同垂直领域的实际需求，适配多样化应用场景。",
+        "  <Card title=\"体验中心\" href=\"https://www.bigmodel.cn/console/trialcenter?modelCode=glm-4v-flash\">",
+        "    大模型 GLM-4V-Flash 拥有优秀的图表分析能力，在处理折线图时表现尤为出色。它能够精准识别和提取图表中的数据拐点、峰值和谷值，并对数据趋势进行深入解读。通过分析历史数据的变化规律，模型可以生成科学的预测结果，并以清晰的方式呈现未来可能的发展走向。",
+        "    GLM-4V-Flash 的美容咨询助手功能，能够识别图中的皮肤问题，还能提供一系列细致的护肤建议。它从清洁、保湿、防晒等多个角度出发，为用户量身定制护肤方案，同时强调避免不当的护肤行为和注意生活习惯。这一功能可以为用户提供有关于美容方面的建议。"
+      ]
+    },
+    {
+      "url": "https://docs.bigmodel.cn/cn/guide/start/model-overview.md",
+      "http_status": 200,
+      "relevant_lines": [
+        "  若需要看模型价格，请直接前往[价格页面](https://docs.bigmodel.cn/cn/guide/start/pricing)。",
+        "  | [GLM-4.7-Flash](/cn/guide/models/free/glm-4.7-flash) | 免费文本模型 <br /> 延续 GLM-4.7 基座的通用能力 | 200K | 128K |",
+        "  | [GLM-4.5-Flash](/cn/guide/models/free/glm-4.5-flash) | 免费文本模型 <br /> 支持最长 128K 的上下文处理 | 128K | 96K |",
+        "  | [GLM-4-Flash-250414](/cn/guide/models/text/glm-4) | 免费文本模型 | 128K | 16K |",
+        "  | [GLM-4.1V-Thinking-FlashX](/cn/guide/models/vlm/glm-4.1v-thinking) | 擅长复杂场景理解与多步骤分析<br />适合高并发视觉推理场景 | 64K | 16K |",
+        "  | [GLM-4.6V-Flash](/cn/guide/models/free/glm-4.6v-flash) | 免费模型，支持视觉推理 | 128K | 32K |",
+        "  | [GLM-4.1V-Thinking-Flash](/cn/guide/models/free/glm-4.1v-thinking-flash) | 免费模型，支持视觉推理 | 64K | 16K |",
+        "  | [GLM-4V-Flash](/cn/guide/models/free/glm-4v-flash) | 免费模型，支持图像理解 | 16K | 1K |",
+        "  | [CogView-3-Flash](/cn/guide/models/free/cogview-3-flash) | 免费模型<br />适合轻量图像创作 | 支持 |",
+        "  | [CogVideoX-Flash](/cn/guide/models/free/cogvideox-flash) | 免费视频生成模型 | 图像、文本 |"
+      ]
+    }
+  ],
+  "alternative_called": false,
+  "default_changed": false
+}

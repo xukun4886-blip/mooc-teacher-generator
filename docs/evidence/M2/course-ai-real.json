@@ -1,0 +1,2630 @@
+{
+  "created_at": "2026-10-02T05:08:32.185218+00:00",
+  "project_id": "ff95b51c-8e49-49d8-9d82-957069befbdf",
+  "source_sha256": "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592",
+  "provider": "open.bigmodel.cn",
+  "model": "glm-4.6v-flash",
+  "teacher_review": "pending",
+  "formal_scope": {
+    "first": 5,
+    "last": 14,
+    "user_selected": true
+  },
+  "batch_id": "4f337c15-05ea-46da-b4a5-ba2a89550ada",
+  "total": 63,
+  "counts": {
+    "queued": 0,
+    "running": 0,
+    "completed": 63,
+    "failed": 0
+  },
+  "checked_at": "2026-10-02T05:54:39.890190+00:00",
+  "failures": [],
+  "page_count": 63,
+  "draft_versions": [
+    {
+      "scene_id": "b5d84550-d985-429a-b2f8-a0b7bbc5b61a",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-275"
+      ],
+      "version_id": "7c550f9b-f9df-46f0-a1b0-e5af670cb19b",
+      "question_count": 0,
+      "pending_count": 0,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "20261002132601ffaddd16897d44cf",
+        "usage": {
+          "completion_tokens": 135,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 15531,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 15666
+        },
+        "context_sha256": "80c3df2a2df080bb2121a0ddd35a28e59158169132ff25d13cf2820fbc8b7f87",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-275"
+        ],
+        "image_sha256": [
+          "8ba1ea094c941a9896a6125948dd3b116d6fde362d2117af7a000337448fe2ae"
+        ],
+        "extensions": [],
+        "batch_id": "400a1c16-12e2-45a4-8435-572b252b72be",
+        "instruction_sha256": "ec5b82a9d3439d7f65679df02ec682e4b26306afedcecc66edf88c68373aecec",
+        "provider_record": {
+          "response_id": "20261002132601ffaddd16897d44cf",
+          "response_sha256": "daee90883f5dcc9ea087551cf90ecd0330babeef1488bb3f4aedae6e3614bac2",
+          "path": "ai-responses/49445a34-74ef-44fa-8892-7b1b7cbe9749.json"
+        }
+      }
+    },
+    {
+      "scene_id": "9d74cef5-e40f-46a9-aa2e-b6f8a9a108a6",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-311"
+      ],
+      "version_id": "96a5b0a5-381e-43cd-9bb7-f29e0b16c3e5",
+      "question_count": 1,
+      "pending_count": 1,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "202610021309209aa174f017bb4fae",
+        "usage": {
+          "completion_tokens": 627,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 15560,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 16187
+        },
+        "context_sha256": "58ea4ae20c1d593a53b215aac60e399cdf316430f406a55cbddc8e410bcbfe41",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-311"
+        ],
+        "image_sha256": [
+          "f9d95cfb5a7db773f68078bd13121d875bbb97f37823fdc042a1a1059cb27b6e"
+        ],
+        "extensions": [],
+        "batch_id": "4f337c15-05ea-46da-b4a5-ba2a89550ada"
+      }
+    },
+    {
+      "scene_id": "104ee514-f660-42d2-b94f-c32448ebb9bc",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-335"
+      ],
+      "version_id": "16ec1a6f-3679-4fb7-a7ae-560ae720fcc7",
+      "question_count": 1,
+      "pending_count": 1,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "20261002130931d027935c8034441f",
+        "usage": {
+          "completion_tokens": 755,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 15560,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 16315
+        },
+        "context_sha256": "49f0e33b9c53cb4217f74ab8ba02730a8a1a4a59cd772c2563b69c57e28b3729",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-335"
+        ],
+        "image_sha256": [
+          "713c2bc0a54a9bab7de6af966d599298f7b34d1cd056c7c50fc27700e97b7380"
+        ],
+        "extensions": [
+          "无线接入点（AP）在无线局域网中的具体作用，包括信号覆盖、用户认证等"
+        ],
+        "batch_id": "4f337c15-05ea-46da-b4a5-ba2a89550ada"
+      }
+    },
+    {
+      "scene_id": "056710c1-0465-48da-b883-c4bacbf6891e",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-350"
+      ],
+      "version_id": "0e9754e2-f222-4a8b-a7bc-f910324dcf9e",
+      "question_count": 1,
+      "pending_count": 1,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "20261002132609ed5ebce9925d4805",
+        "usage": {
+          "completion_tokens": 403,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 15519,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 15922
+        },
+        "context_sha256": "f7273a26f049f95afa38b2f1dc519f4b90441ac7d04207c2edefc02480ad355e",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-350"
+        ],
+        "image_sha256": [
+          "3baa1534c57a52e1414c1e5607214d0957640b4270dceb51e40eccf132cf270f"
+        ],
+        "extensions": [
+          "无线接入技术是现代移动通信网络的基础，它通过基站等无线接入点为移动设备提供接入服务。"
+        ],
+        "batch_id": "400a1c16-12e2-45a4-8435-572b252b72be",
+        "instruction_sha256": "ec5b82a9d3439d7f65679df02ec682e4b26306afedcecc66edf88c68373aecec",
+        "provider_record": {
+          "response_id": "20261002132609ed5ebce9925d4805",
+          "response_sha256": "15420246f74eba83fc1f08e294d17bce87c42c6bd59c74f6bdacecb1f0f8b93a",
+          "path": "ai-responses/648f1f75-f03e-4113-9dc0-ccfefd84c05c.json"
+        }
+      }
+    },
+    {
+      "scene_id": "32db28e6-099d-48da-98cc-72da9aca29f6",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-369"
+      ],
+      "version_id": "e2c6cc99-800a-4e27-b0ff-589f3405e63c",
+      "question_count": 1,
+      "pending_count": 1,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "202610021326237cfaa92456ba45b6",
+        "usage": {
+          "completion_tokens": 566,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 15435,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 16001
+        },
+        "context_sha256": "8a8e3e34e2457437293e7aaddf8bc4ec2bfea7e6a00f80e66560497191f147af",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-369"
+        ],
+        "image_sha256": [
+          "9e17cb10e7a3a1aaeb1b2cb6e227ed307bc7fe222e9508250f1b101aa3ebdf87"
+        ],
+        "extensions": [
+          "无线蜂窝网是移动通信的核心，通过基站实现用户在移动中的网络连接，支持语音和数据服务。"
+        ],
+        "batch_id": "400a1c16-12e2-45a4-8435-572b252b72be",
+        "instruction_sha256": "ec5b82a9d3439d7f65679df02ec682e4b26306afedcecc66edf88c68373aecec",
+        "provider_record": {
+          "response_id": "202610021326237cfaa92456ba45b6",
+          "response_sha256": "a0c1f6609b24096c0118c899c140c041ccb46cccc4f1c9f025e8f01899820525",
+          "path": "ai-responses/28d69b3d-4345-4fc0-bc0d-dcf52facda54.json"
+        }
+      }
+    },
+    {
+      "scene_id": "d3ef6ce5-c07f-4c47-ba87-60d66ea4b1c3",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-349"
+      ],
+      "version_id": "f8a2725e-fac6-41ca-ab44-c29e6a103771",
+      "question_count": 1,
+      "pending_count": 2,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "20261002134142c67338eedc8643c6",
+        "usage": {
+          "completion_tokens": 649,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 15488,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 16137
+        },
+        "context_sha256": "daba667179c4165d05e5e5cf29bd2dec7c2e6f2b4cc1bd7ad730306e71a2d18e",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-349"
+        ],
+        "image_sha256": [
+          "345398eb31856486dbe25e9959b1236e779bbc05ba21f469f68fb213535b1f05"
+        ],
+        "extensions": [
+          "无线接入技术是移动通信和物联网的基础，理解其分类有助于掌握不同无线网络的技术特点和应用场景。"
+        ],
+        "batch_id": "b05e955b-41fe-48ee-979f-beb3d0626374",
+        "instruction_sha256": "0895679dec84a6fd6fbdee5e4e4caa2300d6432e81d3ec468bb8ed606c0d8bf8",
+        "provider_record": {
+          "response_id": "20261002134142c67338eedc8643c6",
+          "response_sha256": "cfddd2582bcc74beb6b6373ea8de18c5ce3e6f2fc03229a30930ee0452ef78fa",
+          "path": "ai-responses/ab54918d-2bf8-453c-b371-edcb20649fc9.json"
+        },
+        "expanded_current_source_count": 0
+      }
+    },
+    {
+      "scene_id": "46c2b86c-4c30-4b67-9110-ef16d179a25c",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-351"
+      ],
+      "version_id": "cb916d18-06a3-4510-992f-f90fcae6662d",
+      "question_count": 1,
+      "pending_count": 1,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "20261002132651ade3da615e934b3a",
+        "usage": {
+          "completion_tokens": 490,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 15499,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 15989
+        },
+        "context_sha256": "b97c61d313920275d15e493c8880ec719f6d5fe46ded2a0d8a6ceb682e54e4ec",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-351"
+        ],
+        "image_sha256": [
+          "9d6e0d6bce17ded97512f3505c3d4046be97bb88467722bfc8b2df45a90cc046"
+        ],
+        "extensions": [
+          "无线蜂窝网通过蜂窝状的区域覆盖，实现大范围移动通信"
+        ],
+        "batch_id": "400a1c16-12e2-45a4-8435-572b252b72be",
+        "instruction_sha256": "ec5b82a9d3439d7f65679df02ec682e4b26306afedcecc66edf88c68373aecec",
+        "provider_record": {
+          "response_id": "20261002132651ade3da615e934b3a",
+          "response_sha256": "e0a22db319b8cc969f4eb72cd4d849369cd1353dbf7b16139af0a00758c9dd8b",
+          "path": "ai-responses/3be3f435-a8b4-4ce7-870b-954fcc57c328.json"
+        }
+      }
+    },
+    {
+      "scene_id": "519d97ff-c650-40f8-867f-d1045307371c",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-352"
+      ],
+      "version_id": "7b19535e-ca06-4d64-ae62-e769515eda8c",
+      "question_count": 1,
+      "pending_count": 1,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "20261002132702227397635c4042f9",
+        "usage": {
+          "completion_tokens": 634,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 15567,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 16201
+        },
+        "context_sha256": "5dc253f435cdcb3562f8d1780580863d536fc934db5dc71ce3848e0850813db4",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-352"
+        ],
+        "image_sha256": [
+          "3f12ce0fcc13016d6fd830c94c1bebab3759efe3cc6f6d7deb7bc4d3093633da"
+        ],
+        "extensions": [
+          "电路交换与分组交换的详细工作原理对比"
+        ],
+        "batch_id": "400a1c16-12e2-45a4-8435-572b252b72be",
+        "instruction_sha256": "ec5b82a9d3439d7f65679df02ec682e4b26306afedcecc66edf88c68373aecec",
+        "provider_record": {
+          "response_id": "20261002132702227397635c4042f9",
+          "response_sha256": "139270f9c3c5afd20837ababd351e264683c938a581de6c2f7f6d00c0f2a93d4",
+          "path": "ai-responses/d2ea2848-8576-4d78-a324-65d5c87f0471.json"
+        }
+      }
+    },
+    {
+      "scene_id": "ded25c08-b339-4c13-b2b0-f3e5134129ae",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-353"
+      ],
+      "version_id": "c986853a-3aee-4f88-8b2e-6a49d0fc448a",
+      "question_count": 1,
+      "pending_count": 1,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "2026100213100623cfb33645cc4125",
+        "usage": {
+          "completion_tokens": 488,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 15606,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 16094
+        },
+        "context_sha256": "8797dde82a09f1275dd3d49c66f349a7e3e45a1d0965172005c1f8d543ca2e8a",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-353"
+        ],
+        "image_sha256": [
+          "a7db3283329104d5eebbb9891d263bb217ea3093b93b981f4eef65971da3f0b2"
+        ],
+        "extensions": [
+          "TDMA与FDMA、CDMA等多址技术的比较"
+        ],
+        "batch_id": "4f337c15-05ea-46da-b4a5-ba2a89550ada"
+      }
+    },
+    {
+      "scene_id": "9d5c2e7b-3f30-4238-a338-94d863029e85",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-360"
+      ],
+      "version_id": "cc214d84-4524-446b-aea6-e7fef30487cc",
+      "question_count": 1,
+      "pending_count": 1,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "2026100213271468dcac82d0b740af",
+        "usage": {
+          "completion_tokens": 585,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 15731,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 16316
+        },
+        "context_sha256": "981a3a9585792db081edacd6e9953e824918b0ccad8755c259c4b337b22a9e5e",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-360"
+        ],
+        "image_sha256": [
+          "9f6e758ba63e34117254f842106d57bb70a4bf4ac34dbc2f43666eed1abdabec"
+        ],
+        "extensions": [
+          "FDMA 与其他多址技术的比较，如 TDMA 和 CDMA"
+        ],
+        "batch_id": "400a1c16-12e2-45a4-8435-572b252b72be",
+        "instruction_sha256": "ec5b82a9d3439d7f65679df02ec682e4b26306afedcecc66edf88c68373aecec",
+        "provider_record": {
+          "response_id": "2026100213271468dcac82d0b740af",
+          "response_sha256": "c8c6029f8b11f83b1f10f341ee8c9b604e06b96f8d9e6af7ce24f2dda42c0842",
+          "path": "ai-responses/34c9109f-efa5-49ce-a16b-beb03da69676.json"
+        }
+      }
+    },
+    {
+      "scene_id": "def0dddc-5528-450c-85c6-7754b4a5ea3c",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-361"
+      ],
+      "version_id": "e9731f3c-dd5b-4207-8fa0-ce139753d766",
+      "question_count": 1,
+      "pending_count": 1,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "20261002131040ed85302bbafa4107",
+        "usage": {
+          "completion_tokens": 756,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 15582,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 16338
+        },
+        "context_sha256": "90a95bf1272bf7e21d598eca9ca400f016f193df568cc6d5556b667303a6dec0",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-361"
+        ],
+        "image_sha256": [
+          "c60fc464043a5e3d0da50aa75072f90b9ff1b8d4a535e77fa525e7309dc92eb3"
+        ],
+        "extensions": [
+          "扩频码的正交性是CDMA技术实现多用户同时通信的关键，它类似于数学中的正交函数，确保了不同用户信号在接收端可以分离。"
+        ],
+        "batch_id": "4f337c15-05ea-46da-b4a5-ba2a89550ada"
+      }
+    },
+    {
+      "scene_id": "a1b6615b-bc93-4271-8193-a2e391a49ace",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-362"
+      ],
+      "version_id": "cf59e1c4-3c8d-4e74-8295-3718ff1d5947",
+      "question_count": 1,
+      "pending_count": 1,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "20261002132725d66fed4f15824d68",
+        "usage": {
+          "completion_tokens": 416,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 15851,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 16267
+        },
+        "context_sha256": "e5bbf830d4e58a7b78b0e9edf46a8ddfc3cf4ed46f575499a14372582cd14b03",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-362"
+        ],
+        "image_sha256": [
+          "b6f4dfc800cc4bc6084b59043d80ee12bd28f937b0308c6de6dbd2877707b3c6"
+        ],
+        "extensions": [
+          "正交扩频码在CDMA系统中的应用及其抗干扰能力"
+        ],
+        "batch_id": "400a1c16-12e2-45a4-8435-572b252b72be",
+        "instruction_sha256": "ec5b82a9d3439d7f65679df02ec682e4b26306afedcecc66edf88c68373aecec",
+        "provider_record": {
+          "response_id": "20261002132725d66fed4f15824d68",
+          "response_sha256": "75dd7dbb1622f510204df1f86d11b2805b019a578b118f9299b9dfeab15a6cd0",
+          "path": "ai-responses/1b31ee16-fc7d-4429-a7e5-15bc176b24a4.json"
+        }
+      }
+    },
+    {
+      "scene_id": "8d60bb32-2755-45d7-8f37-e10bbd3b5c43",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-363"
+      ],
+      "version_id": "b67c4452-d99e-43a4-9a95-9d8e21b05306",
+      "question_count": 1,
+      "pending_count": 1,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "20261002134116daa52f03fa854f3e",
+        "usage": {
+          "completion_tokens": 848,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 15802,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 16650
+        },
+        "context_sha256": "dab66144b2f3a42caf0d6cfff1dbbae6a5c37b8d952d9e17b996c0f7ca9ed010",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-363"
+        ],
+        "image_sha256": [
+          "422c413f700e395323fdda6c6918f23523049a87867d4dfb3051a288a1a96aa0"
+        ],
+        "extensions": [
+          "各标准之间的兼容性问题"
+        ],
+        "batch_id": "b05e955b-41fe-48ee-979f-beb3d0626374",
+        "instruction_sha256": "0895679dec84a6fd6fbdee5e4e4caa2300d6432e81d3ec468bb8ed606c0d8bf8",
+        "provider_record": {
+          "response_id": "20261002134116daa52f03fa854f3e",
+          "response_sha256": "64252a4ee0e3fcc0b005ef47ea15abdeef0b1c4e02e1d962279d87cee54b8db2",
+          "path": "ai-responses/d63cb1ee-d403-4245-bce9-12ef509fc49a.json"
+        },
+        "expanded_current_source_count": 1
+      }
+    },
+    {
+      "scene_id": "61fe08ac-9e7a-47e6-9dc9-74ff16ace1c0",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-372"
+      ],
+      "version_id": "8cf6d476-54d6-481f-bc39-355bceac7fd3",
+      "question_count": 1,
+      "pending_count": 1,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "202610021311100d8f2beb1c434ae6",
+        "usage": {
+          "completion_tokens": 577,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 15638,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 16215
+        },
+        "context_sha256": "4fe35d1fdf735f6ca30203fcf0b04bff8c8858070744377b0a90b5a251bf799c",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-372"
+        ],
+        "image_sha256": [
+          "008d05e51f0bce4d331d7104603d305d663ce3d60c4bf0f8f464632717a7559b"
+        ],
+        "extensions": [
+          "不同Wi-Fi标准（如802.11a、802.11ac等）在带宽和速率上的具体实现"
+        ],
+        "batch_id": "4f337c15-05ea-46da-b4a5-ba2a89550ada"
+      }
+    },
+    {
+      "scene_id": "275c4422-5d09-46b7-b0ed-34fe2b9561ed",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-373"
+      ],
+      "version_id": "b0fc22ab-8976-4685-a678-779453eb2988",
+      "question_count": 1,
+      "pending_count": 1,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "2026100213112118b1bb07b69e44f2",
+        "usage": {
+          "completion_tokens": 924,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 15338,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 16262
+        },
+        "context_sha256": "30b852445746f24d370b2bd659fdfd7bdc50bec00da2105bf698b132a0523228",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-373"
+        ],
+        "image_sha256": [
+          "99735353984c3c017d04ad2f671550eaf783fa7ffe3fadd12c2b1518140e0ede"
+        ],
+        "extensions": [
+          "无线局域网频段选择策略"
+        ],
+        "batch_id": "4f337c15-05ea-46da-b4a5-ba2a89550ada"
+      }
+    },
+    {
+      "scene_id": "ff4660de-12f1-451a-b6f9-328e20acd411",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-364"
+      ],
+      "version_id": "679f819a-0ee7-4d94-b9e3-4d07b6756a54",
+      "question_count": 1,
+      "pending_count": 1,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "20261002132816eba099d6b58e42c8",
+        "usage": {
+          "completion_tokens": 1054,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 15481,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 16535
+        },
+        "context_sha256": "c431c4e43819939a47f069a996f0b031efe45f76422643597d7f0d30bc27c6d7",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-364"
+        ],
+        "image_sha256": [
+          "329b685b5f0dbcf538c4c22d9a3486995227ccf5778fb62da0e652c4216b4a81"
+        ],
+        "extensions": [],
+        "batch_id": "400a1c16-12e2-45a4-8435-572b252b72be",
+        "instruction_sha256": "ec5b82a9d3439d7f65679df02ec682e4b26306afedcecc66edf88c68373aecec",
+        "provider_record": {
+          "response_id": "20261002132816eba099d6b58e42c8",
+          "response_sha256": "5386dfded09d52850fbbade02ef0869bdbfb1489df9a6a1b0fb07ebf570ce53c",
+          "path": "ai-responses/965ba9be-a4bb-4fb6-9794-3c7162478972.json"
+        }
+      }
+    },
+    {
+      "scene_id": "930e28f7-0017-4d0d-b22a-647fb73ee166",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-365"
+      ],
+      "version_id": "8f371a08-ffe5-4441-af42-8697f2773838",
+      "question_count": 1,
+      "pending_count": 1,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "202610021311566d1bc2367e144ef5",
+        "usage": {
+          "completion_tokens": 640,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 15744,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 16384
+        },
+        "context_sha256": "c40da68957033bf3fca498e7765f1adaf9ae36dc75bdb3b5e08b60b7db3491e1",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-365"
+        ],
+        "image_sha256": [
+          "e283a560680c75d28fde49ee5f513bac772f02a5868b3bde26114b86e3091d06"
+        ],
+        "extensions": [
+          "OFDM在无线通信中的应用，如4G LTE和Wi-Fi技术"
+        ],
+        "batch_id": "4f337c15-05ea-46da-b4a5-ba2a89550ada"
+      }
+    },
+    {
+      "scene_id": "7e4e05d9-94d0-42b0-9996-0e4d8be5b2af",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-370"
+      ],
+      "version_id": "f7a5cd69-cbae-490c-983f-2078b8626af0",
+      "question_count": 1,
+      "pending_count": 1,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "20261002131211c715739ba58344fd",
+        "usage": {
+          "completion_tokens": 956,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 15736,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 16692
+        },
+        "context_sha256": "17e8f5aab23307584702c873e637f90d911f200d5bd0f55858ec05ba64602f6a",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-370"
+        ],
+        "image_sha256": [
+          "5e1b6e9fb8937ef0fb8a15a1c32a4d2e55d7c3ab9f756900a175d3f962c7a9a5"
+        ],
+        "extensions": [],
+        "batch_id": "4f337c15-05ea-46da-b4a5-ba2a89550ada"
+      }
+    },
+    {
+      "scene_id": "023367ea-f964-4a84-a8ab-dcc4604826b1",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-366"
+      ],
+      "version_id": "2b0055cc-0ecf-4aad-b75e-67acf320cec6",
+      "question_count": 1,
+      "pending_count": 2,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "20261002132834a9e31777571445cf",
+        "usage": {
+          "completion_tokens": 486,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 15763,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 16249
+        },
+        "context_sha256": "c2760a204ecfe95f8a0b684b5224bf579f1113baabfc70bc8752186b226cdcd7",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-366"
+        ],
+        "image_sha256": [
+          "7347fc9bfc2004da5d78fc33f37e45b11fcc32fa52ccb63d14c48de1cd3e7b87"
+        ],
+        "extensions": [
+          "无线局域网信道规划在实际部署中的考虑因素，如环境干扰、设备数量"
+        ],
+        "batch_id": "400a1c16-12e2-45a4-8435-572b252b72be",
+        "instruction_sha256": "ec5b82a9d3439d7f65679df02ec682e4b26306afedcecc66edf88c68373aecec",
+        "provider_record": {
+          "response_id": "20261002132834a9e31777571445cf",
+          "response_sha256": "a29b0212738b503fb7bb7746461ef65b183753ca09cc37a3f63f6558b672fa06",
+          "path": "ai-responses/764ff09d-004d-40e2-a59f-9b80c6b1b7a1.json"
+        }
+      }
+    },
+    {
+      "scene_id": "55c872be-6697-416a-a5c2-c985fece0306",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-371"
+      ],
+      "version_id": "0e692992-a136-4ada-9abe-690365310831",
+      "question_count": 1,
+      "pending_count": 0,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "2026100213284309749269103b43e9",
+        "usage": {
+          "completion_tokens": 484,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 15407,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 15891
+        },
+        "context_sha256": "8c672709cddf07073d702912339deba82a1a6c50e99c3f3ccad3fe9a1f1e1aee",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-371"
+        ],
+        "image_sha256": [
+          "58ab4615e9c315cfeddfc71211c8399d5f7a1f7395387b5567df16417e45467e"
+        ],
+        "extensions": [],
+        "batch_id": "400a1c16-12e2-45a4-8435-572b252b72be",
+        "instruction_sha256": "ec5b82a9d3439d7f65679df02ec682e4b26306afedcecc66edf88c68373aecec",
+        "provider_record": {
+          "response_id": "2026100213284309749269103b43e9",
+          "response_sha256": "d6d5a0ee960f603a5604a81c75a683f6cb233c157bc7a6da053e75543d9cc59b",
+          "path": "ai-responses/a7fd1377-8daf-4499-b21c-775ecbf8e427.json"
+        }
+      }
+    },
+    {
+      "scene_id": "5b975e3a-c6a9-464f-8ce7-d149ebd5a9e7",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-368"
+      ],
+      "version_id": "4644ea62-1996-436f-9ef2-ca1cc466667e",
+      "question_count": 1,
+      "pending_count": 1,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "202610021328525d855b331e554fb5",
+        "usage": {
+          "completion_tokens": 1175,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 15407,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 16582
+        },
+        "context_sha256": "66b4ede18dddc209e6fc68d5d1e3ac377d2ab3bda6ed9205830de8668356b325",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-368"
+        ],
+        "image_sha256": [
+          "c0aca416e1c2b2b18da6647b5e154d0e823851129615126a328532e05a29f7a2"
+        ],
+        "extensions": [
+          "MIMO技术的具体实现方式，如空间分集、空间复用等"
+        ],
+        "batch_id": "400a1c16-12e2-45a4-8435-572b252b72be",
+        "instruction_sha256": "ec5b82a9d3439d7f65679df02ec682e4b26306afedcecc66edf88c68373aecec",
+        "provider_record": {
+          "response_id": "202610021328525d855b331e554fb5",
+          "response_sha256": "efd804b440804fec1cf2bd9d9f9cc466cf85cc0269ecfa7d54805e7f6b7acd9e",
+          "path": "ai-responses/66db4658-6d42-45f5-99c4-953c58769680.json"
+        }
+      }
+    },
+    {
+      "scene_id": "bed9cada-0a75-4c0a-9776-6567fb0ce9bf",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-374"
+      ],
+      "version_id": "091f3f38-15f3-48ea-9655-71e741636ff2",
+      "question_count": 1,
+      "pending_count": 1,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "202610021313220fdd7b46901b4fa6",
+        "usage": {
+          "completion_tokens": 720,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 15318,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 16038
+        },
+        "context_sha256": "88f703ea1b3e73a25c329945bdf84a9a4df93243b47c59ed7fecbfa42ba7ada2",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-374"
+        ],
+        "image_sha256": [
+          "0bffd3f896e93661e548dea676b1bf1338db17d020e84fc61e03c7825ef5026d"
+        ],
+        "extensions": [
+          "MIMO技术是提升无线通信系统性能的关键技术，尤其在高速无线局域网和蜂窝网络中广泛应用。"
+        ],
+        "batch_id": "4f337c15-05ea-46da-b4a5-ba2a89550ada"
+      }
+    },
+    {
+      "scene_id": "3e056fd1-7bfe-4234-b5f7-91480392469a",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-375"
+      ],
+      "version_id": "dd33af97-bcce-4b6d-93a7-591a19e7eb7f",
+      "question_count": 1,
+      "pending_count": 1,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "20261002132910b53db9b89bf14794",
+        "usage": {
+          "completion_tokens": 618,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 15884,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 16502
+        },
+        "context_sha256": "00f07e5f4abcc036476625a2b507be518a424498d96e06029e0e153a5974efa7",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-375"
+        ],
+        "image_sha256": [
+          "0944403acbe1155771d3ec639544987afa336215b8aa1dbc966e61f6e3fefce6"
+        ],
+        "extensions": [
+          "Wi-Fi 7的Preamble Puncturing技术如何提高信道利用率？"
+        ],
+        "batch_id": "400a1c16-12e2-45a4-8435-572b252b72be",
+        "instruction_sha256": "ec5b82a9d3439d7f65679df02ec682e4b26306afedcecc66edf88c68373aecec",
+        "provider_record": {
+          "response_id": "20261002132910b53db9b89bf14794",
+          "response_sha256": "7cc1416f9888a6c8779be0f48ad92f13afe4030b549b44a59ac59b0520f73f31",
+          "path": "ai-responses/b915abc1-5865-4c88-a1f3-8f723c8dfd2d.json"
+        }
+      }
+    },
+    {
+      "scene_id": "233fbcd3-8cf4-42d0-9c98-a56558b81e6f",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-376"
+      ],
+      "version_id": "b298aed3-aa89-4adb-8d49-2a202b424a78",
+      "question_count": 1,
+      "pending_count": 1,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "202610021313500cb5d1fcdd844a70",
+        "usage": {
+          "completion_tokens": 965,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 15826,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 16791
+        },
+        "context_sha256": "034156fca4fbfef7060d2240264b3e7aa2018e728c8f70efc509218a5424a247",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-376"
+        ],
+        "image_sha256": [
+          "214ee8eb75ccf2fed663aec931efdcca044c241e621833f40a87a00cb0ff49ba"
+        ],
+        "extensions": [
+          "多用户MIMO技术在不同频段的性能差异",
+          "BSS Coloring技术的工作原理和实现方式",
+          "多链路操作（MLO）的具体实现模式及其对网络可靠性的影响"
+        ],
+        "batch_id": "4f337c15-05ea-46da-b4a5-ba2a89550ada"
+      }
+    },
+    {
+      "scene_id": "5b6098bf-004f-48d8-9c74-fb9ed9e7e09a",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-377"
+      ],
+      "version_id": "7f7ac0e9-abbc-41da-9054-263797c2439b",
+      "question_count": 1,
+      "pending_count": 1,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "202610021329221fc17215bfa74f47",
+        "usage": {
+          "completion_tokens": 560,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 15961,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 16521
+        },
+        "context_sha256": "3c3d7586aea1b473c0edc1b7e78cc733ecf52938a1f8a9b7c1dfd41117912a88",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-377"
+        ],
+        "image_sha256": [
+          "69ade5be7715dbb95d5c0f34e91085c6b8eae872e908fb1b870b5f3172c61919"
+        ],
+        "extensions": [
+          "无线局域网物理层技术如何影响网络容量和传输速率"
+        ],
+        "batch_id": "400a1c16-12e2-45a4-8435-572b252b72be",
+        "instruction_sha256": "ec5b82a9d3439d7f65679df02ec682e4b26306afedcecc66edf88c68373aecec",
+        "provider_record": {
+          "response_id": "202610021329221fc17215bfa74f47",
+          "response_sha256": "26b224e0e437cd698dfd2df93555bdbf0769124c50b08c9e79315a563242ae60",
+          "path": "ai-responses/777fb226-1733-40bc-b3e1-c9704c700e7e.json"
+        }
+      }
+    },
+    {
+      "scene_id": "5c2456fc-09a6-43e8-b551-7fcd0047bbc1",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-378"
+      ],
+      "version_id": "840d3c58-1d2a-4724-9b7b-2e39675591eb",
+      "question_count": 1,
+      "pending_count": 1,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "20261002131419826b51cc4d01475c",
+        "usage": {
+          "completion_tokens": 739,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 15409,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 16148
+        },
+        "context_sha256": "d4568817c372c95471b56a815d55697557867cb3158bd6d4110ab3820ca8bbed",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-378"
+        ],
+        "image_sha256": [
+          "8ea8df695f8ec46c27cff5eb0bca26f757733fafa76fba99215cc8bbbca26e14"
+        ],
+        "extensions": [
+          "可以补充 OFDM 技术如何通过循环前缀（CP）来对抗多径效应，以及不同 Wi-Fi 标准中子载波的数量和调制方式的变化。"
+        ],
+        "batch_id": "4f337c15-05ea-46da-b4a5-ba2a89550ada"
+      }
+    },
+    {
+      "scene_id": "ae49c2c1-4611-4ba3-b29e-a01b7eb1f2ea",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-379"
+      ],
+      "version_id": "0794453d-4d21-4d9f-85d7-b7897e5c1ebf",
+      "question_count": 1,
+      "pending_count": 1,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "20261002132932dea293b11bc341b9",
+        "usage": {
+          "completion_tokens": 777,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 15493,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 16270
+        },
+        "context_sha256": "5c83b35628d4798c58e00414f1fa449e134759d930ffeaa04d5763576ed2b978",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-379"
+        ],
+        "image_sha256": [
+          "9d477029c5262d392972ada5476ce066ab0625d6de1a38949607582b2252a2a5"
+        ],
+        "extensions": [
+          "OFDM在无线通信中的应用，如4G LTE、5G NR等移动通信标准"
+        ],
+        "batch_id": "400a1c16-12e2-45a4-8435-572b252b72be",
+        "instruction_sha256": "ec5b82a9d3439d7f65679df02ec682e4b26306afedcecc66edf88c68373aecec",
+        "provider_record": {
+          "response_id": "20261002132932dea293b11bc341b9",
+          "response_sha256": "de27a49ef547216c22e174defb077cede67190d5ebc6fc1dca1933d410f8ee18",
+          "path": "ai-responses/bbbedadb-7449-4db2-a425-40f483432a7a.json"
+        }
+      }
+    },
+    {
+      "scene_id": "1449944e-dedd-4903-8da4-6a55487c3c7a",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-380"
+      ],
+      "version_id": "bb287159-62e2-4c4e-8eb5-5b24c796eafd",
+      "question_count": 1,
+      "pending_count": 0,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "20261002132943eea54aed7856434f",
+        "usage": {
+          "completion_tokens": 301,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 15428,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 15729
+        },
+        "context_sha256": "988b442072992c50028f2717a776d43c60308ee384035a72066318a2ea4cb6f9",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-380"
+        ],
+        "image_sha256": [
+          "58dfa8154f3e67173d3370d4467158d43b4f1ac61a7d82ba58a67219e3a6b6a1"
+        ],
+        "extensions": [],
+        "batch_id": "400a1c16-12e2-45a4-8435-572b252b72be",
+        "instruction_sha256": "ec5b82a9d3439d7f65679df02ec682e4b26306afedcecc66edf88c68373aecec",
+        "provider_record": {
+          "response_id": "20261002132943eea54aed7856434f",
+          "response_sha256": "a2196ddc98e583ab250122e61a410f20966642ecc40339024ae85f1d4f762001",
+          "path": "ai-responses/199f581e-4e6f-4890-941b-bc19aa90e261.json"
+        }
+      }
+    },
+    {
+      "scene_id": "2beb963b-880d-4934-ae42-82896b5e8d8e",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-381"
+      ],
+      "version_id": "2ebea68a-172c-4778-9e54-88671791342c",
+      "question_count": 1,
+      "pending_count": 1,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "202610021314550ecaad6c8fd849cc",
+        "usage": {
+          "completion_tokens": 588,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 15483,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 16071
+        },
+        "context_sha256": "4b7c19bd79686d9d19e028231b4985397654bfa00d94b8e02c9e60dbf25afe4f",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-381"
+        ],
+        "image_sha256": [
+          "183d541dbf147165be570cf4f506ee0151cb48c68b92df319d990e788fd5c130"
+        ],
+        "extensions": [
+          "Wi-Fi 6中除了OFDMA，还引入了MU-MIMO等技术，共同提升了网络性能。"
+        ],
+        "batch_id": "4f337c15-05ea-46da-b4a5-ba2a89550ada"
+      }
+    },
+    {
+      "scene_id": "65c57e5e-a15a-46af-83e7-a34586b366a8",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-382"
+      ],
+      "version_id": "76a98cfb-e44c-4bef-b3a5-2d52e1cd7f13",
+      "question_count": 1,
+      "pending_count": 1,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "20261002131530253c21efa98844d0",
+        "usage": {
+          "completion_tokens": 871,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 15470,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 16341
+        },
+        "context_sha256": "1de180206602f50c2d19768bf56c6412b351f9e7521d491957e5b16a510af318",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-382"
+        ],
+        "image_sha256": [
+          "86ff141a8f2cb6452a462410ae4df8c9c5e5ff29e60c245bc780fc87e62ba4c0"
+        ],
+        "extensions": [
+          "无线局域网MAC层中，如何解决隐藏终端和暴露终端问题？"
+        ],
+        "batch_id": "4f337c15-05ea-46da-b4a5-ba2a89550ada"
+      }
+    },
+    {
+      "scene_id": "35344346-d409-4666-9c7f-1fa80c06ca91",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-394"
+      ],
+      "version_id": "69533a35-1ea6-48f2-ad0e-9cdf54aeb041",
+      "question_count": 1,
+      "pending_count": 3,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "20261002132956efabb70940b64673",
+        "usage": {
+          "completion_tokens": 551,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 15662,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 16213
+        },
+        "context_sha256": "852c2e706fd3d550d651aa534937bf6e4bb23047c27851bda404a36198dec218",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-394"
+        ],
+        "image_sha256": [
+          "2039d4ad24ea524817814b24e20eb7823211222376d5fa9c55101f3c1bbf9ba7"
+        ],
+        "extensions": [
+          "802.11 MAC帧格式详解"
+        ],
+        "batch_id": "400a1c16-12e2-45a4-8435-572b252b72be",
+        "instruction_sha256": "ec5b82a9d3439d7f65679df02ec682e4b26306afedcecc66edf88c68373aecec",
+        "provider_record": {
+          "response_id": "20261002132956efabb70940b64673",
+          "response_sha256": "0ff01122ba52db3f5ee4b0357d0dccce5df4f1b4e278cdf67e8d0cfcd9c3e3a9",
+          "path": "ai-responses/39f324c5-f5e9-4581-81d7-f3987eab9161.json"
+        }
+      }
+    },
+    {
+      "scene_id": "1cf7633e-0629-4177-8049-37abc960f474",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-384"
+      ],
+      "version_id": "99331f26-5d01-4927-882a-7fe2895e3964",
+      "question_count": 1,
+      "pending_count": 1,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "202610021316020d5e7eefc7ba4087",
+        "usage": {
+          "completion_tokens": 569,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 15510,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 16079
+        },
+        "context_sha256": "9b8981cf77a9b12c896fde52872e1961dc0b07b52f7fc3298589ab0285ca0812",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-384"
+        ],
+        "image_sha256": [
+          "e4a76a536b8548ae2b1712b64771861d8818f0fec502f05eb2d095a2fc2b723e"
+        ],
+        "extensions": [
+          "时隙ALOHA（Slotted ALOHA）是ALOHA的改进版本，它将时间划分为等长的时隙，所有节点在时隙开始时尝试发送，这可以显著提高信道利用率。"
+        ],
+        "batch_id": "4f337c15-05ea-46da-b4a5-ba2a89550ada"
+      }
+    },
+    {
+      "scene_id": "a1bee9fb-54c7-4912-bc28-39276f993d4b",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-385"
+      ],
+      "version_id": "69eda8fe-bb1b-4cb3-842f-b69cc916cbc3",
+      "question_count": 1,
+      "pending_count": 1,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "202610021330125a1ab9eeeb4e4f51",
+        "usage": {
+          "completion_tokens": 421,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 15760,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 16181
+        },
+        "context_sha256": "54438d39da5807574572a69082f6c7456066b57ca8a1b9cbf5d369d5c129fb05",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-385"
+        ],
+        "image_sha256": [
+          "eead2b8c5c70b02f754fefa77cdad09c02777af693ae727626067c9de13e40d4"
+        ],
+        "extensions": [],
+        "batch_id": "400a1c16-12e2-45a4-8435-572b252b72be",
+        "instruction_sha256": "ec5b82a9d3439d7f65679df02ec682e4b26306afedcecc66edf88c68373aecec",
+        "provider_record": {
+          "response_id": "202610021330125a1ab9eeeb4e4f51",
+          "response_sha256": "a832ce4fc1fe08a82d24a7ee31179e603585f7940819cccf32f8f28bc6b8fc00",
+          "path": "ai-responses/fb74f475-4b25-4fb1-b159-516bec92b552.json"
+        }
+      }
+    },
+    {
+      "scene_id": "3b8f298d-d8db-4c5c-a787-be3b3009a905",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-389"
+      ],
+      "version_id": "1c3dc56f-3fe0-4436-8388-f2b39a8047f3",
+      "question_count": 1,
+      "pending_count": 1,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "202610021316288ae5f17d6aea45d6",
+        "usage": {
+          "completion_tokens": 733,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 15775,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 16508
+        },
+        "context_sha256": "777eb52ae98ff2509c5e92ea768c50e2ae142dbee2a67b3e155a42bf32401f97",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-389"
+        ],
+        "image_sha256": [
+          "c9634d087864364d5cb35179a04030f7b90346dcd10102822d890ee0983fd31b"
+        ],
+        "extensions": [
+          "CSMA/CA如何解决隐藏终端和暴露终端问题"
+        ],
+        "batch_id": "4f337c15-05ea-46da-b4a5-ba2a89550ada"
+      }
+    },
+    {
+      "scene_id": "5c0943a6-f948-4655-b656-96032202b721",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-390"
+      ],
+      "version_id": "c100fbaa-0193-48c2-8c00-8d371db4dfaa",
+      "question_count": 1,
+      "pending_count": 2,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "2026100213170478b3a1b3e528432d",
+        "usage": {
+          "completion_tokens": 744,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 15865,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 16609
+        },
+        "context_sha256": "75de0689b1fc36aa27e9635ed971f72f58ffcdffb7564341455ed340ddc996ef",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-390"
+        ],
+        "image_sha256": [
+          "43d1c6c06f29d4c953d75e44c31362ac4a54f72bf23533ecfa3621cb94ac34e7"
+        ],
+        "extensions": [
+          "隐藏终端问题和暴露终端问题",
+          "RTS/CTS机制"
+        ],
+        "batch_id": "4f337c15-05ea-46da-b4a5-ba2a89550ada"
+      }
+    },
+    {
+      "scene_id": "85bd7f5c-2323-43be-a8ec-ce1f5ad759a7",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-386"
+      ],
+      "version_id": "aecc80e9-cba2-4e14-8220-dfc939046107",
+      "question_count": 1,
+      "pending_count": 0,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "20261002135429af4922daa4974411",
+        "usage": {
+          "completion_tokens": 440,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 16199,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 16639
+        },
+        "context_sha256": "98a4c4123abad803c66eabce43cf5f521168a20506199ada9e6ca1aec1ba65e1",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-386"
+        ],
+        "image_sha256": [
+          "f26bea24fd6eff8ed9ae5bacedca410026c83710112f81dad9b98f03cc9adfe3"
+        ],
+        "extensions": [],
+        "batch_id": "a8ee6d39-c8a4-40b5-841d-6962e8ec615e",
+        "instruction_sha256": "0895679dec84a6fd6fbdee5e4e4caa2300d6432e81d3ec468bb8ed606c0d8bf8",
+        "provider_record": {
+          "response_id": "20261002135429af4922daa4974411",
+          "response_sha256": "3a4704e13683280ed39289381ba2d4db1746c6e6d7a43964ef569a7b988eaf20",
+          "path": "ai-responses/6d87d7f1-baa4-434f-81ac-6053b0113597.json"
+        },
+        "expanded_current_source_count": 0
+      }
+    },
+    {
+      "scene_id": "237b5aba-89b8-4589-b9d1-a99b75167053",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-387"
+      ],
+      "version_id": "4fe483ba-6e15-423b-a5be-b71102e89b88",
+      "question_count": 1,
+      "pending_count": 0,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "202610021354148133f4c207a54e3a",
+        "usage": {
+          "completion_tokens": 844,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 16127,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 16971
+        },
+        "context_sha256": "31cd4eb8b879e16ba6e15d4f0151bf31261906355a3315d30830c4f489cdcf74",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-387"
+        ],
+        "image_sha256": [
+          "b616d078e7fa3caddddefa18ee02dfc9457975baa422b613b391b245b3996474"
+        ],
+        "extensions": [],
+        "batch_id": "a8ee6d39-c8a4-40b5-841d-6962e8ec615e",
+        "instruction_sha256": "0895679dec84a6fd6fbdee5e4e4caa2300d6432e81d3ec468bb8ed606c0d8bf8",
+        "provider_record": {
+          "response_id": "202610021354148133f4c207a54e3a",
+          "response_sha256": "3e900883d1b8c224e3d459aeac9c6f890de6525541bca9c4930f1316d13edcb1",
+          "path": "ai-responses/03f1e3a3-a885-4952-b780-ec530f9a720c.json"
+        },
+        "expanded_current_source_count": 0
+      }
+    },
+    {
+      "scene_id": "42620971-5397-4657-8372-0c1a2e0ab546",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-388"
+      ],
+      "version_id": "ca07e665-4be8-4772-bb0d-3a4130a2130a",
+      "question_count": 1,
+      "pending_count": 1,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "2026100213305334830e9bb447412e",
+        "usage": {
+          "completion_tokens": 785,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 16005,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 16790
+        },
+        "context_sha256": "deafe1f63bc969db3d6d0c1fb883cf2c69af29d107d5e3fb9232d7096a5da7ee",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-388"
+        ],
+        "image_sha256": [
+          "56870dce53afd62fbe58dafe04ef104e6f14547a42df3fab6da3a5b4ff9a3391"
+        ],
+        "extensions": [
+          "隐藏终端问题在无线局域网中是一个典型问题，通常通过RTS/CTS机制来解决。"
+        ],
+        "batch_id": "400a1c16-12e2-45a4-8435-572b252b72be",
+        "instruction_sha256": "ec5b82a9d3439d7f65679df02ec682e4b26306afedcecc66edf88c68373aecec",
+        "provider_record": {
+          "response_id": "2026100213305334830e9bb447412e",
+          "response_sha256": "d97758b4f3cfe0271c3cbc1460a8a6a5586be27afbd01846d7a74bcf5ff85d3e",
+          "path": "ai-responses/4bacd567-52f1-4cdf-9c6c-7ab409a1c563.json"
+        }
+      }
+    },
+    {
+      "scene_id": "62d3b543-a78e-4b4d-9a85-be6ca1520148",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-395"
+      ],
+      "version_id": "7ac22f66-44f1-4137-908c-2d5998b33a4c",
+      "question_count": 1,
+      "pending_count": 4,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "20261002133119e7dc2c9a84dd4e9a",
+        "usage": {
+          "completion_tokens": 793,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 16041,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 16834
+        },
+        "context_sha256": "2ee9307a41ff32001f4077bedeb1624c5b545d881d96b86a68391ad815059e39",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-395"
+        ],
+        "image_sha256": [
+          "ce9a57bca8055348e9b5071c59486379a96b569e84c87f72e6c86e585850c405"
+        ],
+        "extensions": [
+          "暴露终端问题与隐藏终端问题的区别",
+          "如何解决暴露终端问题"
+        ],
+        "batch_id": "400a1c16-12e2-45a4-8435-572b252b72be",
+        "instruction_sha256": "ec5b82a9d3439d7f65679df02ec682e4b26306afedcecc66edf88c68373aecec",
+        "provider_record": {
+          "response_id": "20261002133119e7dc2c9a84dd4e9a",
+          "response_sha256": "ff7a515d9d42524590b745c87c8c2cc8cabaadc351aa07f3b94ee738d1a88816",
+          "path": "ai-responses/c787a423-a717-47f4-881c-62db9f82ae2e.json"
+        }
+      }
+    },
+    {
+      "scene_id": "eab4bc3f-2c9b-4e67-ba4a-014d051ff3d2",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-397"
+      ],
+      "version_id": "ef4f02c7-bf95-49b9-a66c-3f34e0c470ca",
+      "question_count": 1,
+      "pending_count": 2,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "20261002133136998af44556e546a2",
+        "usage": {
+          "completion_tokens": 1090,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 15991,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 17081
+        },
+        "context_sha256": "8fd570fb8132528cf1cdb63c6933608729848fd2defd84a6457ba959f19ebd65",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-397"
+        ],
+        "image_sha256": [
+          "2d9140832cf0e97fe9d21e481ec7ef0a4ec8f541429dc8c1d849570dc4fe29f3"
+        ],
+        "extensions": [
+          "CSMA/CA 机制中，除了 RTS/CTS，还有哪些机制用于解决隐藏节点问题？"
+        ],
+        "batch_id": "400a1c16-12e2-45a4-8435-572b252b72be",
+        "instruction_sha256": "ec5b82a9d3439d7f65679df02ec682e4b26306afedcecc66edf88c68373aecec",
+        "provider_record": {
+          "response_id": "20261002133136998af44556e546a2",
+          "response_sha256": "286a0238f83e647baa3e706c03071b684ecce05708be3690a44779d268cde946",
+          "path": "ai-responses/bb7ecf2b-f1b3-477f-83c8-3cf590ef4fbe.json"
+        }
+      }
+    },
+    {
+      "scene_id": "f37eafd0-349e-4dd4-842e-020588685302",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-398"
+      ],
+      "version_id": "a2c322be-53df-4e1e-9787-8fb96e28c801",
+      "question_count": 1,
+      "pending_count": 2,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "20261002133217d540cb6fc7a94e92",
+        "usage": {
+          "completion_tokens": 607,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 15970,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 16577
+        },
+        "context_sha256": "cab5ff8af1aa8b17bfa094e7e6df3a38143b6539bfa94d57a3948b6ff317e412",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-398"
+        ],
+        "image_sha256": [
+          "5fccb23d6ee87e82a9cc6615df1c601fd31a52085ac87ea5fe537f5df7ac6fe3"
+        ],
+        "extensions": [],
+        "batch_id": "400a1c16-12e2-45a4-8435-572b252b72be",
+        "instruction_sha256": "ec5b82a9d3439d7f65679df02ec682e4b26306afedcecc66edf88c68373aecec",
+        "provider_record": {
+          "response_id": "20261002133217d540cb6fc7a94e92",
+          "response_sha256": "80daa8897a525f4852f27d26caf184edde7a1c159c4d8ff4486327de720382e7",
+          "path": "ai-responses/9db26ab3-86bf-4597-a560-d23c24872ce1.json"
+        }
+      }
+    },
+    {
+      "scene_id": "46a4cbd4-836c-4d88-a341-f362fe44a142",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-399"
+      ],
+      "version_id": "67ecd21c-43eb-4617-a123-9af5de0a8122",
+      "question_count": 1,
+      "pending_count": 2,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "202610021332482e3d0139185c4888",
+        "usage": {
+          "completion_tokens": 819,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 15741,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 16560
+        },
+        "context_sha256": "bbcc3f560d38501d6e54429789d362673a895bd47f87d86ed2bc4fcc79c8b6ed",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-399"
+        ],
+        "image_sha256": [
+          "822b083b4bdba3d7c0a723bd9f9b2c81a209af19f03b6a18eb961bd205baa2be"
+        ],
+        "extensions": [],
+        "batch_id": "400a1c16-12e2-45a4-8435-572b252b72be",
+        "instruction_sha256": "ec5b82a9d3439d7f65679df02ec682e4b26306afedcecc66edf88c68373aecec",
+        "provider_record": {
+          "response_id": "202610021332482e3d0139185c4888",
+          "response_sha256": "0beffe14864ccefe6ad742c3783d262c6bb01e29986dd04f543940a7a11fc3cf",
+          "path": "ai-responses/44ea37da-d454-4665-ace1-f2e6fda48a07.json"
+        }
+      }
+    },
+    {
+      "scene_id": "829a5465-a0c5-4ee7-a7ec-bb67dda43a61",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-392"
+      ],
+      "version_id": "023a7fff-e533-4f80-8f8f-f9a11ce05e56",
+      "question_count": 3,
+      "pending_count": 2,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "20261002133307a2669473ceed4592",
+        "usage": {
+          "completion_tokens": 929,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 15644,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 16573
+        },
+        "context_sha256": "7532de02a5643a635b2a338dc364c7fdebd378950f3f7554ee0338d2251b8813",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-392"
+        ],
+        "image_sha256": [
+          "c82c0626017e01081ba1eda8680a0e54f1640d85f4ad58c422a44c3f1e36397b"
+        ],
+        "extensions": [
+          "RTS/CTS机制的具体工作流程和时序图",
+          "隐藏站点问题和暴露站点问题的详细拓扑图示"
+        ],
+        "batch_id": "400a1c16-12e2-45a4-8435-572b252b72be",
+        "instruction_sha256": "ec5b82a9d3439d7f65679df02ec682e4b26306afedcecc66edf88c68373aecec",
+        "provider_record": {
+          "response_id": "20261002133307a2669473ceed4592",
+          "response_sha256": "d365a4da315b48932c776f810e35d38d2b34203a968c5b1fd1d1f28b6b8b9260",
+          "path": "ai-responses/699a981c-7c9a-4abd-8487-4d5a2712b781.json"
+        }
+      }
+    },
+    {
+      "scene_id": "49076d1c-5f4a-496c-889f-05237ec972de",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-391"
+      ],
+      "version_id": "c2e7c321-3a36-4fc0-9d5e-95839e7b6593",
+      "question_count": 1,
+      "pending_count": 2,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "20261002134001bc7645cdc036423e",
+        "usage": {
+          "completion_tokens": 826,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 15760,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 16586
+        },
+        "context_sha256": "651a29df85a0bfbe3cc42e552a409cff5b7223d1e07b3bc5b471b246cbbe686f",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-391"
+        ],
+        "image_sha256": [
+          "f819e01323c760219476c9f1bb4a6a28d91f1ba35297669eadee117946d5b01a"
+        ],
+        "extensions": [
+          "802.11 MAC帧的详细协议规范",
+          "不同802.11标准（如a, b, g, n等）的帧格式差异"
+        ],
+        "batch_id": "b05e955b-41fe-48ee-979f-beb3d0626374",
+        "instruction_sha256": "0895679dec84a6fd6fbdee5e4e4caa2300d6432e81d3ec468bb8ed606c0d8bf8",
+        "provider_record": {
+          "response_id": "20261002134001bc7645cdc036423e",
+          "response_sha256": "f5fc78604ed15d8a255817d76f9a1d5081ea8b7f8416c2e27a544adf5e5c3436",
+          "path": "ai-responses/de05ec89-1bfc-406f-b8ee-9acdbe437453.json"
+        },
+        "expanded_current_source_count": 0
+      }
+    },
+    {
+      "scene_id": "7ba3c613-a86e-4cff-a918-33e4819ac757",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-396"
+      ],
+      "version_id": "be6aa2cf-237a-43bd-9672-62d7b533ac0b",
+      "question_count": 1,
+      "pending_count": 0,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "2026100213341655ad5ae998a1495f",
+        "usage": {
+          "completion_tokens": 713,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 15868,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 16581
+        },
+        "context_sha256": "42dbbac77cce5197d833058f5f7b30abe327dac60f86b7a8e573c3fd64450d4f",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-396"
+        ],
+        "image_sha256": [
+          "b77fa05c80f1f51781b884522acc8e206b79ead311c803fee1c7701330851a95"
+        ],
+        "extensions": [],
+        "batch_id": "400a1c16-12e2-45a4-8435-572b252b72be",
+        "instruction_sha256": "ec5b82a9d3439d7f65679df02ec682e4b26306afedcecc66edf88c68373aecec",
+        "provider_record": {
+          "response_id": "2026100213341655ad5ae998a1495f",
+          "response_sha256": "c0a4ff5eb1676b70ba83958c65c6699678f86274d63ff14ce8bc89e3e4d9e942",
+          "path": "ai-responses/9a001d72-fd32-43fb-af37-a4ef5caf94fb.json"
+        }
+      }
+    },
+    {
+      "scene_id": "dd9e542b-df3a-44b5-95ff-e61e25d1797a",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-400"
+      ],
+      "version_id": "f88840ee-22f6-4aa6-975d-57f34284d77f",
+      "question_count": 1,
+      "pending_count": 1,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "202610021334378ae7137ffb414679",
+        "usage": {
+          "completion_tokens": 1221,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 16080,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 17301
+        },
+        "context_sha256": "21d619fd28f13e7cdb5f0ac9c1c07cf1fba16813ddb3c095c97b5c50fce8be7a",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-400"
+        ],
+        "image_sha256": [
+          "78b3b0bdbff76960fd41fb4263da8ac6b5af8ca26ac7be5180884af1c64797cc"
+        ],
+        "extensions": [
+          "超宽带 (UWB) 的具体应用，如室内定位技术"
+        ],
+        "batch_id": "400a1c16-12e2-45a4-8435-572b252b72be",
+        "instruction_sha256": "ec5b82a9d3439d7f65679df02ec682e4b26306afedcecc66edf88c68373aecec",
+        "provider_record": {
+          "response_id": "202610021334378ae7137ffb414679",
+          "response_sha256": "60341fd447a2d54fa61346ff8c93bab560382af120ffb1c832f5dfb7d16e4973",
+          "path": "ai-responses/02404bfe-dba1-4fe9-bb92-114d39f2bd66.json"
+        }
+      }
+    },
+    {
+      "scene_id": "db1e8e98-bff0-4a46-b9e5-ff59355197d2",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-401"
+      ],
+      "version_id": "ff26e20c-0869-4895-a9ca-db11b091b7fa",
+      "question_count": 1,
+      "pending_count": 0,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "202610021354039fd94f1856a94b8f",
+        "usage": {
+          "completion_tokens": 691,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 16284,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 16975
+        },
+        "context_sha256": "7566758f587819593d425492ed5fc7792e80b253e105aa66228f72faaa181945",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-401"
+        ],
+        "image_sha256": [
+          "406a49a668424dc7800992aebb30885dd89e36838435870d3de58d812ac632ec"
+        ],
+        "extensions": [],
+        "batch_id": "a8ee6d39-c8a4-40b5-841d-6962e8ec615e",
+        "instruction_sha256": "0895679dec84a6fd6fbdee5e4e4caa2300d6432e81d3ec468bb8ed606c0d8bf8",
+        "provider_record": {
+          "response_id": "202610021354039fd94f1856a94b8f",
+          "response_sha256": "c98194d2498a37f96659c9bd50f7853ecc4fc8324892add234605410a8799d21",
+          "path": "ai-responses/df8c7a69-aff6-4e75-9026-869403c63fb7.json"
+        },
+        "expanded_current_source_count": 0
+      }
+    },
+    {
+      "scene_id": "d6e13e46-c44c-4e37-b039-e55a0e34c9c2",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-402"
+      ],
+      "version_id": "fa3cba36-227f-4083-bf25-3f171316fe95",
+      "question_count": 1,
+      "pending_count": 1,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "202610021335482d08590e62764639",
+        "usage": {
+          "completion_tokens": 976,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 15980,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 16956
+        },
+        "context_sha256": "a54480f3bc0dad8448130922545bea22f19e3d9f0053e2e0ace6d74763fa5ea3",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-402"
+        ],
+        "image_sha256": [
+          "62112380d6dcc7df575f4fe919b617da623c3ce33d74ae76d2fbeeec1b813841"
+        ],
+        "extensions": [],
+        "batch_id": "400a1c16-12e2-45a4-8435-572b252b72be",
+        "instruction_sha256": "ec5b82a9d3439d7f65679df02ec682e4b26306afedcecc66edf88c68373aecec",
+        "provider_record": {
+          "response_id": "202610021335482d08590e62764639",
+          "response_sha256": "d684e2ad84286825d5fcffa3062f6f17f93421ef2f0064c31e36b64c4fd2dcbb",
+          "path": "ai-responses/d4b7402b-2829-40ba-af4a-87213dcdc4a9.json"
+        }
+      }
+    },
+    {
+      "scene_id": "1208be6b-fd42-4456-a8e6-dcb11867f57e",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-403"
+      ],
+      "version_id": "b88ef0e9-df48-4936-9076-bc050aa24f30",
+      "question_count": 1,
+      "pending_count": 1,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "20261002133605881c4acb38684672",
+        "usage": {
+          "completion_tokens": 691,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 15901,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 16592
+        },
+        "context_sha256": "e2fe1cf9bfe0c1c81409e067fb996730fcb6438787df6e6a383f1e3090399b8d",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-403"
+        ],
+        "image_sha256": [
+          "5603133313c1b5830731cb734f34ba8e3dc66c830a8e3945319dd8475509dbcf"
+        ],
+        "extensions": [
+          "蓝牙3.0的高速模式实际上是一种协议适配技术，它允许蓝牙设备利用现有的Wi-Fi网络进行高速数据传输，这通常意味着更高的数据速率，但可能需要Wi-Fi网络的支持。"
+        ],
+        "batch_id": "400a1c16-12e2-45a4-8435-572b252b72be",
+        "instruction_sha256": "ec5b82a9d3439d7f65679df02ec682e4b26306afedcecc66edf88c68373aecec",
+        "provider_record": {
+          "response_id": "20261002133605881c4acb38684672",
+          "response_sha256": "2126a15f21ae993d51f4325d83a6fcecf851722481eed801161306538323e619",
+          "path": "ai-responses/72c46853-54b1-4b56-b99c-1278f6a7d067.json"
+        }
+      }
+    },
+    {
+      "scene_id": "2df3fc9e-64e9-46fe-acc7-47c2bb735767",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-404"
+      ],
+      "version_id": "15dc8405-bfb1-4def-8cb2-e4c5b52f0a46",
+      "question_count": 1,
+      "pending_count": 1,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "2026100213362022871c9ea0494273",
+        "usage": {
+          "completion_tokens": 708,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 15981,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 16689
+        },
+        "context_sha256": "0def0de318d368d18d7c0115252175d6421af833477d50dfe8dbd327308cea1e",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-404"
+        ],
+        "image_sha256": [
+          "d670206f1cd5847df647ccaf7b5ff0a1d7ec30309626ebe2923e01107ebeb249"
+        ],
+        "extensions": [
+          "BLE在物联网设备中的应用案例"
+        ],
+        "batch_id": "400a1c16-12e2-45a4-8435-572b252b72be",
+        "instruction_sha256": "ec5b82a9d3439d7f65679df02ec682e4b26306afedcecc66edf88c68373aecec",
+        "provider_record": {
+          "response_id": "2026100213362022871c9ea0494273",
+          "response_sha256": "90906c78f333adf3a11522bdb1f7de7536ea1970d7c667d397ce8c115abdbe0b",
+          "path": "ai-responses/d38851a4-225f-4380-983f-b4b2571a8425.json"
+        }
+      }
+    },
+    {
+      "scene_id": "544497f9-d73a-4345-ac41-b06ac0f1df8b",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-405"
+      ],
+      "version_id": "5a9dbdce-f683-4d0a-8f4d-b8f7580c9f89",
+      "question_count": 1,
+      "pending_count": 1,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "2026100213363773189940d8614f85",
+        "usage": {
+          "completion_tokens": 1310,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 16180,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 17490
+        },
+        "context_sha256": "920b16c705c86bb7675134fe952ab878c55eea1f6f4fed0e1bcd32341bc2ae88",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-405"
+        ],
+        "image_sha256": [
+          "83f72eeff418cf66e0ce67692e7af41e8070a8e3e0f3b770f699672e3571b4e4"
+        ],
+        "extensions": [
+          "蓝牙4.0的信道机制"
+        ],
+        "batch_id": "400a1c16-12e2-45a4-8435-572b252b72be",
+        "instruction_sha256": "ec5b82a9d3439d7f65679df02ec682e4b26306afedcecc66edf88c68373aecec",
+        "provider_record": {
+          "response_id": "2026100213363773189940d8614f85",
+          "response_sha256": "5de512e7361a932dc97ffece51cb90d50d365caad999e3484cbe845c0f224777",
+          "path": "ai-responses/9f7a1ddc-ca2a-4a02-ada2-7b7a9aee3487.json"
+        }
+      }
+    },
+    {
+      "scene_id": "1a6fe9dd-f4ed-4a4e-80bd-fcb6d334f00c",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-409"
+      ],
+      "version_id": "6609ec84-1d9a-486c-875a-330741cdda3e",
+      "question_count": 1,
+      "pending_count": 1,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "20261002133701c2483b0d1db3466c",
+        "usage": {
+          "completion_tokens": 1211,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 16218,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 17429
+        },
+        "context_sha256": "d110abef24a9b17be638438d6ddd1f42956eb17ea2cd5467c82fed556ee0a111",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-409"
+        ],
+        "image_sha256": [
+          "74c376ccff171605f1db6900792cadb5dec8e09a7c9d5afc0b2ab02c58bf4579"
+        ],
+        "extensions": [
+          "蓝牙4.0 信道机制中提到的交替收发，在实际应用中如何影响设备功耗和响应速度？"
+        ],
+        "batch_id": "400a1c16-12e2-45a4-8435-572b252b72be",
+        "instruction_sha256": "ec5b82a9d3439d7f65679df02ec682e4b26306afedcecc66edf88c68373aecec",
+        "provider_record": {
+          "response_id": "20261002133701c2483b0d1db3466c",
+          "response_sha256": "f3d13667715ff99714c3c76b57e9ef3fdf56006c9923351a4b84b86ef2531bf6",
+          "path": "ai-responses/7d8cbc1b-7c23-44c5-8ad6-324b6f7d0dea.json"
+        }
+      }
+    },
+    {
+      "scene_id": "d577346a-016b-43e0-9475-28a537fadf0c",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-406"
+      ],
+      "version_id": "d513db1e-435a-4b1f-bf8e-69f937241cec",
+      "question_count": 1,
+      "pending_count": 1,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "20261002133725e1de8df7dc3f4613",
+        "usage": {
+          "completion_tokens": 846,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 15998,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 16844
+        },
+        "context_sha256": "85255e2da85de63122b2a5a87c179648011bd3b527949d7c8ee770c0180f0fa5",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-406"
+        ],
+        "image_sha256": [
+          "0fa253b19f584102f32eff438c938ea19aac4d03dbfd2e12b4e2763fd71f4d49"
+        ],
+        "extensions": [
+          "蓝牙4.0的信道机制采用跳频技术，通过在2.4GHz ISM频段内快速切换多个频率来减少干扰。"
+        ],
+        "batch_id": "400a1c16-12e2-45a4-8435-572b252b72be",
+        "instruction_sha256": "ec5b82a9d3439d7f65679df02ec682e4b26306afedcecc66edf88c68373aecec",
+        "provider_record": {
+          "response_id": "20261002133725e1de8df7dc3f4613",
+          "response_sha256": "103b3fe82ee507379e5aa5af0e3d35b063331db0ba6fe9778752254e93be8e48",
+          "path": "ai-responses/b1dee283-cda6-4984-a544-56e4646c7abc.json"
+        }
+      }
+    },
+    {
+      "scene_id": "8ecc0992-eb83-4eaa-9002-89a02d1d9dae",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-407"
+      ],
+      "version_id": "b76c51b4-6c63-4fde-b50d-4b2be2e317c6",
+      "question_count": 1,
+      "pending_count": 1,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "20261002133922aee1358217924c7f",
+        "usage": {
+          "completion_tokens": 554,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 15854,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 16408
+        },
+        "context_sha256": "9e057b9c8c9901b842c11092c84c6ef44333c6ca8a9cb3c2767148d320666cdb",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-407"
+        ],
+        "image_sha256": [
+          "2a8b348b004fd4716cc23d7374e85ad85c25de00859f440bff6c75b56ef8cbd3"
+        ],
+        "extensions": [
+          "蓝牙跳频技术如何具体工作以避免干扰"
+        ],
+        "batch_id": "b05e955b-41fe-48ee-979f-beb3d0626374",
+        "instruction_sha256": "0895679dec84a6fd6fbdee5e4e4caa2300d6432e81d3ec468bb8ed606c0d8bf8",
+        "provider_record": {
+          "response_id": "20261002133922aee1358217924c7f",
+          "response_sha256": "7cf2da095973e7423b3c9e0cba44bc826015e80b3d05e323ee3de320dc1a6ccd",
+          "path": "ai-responses/47ad68af-70bb-4570-a3b5-00c87148d282.json"
+        },
+        "expanded_current_source_count": 0
+      }
+    },
+    {
+      "scene_id": "22c3f921-e8e4-425d-8e45-4eeb422ca80a",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-408"
+      ],
+      "version_id": "76bbb7dd-b561-4dbf-bafa-f2e5585f092f",
+      "question_count": 1,
+      "pending_count": 1,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "20261002133805a338f4b32208445b",
+        "usage": {
+          "completion_tokens": 605,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 15857,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 16462
+        },
+        "context_sha256": "cc6d681f2ae29c807fca0bb8ff73ed5138d642ceb401098485f750f2daea028f",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-408"
+        ],
+        "image_sha256": [
+          "bfb04a742c61c51af132c0ca88d941f6fed5afada7bdb24759fea14625957758"
+        ],
+        "extensions": [
+          "跳频技术如何具体实现？"
+        ],
+        "batch_id": "400a1c16-12e2-45a4-8435-572b252b72be",
+        "instruction_sha256": "0895679dec84a6fd6fbdee5e4e4caa2300d6432e81d3ec468bb8ed606c0d8bf8",
+        "provider_record": {
+          "response_id": "20261002133805a338f4b32208445b",
+          "response_sha256": "d0f89284f3289c6e4848e64cf7eb52c74359e01dc146f5b01bda91e2a7936ce1",
+          "path": "ai-responses/dc1719d3-fada-4c14-a5ad-dd30e3b0c714.json"
+        },
+        "expanded_current_source_count": 0
+      }
+    },
+    {
+      "scene_id": "411370e9-f3d0-4f02-8a04-bc994bf01b81",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-410"
+      ],
+      "version_id": "6b01b707-401e-4f3c-8f8c-2594d3f0e1df",
+      "question_count": 1,
+      "pending_count": 2,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "20261002133826f7f50c2356db4b95",
+        "usage": {
+          "completion_tokens": 942,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 15880,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 16822
+        },
+        "context_sha256": "e6542ddb0f4f526e9b57bee2f6371e76620fc52aa37de12642ac15b755ba8318",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-410"
+        ],
+        "image_sha256": [
+          "43ef9fb3421031e37777f5cf232551afcc09c967ba07629eb48455fea230740b"
+        ],
+        "extensions": [
+          "ZigBee在物联网（IoT）中的应用，如智能家居、工业自动化"
+        ],
+        "batch_id": "400a1c16-12e2-45a4-8435-572b252b72be",
+        "instruction_sha256": "0895679dec84a6fd6fbdee5e4e4caa2300d6432e81d3ec468bb8ed606c0d8bf8",
+        "provider_record": {
+          "response_id": "20261002133826f7f50c2356db4b95",
+          "response_sha256": "fcfd19b3fdd89d7cf19d6124dc9f4898e8d46de036634082819b89f7f24581a3",
+          "path": "ai-responses/21646141-5bf3-48ed-91dc-5440dcc38634.json"
+        },
+        "expanded_current_source_count": 0
+      }
+    },
+    {
+      "scene_id": "d5c619a7-d3cf-48b4-92d6-4a5f79a0d798",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-411"
+      ],
+      "version_id": "d8bcb4c3-6f7d-466c-ad8a-d5bead91fed6",
+      "question_count": 1,
+      "pending_count": 1,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "202610021323554d61cb95b159404f",
+        "usage": {
+          "completion_tokens": 870,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 15903,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 16773
+        },
+        "context_sha256": "375534969b74972732b0ea3f9ff15a3e185f2dbd9bb547e9bb40f93c109d1b00",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-411"
+        ],
+        "image_sha256": [
+          "f3eebd6c01f72e8a053b63f4fa4b8fd8ac12db24e9531043e2846d96b8398f87"
+        ],
+        "extensions": [
+          "ZigBee 协调器在网络拓扑结构中，除了星型、簇树型和网状结构外，还有其他类型吗？"
+        ],
+        "batch_id": "4f337c15-05ea-46da-b4a5-ba2a89550ada",
+        "instruction_sha256": "ec5b82a9d3439d7f65679df02ec682e4b26306afedcecc66edf88c68373aecec",
+        "provider_record": {
+          "response_id": "202610021323554d61cb95b159404f",
+          "response_sha256": "b89a3318f23c0819a0b0c9ff4b5494f352724225392568e2b0e023b3f0b97551",
+          "path": "ai-responses/21a1302d-4941-4d94-9db7-e092551fcb9a.json"
+        }
+      }
+    },
+    {
+      "scene_id": "a5a4228f-8922-4e73-b6e6-55d335900e66",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-414"
+      ],
+      "version_id": "096f9eff-7f67-42e7-879b-7222625ce1fe",
+      "question_count": 1,
+      "pending_count": 0,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "2026100213241098d3064fa8d14af7",
+        "usage": {
+          "completion_tokens": 813,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 15749,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 16562
+        },
+        "context_sha256": "7956d47d59fdc72da96212ef22f736edf5564ce57d42c19ef37a2b320fba24b4",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-414"
+        ],
+        "image_sha256": [
+          "a5901f0c48a46bd3e2e2683ba4a1e7a20ec1d232d1f55dab97f8c1527aaa91f0"
+        ],
+        "extensions": [],
+        "batch_id": "4f337c15-05ea-46da-b4a5-ba2a89550ada",
+        "instruction_sha256": "ec5b82a9d3439d7f65679df02ec682e4b26306afedcecc66edf88c68373aecec",
+        "provider_record": {
+          "response_id": "2026100213241098d3064fa8d14af7",
+          "response_sha256": "81a6f0b1885482e03e25cc72660ba391c69c47219ec1aa5accdd023c0b4c87dc",
+          "path": "ai-responses/74a3ae7c-ca3c-41ac-a3d6-dbe22ed4ac06.json"
+        }
+      }
+    },
+    {
+      "scene_id": "124aea8b-822d-4822-ba69-f62a216326db",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-412"
+      ],
+      "version_id": "30d018e8-033e-41ed-a3c0-7ef0fa146425",
+      "question_count": 1,
+      "pending_count": 2,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "20261002133847e919524e34ca435c",
+        "usage": {
+          "completion_tokens": 637,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 15787,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 16424
+        },
+        "context_sha256": "0e5e6e9d61684ed76f90d4d462522b072e92764d7946eb705ed898cd3564a85e",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-412"
+        ],
+        "image_sha256": [
+          "e0493902d98f2b97b78e1fd6d07fb47378ea0f8cc04f1058389d7fa952956897"
+        ],
+        "extensions": [
+          "ZigBee网络拓扑结构",
+          "ZigBee网络层功能"
+        ],
+        "batch_id": "400a1c16-12e2-45a4-8435-572b252b72be",
+        "instruction_sha256": "0895679dec84a6fd6fbdee5e4e4caa2300d6432e81d3ec468bb8ed606c0d8bf8",
+        "provider_record": {
+          "response_id": "20261002133847e919524e34ca435c",
+          "response_sha256": "a10b1f9c547a2faf2ea1e0a61bbfbed7ffaf6f007e1524cb37f9b590f15830a5",
+          "path": "ai-responses/889e130c-e827-4194-9e53-813ac7cc6b3b.json"
+        },
+        "expanded_current_source_count": 0
+      }
+    },
+    {
+      "scene_id": "c818329a-02b4-41e0-a0cf-8539ae683719",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-415"
+      ],
+      "version_id": "a24f56bf-74b6-4da1-9eec-78c5a1d885b6",
+      "question_count": 1,
+      "pending_count": 1,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "202610021324392a6c4f21ed9b4a20",
+        "usage": {
+          "completion_tokens": 571,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 15548,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 16119
+        },
+        "context_sha256": "33d7caed1a34db939bd52442c3eacb7cede11c4f8cab5cf180f543f1909fed97",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-415"
+        ],
+        "image_sha256": [
+          "ea2d9822904c8354fb56601389b1c1bc3225b639b52c071be2e161a7c55a6d1b"
+        ],
+        "extensions": [
+          "超宽带UWB在室内定位、雷达、高速数据传输等领域的应用"
+        ],
+        "batch_id": "4f337c15-05ea-46da-b4a5-ba2a89550ada",
+        "instruction_sha256": "ec5b82a9d3439d7f65679df02ec682e4b26306afedcecc66edf88c68373aecec",
+        "provider_record": {
+          "response_id": "202610021324392a6c4f21ed9b4a20",
+          "response_sha256": "d61cd6c300ba35f00753a374a5bbf76ec4cf97e03faad80b8eacb26becce2250",
+          "path": "ai-responses/ca92ed73-e924-4b8d-a38f-f525238a569e.json"
+        }
+      }
+    },
+    {
+      "scene_id": "61ff7b1b-fbea-4122-b9e1-749930d89a7f",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-416"
+      ],
+      "version_id": "a51e25fd-324c-4740-86cb-db71a5db2858",
+      "question_count": 1,
+      "pending_count": 1,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "202610021325140eb4f18676a146ed",
+        "usage": {
+          "completion_tokens": 624,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 15662,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 16286
+        },
+        "context_sha256": "4476279a79fe22ae269db2862c1c64ed1ffff8cbf6c6f8216e28bbc57a982e24",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-416"
+        ],
+        "image_sha256": [
+          "849cd2b6cf5977e90dd41202d5cb6a346f58f78c1a9882608889e334d5a5749a"
+        ],
+        "extensions": [
+          "超宽带UWB在室内定位、雷达、高速数据传输等领域的应用"
+        ],
+        "batch_id": "4f337c15-05ea-46da-b4a5-ba2a89550ada",
+        "instruction_sha256": "ec5b82a9d3439d7f65679df02ec682e4b26306afedcecc66edf88c68373aecec",
+        "provider_record": {
+          "response_id": "202610021325140eb4f18676a146ed",
+          "response_sha256": "d08234a33d36b585df7b6bba9b3a3d28de1ed66c774d2ac6569d3a62b880db6b",
+          "path": "ai-responses/dbc979d4-4fa1-496e-82b4-cb2bc1102d45.json"
+        }
+      }
+    },
+    {
+      "scene_id": "684971aa-55bf-4f77-9542-d32dd3d93a78",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-417"
+      ],
+      "version_id": "f50c45f5-3c0a-4da4-b71e-b311e4bccc35",
+      "question_count": 1,
+      "pending_count": 1,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "2026100213253834d3adbb2cdd4781",
+        "usage": {
+          "completion_tokens": 679,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 15603,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 16282
+        },
+        "context_sha256": "2b4eadd95877f980421a1c2590fcc201ee5a7257b9e1d58ac3f14106211d5c6b",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-417"
+        ],
+        "image_sha256": [
+          "86e139726181d3d1b47cfad84a80b76511f0bd9092527919d407d7e48222314f"
+        ],
+        "extensions": [],
+        "batch_id": "4f337c15-05ea-46da-b4a5-ba2a89550ada",
+        "instruction_sha256": "ec5b82a9d3439d7f65679df02ec682e4b26306afedcecc66edf88c68373aecec",
+        "provider_record": {
+          "response_id": "2026100213253834d3adbb2cdd4781",
+          "response_sha256": "1f293cb5e0cbf9ec841c022743c8c33d5141053f3b3328f20b85800ae5421a7b",
+          "path": "ai-responses/53a8b76a-c580-4e82-b4dc-33afdca4a93e.json"
+        }
+      }
+    },
+    {
+      "scene_id": "057589c5-33a6-48c0-893a-6bbdaa89f03d",
+      "source_page_ids": [
+        "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-281"
+      ],
+      "version_id": "ebbaac69-b6c9-44fc-afc4-467db6932201",
+      "question_count": 0,
+      "pending_count": 0,
+      "teacher_confirmed": false,
+      "provenance": {
+        "model": "glm-4.6v-flash",
+        "provider": "open.bigmodel.cn",
+        "response_id": "20261002132556ba3277aab01e4e7d",
+        "usage": {
+          "completion_tokens": 60,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "prompt_tokens": 15513,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "total_tokens": 15573
+        },
+        "context_sha256": "d78aeedfb3a865bae5a50c165ced840d5e00aecd83f09e1ea3b4590c9930b8f1",
+        "source_page_ids": [
+          "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-281"
+        ],
+        "image_sha256": [
+          "22ba516f836a49c611288af17cb34738220da5a860a4c6384aff820c9be24f9d"
+        ],
+        "extensions": [],
+        "batch_id": "4f337c15-05ea-46da-b4a5-ba2a89550ada",
+        "instruction_sha256": "ec5b82a9d3439d7f65679df02ec682e4b26306afedcecc66edf88c68373aecec",
+        "provider_record": {
+          "response_id": "20261002132556ba3277aab01e4e7d",
+          "response_sha256": "9b989eec550be3d722f14be3238bb9c88b5e86d1c9e5a3f2bf7186329cfd24ae",
+          "path": "ai-responses/51c84cc6-f591-4cff-a810-b138c1f6ac3c.json"
+        }
+      }
+    }
+  ],
+  "native_json_mode": true,
+  "history_counts": {
+    "queued": 0,
+    "running": 0,
+    "completed": 76,
+    "failed": 41
+  },
+  "stage_passed": false
+}

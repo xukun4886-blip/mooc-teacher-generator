@@ -1,0 +1,29 @@
+{
+  "status": "awaiting_human_review",
+  "review_requested_in_conversation": true,
+  "voice_request_id": "0a9f651f-238d-4fea-bb13-c34a2d24fa2c",
+  "photo_request_ids": [
+    "80cce8da-f59d-40ee-ba91-544097f9fada",
+    "0876724b-2a6d-4df9-b298-2ddc46dd48b7"
+  ],
+  "video_request_ids": [
+    "687eeec7-7064-44d1-9bfd-b6e8574f5a2c",
+    "b48f13bf-4e91-4546-ae80-74f5f0885e77"
+  ],
+  "criteria": {
+    "voice_similarity": null,
+    "mandarin_terms_and_formula_letters": null,
+    "no_missing_sentences": null,
+    "no_repeated_sentences": null,
+    "pauses_appropriate": null,
+    "selected_person_consistent": null,
+    "photo_lipsync": null,
+    "video_lipsync": null,
+    "video_turnaround_smooth": null,
+    "a_b_driving_correspondence": null,
+    "course_original_page_fidelity": null
+  },
+  "human_review_completed": false,
+  "quality_verified": false,
+  "m1_passed": false
+}

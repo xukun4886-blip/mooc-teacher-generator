@@ -1,0 +1,1077 @@
+{
+  "created_at": "2026-10-08T15:46:47.432363+00:00",
+  "scope": "M3 ten-page real unreviewed drafts, M4 preacceptance only",
+  "source_project_id": "b7022084-d5b4-44e0-9321-3bfc78434b24",
+  "source_digest_before": "8ed399cb3d46c2c6cd9b9bff04434f60c43dc06b498c46078deec697ee0f9a71",
+  "source_pages": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "ppt_sha256": "4e79078a08487e784746dd3d50779d8e98dbb17052bbaf80c7fd1c1ff3d684d9",
+  "paths": {
+    "fresh_photo": {
+      "project_id": "0f8b2d74-d3da-4036-9a37-990017f645bd",
+      "scope": "existing fresh uploads, two pages; not ten-page baseline",
+      "status": {
+        "id": "3016fa7c-2cf0-421a-b25d-1fccb3555826",
+        "project_id": "0f8b2d74-d3da-4036-9a37-990017f645bd",
+        "state": "failed",
+        "stage": "generating_ai_draft",
+        "error": {
+          "code": "AI_RATE_LIMITED",
+          "message": "讲稿服务当前繁忙，请稍后重试；已生成讲稿保留",
+          "source": "16fc2768-ace2-4a92-aea7-3ac6bd15820b",
+          "remedy": "等待后直接重试；需要修订时打开高级编辑"
+        },
+        "scripts_ready": 1,
+        "total": 2,
+        "generation": 3,
+        "media": null
+      },
+      "assets": {
+        "photo": {
+          "state": "ready",
+          "sha256": "2a77d59a9de0fdd64617a536d1a9476ee89381bc66c41f8d7ab4e6dd3a8d050a",
+          "selection": {}
+        },
+        "pptx": {
+          "state": "ready",
+          "sha256": "5916db55767f622db9d0383a33c8ffd961f04b385dff1e835aa9a3c7331523c5",
+          "selection": {}
+        },
+        "reference_audio": {
+          "state": "ready",
+          "sha256": "7c89c7f525155dd1fd6634c96b7169e958af86dc100b35120aade07eb15e52ea",
+          "selection": {
+            "start": 0,
+            "end": 7.5,
+            "method": "local_whisper_tiny",
+            "human_review": false,
+            "record_sha256": "6ca4c751eed610ab2c924bb472cb5e4a85df6243c835105fedb697a9776034f0"
+          }
+        }
+      },
+      "scripts": [
+        {
+          "scene_id": "a9182ee2-6197-4323-ad17-083f204d3c01",
+          "source_page_ids": [
+            "5916db55767f622db9d0383a33c8ffd961f04b385dff1e835aa9a3c7331523c5:slide-256"
+          ],
+          "version_id": "2af74e04-72b8-49c6-ac42-4a2810f4d72f",
+          "mode": "ai",
+          "confirmed": null,
+          "provider_record": {
+            "response_id": "20261008234342a80d82453f124554",
+            "response_sha256": "a1b95062cc8a53bad2da8890c037c238f80ab37520cd78de7085648802e45527",
+            "path": "ai-responses/3016fa7c-2cf0-421a-b25d-1fccb3555826-0f0e685d-fad9-43bf-b8de-fecbe734a4eb.json"
+          },
+          "pairing_method": null
+        },
+        {
+          "scene_id": "16fc2768-ace2-4a92-aea7-3ac6bd15820b",
+          "source_page_ids": [
+            "5916db55767f622db9d0383a33c8ffd961f04b385dff1e835aa9a3c7331523c5:slide-257"
+          ],
+          "version_id": null,
+          "mode": null,
+          "confirmed": null,
+          "provider_record": null,
+          "pairing_method": null
+        }
+      ],
+      "course_history": [
+        {
+          "id": "3016fa7c-2cf0-421a-b25d-1fccb3555826",
+          "state": "failed",
+          "stage": "generating_ai_draft",
+          "generation": 3,
+          "created_at": "2026-10-08T15:43:23.862738+00:00",
+          "started_at": "2026-10-08T17:26:47.996976+00:00",
+          "finished_at": "2026-10-08T17:28:01.121957+00:00",
+          "error": {
+            "code": "AI_RATE_LIMITED",
+            "message": "讲稿服务当前繁忙，请稍后重试；已生成讲稿保留",
+            "source": "16fc2768-ace2-4a92-aea7-3ac6bd15820b",
+            "remedy": "等待后直接重试；需要修订时打开高级编辑"
+          },
+          "attempts": [
+            {
+              "error": {
+                "code": "AI_RATE_LIMITED",
+                "message": "讲稿服务当前繁忙，请稍后重试；已生成讲稿保留",
+                "source": "16fc2768-ace2-4a92-aea7-3ac6bd15820b",
+                "remedy": "等待后直接重试；需要修订时打开高级编辑"
+              },
+              "stage": "generating_ai_draft",
+              "at": "2026-10-08T15:47:38.831637+00:00"
+            },
+            {
+              "error": {
+                "code": "AI_RATE_LIMITED",
+                "message": "讲稿服务当前繁忙，请稍后重试；已生成讲稿保留",
+                "source": "16fc2768-ace2-4a92-aea7-3ac6bd15820b",
+                "remedy": "等待后直接重试；需要修订时打开高级编辑"
+              },
+              "stage": "generating_ai_draft",
+              "at": "2026-10-08T16:36:14.240567+00:00"
+            }
+          ],
+          "ai_attempts": [
+            {
+              "at": "2026-10-08T15:48:43.456315+00:00",
+              "scene_id": "16fc2768-ace2-4a92-aea7-3ac6bd15820b",
+              "status": 429,
+              "attempt": 1,
+              "generation": 2,
+              "wait_seconds": 5
+            },
+            {
+              "at": "2026-10-08T15:48:48.658872+00:00",
+              "scene_id": "16fc2768-ace2-4a92-aea7-3ac6bd15820b",
+              "status": 429,
+              "attempt": 2,
+              "generation": 2,
+              "wait_seconds": 15
+            },
+            {
+              "at": "2026-10-08T15:49:03.875932+00:00",
+              "scene_id": "16fc2768-ace2-4a92-aea7-3ac6bd15820b",
+              "status": 429,
+              "attempt": 3,
+              "generation": 2,
+              "wait_seconds": 30
+            },
+            {
+              "at": "2026-10-08T15:49:45.115378+00:00",
+              "scene_id": "16fc2768-ace2-4a92-aea7-3ac6bd15820b",
+              "status": 429,
+              "attempt": 4,
+              "generation": 2
+            },
+            {
+              "at": "2026-10-08T17:26:59.372783+00:00",
+              "scene_id": "16fc2768-ace2-4a92-aea7-3ac6bd15820b",
+              "status": 429,
+              "attempt": 1,
+              "generation": 3,
+              "provider_error_code": "1305",
+              "wait_seconds": 5
+            },
+            {
+              "at": "2026-10-08T17:27:04.597448+00:00",
+              "scene_id": "16fc2768-ace2-4a92-aea7-3ac6bd15820b",
+              "status": 429,
+              "attempt": 2,
+              "generation": 3,
+              "provider_error_code": "1305",
+              "wait_seconds": 15
+            },
+            {
+              "at": "2026-10-08T17:27:19.809658+00:00",
+              "scene_id": "16fc2768-ace2-4a92-aea7-3ac6bd15820b",
+              "status": 429,
+              "attempt": 3,
+              "generation": 3,
+              "provider_error_code": "1305",
+              "wait_seconds": 30
+            },
+            {
+              "at": "2026-10-08T17:28:01.115941+00:00",
+              "scene_id": "16fc2768-ace2-4a92-aea7-3ac6bd15820b",
+              "status": 429,
+              "attempt": 4,
+              "generation": 3,
+              "provider_error_code": "1305"
+            }
+          ]
+        },
+        {
+          "id": "b8e25723-5af4-4501-b42f-f56079d34cf2",
+          "state": "failed",
+          "stage": "generating_ai_draft",
+          "generation": 3,
+          "created_at": "2026-10-08T14:52:23.820707+00:00",
+          "started_at": "2026-10-08T15:00:25.367230+00:00",
+          "finished_at": "2026-10-08T15:01:16.222363+00:00",
+          "error": {
+            "code": "AI_RATE_LIMITED",
+            "message": "AI 服务返回 HTTP 429；原讲稿已保留",
+            "source": "a9182ee2-6197-4323-ad17-083f204d3c01",
+            "remedy": "等待后重试此页；检查服务权限与额度"
+          },
+          "attempts": [
+            {
+              "error": {
+                "code": "AI_FORMAT_INVALID",
+                "message": "AI 输出格式或答案来源无效；原讲稿已保留",
+                "source": "a9182ee2-6197-4323-ad17-083f204d3c01",
+                "remedy": "重试此页，或由教师编写讲稿"
+              },
+              "stage": "generating_ai_draft",
+              "at": "2026-10-08T14:56:44.515493+00:00"
+            },
+            {
+              "error": {
+                "code": "AI_RATE_LIMITED",
+                "message": "AI 服务返回 HTTP 429；原讲稿已保留",
+                "source": "a9182ee2-6197-4323-ad17-083f204d3c01",
+                "remedy": "等待后重试此页；检查服务权限与额度"
+              },
+              "stage": "generating_ai_draft",
+              "at": "2026-10-08T15:00:25.226636+00:00"
+            }
+          ],
+          "ai_attempts": null
+        }
+      ],
+      "retries": [
+        {
+          "at": "2026-10-08T16:36:14.248569+00:00",
+          "status": 202,
+          "body": {
+            "id": "3016fa7c-2cf0-421a-b25d-1fccb3555826",
+            "project_id": "0f8b2d74-d3da-4036-9a37-990017f645bd",
+            "state": "queued",
+            "stage": "queued",
+            "error": null,
+            "scripts_ready": 1,
+            "total": 2,
+            "generation": 3,
+            "media": null
+          }
+        }
+      ]
+    },
+    "photo": {
+      "project_id": "af3e551b-ec62-4080-9c60-070e94bb93bd",
+      "scope": "10 original pages, target 180s; actual TTS measured",
+      "upload_jobs": [
+        {
+          "id": "8cf1fc08-2e03-453f-bd08-ee21d8f6603b",
+          "project_id": "af3e551b-ec62-4080-9c60-070e94bb93bd",
+          "kind": "asset",
+          "payload": {
+            "role": "photo",
+            "asset_id": "d8df22a9-f28e-483f-aa35-66ddee4317dc"
+          },
+          "state": "queued",
+          "stage": "queued",
+          "created_at": "2026-10-08T15:46:47.478135+00:00",
+          "result": null,
+          "error": null
+        },
+        {
+          "id": "6c1b3dcd-fd30-4eeb-8154-582c437244de",
+          "project_id": "af3e551b-ec62-4080-9c60-070e94bb93bd",
+          "kind": "asset",
+          "payload": {
+            "role": "pptx",
+            "asset_id": "9d5d410b-5c50-4e71-aff6-18f5b89b3893"
+          },
+          "state": "queued",
+          "stage": "queued",
+          "created_at": "2026-10-08T15:47:08.097309+00:00",
+          "result": null,
+          "error": null
+        },
+        {
+          "id": "f3f2c6ab-4ce6-4ea4-afb1-057fb5a59339",
+          "project_id": "af3e551b-ec62-4080-9c60-070e94bb93bd",
+          "kind": "asset",
+          "payload": {
+            "role": "reference_audio",
+            "asset_id": "7945bd2b-f229-4893-8aaf-12d1f36ee7da"
+          },
+          "state": "queued",
+          "stage": "queued",
+          "created_at": "2026-10-08T15:47:30.265458+00:00",
+          "result": null,
+          "error": null
+        }
+      ],
+      "submissions": [
+        {
+          "at": "2026-10-08T15:50:53.082660+00:00",
+          "status": 202,
+          "body": {
+            "id": "6e77c0a2-bd12-4bf6-9243-6ab2fa43e099",
+            "project_id": "af3e551b-ec62-4080-9c60-070e94bb93bd",
+            "state": "queued",
+            "stage": "queued",
+            "error": null,
+            "scripts_ready": 0,
+            "total": 10,
+            "generation": 1,
+            "media": null
+          }
+        }
+      ],
+      "status": {
+        "id": "6e77c0a2-bd12-4bf6-9243-6ab2fa43e099",
+        "project_id": "af3e551b-ec62-4080-9c60-070e94bb93bd",
+        "state": "failed",
+        "stage": "generating_ai_draft",
+        "error": {
+          "code": "AI_RATE_LIMITED",
+          "message": "讲稿服务当前繁忙，请稍后重试；已生成讲稿保留",
+          "source": "5d2cd65b-e2df-4210-b5e9-410bbf341b02",
+          "remedy": "等待后直接重试；需要修订时打开高级编辑"
+        },
+        "scripts_ready": 0,
+        "total": 10,
+        "generation": 1,
+        "media": null
+      },
+      "assets": {
+        "photo": {
+          "state": "ready",
+          "sha256": "2a77d59a9de0fdd64617a536d1a9476ee89381bc66c41f8d7ab4e6dd3a8d050a",
+          "selection": {}
+        },
+        "pptx": {
+          "state": "ready",
+          "sha256": "4b4baadd2a9157c8b3f87044cdbbb0d2ef804bddfc34353a114ea066ec06f8de",
+          "selection": {}
+        },
+        "reference_audio": {
+          "state": "ready",
+          "sha256": "7c89c7f525155dd1fd6634c96b7169e958af86dc100b35120aade07eb15e52ea",
+          "selection": {
+            "start": 0,
+            "end": 7.5,
+            "method": "local_whisper_tiny",
+            "human_review": false,
+            "record_sha256": "6ca4c751eed610ab2c924bb472cb5e4a85df6243c835105fedb697a9776034f0"
+          }
+        }
+      },
+      "scripts": [
+        {
+          "scene_id": "5d2cd65b-e2df-4210-b5e9-410bbf341b02",
+          "source_page_ids": [
+            "4b4baadd2a9157c8b3f87044cdbbb0d2ef804bddfc34353a114ea066ec06f8de:slide-369"
+          ],
+          "version_id": null,
+          "mode": null,
+          "confirmed": null,
+          "provider_record": null,
+          "pairing_method": null
+        },
+        {
+          "scene_id": "d50edeb4-f920-4bf0-a46c-bbbc764c3a59",
+          "source_page_ids": [
+            "4b4baadd2a9157c8b3f87044cdbbb0d2ef804bddfc34353a114ea066ec06f8de:slide-349"
+          ],
+          "version_id": null,
+          "mode": null,
+          "confirmed": null,
+          "provider_record": null,
+          "pairing_method": null
+        },
+        {
+          "scene_id": "2fe1fcd9-9dc7-4d6c-bb7a-0c183ebe2ac2",
+          "source_page_ids": [
+            "4b4baadd2a9157c8b3f87044cdbbb0d2ef804bddfc34353a114ea066ec06f8de:slide-351"
+          ],
+          "version_id": null,
+          "mode": null,
+          "confirmed": null,
+          "provider_record": null,
+          "pairing_method": null
+        },
+        {
+          "scene_id": "3c35d239-bf37-4fec-a9ac-98b413d2294d",
+          "source_page_ids": [
+            "4b4baadd2a9157c8b3f87044cdbbb0d2ef804bddfc34353a114ea066ec06f8de:slide-352"
+          ],
+          "version_id": null,
+          "mode": null,
+          "confirmed": null,
+          "provider_record": null,
+          "pairing_method": null
+        },
+        {
+          "scene_id": "51685d49-c9de-46d3-af76-cc2d24a1ce32",
+          "source_page_ids": [
+            "4b4baadd2a9157c8b3f87044cdbbb0d2ef804bddfc34353a114ea066ec06f8de:slide-353"
+          ],
+          "version_id": null,
+          "mode": null,
+          "confirmed": null,
+          "provider_record": null,
+          "pairing_method": null
+        },
+        {
+          "scene_id": "889d96c1-3959-43a9-856b-32648ba9c272",
+          "source_page_ids": [
+            "4b4baadd2a9157c8b3f87044cdbbb0d2ef804bddfc34353a114ea066ec06f8de:slide-360"
+          ],
+          "version_id": null,
+          "mode": null,
+          "confirmed": null,
+          "provider_record": null,
+          "pairing_method": null
+        },
+        {
+          "scene_id": "9251b6a8-d73d-4d32-b8b9-a64dcd5c02ec",
+          "source_page_ids": [
+            "4b4baadd2a9157c8b3f87044cdbbb0d2ef804bddfc34353a114ea066ec06f8de:slide-361"
+          ],
+          "version_id": null,
+          "mode": null,
+          "confirmed": null,
+          "provider_record": null,
+          "pairing_method": null
+        },
+        {
+          "scene_id": "e7581a0b-7ed2-422d-b89d-8101225d8725",
+          "source_page_ids": [
+            "4b4baadd2a9157c8b3f87044cdbbb0d2ef804bddfc34353a114ea066ec06f8de:slide-362"
+          ],
+          "version_id": null,
+          "mode": null,
+          "confirmed": null,
+          "provider_record": null,
+          "pairing_method": null
+        },
+        {
+          "scene_id": "6b137dee-891f-4f32-98b6-547eb2942140",
+          "source_page_ids": [
+            "4b4baadd2a9157c8b3f87044cdbbb0d2ef804bddfc34353a114ea066ec06f8de:slide-363"
+          ],
+          "version_id": null,
+          "mode": null,
+          "confirmed": null,
+          "provider_record": null,
+          "pairing_method": null
+        },
+        {
+          "scene_id": "6b9b4e00-f2a3-46b3-9053-4c8098c2508a",
+          "source_page_ids": [
+            "4b4baadd2a9157c8b3f87044cdbbb0d2ef804bddfc34353a114ea066ec06f8de:slide-372"
+          ],
+          "version_id": null,
+          "mode": null,
+          "confirmed": null,
+          "provider_record": null,
+          "pairing_method": null
+        }
+      ],
+      "course_history": [
+        {
+          "id": "6e77c0a2-bd12-4bf6-9243-6ab2fa43e099",
+          "state": "failed",
+          "stage": "generating_ai_draft",
+          "generation": 1,
+          "created_at": "2026-10-08T15:50:53.076681+00:00",
+          "started_at": "2026-10-08T15:50:53.523688+00:00",
+          "finished_at": "2026-10-08T15:51:54.539122+00:00",
+          "error": {
+            "code": "AI_RATE_LIMITED",
+            "message": "讲稿服务当前繁忙，请稍后重试；已生成讲稿保留",
+            "source": "5d2cd65b-e2df-4210-b5e9-410bbf341b02",
+            "remedy": "等待后直接重试；需要修订时打开高级编辑"
+          },
+          "attempts": null,
+          "ai_attempts": [
+            {
+              "at": "2026-10-08T15:51:03.472343+00:00",
+              "scene_id": "5d2cd65b-e2df-4210-b5e9-410bbf341b02",
+              "status": 429,
+              "attempt": 1,
+              "generation": 1,
+              "wait_seconds": 5
+            },
+            {
+              "at": "2026-10-08T15:51:08.798672+00:00",
+              "scene_id": "5d2cd65b-e2df-4210-b5e9-410bbf341b02",
+              "status": 429,
+              "attempt": 2,
+              "generation": 1,
+              "wait_seconds": 15
+            },
+            {
+              "at": "2026-10-08T15:51:24.211732+00:00",
+              "scene_id": "5d2cd65b-e2df-4210-b5e9-410bbf341b02",
+              "status": 429,
+              "attempt": 3,
+              "generation": 1,
+              "wait_seconds": 30
+            },
+            {
+              "at": "2026-10-08T15:51:54.533121+00:00",
+              "scene_id": "5d2cd65b-e2df-4210-b5e9-410bbf341b02",
+              "status": 429,
+              "attempt": 4,
+              "generation": 1
+            }
+          ]
+        }
+      ],
+      "source_mapping": [
+        {
+          "source_page_id": "4b4baadd2a9157c8b3f87044cdbbb0d2ef804bddfc34353a114ea066ec06f8de:slide-369",
+          "original_source_page_id": "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-369",
+          "original_page": 5,
+          "extracted_page": 1
+        },
+        {
+          "source_page_id": "4b4baadd2a9157c8b3f87044cdbbb0d2ef804bddfc34353a114ea066ec06f8de:slide-349",
+          "original_source_page_id": "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-349",
+          "original_page": 6,
+          "extracted_page": 2
+        },
+        {
+          "source_page_id": "4b4baadd2a9157c8b3f87044cdbbb0d2ef804bddfc34353a114ea066ec06f8de:slide-351",
+          "original_source_page_id": "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-351",
+          "original_page": 7,
+          "extracted_page": 3
+        },
+        {
+          "source_page_id": "4b4baadd2a9157c8b3f87044cdbbb0d2ef804bddfc34353a114ea066ec06f8de:slide-352",
+          "original_source_page_id": "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-352",
+          "original_page": 8,
+          "extracted_page": 4
+        },
+        {
+          "source_page_id": "4b4baadd2a9157c8b3f87044cdbbb0d2ef804bddfc34353a114ea066ec06f8de:slide-353",
+          "original_source_page_id": "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-353",
+          "original_page": 9,
+          "extracted_page": 5
+        },
+        {
+          "source_page_id": "4b4baadd2a9157c8b3f87044cdbbb0d2ef804bddfc34353a114ea066ec06f8de:slide-360",
+          "original_source_page_id": "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-360",
+          "original_page": 10,
+          "extracted_page": 6
+        },
+        {
+          "source_page_id": "4b4baadd2a9157c8b3f87044cdbbb0d2ef804bddfc34353a114ea066ec06f8de:slide-361",
+          "original_source_page_id": "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-361",
+          "original_page": 11,
+          "extracted_page": 7
+        },
+        {
+          "source_page_id": "4b4baadd2a9157c8b3f87044cdbbb0d2ef804bddfc34353a114ea066ec06f8de:slide-362",
+          "original_source_page_id": "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-362",
+          "original_page": 12,
+          "extracted_page": 8
+        },
+        {
+          "source_page_id": "4b4baadd2a9157c8b3f87044cdbbb0d2ef804bddfc34353a114ea066ec06f8de:slide-363",
+          "original_source_page_id": "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-363",
+          "original_page": 13,
+          "extracted_page": 9
+        },
+        {
+          "source_page_id": "4b4baadd2a9157c8b3f87044cdbbb0d2ef804bddfc34353a114ea066ec06f8de:slide-372",
+          "original_source_page_id": "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-372",
+          "original_page": 14,
+          "extracted_page": 10
+        }
+      ]
+    },
+    "fresh_video": {
+      "project_id": "491a2257-77c8-4618-97e6-42448f871b4a",
+      "scope": "existing fresh uploads, two pages; not ten-page baseline",
+      "status": {
+        "id": "b14e55ab-75d4-4466-a878-780235754937",
+        "project_id": "491a2257-77c8-4618-97e6-42448f871b4a",
+        "state": "failed",
+        "stage": "generating_ai_draft",
+        "error": {
+          "code": "AI_RATE_LIMITED",
+          "message": "讲稿服务当前繁忙，请稍后重试；已生成讲稿保留",
+          "source": "3d70e885-1aa1-4152-b8a7-f3b4d06ba9df",
+          "remedy": "等待后直接重试；需要修订时打开高级编辑"
+        },
+        "scripts_ready": 1,
+        "total": 2,
+        "generation": 3,
+        "media": null
+      },
+      "assets": {
+        "video": {
+          "state": "ready",
+          "sha256": "873838fceb297444e333e910e5628933f7917d910b3f4a6b1bdabc586e1ef54b",
+          "selection": {}
+        },
+        "pptx": {
+          "state": "ready",
+          "sha256": "5916db55767f622db9d0383a33c8ffd961f04b385dff1e835aa9a3c7331523c5",
+          "selection": {}
+        },
+        "reference_audio": {
+          "state": "ready",
+          "sha256": "7c89c7f525155dd1fd6634c96b7169e958af86dc100b35120aade07eb15e52ea",
+          "selection": {
+            "start": 0,
+            "end": 7.5,
+            "method": "local_whisper_tiny",
+            "human_review": false,
+            "record_sha256": "6ca4c751eed610ab2c924bb472cb5e4a85df6243c835105fedb697a9776034f0"
+          }
+        }
+      },
+      "scripts": [
+        {
+          "scene_id": "6f2b8f8c-ba6a-48bd-8fc2-223072c54ec1",
+          "source_page_ids": [
+            "5916db55767f622db9d0383a33c8ffd961f04b385dff1e835aa9a3c7331523c5:slide-256"
+          ],
+          "version_id": "0f2bab10-d031-468b-804c-fe4eec7c9900",
+          "mode": "ai",
+          "confirmed": null,
+          "provider_record": {
+            "response_id": "20261008230124a083fc17b36e4752",
+            "response_sha256": "47c40d948abb58aaaa0adabfa5819051f16ca2767fca65afea7e282d4e7070e6",
+            "path": "ai-responses/ef553740-c1cb-483f-9a62-3220d5e6820e-a360e9aa-60a6-4be2-b889-c6b8b826cb51.json"
+          },
+          "pairing_method": null
+        },
+        {
+          "scene_id": "3d70e885-1aa1-4152-b8a7-f3b4d06ba9df",
+          "source_page_ids": [
+            "5916db55767f622db9d0383a33c8ffd961f04b385dff1e835aa9a3c7331523c5:slide-257"
+          ],
+          "version_id": null,
+          "mode": null,
+          "confirmed": null,
+          "provider_record": null,
+          "pairing_method": null
+        }
+      ],
+      "course_history": [
+        {
+          "id": "b14e55ab-75d4-4466-a878-780235754937",
+          "state": "failed",
+          "stage": "generating_ai_draft",
+          "generation": 3,
+          "created_at": "2026-10-08T15:23:45.249894+00:00",
+          "started_at": "2026-10-08T15:47:30.064438+00:00",
+          "finished_at": "2026-10-08T15:48:43.241332+00:00",
+          "error": {
+            "code": "AI_RATE_LIMITED",
+            "message": "讲稿服务当前繁忙，请稍后重试；已生成讲稿保留",
+            "source": "3d70e885-1aa1-4152-b8a7-f3b4d06ba9df",
+            "remedy": "等待后直接重试；需要修订时打开高级编辑"
+          },
+          "attempts": [
+            {
+              "error": {
+                "code": "AI_RATE_LIMITED",
+                "message": "讲稿服务当前繁忙，请稍后重试；已生成讲稿保留",
+                "source": "3d70e885-1aa1-4152-b8a7-f3b4d06ba9df",
+                "remedy": "等待后直接重试；需要修订时打开高级编辑"
+              },
+              "stage": "generating_ai_draft",
+              "at": "2026-10-08T15:43:23.890757+00:00"
+            },
+            {
+              "error": {
+                "code": "SUBTITLE_MAPPING_REQUIRED",
+                "message": "逐句对应须完整覆盖显示稿和读法稿，不能删句或增补",
+                "source": null,
+                "remedy": null
+              },
+              "stage": "generating_ai_draft",
+              "at": "2026-10-08T15:47:25.079715+00:00"
+            }
+          ],
+          "ai_attempts": [
+            {
+              "at": "2026-10-08T15:47:41.408198+00:00",
+              "scene_id": "3d70e885-1aa1-4152-b8a7-f3b4d06ba9df",
+              "status": 429,
+              "attempt": 1,
+              "generation": 3,
+              "wait_seconds": 5
+            },
+            {
+              "at": "2026-10-08T15:47:46.694168+00:00",
+              "scene_id": "3d70e885-1aa1-4152-b8a7-f3b4d06ba9df",
+              "status": 429,
+              "attempt": 2,
+              "generation": 3,
+              "wait_seconds": 15
+            },
+            {
+              "at": "2026-10-08T15:48:01.960000+00:00",
+              "scene_id": "3d70e885-1aa1-4152-b8a7-f3b4d06ba9df",
+              "status": 429,
+              "attempt": 3,
+              "generation": 3,
+              "wait_seconds": 30
+            },
+            {
+              "at": "2026-10-08T15:48:43.235751+00:00",
+              "scene_id": "3d70e885-1aa1-4152-b8a7-f3b4d06ba9df",
+              "status": 429,
+              "attempt": 4,
+              "generation": 3
+            }
+          ]
+        },
+        {
+          "id": "ef553740-c1cb-483f-9a62-3220d5e6820e",
+          "state": "failed",
+          "stage": "generating_ai_draft",
+          "generation": 1,
+          "created_at": "2026-10-08T15:00:25.754034+00:00",
+          "started_at": "2026-10-08T15:01:16.229742+00:00",
+          "finished_at": "2026-10-08T15:02:24.011741+00:00",
+          "error": {
+            "code": "AI_RATE_LIMITED",
+            "message": "AI 服务返回 HTTP 429；原讲稿已保留",
+            "source": "3d70e885-1aa1-4152-b8a7-f3b4d06ba9df",
+            "remedy": "等待后重试此页；检查服务权限与额度"
+          },
+          "attempts": null,
+          "ai_attempts": null
+        }
+      ]
+    },
+    "video": {
+      "project_id": "8c6f67d5-858b-41ec-80b9-50e9682f96a6",
+      "scope": "10 original pages, target 180s; actual TTS measured",
+      "upload_jobs": [
+        {
+          "id": "f04ce711-a61c-4336-ae81-bc05dca0bc92",
+          "project_id": "8c6f67d5-858b-41ec-80b9-50e9682f96a6",
+          "kind": "asset",
+          "payload": {
+            "role": "video",
+            "asset_id": "7e5b6c80-9d7f-4a83-9b98-db5d71a79081"
+          },
+          "state": "queued",
+          "stage": "queued",
+          "created_at": "2026-10-08T15:47:30.327044+00:00",
+          "result": null,
+          "error": null
+        },
+        {
+          "id": "92446a4d-9601-4fad-a011-b000e7a95025",
+          "project_id": "8c6f67d5-858b-41ec-80b9-50e9682f96a6",
+          "kind": "asset",
+          "payload": {
+            "role": "pptx",
+            "asset_id": "8b765b61-7838-4358-8934-8cd7d98c9165"
+          },
+          "state": "queued",
+          "stage": "queued",
+          "created_at": "2026-10-08T15:49:46.547179+00:00",
+          "result": null,
+          "error": null
+        },
+        {
+          "id": "3338f483-6902-44a4-8944-c8bd74c383cb",
+          "project_id": "8c6f67d5-858b-41ec-80b9-50e9682f96a6",
+          "kind": "asset",
+          "payload": {
+            "role": "reference_audio",
+            "asset_id": "efffccd4-6b4e-4c69-bbd6-ffe3a840f03c"
+          },
+          "state": "queued",
+          "stage": "queued",
+          "created_at": "2026-10-08T15:49:56.873120+00:00",
+          "result": null,
+          "error": null
+        }
+      ],
+      "submissions": [
+        {
+          "at": "2026-10-08T15:50:53.135962+00:00",
+          "status": 202,
+          "body": {
+            "id": "5466a5e3-4c0b-4faa-9f0c-a081c724e667",
+            "project_id": "8c6f67d5-858b-41ec-80b9-50e9682f96a6",
+            "state": "queued",
+            "stage": "queued",
+            "error": null,
+            "scripts_ready": 0,
+            "total": 10,
+            "generation": 1,
+            "media": null
+          }
+        }
+      ],
+      "status": {
+        "id": "5466a5e3-4c0b-4faa-9f0c-a081c724e667",
+        "project_id": "8c6f67d5-858b-41ec-80b9-50e9682f96a6",
+        "state": "failed",
+        "stage": "generating_ai_draft",
+        "error": {
+          "code": "AI_RATE_LIMITED",
+          "message": "讲稿服务当前繁忙，请稍后重试；已生成讲稿保留",
+          "source": "bdbd1e1a-b6c2-428d-b06f-d755c92ec3bb",
+          "remedy": "等待后直接重试；需要修订时打开高级编辑"
+        },
+        "scripts_ready": 0,
+        "total": 10,
+        "generation": 1,
+        "media": null
+      },
+      "assets": {
+        "video": {
+          "state": "ready",
+          "sha256": "873838fceb297444e333e910e5628933f7917d910b3f4a6b1bdabc586e1ef54b",
+          "selection": {}
+        },
+        "pptx": {
+          "state": "ready",
+          "sha256": "4b4baadd2a9157c8b3f87044cdbbb0d2ef804bddfc34353a114ea066ec06f8de",
+          "selection": {}
+        },
+        "reference_audio": {
+          "state": "ready",
+          "sha256": "7c89c7f525155dd1fd6634c96b7169e958af86dc100b35120aade07eb15e52ea",
+          "selection": {
+            "start": 0,
+            "end": 7.5,
+            "method": "local_whisper_tiny",
+            "human_review": false,
+            "record_sha256": "6ca4c751eed610ab2c924bb472cb5e4a85df6243c835105fedb697a9776034f0"
+          }
+        }
+      },
+      "scripts": [
+        {
+          "scene_id": "bdbd1e1a-b6c2-428d-b06f-d755c92ec3bb",
+          "source_page_ids": [
+            "4b4baadd2a9157c8b3f87044cdbbb0d2ef804bddfc34353a114ea066ec06f8de:slide-369"
+          ],
+          "version_id": null,
+          "mode": null,
+          "confirmed": null,
+          "provider_record": null,
+          "pairing_method": null
+        },
+        {
+          "scene_id": "bb5592c3-e068-4089-ba7f-f1af8ef4aa4d",
+          "source_page_ids": [
+            "4b4baadd2a9157c8b3f87044cdbbb0d2ef804bddfc34353a114ea066ec06f8de:slide-349"
+          ],
+          "version_id": null,
+          "mode": null,
+          "confirmed": null,
+          "provider_record": null,
+          "pairing_method": null
+        },
+        {
+          "scene_id": "e509a6ec-7cb8-4166-8735-3203b89a38ee",
+          "source_page_ids": [
+            "4b4baadd2a9157c8b3f87044cdbbb0d2ef804bddfc34353a114ea066ec06f8de:slide-351"
+          ],
+          "version_id": null,
+          "mode": null,
+          "confirmed": null,
+          "provider_record": null,
+          "pairing_method": null
+        },
+        {
+          "scene_id": "12f8bc5e-0733-4bc2-9c6c-b306ef4dbb60",
+          "source_page_ids": [
+            "4b4baadd2a9157c8b3f87044cdbbb0d2ef804bddfc34353a114ea066ec06f8de:slide-352"
+          ],
+          "version_id": null,
+          "mode": null,
+          "confirmed": null,
+          "provider_record": null,
+          "pairing_method": null
+        },
+        {
+          "scene_id": "abf965a2-4e8a-4026-96bb-17eb9239bc8a",
+          "source_page_ids": [
+            "4b4baadd2a9157c8b3f87044cdbbb0d2ef804bddfc34353a114ea066ec06f8de:slide-353"
+          ],
+          "version_id": null,
+          "mode": null,
+          "confirmed": null,
+          "provider_record": null,
+          "pairing_method": null
+        },
+        {
+          "scene_id": "31737ef0-dd81-4ddd-b121-92096f59e1ea",
+          "source_page_ids": [
+            "4b4baadd2a9157c8b3f87044cdbbb0d2ef804bddfc34353a114ea066ec06f8de:slide-360"
+          ],
+          "version_id": null,
+          "mode": null,
+          "confirmed": null,
+          "provider_record": null,
+          "pairing_method": null
+        },
+        {
+          "scene_id": "8df4a68b-0ef6-4a05-ab89-7476bf5a1444",
+          "source_page_ids": [
+            "4b4baadd2a9157c8b3f87044cdbbb0d2ef804bddfc34353a114ea066ec06f8de:slide-361"
+          ],
+          "version_id": null,
+          "mode": null,
+          "confirmed": null,
+          "provider_record": null,
+          "pairing_method": null
+        },
+        {
+          "scene_id": "cd863fb1-3f34-442b-830c-cd8e639113e3",
+          "source_page_ids": [
+            "4b4baadd2a9157c8b3f87044cdbbb0d2ef804bddfc34353a114ea066ec06f8de:slide-362"
+          ],
+          "version_id": null,
+          "mode": null,
+          "confirmed": null,
+          "provider_record": null,
+          "pairing_method": null
+        },
+        {
+          "scene_id": "c8ac780a-967a-4f74-823d-32476cf1d399",
+          "source_page_ids": [
+            "4b4baadd2a9157c8b3f87044cdbbb0d2ef804bddfc34353a114ea066ec06f8de:slide-363"
+          ],
+          "version_id": null,
+          "mode": null,
+          "confirmed": null,
+          "provider_record": null,
+          "pairing_method": null
+        },
+        {
+          "scene_id": "65d09748-9508-4429-9e40-a4fe98c8bd34",
+          "source_page_ids": [
+            "4b4baadd2a9157c8b3f87044cdbbb0d2ef804bddfc34353a114ea066ec06f8de:slide-372"
+          ],
+          "version_id": null,
+          "mode": null,
+          "confirmed": null,
+          "provider_record": null,
+          "pairing_method": null
+        }
+      ],
+      "course_history": [
+        {
+          "id": "5466a5e3-4c0b-4faa-9f0c-a081c724e667",
+          "state": "failed",
+          "stage": "generating_ai_draft",
+          "generation": 1,
+          "created_at": "2026-10-08T15:50:53.130893+00:00",
+          "started_at": "2026-10-08T15:51:54.549125+00:00",
+          "finished_at": "2026-10-08T15:52:55.439525+00:00",
+          "error": {
+            "code": "AI_RATE_LIMITED",
+            "message": "讲稿服务当前繁忙，请稍后重试；已生成讲稿保留",
+            "source": "bdbd1e1a-b6c2-428d-b06f-d755c92ec3bb",
+            "remedy": "等待后直接重试；需要修订时打开高级编辑"
+          },
+          "attempts": null,
+          "ai_attempts": [
+            {
+              "at": "2026-10-08T15:52:04.305659+00:00",
+              "scene_id": "bdbd1e1a-b6c2-428d-b06f-d755c92ec3bb",
+              "status": 429,
+              "attempt": 1,
+              "generation": 1,
+              "wait_seconds": 5
+            },
+            {
+              "at": "2026-10-08T15:52:09.638741+00:00",
+              "scene_id": "bdbd1e1a-b6c2-428d-b06f-d755c92ec3bb",
+              "status": 429,
+              "attempt": 2,
+              "generation": 1,
+              "wait_seconds": 15
+            },
+            {
+              "at": "2026-10-08T15:52:25.085655+00:00",
+              "scene_id": "bdbd1e1a-b6c2-428d-b06f-d755c92ec3bb",
+              "status": 429,
+              "attempt": 3,
+              "generation": 1,
+              "wait_seconds": 30
+            },
+            {
+              "at": "2026-10-08T15:52:55.435502+00:00",
+              "scene_id": "bdbd1e1a-b6c2-428d-b06f-d755c92ec3bb",
+              "status": 429,
+              "attempt": 4,
+              "generation": 1
+            }
+          ]
+        }
+      ],
+      "source_mapping": [
+        {
+          "source_page_id": "4b4baadd2a9157c8b3f87044cdbbb0d2ef804bddfc34353a114ea066ec06f8de:slide-369",
+          "original_source_page_id": "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-369",
+          "original_page": 5,
+          "extracted_page": 1
+        },
+        {
+          "source_page_id": "4b4baadd2a9157c8b3f87044cdbbb0d2ef804bddfc34353a114ea066ec06f8de:slide-349",
+          "original_source_page_id": "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-349",
+          "original_page": 6,
+          "extracted_page": 2
+        },
+        {
+          "source_page_id": "4b4baadd2a9157c8b3f87044cdbbb0d2ef804bddfc34353a114ea066ec06f8de:slide-351",
+          "original_source_page_id": "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-351",
+          "original_page": 7,
+          "extracted_page": 3
+        },
+        {
+          "source_page_id": "4b4baadd2a9157c8b3f87044cdbbb0d2ef804bddfc34353a114ea066ec06f8de:slide-352",
+          "original_source_page_id": "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-352",
+          "original_page": 8,
+          "extracted_page": 4
+        },
+        {
+          "source_page_id": "4b4baadd2a9157c8b3f87044cdbbb0d2ef804bddfc34353a114ea066ec06f8de:slide-353",
+          "original_source_page_id": "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-353",
+          "original_page": 9,
+          "extracted_page": 5
+        },
+        {
+          "source_page_id": "4b4baadd2a9157c8b3f87044cdbbb0d2ef804bddfc34353a114ea066ec06f8de:slide-360",
+          "original_source_page_id": "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-360",
+          "original_page": 10,
+          "extracted_page": 6
+        },
+        {
+          "source_page_id": "4b4baadd2a9157c8b3f87044cdbbb0d2ef804bddfc34353a114ea066ec06f8de:slide-361",
+          "original_source_page_id": "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-361",
+          "original_page": 11,
+          "extracted_page": 7
+        },
+        {
+          "source_page_id": "4b4baadd2a9157c8b3f87044cdbbb0d2ef804bddfc34353a114ea066ec06f8de:slide-362",
+          "original_source_page_id": "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-362",
+          "original_page": 12,
+          "extracted_page": 8
+        },
+        {
+          "source_page_id": "4b4baadd2a9157c8b3f87044cdbbb0d2ef804bddfc34353a114ea066ec06f8de:slide-363",
+          "original_source_page_id": "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-363",
+          "original_page": 13,
+          "extracted_page": 9
+        },
+        {
+          "source_page_id": "4b4baadd2a9157c8b3f87044cdbbb0d2ef804bddfc34353a114ea066ec06f8de:slide-372",
+          "original_source_page_id": "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-372",
+          "original_page": 14,
+          "extracted_page": 10
+        }
+      ]
+    }
+  },
+  "teacher_confirmation_submitted": false,
+  "metrics_frozen": false,
+  "authorization": "Reuse existing user authorization recorded 2026-10-01; one teacher, one course; not full M4 dataset",
+  "source_unchanged": true,
+  "updated_at": "2026-10-08T17:29:01.240283+00:00"
+}

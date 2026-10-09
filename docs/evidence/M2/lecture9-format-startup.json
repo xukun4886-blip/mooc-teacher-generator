@@ -1,0 +1,39 @@
+{
+  "started_at": "2026-10-09T02:50:07.230149+00:00",
+  "active_jobs_before": 0,
+  "previous_process": {
+    "command_line": "D:\\dev\\python\\python3.10.4\\python.exe -m mooc_m2 --port 8765",
+    "pid": 30816
+  },
+  "method": "documented direct Python CLI; hidden independent long-lived process; no execution policy changed",
+  "teacher_confirmation_submitted": false,
+  "state": "passed",
+  "health": {
+    "application": "mooc-workbench",
+    "version": "0.3.0",
+    "worker_alive": true,
+    "scope": "local service liveness; does not certify model or teaching quality"
+  },
+  "root_http_status": 200,
+  "launcher_pid": 30288,
+  "first_failure_retained": false,
+  "projects_unchanged": true,
+  "courses": {
+    "photo": {
+      "state": "completed",
+      "media_job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+      "teacher_confirmed": false
+    },
+    "video": {
+      "state": "completed",
+      "media_job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+      "teacher_confirmed": false
+    }
+  },
+  "code_sha256": {
+    "mooc_m2\\service.py": "61ce3d5156beeaf71e28ebc5382eb05b13d63754e394515b408dafbfd0530920",
+    "mooc_m3\\pipeline.py": "3493c8ad94f51f63d4e07e2d7306605ac244a61164f9a61e9a3cc024875726c1",
+    "mooc_m1\\core.py": "203deab7c0e7e3a4c3208466e674b0d2c2e37ede5957de6af2d218de21fe08ff"
+  },
+  "finished_at": "2026-10-09T02:50:10.934331+00:00"
+}

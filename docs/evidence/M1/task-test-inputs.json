@@ -1,0 +1,96 @@
+{
+  "schema_version": "m1.sample-intake.v1",
+  "recorded_at": "2026-10-01T10:17:24.125774+00:00",
+  "directory": "D:\\Task_test",
+  "user_supplied": true,
+  "media": {
+    "photo": {
+      "path": "D:\\Task_test\\images.jpg",
+      "sha256": "2a77d59a9de0fdd64617a536d1a9476ee89381bc66c41f8d7ab4e6dd3a8d050a",
+      "size_bytes": 4196,
+      "format": "JPEG",
+      "width": 180,
+      "height": 168
+    },
+    "video": {
+      "path": "D:\\Task_test\\DANK1NG_孩子们记住_性格决定命运_态度决定成败_7645412515383862181.mp4",
+      "sha256": "873838fceb297444e333e910e5628933f7917d910b3f4a6b1bdabc586e1ef54b",
+      "size_bytes": 1170102,
+      "duration_seconds": 15.0,
+      "format": "mov,mp4,m4a,3gp,3g2,mj2",
+      "codec": "hevc",
+      "sample_rate": null,
+      "width": 720,
+      "height": 1280,
+      "fps": 30.0
+    },
+    "reference_audio": {
+      "path": "D:\\Task_test\\DANK1NG_reference_21s.wav",
+      "sha256": "7c89c7f525155dd1fd6634c96b7169e958af86dc100b35120aade07eb15e52ea",
+      "size_bytes": 1013836,
+      "duration_seconds": 21.119958,
+      "format": "wav",
+      "codec": "pcm_s16le",
+      "sample_rate": "24000",
+      "width": null,
+      "height": null,
+      "silence_seconds": 0,
+      "silence_ratio": 0.0,
+      "max_volume_db": -0.5,
+      "silence_policy": {
+        "noise_db": -45,
+        "min_seconds": 1,
+        "max_ratio": 0.95
+      }
+    }
+  },
+  "additional_files": {
+    "path": "D:\\Task_test\\DANK1NG_reference_21s.txt",
+    "sha256": "cf256ad0684226d4fa5701c71c24a0090f4a6596e5f9079620f997be1fe848e4",
+    "human_confirmed": false,
+    "source_notes": {
+      "path": "D:\\Task_test\\DANK1NG_reference_notes.txt",
+      "sha256": "65f3f4aadaa156ba131df992292b9ef89f1353964bad9743ca2f3289e8d41985"
+    }
+  },
+  "source_claim": {
+    "reference_audio_source": "third-party Douyin video, as stated in supplied notes; not independently verified",
+    "authorization_record_present": false
+  },
+  "identity": {
+    "same_person_user_confirmed": null,
+    "automatic_face_identity_verification": false
+  },
+  "quality_review": {
+    "photo": "full-body low-resolution portrait; face occupies a small portion; recommend higher-resolution original",
+    "video": "review-only still frame shows visible face and unobstructed mouth; continuous motion/lip-sync output not verified",
+    "audio": "full decode and silence checks only; background residue, transcript accuracy and listening review pending"
+  },
+  "candidate_reference_constraint": {
+    "provider": "GPT-SoVITS",
+    "candidate_only": true,
+    "min_seconds": 3,
+    "max_seconds": 10,
+    "selected_segment": null,
+    "source": "previous pinned upstream source inspection; no segment silently selected"
+  },
+  "pptx_present": false,
+  "script_confirmed": false,
+  "model_generation_called": false,
+  "stage_passed": false,
+  "preflight_summary": {
+    "ready": false,
+    "blockers": 11,
+    "warnings": 1
+  },
+  "latest_user_confirmation": {
+    "authorized": true,
+    "confirmation": "已获得授权，ppt已放置同一文件夹",
+    "script_confirmed": true,
+    "script_confirmation": "确认使用此稿",
+    "pptx_sha256": "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592",
+    "authorization_record": "storage/m1/task-test-authorization.json",
+    "teacher_group": "task-test-selected-teacher",
+    "automatic_identity_verification": false
+  }
+}

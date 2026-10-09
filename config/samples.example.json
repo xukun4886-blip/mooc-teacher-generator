@@ -1,0 +1,10 @@
+{
+  "schema_version": "m1.samples.v1",
+  "assets": {
+    "pptx": {"path": "", "authorization": {"confirmed": false, "record": "", "scopes": ["course_material_processing"]}},
+    "photo": {"path": "", "teacher_id": "", "authorization": {"confirmed": false, "record": "", "scopes": ["portrait_animation"]}},
+    "video": {"path": "", "teacher_id": "", "authorization": {"confirmed": false, "record": "", "scopes": ["video_lip_sync"]}},
+    "reference_audio": {"path": "", "teacher_id": "", "authorization": {"confirmed": false, "record": "", "scopes": ["voice_synthesis"]}}
+  },
+  "script": {"confirmed": false, "review_record": "", "display_text": "", "reading_text": "", "control_events": []}
+}

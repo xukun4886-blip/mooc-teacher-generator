@@ -1,0 +1,15 @@
+{
+  "at": "2026-10-09T02:32:10.400Z",
+  "browser": "Codex in-app browser",
+  "source_project_id": "0091c9cc-f11c-43d0-adcc-82263d176f3f",
+  "new_project_id": "c75361e9-6432-4546-b07f-0264b0dc9a39",
+  "ppt_button_enabled_before": true,
+  "ppt_button_enabled_after": true,
+  "generate_enabled_after": true,
+  "visible_page_count": "10 页",
+  "notice": "已切换到新课件，教师形象和参考语音已沿用。原课程、讲稿和成片已保留。",
+  "old_completion_not_shown": true,
+  "teacher_confirmation_submitted": false,
+  "refresh_restored_new_course": true,
+  "ppt_enabled_after_refresh": true
+}

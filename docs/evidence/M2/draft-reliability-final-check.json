@@ -1,0 +1,71 @@
+{
+  "checked_at": "2026-10-09T12:15:00.825992+00:00",
+  "documents": 48,
+  "links_checked": 608,
+  "errors": [],
+  "scope": "documentation, live API, real source17 TTS and preserved original history; not formal acceptance",
+  "current_course": {
+    "id": "653a6a02-1ae8-4852-9a7c-441636e569f7",
+    "generation": 1,
+    "state": "running",
+    "stage": "photo_native_generation",
+    "valid": 16,
+    "total": 22,
+    "original_project_unchanged": true,
+    "all_versions_unchanged": true,
+    "old_exhausted_job_unchanged": true,
+    "source17_tts_valid": true,
+    "cache_reused": {
+      "tts": 16,
+      "portrait": 16,
+      "compose": 16
+    }
+  },
+  "preserved_original_media": 47,
+  "health": {
+    "application": "mooc-workbench",
+    "version": "0.3.0",
+    "worker_alive": true,
+    "scope": "local service liveness; does not certify model or teaching quality"
+  },
+  "active_ai": {
+    "configured": true,
+    "ready": true,
+    "model": "glm-4.1v-thinking-flash",
+    "fee": null,
+    "reason": null,
+    "contract": "body-first-v1",
+    "text_model": "glm-4.7-flash"
+  },
+  "draft-reliability-tests.xml": {
+    "name": "pytest",
+    "errors": "0",
+    "failures": "0",
+    "skipped": "0",
+    "tests": "31",
+    "time": "17.748",
+    "timestamp": "2026-10-09T20:11:29.670101+08:00",
+    "hostname": "LAPTOP-94TPVL4F"
+  },
+  "draft-reliability-regression.xml": {
+    "name": "pytest",
+    "errors": "0",
+    "failures": "0",
+    "skipped": "0",
+    "tests": "154",
+    "time": "326.388",
+    "timestamp": "2026-10-09T20:09:06.131078+08:00",
+    "hostname": "LAPTOP-94TPVL4F"
+  },
+  "draft-reliability-punctuation-tests.xml": {
+    "name": "pytest",
+    "errors": "0",
+    "failures": "0",
+    "skipped": "0",
+    "tests": "49",
+    "time": "163.107",
+    "timestamp": "2026-10-09T20:03:28.537486+08:00",
+    "hostname": "LAPTOP-94TPVL4F"
+  },
+  "known_secret_scan_files": 13
+}

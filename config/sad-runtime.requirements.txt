@@ -1,0 +1,27 @@
+# SadTalker upstream pins plus compatible audio/compiler-free dependencies.
+setuptools==69.5.1
+numpy==1.23.4
+scipy==1.10.1
+scikit-image==0.19.3
+librosa==0.9.2
+numba==0.57.1
+imageio==2.19.3
+imageio-ffmpeg==0.4.7
+face_alignment==1.3.5
+pydub==0.25.1
+kornia==0.6.8
+resampy==0.3.1
+yacs==0.1.8
+basicsr==1.4.2
+facexlib==0.3.0
+gfpgan==1.3.8
+safetensors==0.6.2
+PyYAML==6.0.3
+tqdm==4.67.1
+opencv-python==4.9.0.80
+joblib==1.1.0
+scikit-learn==1.1.3
+matplotlib==3.7.5
+PyWavelets==1.4.1
+cython==3.0.12
+pillow==9.5.0

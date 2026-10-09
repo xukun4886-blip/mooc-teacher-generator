@@ -1,0 +1,23 @@
+{
+  "started_at": "2026-10-09T04:02:08.848777+00:00",
+  "original_media_job": "89055bfa-566c-4e86-b4e9-969073b1a9ae",
+  "events": [
+    {
+      "at": "2026-10-09T05:52:58.455127+00:00",
+      "event": "original_media_terminal",
+      "state": "completed",
+      "generation": 2,
+      "error": null
+    }
+  ],
+  "paid_allowed": false,
+  "automatic_retries": 0,
+  "teacher_confirmation": false,
+  "launcher_issue": {
+    "at": "2026-10-09T05:56:08.478235+00:00",
+    "server_pid": 32332,
+    "health_worker_alive": true,
+    "problem": "detached server inherited capture pipes; launcher process had exited, helper awaited EOF",
+    "ai_request_issued_before_repair": false
+  }
+}

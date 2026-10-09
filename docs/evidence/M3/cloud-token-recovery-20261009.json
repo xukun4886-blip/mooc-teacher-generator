@@ -1,0 +1,53 @@
+{
+  "checked_at": "2026-10-09T13:02:24.010714+00:00",
+  "scope": "Runtime token recovery and private health check; no upload or inference",
+  "before_error": "CLOUD_CONFIG_MISSING",
+  "workbench_restarted_only_after_active_jobs_zero": true,
+  "token_source": "Existing authenticated administration process memory; not persisted in code or database",
+  "ssh_reconnected": true,
+  "existing_private_api_restarted": true,
+  "local_health": {
+    "application": "mooc-workbench",
+    "version": "0.3.0",
+    "worker_alive": true,
+    "scope": "local service liveness; does not certify model or teaching quality"
+  },
+  "cloud_http": 200,
+  "cloud_health": {
+    "ready": true,
+    "resident_loaded": false,
+    "protocol": "mooc.photo-worker.v1",
+    "blockers": [],
+    "model_key": "163159a0a1368f3797850abe2218fee960c40a591bcdc6af90f0dba99d4eacc4",
+    "price": {
+      "hourly_rate": 0,
+      "currency": "CNY",
+      "scope": "API itself has no metered fee; existing VM rental billing not monitored"
+    }
+  },
+  "lecture9_photo_execution": {
+    "mode": "local"
+  },
+  "active_jobs_after": 0,
+  "preservation": {
+    "projects": {
+      "before_count": 25,
+      "after_count": 25,
+      "all_record_data_unchanged": true
+    },
+    "jobs": {
+      "before_count": 241,
+      "after_count": 241,
+      "all_record_data_unchanged": true
+    }
+  },
+  "admin_environment": {
+    "path": ".venv-cloud-admin",
+    "paramiko": "5.0.0",
+    "pip_check": "passed",
+    "packages_source": "Existing local wheels and existing typing_extensions 4.15.0; no paid service"
+  },
+  "new_assets_uploaded": false,
+  "inference_started": false,
+  "stage_quality_passed": false
+}

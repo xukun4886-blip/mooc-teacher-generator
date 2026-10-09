@@ -1,0 +1,1561 @@
+{
+  "started_at": "2026-10-09T11:34:56.451344+00:00",
+  "isolated_storage": "storage/draft-reliability/validation",
+  "cases": [
+    {
+      "case_key": "1:445fff9e-b672-438a-8315-65fba42c8c6b:3a18dc07-cdfa-4f15-8779-eef561951ce2",
+      "round": 1,
+      "source_label": "工程课件",
+      "source_index": 7,
+      "job_id": "b8f207bc-868a-43f0-b4d6-314344c9ff1b",
+      "finished_at": "2026-10-09T11:35:35.350772+00:00",
+      "wall_seconds": 38.797,
+      "state": "completed",
+      "error": null,
+      "result": {
+        "scene_id": "3a18dc07-cdfa-4f15-8779-eef561951ce2",
+        "version_id": "415cb9fe-75c0-4818-8533-aeae0bb59c8a",
+        "draft_run_id": "3c3c6f262a13aa350a6d1afd7d37f7f685cfe8c9c7eba56394ded9415775fcc0",
+        "teaching_check_state": "completed"
+      },
+      "stage_states": {
+        "vision": "ready",
+        "narration": "ready",
+        "reading": "ready",
+        "teaching": "ready"
+      },
+      "run_id": "3c3c6f262a13aa350a6d1afd7d37f7f685cfe8c9c7eba56394ded9415775fcc0",
+      "attempts": {
+        "vision": [
+          {
+            "at": "2026-10-09T11:34:56.749113+00:00",
+            "budget": "b8f207bc-868a-43f0-b4d6-314344c9ff1b:1:vision",
+            "number": 1,
+            "model": "glm-4.1v-thinking-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "b5cc22825fa54f82214e0f2731f41f7682400e1e805f8ffdaa2928607da325a5",
+            "state": "validated",
+            "elapsed_seconds": 22.719,
+            "status": 200,
+            "provider_record": {
+              "path": "ai-responses/b8f207bc-868a-43f0-b4d6-314344c9ff1b-vision-eef619ed-e3c2-42a6-963d-5337f9bd1389.json",
+              "response_sha256": "38291f465b2eadbca5896a1c4b77fecca5b9f2007771255d5b9540a1c26d1536",
+              "response_id": "202610091935088cf6e9f4937a4572"
+            }
+          }
+        ],
+        "narration": [
+          {
+            "at": "2026-10-09T11:35:19.509902+00:00",
+            "budget": "b8f207bc-868a-43f0-b4d6-314344c9ff1b:1:narration",
+            "number": 1,
+            "model": "glm-4.7-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "6129077c90b8ef43d8c81cd4310cea8ca30b5c4d960b35fc752d165597be1fc8",
+            "state": "http_failed",
+            "elapsed_seconds": 0.172,
+            "status": 429,
+            "provider_record": {
+              "path": "ai-responses/b8f207bc-868a-43f0-b4d6-314344c9ff1b-narration-041d8876-81c1-4312-a7cd-c64861ce48b9.json",
+              "response_sha256": "d71a4cb7de4f70bd1561f58055f6e8c030bc50d09015a3cd73f87cd9f69199b6"
+            },
+            "provider_error_code": "1305"
+          },
+          {
+            "at": "2026-10-09T11:35:25.226103+00:00",
+            "budget": "b8f207bc-868a-43f0-b4d6-314344c9ff1b:1:narration",
+            "number": 2,
+            "model": "glm-4.7-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "6129077c90b8ef43d8c81cd4310cea8ca30b5c4d960b35fc752d165597be1fc8",
+            "state": "validated",
+            "elapsed_seconds": 3.89,
+            "status": 200,
+            "provider_record": {
+              "path": "ai-responses/b8f207bc-868a-43f0-b4d6-314344c9ff1b-narration-4c21cdaf-aae6-420e-8164-3f89e342680e.json",
+              "response_sha256": "8daab6e1bf0d03df8077c853000fd2922e35a1ff481ed84e93ba2d0a3e294d82",
+              "response_id": "202610091935250c15a5fef50946b6"
+            }
+          }
+        ],
+        "reading": [],
+        "teaching": [
+          {
+            "at": "2026-10-09T11:35:29.171918+00:00",
+            "budget": "b8f207bc-868a-43f0-b4d6-314344c9ff1b:1:teaching",
+            "number": 1,
+            "model": "glm-4.7-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "36339a0f8c2426320f5fe0651b1e280f15f70ed07471d8e18b1c8ce099e5aa87",
+            "state": "validated",
+            "elapsed_seconds": 6.141,
+            "status": 200,
+            "provider_record": {
+              "path": "ai-responses/b8f207bc-868a-43f0-b4d6-314344c9ff1b-teaching-07568708-e723-42f6-b2f1-01a712239f45.json",
+              "response_sha256": "678272bf2b9b9e363ed595c3b55fbfff6faf5d396abb48a00c59daa52a1e27de",
+              "response_id": "20261009193529648cf6eb52c94de7"
+            }
+          }
+        ]
+      },
+      "vision_reused": false,
+      "version_id": "415cb9fe-75c0-4818-8533-aeae0bb59c8a",
+      "body_sha256": "0a21f5a0fdf5292c779bcdadb2afed8d4a8e88925f45d32a2c8871188436e079",
+      "teaching_check_state": "completed",
+      "pending": [
+        "型号或英文术语读法待核对：M1",
+        "符号或公式读法待核对：[1,2,3]",
+        "型号或英文术语读法待核对：a+b",
+        "符号或公式读法待核对：[12]",
+        "符号或公式读法待核对：E=mc²",
+        "型号或英文术语读法待核对：E",
+        "型号或英文术语读法待核对：m",
+        "型号或英文术语读法待核对：c"
+      ]
+    },
+    {
+      "case_key": "1:445fff9e-b672-438a-8315-65fba42c8c6b:91e1d20c-11f8-42d2-aad9-07d0ff464a7f",
+      "round": 1,
+      "source_label": "工程课件",
+      "source_index": 9,
+      "job_id": "80f13c07-c171-4b44-aed3-7e7ef3458846",
+      "finished_at": "2026-10-09T11:36:01.427533+00:00",
+      "wall_seconds": 26.047,
+      "state": "completed",
+      "error": null,
+      "result": {
+        "scene_id": "91e1d20c-11f8-42d2-aad9-07d0ff464a7f",
+        "version_id": "e039effe-f8db-4ecb-bae6-32280250d09d",
+        "draft_run_id": "43bdf1ec112ff10937e1a084e4a344a1866a9abadb11ae66dc7037a229df49b4",
+        "teaching_check_state": "completed"
+      },
+      "stage_states": {
+        "vision": "ready",
+        "narration": "ready",
+        "reading": "ready",
+        "teaching": "ready"
+      },
+      "run_id": "43bdf1ec112ff10937e1a084e4a344a1866a9abadb11ae66dc7037a229df49b4",
+      "attempts": {
+        "vision": [
+          {
+            "at": "2026-10-09T11:35:35.395963+00:00",
+            "budget": "80f13c07-c171-4b44-aed3-7e7ef3458846:1:vision",
+            "number": 1,
+            "model": "glm-4.1v-thinking-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "55b693f9e1b2ef1cb944ff4a33580417532dc109a01662a8bcea0ae7592f236e",
+            "state": "validated",
+            "elapsed_seconds": 5.125,
+            "status": 200,
+            "provider_record": {
+              "path": "ai-responses/80f13c07-c171-4b44-aed3-7e7ef3458846-vision-9a891236-582d-4302-9fd0-ed5720618cf5.json",
+              "response_sha256": "269ec5244aeb4e71e78e331c9f1b6775df9545ec07f97b720b2a02707daf77dc",
+              "response_id": "202610091935354c8985a75e3b449f"
+            }
+          }
+        ],
+        "narration": [
+          {
+            "at": "2026-10-09T11:35:40.560683+00:00",
+            "budget": "80f13c07-c171-4b44-aed3-7e7ef3458846:1:narration",
+            "number": 1,
+            "model": "glm-4.7-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "68841bb310ba8f119c2c7588c49d80a0bf356f3f52f9000046455cf7b424b1ae",
+            "state": "http_failed",
+            "elapsed_seconds": 11.234,
+            "status": 429,
+            "provider_record": {
+              "path": "ai-responses/80f13c07-c171-4b44-aed3-7e7ef3458846-narration-31227894-99a9-4131-a330-8c7144c0ea75.json",
+              "response_sha256": "d71a4cb7de4f70bd1561f58055f6e8c030bc50d09015a3cd73f87cd9f69199b6"
+            },
+            "provider_error_code": "1305"
+          },
+          {
+            "at": "2026-10-09T11:35:57.638394+00:00",
+            "budget": "80f13c07-c171-4b44-aed3-7e7ef3458846:1:narration",
+            "number": 2,
+            "model": "glm-4.7-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "68841bb310ba8f119c2c7588c49d80a0bf356f3f52f9000046455cf7b424b1ae",
+            "state": "validated",
+            "elapsed_seconds": 1.672,
+            "status": 200,
+            "provider_record": {
+              "path": "ai-responses/80f13c07-c171-4b44-aed3-7e7ef3458846-narration-36241f82-27f8-4987-ad90-10ee1efdf6c6.json",
+              "response_sha256": "f391bbaf9de80dd53fb9d60110f11d57b63d65036d7efcc136bc9f9aec1ee623",
+              "response_id": "20261009193557ae8c021c0e5b47b1"
+            }
+          }
+        ],
+        "reading": [],
+        "teaching": [
+          {
+            "at": "2026-10-09T11:35:59.356593+00:00",
+            "budget": "80f13c07-c171-4b44-aed3-7e7ef3458846:1:teaching",
+            "number": 1,
+            "model": "glm-4.7-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "fa921d3f2fc4df47d3b26006b87f62b8a4b4dde282b4db0e98f603782a3c878b",
+            "state": "validated",
+            "elapsed_seconds": 2.015,
+            "status": 200,
+            "provider_record": {
+              "path": "ai-responses/80f13c07-c171-4b44-aed3-7e7ef3458846-teaching-daa3a3d8-4a3e-4152-b52b-abdbbd7a4f68.json",
+              "response_sha256": "64a71291229cfc63c0d83dd6642f1c4d0510e4d4b629f741a04dd85013b6d02d",
+              "response_id": "2026100919355928deee5fc99f410d"
+            }
+          }
+        ]
+      },
+      "vision_reused": false,
+      "version_id": "e039effe-f8db-4ecb-bae6-32280250d09d",
+      "body_sha256": "3e76a5c4268ea833ba5fb05ab85895e83e0be7fc30034bd8da71128d51ca1863",
+      "teaching_check_state": "completed",
+      "pending": []
+    },
+    {
+      "case_key": "1:b38f18bb-817c-4d20-b492-0cbae48cdce6:a3619f34-ba68-4b3a-854f-0e87925c88a4",
+      "round": 1,
+      "source_label": "Lecture 8",
+      "source_index": 17,
+      "job_id": "878c6bd4-fecb-4f27-b858-088c12c36512",
+      "finished_at": "2026-10-09T11:37:12.001699+00:00",
+      "wall_seconds": 70.547,
+      "state": "completed",
+      "error": null,
+      "result": {
+        "scene_id": "a3619f34-ba68-4b3a-854f-0e87925c88a4",
+        "version_id": "8e90903a-ca01-470a-b7aa-9fcc636aa594",
+        "draft_run_id": "0cc5f5cfb501d73862aa07bf9b5b40bfe53b08a467bc67692544bc1b260f6a76",
+        "teaching_check_state": "completed"
+      },
+      "stage_states": {
+        "vision": "ready",
+        "narration": "ready",
+        "reading": "ready",
+        "teaching": "ready"
+      },
+      "run_id": "0cc5f5cfb501d73862aa07bf9b5b40bfe53b08a467bc67692544bc1b260f6a76",
+      "attempts": {
+        "vision": [
+          {
+            "at": "2026-10-09T11:36:01.494372+00:00",
+            "budget": "878c6bd4-fecb-4f27-b858-088c12c36512:1:vision",
+            "number": 1,
+            "model": "glm-4.1v-thinking-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "c05ae227399a9effaa0df31bdb6f51794c0c2611dd7e8f45c8f556d14fbfe120",
+            "state": "validated",
+            "elapsed_seconds": 15.891,
+            "status": 200,
+            "provider_record": {
+              "path": "ai-responses/878c6bd4-fecb-4f27-b858-088c12c36512-vision-7765e402-7b68-45de-804c-2d38bc127990.json",
+              "response_sha256": "50b51950f8ab34d442d728c0c5624c87b1d4a27a486bd1da3616f23810b19600",
+              "response_id": "20261009193601acfe699f9c004f63"
+            }
+          }
+        ],
+        "narration": [
+          {
+            "at": "2026-10-09T11:36:17.424961+00:00",
+            "budget": "878c6bd4-fecb-4f27-b858-088c12c36512:1:narration",
+            "number": 1,
+            "model": "glm-4.7-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "823e6ccbfaddf574dfb800cb90b28fa3d13ce1eb9676ed65718af10007dd8145",
+            "state": "http_failed",
+            "elapsed_seconds": 0.172,
+            "status": 429,
+            "provider_record": {
+              "path": "ai-responses/878c6bd4-fecb-4f27-b858-088c12c36512-narration-c5c370fb-3d17-414d-aa25-7f3f21918e7b.json",
+              "response_sha256": "d71a4cb7de4f70bd1561f58055f6e8c030bc50d09015a3cd73f87cd9f69199b6"
+            },
+            "provider_error_code": "1305"
+          },
+          {
+            "at": "2026-10-09T11:36:23.107487+00:00",
+            "budget": "878c6bd4-fecb-4f27-b858-088c12c36512:1:narration",
+            "number": 2,
+            "model": "glm-4.7-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "823e6ccbfaddf574dfb800cb90b28fa3d13ce1eb9676ed65718af10007dd8145",
+            "state": "http_failed",
+            "elapsed_seconds": 0.156,
+            "status": 429,
+            "provider_record": {
+              "path": "ai-responses/878c6bd4-fecb-4f27-b858-088c12c36512-narration-80d33345-7159-44c8-b7b3-3ea5193344bb.json",
+              "response_sha256": "d71a4cb7de4f70bd1561f58055f6e8c030bc50d09015a3cd73f87cd9f69199b6"
+            },
+            "provider_error_code": "1305"
+          },
+          {
+            "at": "2026-10-09T11:36:33.334200+00:00",
+            "budget": "878c6bd4-fecb-4f27-b858-088c12c36512:1:narration",
+            "number": 3,
+            "model": "glm-4.7-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "823e6ccbfaddf574dfb800cb90b28fa3d13ce1eb9676ed65718af10007dd8145",
+            "state": "http_failed",
+            "elapsed_seconds": 0.156,
+            "status": 429,
+            "provider_record": {
+              "path": "ai-responses/878c6bd4-fecb-4f27-b858-088c12c36512-narration-b52179c5-5cfe-4bd2-9b50-d2ec7cb6194a.json",
+              "response_sha256": "d71a4cb7de4f70bd1561f58055f6e8c030bc50d09015a3cd73f87cd9f69199b6"
+            },
+            "provider_error_code": "1305"
+          },
+          {
+            "at": "2026-10-09T11:36:54.195977+00:00",
+            "budget": "878c6bd4-fecb-4f27-b858-088c12c36512:1:narration",
+            "number": 4,
+            "model": "glm-4.7-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "823e6ccbfaddf574dfb800cb90b28fa3d13ce1eb9676ed65718af10007dd8145",
+            "state": "validated",
+            "elapsed_seconds": 5.328,
+            "status": 200,
+            "provider_record": {
+              "path": "ai-responses/878c6bd4-fecb-4f27-b858-088c12c36512-narration-8d10c369-1636-4e31-91a8-d588b420fbc7.json",
+              "response_sha256": "4863e561b1d4315ee1e71f414730fdee7bcedfaf17551dc21408dc3e68124ae8",
+              "response_id": "202610091936547088c01644b245a0"
+            }
+          }
+        ],
+        "reading": [],
+        "teaching": [
+          {
+            "at": "2026-10-09T11:36:59.601524+00:00",
+            "budget": "878c6bd4-fecb-4f27-b858-088c12c36512:1:teaching",
+            "number": 1,
+            "model": "glm-4.7-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "c7834280ab910be1bd15ab6998f3cac4959465ca683dbad2bf2129f1ca85b998",
+            "state": "validated",
+            "elapsed_seconds": 12.343,
+            "status": 200,
+            "provider_record": {
+              "path": "ai-responses/878c6bd4-fecb-4f27-b858-088c12c36512-teaching-ade56a1a-9de0-4cd2-b3ff-24dddfd11264.json",
+              "response_sha256": "9921c781dba61409eb0037d0676ca97b92c0fda2e830f88af72f3239708ccc29",
+              "response_id": "20261009193659ab9b72eb687a4bdd"
+            }
+          }
+        ]
+      },
+      "vision_reused": false,
+      "version_id": "8e90903a-ca01-470a-b7aa-9fcc636aa594",
+      "body_sha256": "50c22473abffcb1d27855dbcaee6ad61529e46f56514a7762bad885075ee6e09",
+      "teaching_check_state": "completed",
+      "pending": [
+        "英文缩写读法需试听确认：CPU",
+        "型号或英文术语读法待核对：Intel",
+        "英文缩写读法需试听确认：AI",
+        "英文缩写读法需试听确认：NPU",
+        "英文缩写读法需试听确认：DRAM",
+        "英文缩写读法需试听确认：SSD",
+        "移动通信缩写读法需试听确认：5G",
+        "英文缩写读法需试听确认：NR",
+        "英文缩写读法需试听确认：LTE",
+        "型号或英文术语读法待核对：Sub-6GHz",
+        "型号或英文术语读法待核对：10G",
+        "型号或英文术语读法待核对：25G",
+        "英文缩写读法需试听确认：API",
+        "英文缩写读法需试听确认：VIM",
+        "型号或英文术语读法待核对：OpenVINO"
+      ]
+    },
+    {
+      "case_key": "1:b38f18bb-817c-4d20-b492-0cbae48cdce6:66d9bc17-0188-4a72-a370-6de3cacbe6c6",
+      "round": 1,
+      "source_label": "Lecture 8",
+      "source_index": 22,
+      "job_id": "c097b1dc-61eb-40cd-a4a1-2aec85dac871",
+      "finished_at": "2026-10-09T11:38:33.162834+00:00",
+      "wall_seconds": 81.14,
+      "state": "completed",
+      "error": null,
+      "result": {
+        "scene_id": "66d9bc17-0188-4a72-a370-6de3cacbe6c6",
+        "version_id": "cd02e137-6ec7-4a75-b067-47ee9f26296b",
+        "draft_run_id": "f0e4ebfc958bb5c8c29c0256662afebeacb2e3a8ea909d30e89eab84f0c82ccf",
+        "teaching_check_state": "completed"
+      },
+      "stage_states": {
+        "vision": "ready",
+        "narration": "ready",
+        "reading": "ready",
+        "teaching": "ready"
+      },
+      "run_id": "f0e4ebfc958bb5c8c29c0256662afebeacb2e3a8ea909d30e89eab84f0c82ccf",
+      "attempts": {
+        "vision": [
+          {
+            "at": "2026-10-09T11:37:12.046019+00:00",
+            "budget": "c097b1dc-61eb-40cd-a4a1-2aec85dac871:1:vision",
+            "number": 1,
+            "model": "glm-4.1v-thinking-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "334187ede5bb7295c54aaa6994d097c735264ba575edb30177a1b008a16db8f6",
+            "state": "validated",
+            "elapsed_seconds": 3.672,
+            "status": 200,
+            "provider_record": {
+              "path": "ai-responses/c097b1dc-61eb-40cd-a4a1-2aec85dac871-vision-f6c9b953-c22e-4a6d-8276-75d1d670f0f8.json",
+              "response_sha256": "13ec8b6021a5bc46346aa5347e9dc515b915a56b6bd3d297822e6763c3964235",
+              "response_id": "20261009193712d7653870cad34703"
+            }
+          }
+        ],
+        "narration": [
+          {
+            "at": "2026-10-09T11:37:15.742424+00:00",
+            "budget": "c097b1dc-61eb-40cd-a4a1-2aec85dac871:1:narration",
+            "number": 1,
+            "model": "glm-4.7-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "1e815c7a91f370fca65808997b35156a2d52c8ef6adec36d3f2f7064326929d4",
+            "state": "http_failed",
+            "elapsed_seconds": 0.156,
+            "status": 429,
+            "provider_record": {
+              "path": "ai-responses/c097b1dc-61eb-40cd-a4a1-2aec85dac871-narration-12f1d113-9ea9-417e-89fa-429d29520236.json",
+              "response_sha256": "d71a4cb7de4f70bd1561f58055f6e8c030bc50d09015a3cd73f87cd9f69199b6"
+            },
+            "provider_error_code": "1305"
+          },
+          {
+            "at": "2026-10-09T11:37:21.408605+00:00",
+            "budget": "c097b1dc-61eb-40cd-a4a1-2aec85dac871:1:narration",
+            "number": 2,
+            "model": "glm-4.7-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "1e815c7a91f370fca65808997b35156a2d52c8ef6adec36d3f2f7064326929d4",
+            "state": "validated",
+            "elapsed_seconds": 26.375,
+            "status": 200,
+            "provider_record": {
+              "path": "ai-responses/c097b1dc-61eb-40cd-a4a1-2aec85dac871-narration-f64bd258-49d5-4ad3-9390-43bc269ef530.json",
+              "response_sha256": "307618db396564354b4963984f87bbf184dbe862bb23fb02d76fe2eb7f31b6f9",
+              "response_id": "20261009193721279bca7fd34b4882"
+            }
+          }
+        ],
+        "reading": [],
+        "teaching": [
+          {
+            "at": "2026-10-09T11:37:47.842063+00:00",
+            "budget": "c097b1dc-61eb-40cd-a4a1-2aec85dac871:1:teaching",
+            "number": 1,
+            "model": "glm-4.7-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "4c4f5a2655e1f7ffeefa9a27f16752e82c4b3157908df0a18e3d62352301f6da",
+            "state": "validated",
+            "elapsed_seconds": 45.266,
+            "status": 200,
+            "provider_record": {
+              "path": "ai-responses/c097b1dc-61eb-40cd-a4a1-2aec85dac871-teaching-631ede6d-de69-4c57-9c46-7f05c904c992.json",
+              "response_sha256": "7cd8013508f744ff5a214a28c68487f900f29f2354ccf469677c693ca2996d49",
+              "response_id": "20261009193748c84e9d4ccea641fc"
+            }
+          }
+        ]
+      },
+      "vision_reused": false,
+      "version_id": "cd02e137-6ec7-4a75-b067-47ee9f26296b",
+      "body_sha256": "be086bac09ece10eb4021ce28c92b837f36c5ba7720118c5618ef520dbcd1f2a",
+      "teaching_check_state": "completed",
+      "pending": []
+    },
+    {
+      "case_key": "1:2fa362eb-714c-4577-8a52-0dc932b11da2:1185e269-5bfb-4b9d-8d2e-5f5e9e6c690b",
+      "round": 1,
+      "source_label": "Lecture 9",
+      "source_index": 1,
+      "job_id": "dcc286d0-0d4d-4918-a7f9-6b01be8ebb69",
+      "finished_at": "2026-10-09T11:39:25.123866+00:00",
+      "wall_seconds": 51.922,
+      "state": "completed",
+      "error": null,
+      "result": {
+        "scene_id": "1185e269-5bfb-4b9d-8d2e-5f5e9e6c690b",
+        "version_id": "1b847fad-7b1e-44c3-9eb4-82d7c6d29329",
+        "draft_run_id": "90378fe6aafdd15574a25f3acd43218ade511959fc93d42cfec952082bea726e",
+        "teaching_check_state": "pending",
+        "teaching_error": {
+          "code": "AI_RATE_LIMITED",
+          "message": "讲稿服务繁忙，有限等待后重试；已保存步骤保留",
+          "source": "1185e269-5bfb-4b9d-8d2e-5f5e9e6c690b",
+          "remedy": null
+        }
+      },
+      "stage_states": {
+        "vision": "ready",
+        "narration": "ready",
+        "reading": "ready",
+        "teaching": "failed"
+      },
+      "run_id": "90378fe6aafdd15574a25f3acd43218ade511959fc93d42cfec952082bea726e",
+      "attempts": {
+        "vision": [
+          {
+            "at": "2026-10-09T11:38:33.222811+00:00",
+            "budget": "dcc286d0-0d4d-4918-a7f9-6b01be8ebb69:1:vision",
+            "number": 1,
+            "model": "glm-4.1v-thinking-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "bb168eef39bb5d8946c6f26b52edc7e6346470b1c6f6291bfbbaeeae236478ef",
+            "state": "validated",
+            "elapsed_seconds": 2.937,
+            "status": 200,
+            "provider_record": {
+              "path": "ai-responses/dcc286d0-0d4d-4918-a7f9-6b01be8ebb69-vision-10616eeb-6abe-4458-ac68-8236b0e1e08b.json",
+              "response_sha256": "6c9d240fe032edcd7e3998cf87288b8b65c0525271a38a9b764b58f52d184383",
+              "response_id": "20261009193833261efae7460f4d65"
+            }
+          }
+        ],
+        "narration": [
+          {
+            "at": "2026-10-09T11:38:36.184825+00:00",
+            "budget": "dcc286d0-0d4d-4918-a7f9-6b01be8ebb69:1:narration",
+            "number": 1,
+            "model": "glm-4.7-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "3262d3e7c3933d48da0ae7769d63a734d85f636b97e0d419ec1fc9a814afe25b",
+            "state": "validated",
+            "elapsed_seconds": 10.687,
+            "status": 200,
+            "provider_record": {
+              "path": "ai-responses/dcc286d0-0d4d-4918-a7f9-6b01be8ebb69-narration-1cadbcd9-4e66-4c3e-81dc-49e7f9fd8566.json",
+              "response_sha256": "fb1b5b5af6d05219d7451096b116021853dc271da0916d5259bbb83aa5425816",
+              "response_id": "202610091938364a7ff73d559a4a91"
+            }
+          }
+        ],
+        "reading": [],
+        "teaching": [
+          {
+            "at": "2026-10-09T11:38:46.932664+00:00",
+            "budget": "dcc286d0-0d4d-4918-a7f9-6b01be8ebb69:1:teaching",
+            "number": 1,
+            "model": "glm-4.7-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "83cd98aca57eb797c9c3c57b4ebc6fb0c2d55e74256dcf05ed6cd9fc3349a464",
+            "state": "http_failed",
+            "elapsed_seconds": 0.156,
+            "status": 429,
+            "provider_record": {
+              "path": "ai-responses/dcc286d0-0d4d-4918-a7f9-6b01be8ebb69-teaching-ca49e972-5ed9-4480-a6aa-dbb578cfa3f9.json",
+              "response_sha256": "d71a4cb7de4f70bd1561f58055f6e8c030bc50d09015a3cd73f87cd9f69199b6"
+            },
+            "provider_error_code": "1305"
+          },
+          {
+            "at": "2026-10-09T11:38:53.131717+00:00",
+            "budget": "dcc286d0-0d4d-4918-a7f9-6b01be8ebb69:1:teaching",
+            "number": 2,
+            "model": "glm-4.7-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "83cd98aca57eb797c9c3c57b4ebc6fb0c2d55e74256dcf05ed6cd9fc3349a464",
+            "state": "http_failed",
+            "elapsed_seconds": 0.172,
+            "status": 429,
+            "provider_record": {
+              "path": "ai-responses/dcc286d0-0d4d-4918-a7f9-6b01be8ebb69-teaching-f5451c33-9a4f-4b0b-a6b3-9c16b9251fc5.json",
+              "response_sha256": "d71a4cb7de4f70bd1561f58055f6e8c030bc50d09015a3cd73f87cd9f69199b6"
+            },
+            "provider_error_code": "1305"
+          },
+          {
+            "at": "2026-10-09T11:39:03.742802+00:00",
+            "budget": "dcc286d0-0d4d-4918-a7f9-6b01be8ebb69:1:teaching",
+            "number": 3,
+            "model": "glm-4.7-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "83cd98aca57eb797c9c3c57b4ebc6fb0c2d55e74256dcf05ed6cd9fc3349a464",
+            "state": "http_failed",
+            "elapsed_seconds": 0.156,
+            "status": 429,
+            "provider_record": {
+              "path": "ai-responses/dcc286d0-0d4d-4918-a7f9-6b01be8ebb69-teaching-ba0e4884-71ea-4504-9883-c4723668dec0.json",
+              "response_sha256": "d71a4cb7de4f70bd1561f58055f6e8c030bc50d09015a3cd73f87cd9f69199b6"
+            },
+            "provider_error_code": "1305"
+          },
+          {
+            "at": "2026-10-09T11:39:24.860095+00:00",
+            "budget": "dcc286d0-0d4d-4918-a7f9-6b01be8ebb69:1:teaching",
+            "number": 4,
+            "model": "glm-4.7-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "83cd98aca57eb797c9c3c57b4ebc6fb0c2d55e74256dcf05ed6cd9fc3349a464",
+            "state": "http_failed",
+            "elapsed_seconds": 0.218,
+            "status": 429,
+            "provider_record": {
+              "path": "ai-responses/dcc286d0-0d4d-4918-a7f9-6b01be8ebb69-teaching-f75f8e66-57cd-4d5d-8b48-82613c21b339.json",
+              "response_sha256": "d71a4cb7de4f70bd1561f58055f6e8c030bc50d09015a3cd73f87cd9f69199b6"
+            },
+            "provider_error_code": "1305"
+          }
+        ]
+      },
+      "vision_reused": false,
+      "version_id": "1b847fad-7b1e-44c3-9eb4-82d7c6d29329",
+      "body_sha256": "acbd3f3bb722a48481e18ebacc07f444a781be0c1eae4a87f3be4247056abfa3",
+      "teaching_check_state": "pending",
+      "pending": [
+        "教学核查尚未完成"
+      ]
+    },
+    {
+      "case_key": "1:2fa362eb-714c-4577-8a52-0dc932b11da2:23c0a0db-06d8-4ea4-b80a-ecf46a326e98",
+      "round": 1,
+      "source_label": "Lecture 9",
+      "source_index": 11,
+      "job_id": "d14836a8-010d-4398-8f15-0532b0b12a7e",
+      "finished_at": "2026-10-09T11:40:13.683359+00:00",
+      "wall_seconds": 48.516,
+      "state": "failed",
+      "error": {
+        "code": "AI_RATE_LIMITED",
+        "message": "讲稿服务繁忙，有限等待后重试；已保存步骤保留",
+        "source": "23c0a0db-06d8-4ea4-b80a-ecf46a326e98",
+        "remedy": null
+      },
+      "result": null,
+      "stage_states": {
+        "vision": "ready",
+        "narration": "failed"
+      },
+      "run_id": "3a4167c26df3bb376216f19103a63d365bc90bda1834c53fc3afc7ad28126d1f",
+      "attempts": {
+        "vision": [
+          {
+            "at": "2026-10-09T11:39:25.183340+00:00",
+            "budget": "d14836a8-010d-4398-8f15-0532b0b12a7e:1:vision",
+            "number": 1,
+            "model": "glm-4.1v-thinking-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "0791a21de0c15701b5efc946059c0c11cefcc494cb811a908095c2a7c3a7d336",
+            "state": "validated",
+            "elapsed_seconds": 10.906,
+            "status": 200,
+            "provider_record": {
+              "path": "ai-responses/d14836a8-010d-4398-8f15-0532b0b12a7e-vision-795905ce-2987-446b-bdc9-7577d5802a02.json",
+              "response_sha256": "6ebcc452f514794a4f2e651116b8e51c2d66b5d219c8a82118e29a5f175467b7",
+              "response_id": "202610091939259561a114a8d04e17"
+            }
+          }
+        ],
+        "narration": [
+          {
+            "at": "2026-10-09T11:39:36.133778+00:00",
+            "budget": "d14836a8-010d-4398-8f15-0532b0b12a7e:1:narration",
+            "number": 1,
+            "model": "glm-4.7-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "2252d7272fe5bbe6765650f7b5aed2e26980f6e54ad4e6b3b3ff13d79ba00e3e",
+            "state": "http_failed",
+            "elapsed_seconds": 0.14,
+            "status": 429,
+            "provider_record": {
+              "path": "ai-responses/d14836a8-010d-4398-8f15-0532b0b12a7e-narration-3bbd3ffd-6334-47b4-85d9-85d7c46844f3.json",
+              "response_sha256": "d71a4cb7de4f70bd1561f58055f6e8c030bc50d09015a3cd73f87cd9f69199b6"
+            },
+            "provider_error_code": "1305"
+          },
+          {
+            "at": "2026-10-09T11:39:42.052527+00:00",
+            "budget": "d14836a8-010d-4398-8f15-0532b0b12a7e:1:narration",
+            "number": 2,
+            "model": "glm-4.7-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "2252d7272fe5bbe6765650f7b5aed2e26980f6e54ad4e6b3b3ff13d79ba00e3e",
+            "state": "http_failed",
+            "elapsed_seconds": 0.156,
+            "status": 429,
+            "provider_record": {
+              "path": "ai-responses/d14836a8-010d-4398-8f15-0532b0b12a7e-narration-5d8112b3-81c8-469d-b41d-3d6089596b3b.json",
+              "response_sha256": "d71a4cb7de4f70bd1561f58055f6e8c030bc50d09015a3cd73f87cd9f69199b6"
+            },
+            "provider_error_code": "1305"
+          },
+          {
+            "at": "2026-10-09T11:39:53.198819+00:00",
+            "budget": "d14836a8-010d-4398-8f15-0532b0b12a7e:1:narration",
+            "number": 3,
+            "model": "glm-4.7-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "2252d7272fe5bbe6765650f7b5aed2e26980f6e54ad4e6b3b3ff13d79ba00e3e",
+            "state": "http_failed",
+            "elapsed_seconds": 0.125,
+            "status": 429,
+            "provider_record": {
+              "path": "ai-responses/d14836a8-010d-4398-8f15-0532b0b12a7e-narration-b24ae478-0c79-45d2-a21c-19643dd735a3.json",
+              "response_sha256": "d71a4cb7de4f70bd1561f58055f6e8c030bc50d09015a3cd73f87cd9f69199b6"
+            },
+            "provider_error_code": "1305"
+          },
+          {
+            "at": "2026-10-09T11:40:13.484479+00:00",
+            "budget": "d14836a8-010d-4398-8f15-0532b0b12a7e:1:narration",
+            "number": 4,
+            "model": "glm-4.7-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "2252d7272fe5bbe6765650f7b5aed2e26980f6e54ad4e6b3b3ff13d79ba00e3e",
+            "state": "http_failed",
+            "elapsed_seconds": 0.156,
+            "status": 429,
+            "provider_record": {
+              "path": "ai-responses/d14836a8-010d-4398-8f15-0532b0b12a7e-narration-3bb36604-0a6c-4a79-aa23-dc9b4fbafca9.json",
+              "response_sha256": "d71a4cb7de4f70bd1561f58055f6e8c030bc50d09015a3cd73f87cd9f69199b6"
+            },
+            "provider_error_code": "1305"
+          }
+        ]
+      },
+      "vision_reused": false,
+      "version_id": null,
+      "body_sha256": null,
+      "teaching_check_state": null,
+      "pending": null
+    },
+    {
+      "case_key": "2:445fff9e-b672-438a-8315-65fba42c8c6b:3a18dc07-cdfa-4f15-8779-eef561951ce2",
+      "round": 2,
+      "source_label": "工程课件",
+      "source_index": 7,
+      "job_id": "f83b58be-9688-4fe4-9ede-91b6e8e2bab7",
+      "finished_at": "2026-10-09T11:41:21.881471+00:00",
+      "wall_seconds": 68.172,
+      "state": "completed",
+      "error": null,
+      "result": {
+        "scene_id": "3a18dc07-cdfa-4f15-8779-eef561951ce2",
+        "version_id": "a963cfc4-78e1-4d9e-a717-9829f8ac372a",
+        "draft_run_id": "fac1749fa1dbc78d7991766d9cce944f0a856e2e1ecc5ef208e5c680b4a023db",
+        "teaching_check_state": "completed"
+      },
+      "stage_states": {
+        "vision": "ready",
+        "narration": "ready",
+        "reading": "ready",
+        "teaching": "ready"
+      },
+      "run_id": "fac1749fa1dbc78d7991766d9cce944f0a856e2e1ecc5ef208e5c680b4a023db",
+      "attempts": {
+        "vision": [
+          {
+            "at": "2026-10-09T11:34:56.749113+00:00",
+            "budget": "b8f207bc-868a-43f0-b4d6-314344c9ff1b:1:vision",
+            "number": 1,
+            "model": "glm-4.1v-thinking-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "b5cc22825fa54f82214e0f2731f41f7682400e1e805f8ffdaa2928607da325a5",
+            "state": "validated",
+            "elapsed_seconds": 22.719,
+            "status": 200,
+            "provider_record": {
+              "path": "ai-responses/b8f207bc-868a-43f0-b4d6-314344c9ff1b-vision-eef619ed-e3c2-42a6-963d-5337f9bd1389.json",
+              "response_sha256": "38291f465b2eadbca5896a1c4b77fecca5b9f2007771255d5b9540a1c26d1536",
+              "response_id": "202610091935088cf6e9f4937a4572"
+            }
+          }
+        ],
+        "narration": [
+          {
+            "at": "2026-10-09T11:40:13.739463+00:00",
+            "budget": "f83b58be-9688-4fe4-9ede-91b6e8e2bab7:1:narration",
+            "number": 1,
+            "model": "glm-4.7-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "6129077c90b8ef43d8c81cd4310cea8ca30b5c4d960b35fc752d165597be1fc8",
+            "state": "http_failed",
+            "elapsed_seconds": 0.156,
+            "status": 429,
+            "provider_record": {
+              "path": "ai-responses/f83b58be-9688-4fe4-9ede-91b6e8e2bab7-narration-830d9db4-f698-42a2-8b79-987fe554a81f.json",
+              "response_sha256": "d71a4cb7de4f70bd1561f58055f6e8c030bc50d09015a3cd73f87cd9f69199b6"
+            },
+            "provider_error_code": "1305"
+          },
+          {
+            "at": "2026-10-09T11:40:19.723291+00:00",
+            "budget": "f83b58be-9688-4fe4-9ede-91b6e8e2bab7:1:narration",
+            "number": 2,
+            "model": "glm-4.7-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "6129077c90b8ef43d8c81cd4310cea8ca30b5c4d960b35fc752d165597be1fc8",
+            "state": "http_failed",
+            "elapsed_seconds": 0.172,
+            "status": 429,
+            "provider_record": {
+              "path": "ai-responses/f83b58be-9688-4fe4-9ede-91b6e8e2bab7-narration-d2537809-18e7-4f55-ad8e-977b4c56b57e.json",
+              "response_sha256": "d71a4cb7de4f70bd1561f58055f6e8c030bc50d09015a3cd73f87cd9f69199b6"
+            },
+            "provider_error_code": "1305"
+          },
+          {
+            "at": "2026-10-09T11:40:30.335227+00:00",
+            "budget": "f83b58be-9688-4fe4-9ede-91b6e8e2bab7:1:narration",
+            "number": 3,
+            "model": "glm-4.7-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "6129077c90b8ef43d8c81cd4310cea8ca30b5c4d960b35fc752d165597be1fc8",
+            "state": "http_failed",
+            "elapsed_seconds": 0.157,
+            "status": 429,
+            "provider_record": {
+              "path": "ai-responses/f83b58be-9688-4fe4-9ede-91b6e8e2bab7-narration-aace88e9-7bf4-4854-bb33-6ec21f88fc15.json",
+              "response_sha256": "d71a4cb7de4f70bd1561f58055f6e8c030bc50d09015a3cd73f87cd9f69199b6"
+            },
+            "provider_error_code": "1305"
+          },
+          {
+            "at": "2026-10-09T11:40:51.463036+00:00",
+            "budget": "f83b58be-9688-4fe4-9ede-91b6e8e2bab7:1:narration",
+            "number": 4,
+            "model": "glm-4.7-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "6129077c90b8ef43d8c81cd4310cea8ca30b5c4d960b35fc752d165597be1fc8",
+            "state": "validated",
+            "elapsed_seconds": 12.922,
+            "status": 200,
+            "provider_record": {
+              "path": "ai-responses/f83b58be-9688-4fe4-9ede-91b6e8e2bab7-narration-53e50b45-eed4-4b32-b264-5ecd38e7e693.json",
+              "response_sha256": "59e7f86258cf151888467f5504b7da2da05be6651bad0a037c7128d4a513913a",
+              "response_id": "202610091940512bd0aabf661649c1"
+            }
+          }
+        ],
+        "reading": [],
+        "teaching": [
+          {
+            "at": "2026-10-09T11:41:04.442073+00:00",
+            "budget": "f83b58be-9688-4fe4-9ede-91b6e8e2bab7:1:teaching",
+            "number": 1,
+            "model": "glm-4.7-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "0c190edf37fe2b8ef4c5e3b045f9b8da074b40d4b91fc8ea9ebf766c8a64e095",
+            "state": "http_failed",
+            "elapsed_seconds": 0.187,
+            "status": 429,
+            "provider_record": {
+              "path": "ai-responses/f83b58be-9688-4fe4-9ede-91b6e8e2bab7-teaching-0e67f9c2-104e-4adb-9f78-25f4f55bb975.json",
+              "response_sha256": "d71a4cb7de4f70bd1561f58055f6e8c030bc50d09015a3cd73f87cd9f69199b6"
+            },
+            "provider_error_code": "1305"
+          },
+          {
+            "at": "2026-10-09T11:41:10.374411+00:00",
+            "budget": "f83b58be-9688-4fe4-9ede-91b6e8e2bab7:1:teaching",
+            "number": 2,
+            "model": "glm-4.7-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "0c190edf37fe2b8ef4c5e3b045f9b8da074b40d4b91fc8ea9ebf766c8a64e095",
+            "state": "validated",
+            "elapsed_seconds": 11.453,
+            "status": 200,
+            "provider_record": {
+              "path": "ai-responses/f83b58be-9688-4fe4-9ede-91b6e8e2bab7-teaching-e95d3082-71ec-4feb-bb71-0b03151cc691.json",
+              "response_sha256": "2f45a960f2742b665b9db8a5527ff5265409da1699469bbf8ec150c0eaec992e",
+              "response_id": "20261009194110cc848693ebe84f05"
+            }
+          }
+        ]
+      },
+      "vision_reused": true,
+      "version_id": "a963cfc4-78e1-4d9e-a717-9829f8ac372a",
+      "body_sha256": "05f468770b51748acb8a4d171ef98726c0a0f034114f0eadf7096bc3de6119c9",
+      "teaching_check_state": "completed",
+      "pending": [
+        "型号或英文术语读法待核对：M1",
+        "符号或公式读法待核对：[1,2,3]",
+        "型号或英文术语读法待核对：a+b",
+        "符号或公式读法待核对：[12]"
+      ]
+    },
+    {
+      "case_key": "2:445fff9e-b672-438a-8315-65fba42c8c6b:91e1d20c-11f8-42d2-aad9-07d0ff464a7f",
+      "round": 2,
+      "source_label": "工程课件",
+      "source_index": 9,
+      "job_id": "e7131d0f-be77-4823-880f-9c014173019a",
+      "finished_at": "2026-10-09T11:42:08.872793+00:00",
+      "wall_seconds": 46.954,
+      "state": "completed",
+      "error": null,
+      "result": {
+        "scene_id": "91e1d20c-11f8-42d2-aad9-07d0ff464a7f",
+        "version_id": "6f6e25c9-1b6d-42de-95e3-08f402b36971",
+        "draft_run_id": "33aaee606756c675b1c01c45e34871c8e91b6a0cc72174386a50bcf17389b27f",
+        "teaching_check_state": "pending",
+        "teaching_error": {
+          "code": "AI_RATE_LIMITED",
+          "message": "讲稿服务繁忙，有限等待后重试；已保存步骤保留",
+          "source": "91e1d20c-11f8-42d2-aad9-07d0ff464a7f",
+          "remedy": null
+        }
+      },
+      "stage_states": {
+        "vision": "ready",
+        "narration": "ready",
+        "reading": "ready",
+        "teaching": "failed"
+      },
+      "run_id": "33aaee606756c675b1c01c45e34871c8e91b6a0cc72174386a50bcf17389b27f",
+      "attempts": {
+        "vision": [
+          {
+            "at": "2026-10-09T11:35:35.395963+00:00",
+            "budget": "80f13c07-c171-4b44-aed3-7e7ef3458846:1:vision",
+            "number": 1,
+            "model": "glm-4.1v-thinking-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "55b693f9e1b2ef1cb944ff4a33580417532dc109a01662a8bcea0ae7592f236e",
+            "state": "validated",
+            "elapsed_seconds": 5.125,
+            "status": 200,
+            "provider_record": {
+              "path": "ai-responses/80f13c07-c171-4b44-aed3-7e7ef3458846-vision-9a891236-582d-4302-9fd0-ed5720618cf5.json",
+              "response_sha256": "269ec5244aeb4e71e78e331c9f1b6775df9545ec07f97b720b2a02707daf77dc",
+              "response_id": "202610091935354c8985a75e3b449f"
+            }
+          }
+        ],
+        "narration": [
+          {
+            "at": "2026-10-09T11:41:21.938020+00:00",
+            "budget": "e7131d0f-be77-4823-880f-9c014173019a:1:narration",
+            "number": 1,
+            "model": "glm-4.7-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "68841bb310ba8f119c2c7588c49d80a0bf356f3f52f9000046455cf7b424b1ae",
+            "state": "validated",
+            "elapsed_seconds": 9.687,
+            "status": 200,
+            "provider_record": {
+              "path": "ai-responses/e7131d0f-be77-4823-880f-9c014173019a-narration-389a4bc2-4fbf-4c60-865e-fb7561eb5af9.json",
+              "response_sha256": "9efe55589af415c6d28c2cc37571a314de0f35aa46c3e4a3078d3c08aa226ee8",
+              "response_id": "202610091941227048303d50b84b46"
+            }
+          }
+        ],
+        "reading": [],
+        "teaching": [
+          {
+            "at": "2026-10-09T11:41:31.685938+00:00",
+            "budget": "e7131d0f-be77-4823-880f-9c014173019a:1:teaching",
+            "number": 1,
+            "model": "glm-4.7-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "5be12343f7854f542f617643435b523975c8c2b55bf06f9d65902f356ef237fb",
+            "state": "http_failed",
+            "elapsed_seconds": 0.218,
+            "status": 429,
+            "provider_record": {
+              "path": "ai-responses/e7131d0f-be77-4823-880f-9c014173019a-teaching-3bb53c4a-495f-4e4e-acbd-1878580a2a10.json",
+              "response_sha256": "d71a4cb7de4f70bd1561f58055f6e8c030bc50d09015a3cd73f87cd9f69199b6"
+            },
+            "provider_error_code": "1305"
+          },
+          {
+            "at": "2026-10-09T11:41:37.281295+00:00",
+            "budget": "e7131d0f-be77-4823-880f-9c014173019a:1:teaching",
+            "number": 2,
+            "model": "glm-4.7-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "5be12343f7854f542f617643435b523975c8c2b55bf06f9d65902f356ef237fb",
+            "state": "http_failed",
+            "elapsed_seconds": 0.157,
+            "status": 429,
+            "provider_record": {
+              "path": "ai-responses/e7131d0f-be77-4823-880f-9c014173019a-teaching-8fadccf2-84ca-4d4d-8919-b2364efd2d2b.json",
+              "response_sha256": "d71a4cb7de4f70bd1561f58055f6e8c030bc50d09015a3cd73f87cd9f69199b6"
+            },
+            "provider_error_code": "1305"
+          },
+          {
+            "at": "2026-10-09T11:41:47.927255+00:00",
+            "budget": "e7131d0f-be77-4823-880f-9c014173019a:1:teaching",
+            "number": 3,
+            "model": "glm-4.7-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "5be12343f7854f542f617643435b523975c8c2b55bf06f9d65902f356ef237fb",
+            "state": "http_failed",
+            "elapsed_seconds": 0.187,
+            "status": 429,
+            "provider_record": {
+              "path": "ai-responses/e7131d0f-be77-4823-880f-9c014173019a-teaching-7ee63764-ee6a-476a-97c2-4dfce4b11f38.json",
+              "response_sha256": "d71a4cb7de4f70bd1561f58055f6e8c030bc50d09015a3cd73f87cd9f69199b6"
+            },
+            "provider_error_code": "1305"
+          },
+          {
+            "at": "2026-10-09T11:42:08.686373+00:00",
+            "budget": "e7131d0f-be77-4823-880f-9c014173019a:1:teaching",
+            "number": 4,
+            "model": "glm-4.7-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "5be12343f7854f542f617643435b523975c8c2b55bf06f9d65902f356ef237fb",
+            "state": "http_failed",
+            "elapsed_seconds": 0.14,
+            "status": 429,
+            "provider_record": {
+              "path": "ai-responses/e7131d0f-be77-4823-880f-9c014173019a-teaching-e2a20df3-ed84-4903-8328-814b74784d67.json",
+              "response_sha256": "d71a4cb7de4f70bd1561f58055f6e8c030bc50d09015a3cd73f87cd9f69199b6"
+            },
+            "provider_error_code": "1305"
+          }
+        ]
+      },
+      "vision_reused": true,
+      "version_id": "6f6e25c9-1b6d-42de-95e3-08f402b36971",
+      "body_sha256": "6fca85d2244c0c486146cf994f5a85140efb7507dd657056aaf098d75c79b869",
+      "teaching_check_state": "pending",
+      "pending": [
+        "教学核查尚未完成"
+      ]
+    },
+    {
+      "case_key": "2:b38f18bb-817c-4d20-b492-0cbae48cdce6:a3619f34-ba68-4b3a-854f-0e87925c88a4",
+      "round": 2,
+      "source_label": "Lecture 8",
+      "source_index": 17,
+      "job_id": "96f9f89e-b887-4dee-a61d-863fe215bc64",
+      "finished_at": "2026-10-09T11:43:18.997033+00:00",
+      "wall_seconds": 70.079,
+      "state": "completed",
+      "error": null,
+      "result": {
+        "scene_id": "a3619f34-ba68-4b3a-854f-0e87925c88a4",
+        "version_id": "d31525a6-4726-4938-b856-a3332cfbb165",
+        "draft_run_id": "5306d98a2a7e1c2a063ab04054ff2ea922384300d9152f4e8482bd1b0e8e1051",
+        "teaching_check_state": "completed"
+      },
+      "stage_states": {
+        "vision": "ready",
+        "narration": "ready",
+        "reading": "ready",
+        "teaching": "ready"
+      },
+      "run_id": "5306d98a2a7e1c2a063ab04054ff2ea922384300d9152f4e8482bd1b0e8e1051",
+      "attempts": {
+        "vision": [
+          {
+            "at": "2026-10-09T11:36:01.494372+00:00",
+            "budget": "878c6bd4-fecb-4f27-b858-088c12c36512:1:vision",
+            "number": 1,
+            "model": "glm-4.1v-thinking-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "c05ae227399a9effaa0df31bdb6f51794c0c2611dd7e8f45c8f556d14fbfe120",
+            "state": "validated",
+            "elapsed_seconds": 15.891,
+            "status": 200,
+            "provider_record": {
+              "path": "ai-responses/878c6bd4-fecb-4f27-b858-088c12c36512-vision-7765e402-7b68-45de-804c-2d38bc127990.json",
+              "response_sha256": "50b51950f8ab34d442d728c0c5624c87b1d4a27a486bd1da3616f23810b19600",
+              "response_id": "20261009193601acfe699f9c004f63"
+            }
+          }
+        ],
+        "narration": [
+          {
+            "at": "2026-10-09T11:42:08.944495+00:00",
+            "budget": "96f9f89e-b887-4dee-a61d-863fe215bc64:1:narration",
+            "number": 1,
+            "model": "glm-4.7-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "823e6ccbfaddf574dfb800cb90b28fa3d13ce1eb9676ed65718af10007dd8145",
+            "state": "validated",
+            "elapsed_seconds": 5.0,
+            "status": 200,
+            "provider_record": {
+              "path": "ai-responses/96f9f89e-b887-4dee-a61d-863fe215bc64-narration-e0147b71-7dd5-4f1f-8699-3e7ee1e81ccd.json",
+              "response_sha256": "dec7ea3d8d9f368c65040ba980b43f5c5a4a93f14c6dd41eb5f8ecf7d6773169",
+              "response_id": "2026100919420973eca812a86542da"
+            }
+          }
+        ],
+        "reading": [],
+        "teaching": [
+          {
+            "at": "2026-10-09T11:42:14.028370+00:00",
+            "budget": "96f9f89e-b887-4dee-a61d-863fe215bc64:1:teaching",
+            "number": 1,
+            "model": "glm-4.7-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "1acbf3cabcaf83772b2cb3c94b2b6444067aafbe0818cf13879ad90954f45fba",
+            "state": "http_failed",
+            "elapsed_seconds": 0.172,
+            "status": 429,
+            "provider_record": {
+              "path": "ai-responses/96f9f89e-b887-4dee-a61d-863fe215bc64-teaching-22622bbf-7320-4850-ba2c-c28de4ab0a48.json",
+              "response_sha256": "d71a4cb7de4f70bd1561f58055f6e8c030bc50d09015a3cd73f87cd9f69199b6"
+            },
+            "provider_error_code": "1305"
+          },
+          {
+            "at": "2026-10-09T11:42:19.641933+00:00",
+            "budget": "96f9f89e-b887-4dee-a61d-863fe215bc64:1:teaching",
+            "number": 2,
+            "model": "glm-4.7-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "1acbf3cabcaf83772b2cb3c94b2b6444067aafbe0818cf13879ad90954f45fba",
+            "state": "http_failed",
+            "elapsed_seconds": 11.203,
+            "status": 429,
+            "provider_record": {
+              "path": "ai-responses/96f9f89e-b887-4dee-a61d-863fe215bc64-teaching-6f9f1337-09cd-47c4-b05e-fbeb4dfebe06.json",
+              "response_sha256": "d71a4cb7de4f70bd1561f58055f6e8c030bc50d09015a3cd73f87cd9f69199b6"
+            },
+            "provider_error_code": "1305"
+          },
+          {
+            "at": "2026-10-09T11:42:41.287663+00:00",
+            "budget": "96f9f89e-b887-4dee-a61d-863fe215bc64:1:teaching",
+            "number": 3,
+            "model": "glm-4.7-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "1acbf3cabcaf83772b2cb3c94b2b6444067aafbe0818cf13879ad90954f45fba",
+            "state": "http_failed",
+            "elapsed_seconds": 0.157,
+            "status": 429,
+            "provider_record": {
+              "path": "ai-responses/96f9f89e-b887-4dee-a61d-863fe215bc64-teaching-f833d88c-4c7a-4263-a3fa-bf0cb5901669.json",
+              "response_sha256": "d71a4cb7de4f70bd1561f58055f6e8c030bc50d09015a3cd73f87cd9f69199b6"
+            },
+            "provider_error_code": "1305"
+          },
+          {
+            "at": "2026-10-09T11:43:02.209976+00:00",
+            "budget": "96f9f89e-b887-4dee-a61d-863fe215bc64:1:teaching",
+            "number": 4,
+            "model": "glm-4.7-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "1acbf3cabcaf83772b2cb3c94b2b6444067aafbe0818cf13879ad90954f45fba",
+            "state": "validated",
+            "elapsed_seconds": 16.735,
+            "status": 200,
+            "provider_record": {
+              "path": "ai-responses/96f9f89e-b887-4dee-a61d-863fe215bc64-teaching-238f1160-97f9-4495-aee3-99bb4f713d12.json",
+              "response_sha256": "340e952a4ab4e67e14da47c8f1cdf8652a6185aa018b5bb3e303d3fb75fd9633",
+              "response_id": "20261009194313a77510981c6a42b7"
+            }
+          }
+        ]
+      },
+      "vision_reused": true,
+      "version_id": "d31525a6-4726-4938-b856-a3332cfbb165",
+      "body_sha256": "f73b879f86ff159faf65b14a698773c934c02e4b979152997c1d921e8ae1904e",
+      "teaching_check_state": "completed",
+      "pending": [
+        "英文缩写读法需试听确认：CPU",
+        "型号或英文术语读法待核对：Intel",
+        "英文缩写读法需试听确认：AI",
+        "英文缩写读法需试听确认：NPU",
+        "英文缩写读法需试听确认：DRAM",
+        "英文缩写读法需试听确认：SSD",
+        "移动通信缩写读法需试听确认：5G",
+        "英文缩写读法需试听确认：NR",
+        "英文缩写读法需试听确认：LTE",
+        "型号或英文术语读法待核对：Sub-6GHz",
+        "型号或英文术语读法待核对：10G",
+        "型号或英文术语读法待核对：25G",
+        "英文缩写读法需试听确认：API",
+        "英文缩写读法需试听确认：VIM",
+        "型号或英文术语读法待核对：OpenVINO"
+      ]
+    },
+    {
+      "case_key": "2:b38f18bb-817c-4d20-b492-0cbae48cdce6:66d9bc17-0188-4a72-a370-6de3cacbe6c6",
+      "round": 2,
+      "source_label": "Lecture 8",
+      "source_index": 22,
+      "job_id": "717f3e7f-2b8a-40ae-9f1a-282984029c8c",
+      "finished_at": "2026-10-09T11:43:43.607460+00:00",
+      "wall_seconds": 24.578,
+      "state": "completed",
+      "error": null,
+      "result": {
+        "scene_id": "66d9bc17-0188-4a72-a370-6de3cacbe6c6",
+        "version_id": "5088e279-2820-4742-9325-caa34eb837c6",
+        "draft_run_id": "b2189856a0a1e9f77b3ff29f5e19c86bb73c3e4bb67f2fb12afc9b69892a4b47",
+        "teaching_check_state": "completed"
+      },
+      "stage_states": {
+        "vision": "ready",
+        "narration": "ready",
+        "reading": "ready",
+        "teaching": "ready"
+      },
+      "run_id": "b2189856a0a1e9f77b3ff29f5e19c86bb73c3e4bb67f2fb12afc9b69892a4b47",
+      "attempts": {
+        "vision": [
+          {
+            "at": "2026-10-09T11:37:12.046019+00:00",
+            "budget": "c097b1dc-61eb-40cd-a4a1-2aec85dac871:1:vision",
+            "number": 1,
+            "model": "glm-4.1v-thinking-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "334187ede5bb7295c54aaa6994d097c735264ba575edb30177a1b008a16db8f6",
+            "state": "validated",
+            "elapsed_seconds": 3.672,
+            "status": 200,
+            "provider_record": {
+              "path": "ai-responses/c097b1dc-61eb-40cd-a4a1-2aec85dac871-vision-f6c9b953-c22e-4a6d-8276-75d1d670f0f8.json",
+              "response_sha256": "13ec8b6021a5bc46346aa5347e9dc515b915a56b6bd3d297822e6763c3964235",
+              "response_id": "20261009193712d7653870cad34703"
+            }
+          }
+        ],
+        "narration": [
+          {
+            "at": "2026-10-09T11:43:19.049998+00:00",
+            "budget": "717f3e7f-2b8a-40ae-9f1a-282984029c8c:1:narration",
+            "number": 1,
+            "model": "glm-4.7-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "1e815c7a91f370fca65808997b35156a2d52c8ef6adec36d3f2f7064326929d4",
+            "state": "validated",
+            "elapsed_seconds": 19.531,
+            "status": 200,
+            "provider_record": {
+              "path": "ai-responses/717f3e7f-2b8a-40ae-9f1a-282984029c8c-narration-5100d58b-61a2-454b-947b-b2dbf8c7fbd2.json",
+              "response_sha256": "448ffbf348a479051321944783b5e3536fae8c5ee7e5ee0395af11565f37dcfb",
+              "response_id": "2026100919431914e4fceffbf845cc"
+            }
+          }
+        ],
+        "reading": [],
+        "teaching": [
+          {
+            "at": "2026-10-09T11:43:38.635719+00:00",
+            "budget": "717f3e7f-2b8a-40ae-9f1a-282984029c8c:1:teaching",
+            "number": 1,
+            "model": "glm-4.7-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "8397e2fb3645aa9beac780b3caa7cc0f97ab9d1527430221764c8c0494dec5f4",
+            "state": "validated",
+            "elapsed_seconds": 4.906,
+            "status": 200,
+            "provider_record": {
+              "path": "ai-responses/717f3e7f-2b8a-40ae-9f1a-282984029c8c-teaching-336d9fd6-5009-4068-95c2-02134d93889a.json",
+              "response_sha256": "31f56436cd33a450c8c472052fb30f37f918fb2eff656e3d5c93b3f877b255dc",
+              "response_id": "202610091943386f8a0d9cca6847f4"
+            }
+          }
+        ]
+      },
+      "vision_reused": true,
+      "version_id": "5088e279-2820-4742-9325-caa34eb837c6",
+      "body_sha256": "b2740f3c59d9a6f45f3118de70e2b51dd9359ba973d1237951d5dc1bd5a8990f",
+      "teaching_check_state": "completed",
+      "pending": []
+    },
+    {
+      "case_key": "2:2fa362eb-714c-4577-8a52-0dc932b11da2:1185e269-5bfb-4b9d-8d2e-5f5e9e6c690b",
+      "round": 2,
+      "source_label": "Lecture 9",
+      "source_index": 1,
+      "job_id": "a99ed41e-6b1b-4331-b7e8-880b8dc1459b",
+      "finished_at": "2026-10-09T11:44:10.971765+00:00",
+      "wall_seconds": 27.328,
+      "state": "completed",
+      "error": null,
+      "result": {
+        "scene_id": "1185e269-5bfb-4b9d-8d2e-5f5e9e6c690b",
+        "version_id": "14ad2e2e-873e-4d84-8754-dbd68c829c2d",
+        "draft_run_id": "7437e533391ac13fafbd44c15b7be4b50ec90e47cfd53d4281bd7f9b38d74acb",
+        "teaching_check_state": "completed"
+      },
+      "stage_states": {
+        "vision": "ready",
+        "narration": "ready",
+        "reading": "ready",
+        "teaching": "ready"
+      },
+      "run_id": "7437e533391ac13fafbd44c15b7be4b50ec90e47cfd53d4281bd7f9b38d74acb",
+      "attempts": {
+        "vision": [
+          {
+            "at": "2026-10-09T11:38:33.222811+00:00",
+            "budget": "dcc286d0-0d4d-4918-a7f9-6b01be8ebb69:1:vision",
+            "number": 1,
+            "model": "glm-4.1v-thinking-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "bb168eef39bb5d8946c6f26b52edc7e6346470b1c6f6291bfbbaeeae236478ef",
+            "state": "validated",
+            "elapsed_seconds": 2.937,
+            "status": 200,
+            "provider_record": {
+              "path": "ai-responses/dcc286d0-0d4d-4918-a7f9-6b01be8ebb69-vision-10616eeb-6abe-4458-ac68-8236b0e1e08b.json",
+              "response_sha256": "6c9d240fe032edcd7e3998cf87288b8b65c0525271a38a9b764b58f52d184383",
+              "response_id": "20261009193833261efae7460f4d65"
+            }
+          }
+        ],
+        "narration": [
+          {
+            "at": "2026-10-09T11:43:43.660101+00:00",
+            "budget": "a99ed41e-6b1b-4331-b7e8-880b8dc1459b:1:narration",
+            "number": 1,
+            "model": "glm-4.7-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "3262d3e7c3933d48da0ae7769d63a734d85f636b97e0d419ec1fc9a814afe25b",
+            "state": "validated",
+            "elapsed_seconds": 1.829,
+            "status": 200,
+            "provider_record": {
+              "path": "ai-responses/a99ed41e-6b1b-4331-b7e8-880b8dc1459b-narration-7452403b-f014-4359-9009-0e0fdd8b085d.json",
+              "response_sha256": "e30b2e163594010c5885cc69369ae1219f79716454b4ea112af9ebc756292a33",
+              "response_id": "20261009194343391e0b6b94794eef"
+            }
+          }
+        ],
+        "reading": [],
+        "teaching": [
+          {
+            "at": "2026-10-09T11:43:45.555921+00:00",
+            "budget": "a99ed41e-6b1b-4331-b7e8-880b8dc1459b:1:teaching",
+            "number": 1,
+            "model": "glm-4.7-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "0005e092accbad21168a5db0631476af0ec246b25417e2689e7e0d9afe67463c",
+            "state": "validated",
+            "elapsed_seconds": 25.343,
+            "status": 200,
+            "provider_record": {
+              "path": "ai-responses/a99ed41e-6b1b-4331-b7e8-880b8dc1459b-teaching-3debcee9-2b41-41b1-a68e-facc9c3d0a9c.json",
+              "response_sha256": "07ee44c72c394ff395ae19042a5cb60bdc3f030b8667a610f0418ed76d738785",
+              "response_id": "202610091943452b0c5bbdca9f4164"
+            }
+          }
+        ]
+      },
+      "vision_reused": true,
+      "version_id": "14ad2e2e-873e-4d84-8754-dbd68c829c2d",
+      "body_sha256": "27722b0823c4a21320b335867f3e0e1a6c1eff9a9f6588c33c7af1080e84f69f",
+      "teaching_check_state": "completed",
+      "pending": []
+    },
+    {
+      "case_key": "2:2fa362eb-714c-4577-8a52-0dc932b11da2:23c0a0db-06d8-4ea4-b80a-ecf46a326e98",
+      "round": 2,
+      "source_label": "Lecture 9",
+      "source_index": 11,
+      "job_id": "ba8ad27a-3086-494f-beef-7cb5061de116",
+      "finished_at": "2026-10-09T11:44:48.679598+00:00",
+      "wall_seconds": 37.672,
+      "state": "failed",
+      "error": {
+        "code": "AI_RATE_LIMITED",
+        "message": "讲稿服务繁忙，有限等待后重试；已保存步骤保留",
+        "source": "23c0a0db-06d8-4ea4-b80a-ecf46a326e98",
+        "remedy": null
+      },
+      "result": null,
+      "stage_states": {
+        "vision": "ready",
+        "narration": "failed"
+      },
+      "run_id": "3a4167c26df3bb376216f19103a63d365bc90bda1834c53fc3afc7ad28126d1f",
+      "attempts": {
+        "vision": [
+          {
+            "at": "2026-10-09T11:39:25.183340+00:00",
+            "budget": "d14836a8-010d-4398-8f15-0532b0b12a7e:1:vision",
+            "number": 1,
+            "model": "glm-4.1v-thinking-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "0791a21de0c15701b5efc946059c0c11cefcc494cb811a908095c2a7c3a7d336",
+            "state": "validated",
+            "elapsed_seconds": 10.906,
+            "status": 200,
+            "provider_record": {
+              "path": "ai-responses/d14836a8-010d-4398-8f15-0532b0b12a7e-vision-795905ce-2987-446b-bdc9-7577d5802a02.json",
+              "response_sha256": "6ebcc452f514794a4f2e651116b8e51c2d66b5d219c8a82118e29a5f175467b7",
+              "response_id": "202610091939259561a114a8d04e17"
+            }
+          }
+        ],
+        "narration": [
+          {
+            "at": "2026-10-09T11:39:36.133778+00:00",
+            "budget": "d14836a8-010d-4398-8f15-0532b0b12a7e:1:narration",
+            "number": 1,
+            "model": "glm-4.7-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "2252d7272fe5bbe6765650f7b5aed2e26980f6e54ad4e6b3b3ff13d79ba00e3e",
+            "state": "http_failed",
+            "elapsed_seconds": 0.14,
+            "status": 429,
+            "provider_record": {
+              "path": "ai-responses/d14836a8-010d-4398-8f15-0532b0b12a7e-narration-3bbd3ffd-6334-47b4-85d9-85d7c46844f3.json",
+              "response_sha256": "d71a4cb7de4f70bd1561f58055f6e8c030bc50d09015a3cd73f87cd9f69199b6"
+            },
+            "provider_error_code": "1305"
+          },
+          {
+            "at": "2026-10-09T11:39:42.052527+00:00",
+            "budget": "d14836a8-010d-4398-8f15-0532b0b12a7e:1:narration",
+            "number": 2,
+            "model": "glm-4.7-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "2252d7272fe5bbe6765650f7b5aed2e26980f6e54ad4e6b3b3ff13d79ba00e3e",
+            "state": "http_failed",
+            "elapsed_seconds": 0.156,
+            "status": 429,
+            "provider_record": {
+              "path": "ai-responses/d14836a8-010d-4398-8f15-0532b0b12a7e-narration-5d8112b3-81c8-469d-b41d-3d6089596b3b.json",
+              "response_sha256": "d71a4cb7de4f70bd1561f58055f6e8c030bc50d09015a3cd73f87cd9f69199b6"
+            },
+            "provider_error_code": "1305"
+          },
+          {
+            "at": "2026-10-09T11:39:53.198819+00:00",
+            "budget": "d14836a8-010d-4398-8f15-0532b0b12a7e:1:narration",
+            "number": 3,
+            "model": "glm-4.7-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "2252d7272fe5bbe6765650f7b5aed2e26980f6e54ad4e6b3b3ff13d79ba00e3e",
+            "state": "http_failed",
+            "elapsed_seconds": 0.125,
+            "status": 429,
+            "provider_record": {
+              "path": "ai-responses/d14836a8-010d-4398-8f15-0532b0b12a7e-narration-b24ae478-0c79-45d2-a21c-19643dd735a3.json",
+              "response_sha256": "d71a4cb7de4f70bd1561f58055f6e8c030bc50d09015a3cd73f87cd9f69199b6"
+            },
+            "provider_error_code": "1305"
+          },
+          {
+            "at": "2026-10-09T11:40:13.484479+00:00",
+            "budget": "d14836a8-010d-4398-8f15-0532b0b12a7e:1:narration",
+            "number": 4,
+            "model": "glm-4.7-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "2252d7272fe5bbe6765650f7b5aed2e26980f6e54ad4e6b3b3ff13d79ba00e3e",
+            "state": "http_failed",
+            "elapsed_seconds": 0.156,
+            "status": 429,
+            "provider_record": {
+              "path": "ai-responses/d14836a8-010d-4398-8f15-0532b0b12a7e-narration-3bb36604-0a6c-4a79-aa23-dc9b4fbafca9.json",
+              "response_sha256": "d71a4cb7de4f70bd1561f58055f6e8c030bc50d09015a3cd73f87cd9f69199b6"
+            },
+            "provider_error_code": "1305"
+          },
+          {
+            "at": "2026-10-09T11:44:11.027108+00:00",
+            "budget": "ba8ad27a-3086-494f-beef-7cb5061de116:1:narration",
+            "number": 1,
+            "model": "glm-4.7-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "84ac00822e8f41d1b71b93c116975a3865a4b5803713037ae10fe6afd31c0768",
+            "state": "http_failed",
+            "elapsed_seconds": 0.125,
+            "status": 429,
+            "provider_record": {
+              "path": "ai-responses/ba8ad27a-3086-494f-beef-7cb5061de116-narration-73f26abe-1fc6-4d5b-afcf-6419f4ebb852.json",
+              "response_sha256": "d71a4cb7de4f70bd1561f58055f6e8c030bc50d09015a3cd73f87cd9f69199b6"
+            },
+            "provider_error_code": "1305"
+          },
+          {
+            "at": "2026-10-09T11:44:17.019182+00:00",
+            "budget": "ba8ad27a-3086-494f-beef-7cb5061de116:1:narration",
+            "number": 2,
+            "model": "glm-4.7-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "84ac00822e8f41d1b71b93c116975a3865a4b5803713037ae10fe6afd31c0768",
+            "state": "http_failed",
+            "elapsed_seconds": 0.172,
+            "status": 429,
+            "provider_record": {
+              "path": "ai-responses/ba8ad27a-3086-494f-beef-7cb5061de116-narration-1bea6901-8ebf-45b1-9e7e-acb0a98ce8d1.json",
+              "response_sha256": "d71a4cb7de4f70bd1561f58055f6e8c030bc50d09015a3cd73f87cd9f69199b6"
+            },
+            "provider_error_code": "1305"
+          },
+          {
+            "at": "2026-10-09T11:44:27.828680+00:00",
+            "budget": "ba8ad27a-3086-494f-beef-7cb5061de116:1:narration",
+            "number": 3,
+            "model": "glm-4.7-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "84ac00822e8f41d1b71b93c116975a3865a4b5803713037ae10fe6afd31c0768",
+            "state": "http_failed",
+            "elapsed_seconds": 0.141,
+            "status": 429,
+            "provider_record": {
+              "path": "ai-responses/ba8ad27a-3086-494f-beef-7cb5061de116-narration-080a922b-8f1b-4d3f-8e2c-26f8f5769a7f.json",
+              "response_sha256": "d71a4cb7de4f70bd1561f58055f6e8c030bc50d09015a3cd73f87cd9f69199b6"
+            },
+            "provider_error_code": "1305"
+          },
+          {
+            "at": "2026-10-09T11:44:48.443337+00:00",
+            "budget": "ba8ad27a-3086-494f-beef-7cb5061de116:1:narration",
+            "number": 4,
+            "model": "glm-4.7-flash",
+            "provider": "open.bigmodel.cn",
+            "request_sha256": "84ac00822e8f41d1b71b93c116975a3865a4b5803713037ae10fe6afd31c0768",
+            "state": "http_failed",
+            "elapsed_seconds": 0.203,
+            "status": 429,
+            "provider_record": {
+              "path": "ai-responses/ba8ad27a-3086-494f-beef-7cb5061de116-narration-0c307303-934e-48ae-9967-b1c422e23b42.json",
+              "response_sha256": "d71a4cb7de4f70bd1561f58055f6e8c030bc50d09015a3cd73f87cd9f69199b6"
+            },
+            "provider_error_code": "1305"
+          }
+        ]
+      },
+      "vision_reused": false,
+      "version_id": null,
+      "body_sha256": null,
+      "teaching_check_state": null,
+      "pending": null
+    }
+  ],
+  "sources": [
+    {
+      "source_project_id": "57866fdf-6350-400b-9911-8c9bd9cc407f",
+      "label": "工程课件",
+      "project_id": "445fff9e-b672-438a-8315-65fba42c8c6b",
+      "source_indices": [
+        7,
+        9
+      ]
+    },
+    {
+      "source_project_id": "877fc5f9-cd0e-445f-b3f9-59c1e00cd1d5",
+      "label": "Lecture 8",
+      "project_id": "b38f18bb-817c-4d20-b492-0cbae48cdce6",
+      "source_indices": [
+        17,
+        22
+      ]
+    },
+    {
+      "source_project_id": "11604689-6106-451f-b40b-95089e07b5b5",
+      "label": "Lecture 9",
+      "project_id": "2fa362eb-714c-4577-8a52-0dc932b11da2",
+      "source_indices": [
+        1,
+        11
+      ]
+    }
+  ],
+  "automatic_extra_batches": 0,
+  "finished_at": "2026-10-09T11:44:48.683176+00:00",
+  "summary": {
+    "cases": 12,
+    "body_ready": 10,
+    "checks_ready": 8,
+    "failed": 2,
+    "vision_reused": 5,
+    "scope": "real structure/body/pronunciation-rule verification; teacher quality and full-course generation not certified"
+  }
+}

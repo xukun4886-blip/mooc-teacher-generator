@@ -1,0 +1,38 @@
+{
+  "request_id": "0876724b-2a6d-4df9-b298-2ddc46dd48b7",
+  "role": "photo",
+  "checks": [
+    {
+      "label": "a",
+      "driver_audio_sha256": "25795c9a9dd2e52aadbd3514162d5e49ba566f22b410dd3dad6aeb582e632c91",
+      "output": "D:\\XuTao_Task\\storage\\m1\\requests\\0876724b-2a6d-4df9-b298-2ddc46dd48b7\\video.mp4",
+      "output_sha256": "5edf7c3333414e1aa19793f1fe525836d0a3fa019dd9de95e2952b18ae2711ee",
+      "decoded_frame_count": 750,
+      "frame_checksum_file": "D:\\XuTao_Task\\storage\\m1\\driver-comparison\\0876724b-2a6d-4df9-b298-2ddc46dd48b7\\a-frames.md5",
+      "frame_checksum_file_sha256": "f6d4dbb6532e9364655ab12765ee4871aef3e38582f4389556b37155f10272b7",
+      "decoded_audio_correlation_at_zero_offset": 0.9995460124562434
+    },
+    {
+      "label": "b",
+      "driver_audio_sha256": "aa428b8af9a374c7a203b9e09bf5f7fb7978cf908f3968884d78d1aee91933e1",
+      "output": "D:\\XuTao_Task\\storage\\m1\\requests\\0876724b-2a6d-4df9-b298-2ddc46dd48b7\\video-warm.mp4",
+      "output_sha256": "0ab483df454a1c06e20a5e75945f7349efc80f10f5b45188453b010eb5b2b328",
+      "decoded_frame_count": 750,
+      "frame_checksum_file": "D:\\XuTao_Task\\storage\\m1\\driver-comparison\\0876724b-2a6d-4df9-b298-2ddc46dd48b7\\b-frames.md5",
+      "frame_checksum_file_sha256": "c6cb7933f1276e3b25d0b0580eb1ce9f6d479d69d70e4e717aa0ab59d300a6e1",
+      "decoded_audio_correlation_at_zero_offset": 0.9995559533998535
+    }
+  ],
+  "different_decoded_frames": 750,
+  "total_frames": 750,
+  "native_driving": null,
+  "warm_seconds": 844.8934193999958,
+  "same_loaded_native_models": true,
+  "contact": {
+    "path": "D:\\XuTao_Task\\storage\\m1\\driver-comparison\\0876724b-2a6d-4df9-b298-2ddc46dd48b7\\a-vs-b.png",
+    "sha256": "e317fc9cf3ff1d062727da05d6f4d2a3154b95d183e38dc5152709b70e0cf8fb"
+  },
+  "scope": "actual separate native renders and current audio correspondence; differing frames alone do not prove lip synchronization",
+  "human_lipsync_review": "pending",
+  "quality_verified": false
+}

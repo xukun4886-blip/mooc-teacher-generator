@@ -1,0 +1,8 @@
+{
+  "checked_at": "2026-10-09T02:56:21.961Z",
+  "project_id": "11604689-6106-451f-b40b-95089e07b5b5",
+  "actual_retry_clicked": true,
+  "source_page_error_visible_before_retry": 3,
+  "actual_dom": "- main:\n  - link \"慕课制作\":\n    - /url: /\n  - generic: 数字人教师\n  - generic: 从课件到课堂\n  - heading \"让你的课程，开始讲述。\" [level=1]\n  - paragraph: 上传三项素材，自动制作带讲解、数字人和字幕的慕课视频。\n  - generic: \"1\"\n  - heading \"教师图片或视频\" [level=2]\n  - paragraph: 图片或视频，选择其中一种\n  - text: 重新选择\n  - button \"教师图片或视频\" [disabled]\n  - paragraph: 图片.jpg\n  - img \"已上传教师图片\"\n  - paragraph: 已就绪\n  - generic: \"2\"\n  - heading \"课程 PPT\" [level=2]\n  - paragraph: 保留原课件画面，自动生成讲解\n  - text: 重新选择\n  - button \"课程 PPT\" [disabled]\n  - paragraph: Lecture 9.pptx\n  - paragraph: 24 页\n  - img \"PPT 原页预览\"\n  - paragraph: 已就绪\n  - generic: \"3\"\n  - heading \"参考语音\" [level=2]\n  - paragraph: 用于教师音色，无需录制完整课时\n  - text: 重新选择\n  - button \"参考语音\" [disabled]\n  - paragraph: original.wav\n  - generic \"参考语音预览\"\n  - paragraph: 已就绪\n  - button \"正在生成慕课视频\" [disabled]\n  - paragraph: 生成未审核草稿，完成后可播放、下载，再由教师确认。\n  - text: 未审核草稿\n  - heading \"根据课件生成中文讲稿\" [level=2]\n  - paragraph: 讲稿已准备 6 / 24 页\n  - paragraph: 可以离开或刷新页面，稍后回来继续查看。\n  - generic \"高级设置\"\n  - option \"选择课程\"\n  - option \"Lecture 9\" [selected]\n  - option \"lecture2-pages5-14\"\n  - option \"新上传AI全链路复验 · 免费视觉备选 · video\"\n  - option \"新上传AI全链路复验 · 免费视觉备选 · photo\"\n  - option \"M3/M4 十页真实预验收 · video\"\n  - option \"M3/M4 十页真实预验收 · photo\"\n  - option \"一键制作真实验证 · 照片\"\n  - option \"一键制作真实验证 · 视频\"\n  - option \"无线接入与多址技术 · 第 5–14 页 · 待教师审核\"\n  - option \"Lecture 2 · 整份课件 AI 草稿\"\n  - generic: 上传即确认有权使用素材制作课程。人物和语音在本机处理；课件图文用于已配置的讲稿服务。素材不用于训练。",
+  "teacher_confirmation_submitted": false
+}

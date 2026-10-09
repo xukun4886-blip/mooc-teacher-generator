@@ -1,0 +1,61 @@
+{
+  "snapshots": [
+    {
+      "repository": "RVC-Boss/GPT-SoVITS",
+      "code_revision": "48b1a0169a28582a8984402f82cf438d3bfa6aca",
+      "checked_at": "2026-10-01",
+      "url": "https://github.com/RVC-Boss/GPT-SoVITS/tree/48b1a0169a28582a8984402f82cf438d3bfa6aca"
+    },
+    {
+      "repository": "OpenTalker/SadTalker",
+      "code_revision": "cd4c0465ae0b54a6f85af57f5c65fec9fe23e7f8",
+      "checked_at": "2026-10-01",
+      "url": "https://github.com/OpenTalker/SadTalker/tree/cd4c0465ae0b54a6f85af57f5c65fec9fe23e7f8"
+    },
+    {
+      "repository": "TMElyralab/MuseTalk",
+      "code_revision": "0a89dec45a0192b824e3cf4daf96c239440c5ed8",
+      "checked_at": "2026-10-01",
+      "url": "https://github.com/TMElyralab/MuseTalk/tree/0a89dec45a0192b824e3cf4daf96c239440c5ed8"
+    }
+  ],
+  "files": [
+    {
+      "path": ".tools\\upstream\\GPT-SoVITS-api_v2.py",
+      "sha256": "7a34a5bad6c06fb282b20463987ae5d6a0a65a9cfaa4aadbc520fafb4722f743"
+    },
+    {
+      "path": ".tools\\upstream\\GPT-SoVITS-GPT_SoVITS_configs_tts_infer.yaml",
+      "sha256": "740342ddf7c1f6dbc50a3b1c4b19f56becd253b1877dd3d26721a1427c619033"
+    },
+    {
+      "path": ".tools\\upstream\\GPT-SoVITS-GPT_SoVITS_TTS_infer_pack_TTS.py",
+      "sha256": "ceb222b48166e47c088f15f365a8c26eadd9087457493a633da4ad02c54f6579"
+    },
+    {
+      "path": ".tools\\upstream\\GPT-SoVITS-README.md",
+      "sha256": "f90972ccb8733da85e7e2258b262d5ac80a27f3213df5516c9987d808cb2f6c6"
+    },
+    {
+      "path": ".tools\\upstream\\MuseTalk-musetalk_utils_utils.py",
+      "sha256": "3715eacedefc97d0ef97b98c2f3bf06929bf9e312393752b75b708e43a99a055"
+    },
+    {
+      "path": ".tools\\upstream\\MuseTalk-README.md",
+      "sha256": "63587c38fa53bd3292654a71aa6978628db02dd02cc93153030f3d0dca7721bf"
+    },
+    {
+      "path": ".tools\\upstream\\MuseTalk-scripts_inference.py",
+      "sha256": "aaf9c8289c8f07eaf00b87fb11442ac0e1005ac4e2f469966ae3dab2dc4a03aa"
+    },
+    {
+      "path": ".tools\\upstream\\SadTalker-inference.py",
+      "sha256": "2784b5fbf279d4c3edcf5cf91bec010c255d540250118366bb96ca87ca8a2ac4"
+    },
+    {
+      "path": ".tools\\upstream\\SadTalker-README.md",
+      "sha256": "ee4a7802cc7735fdc3077d8d6f75fcda7012e84fce714b1cb4603c13b2552d4c"
+    }
+  ],
+  "local_snapshot_only_not_installed_model": true
+}

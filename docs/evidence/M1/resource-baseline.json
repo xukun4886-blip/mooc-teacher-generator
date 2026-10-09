@@ -1,0 +1,55 @@
+{
+  "scope": "M1 first execution, measured values only",
+  "environment": {
+    "available": true,
+    "devices": [
+      {
+        "name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+        "driver_version": "581.15",
+        "total_mib": 4096,
+        "used_mib_at_probe": 1096,
+        "free_mib_at_probe": 2869
+      }
+    ],
+    "peak_vram_mib": null
+  },
+  "ppt_engineering": {
+    "pages": 10,
+    "renderer": "Microsoft PowerPoint COM",
+    "timings_seconds": {
+      "office_start_and_open_seconds": 3.758264899999631,
+      "first_export_seconds": 0.5340359000001627,
+      "warm_export_same_loaded_document_seconds": 0.48759509999945294
+    }
+  },
+  "models": {
+    "tts": {
+      "status": "blocked_missing_native_environment_weights_and_authorized_inputs",
+      "cold_load_seconds": null,
+      "first_inference_seconds": null,
+      "warm_inference_seconds": null,
+      "peak_model_vram_mib": null,
+      "output_seconds": null,
+      "real_teacher_output": false
+    },
+    "photo": {
+      "status": "blocked_missing_native_environment_weights_and_authorized_inputs",
+      "cold_load_seconds": null,
+      "first_inference_seconds": null,
+      "warm_inference_seconds": null,
+      "peak_model_vram_mib": null,
+      "output_seconds": null,
+      "real_teacher_output": false
+    },
+    "video": {
+      "status": "blocked_missing_native_environment_weights_and_authorized_inputs",
+      "cold_load_seconds": null,
+      "first_inference_seconds": null,
+      "warm_inference_seconds": null,
+      "peak_model_vram_mib": null,
+      "output_seconds": null,
+      "real_teacher_output": false
+    }
+  },
+  "long_course_performance": "not measured; no extrapolation from engineering slides or supplier benchmarks"
+}

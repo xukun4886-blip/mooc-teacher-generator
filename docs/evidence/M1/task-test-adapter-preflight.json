@@ -1,0 +1,287 @@
+{
+  "schema_version": "m1.preflight.v1",
+  "ready": true,
+  "blockers": [],
+  "warnings": [
+    {
+      "source": "pptx",
+      "code": "SAMPLE_PAGE_COUNT",
+      "message": "M1 comparison sample should be about 10 pages"
+    },
+    {
+      "source": "photo",
+      "code": "PHOTO_SIZE_SUGGESTION",
+      "message": "Suggested short edge is at least 512 px"
+    },
+    {
+      "source": "reference_audio",
+      "code": "REFERENCE_LENGTH_SUGGESTION",
+      "message": "20–60 seconds is suggested; obey actual model constraints"
+    },
+    {
+      "source": "tts",
+      "code": "MODEL_LOAD_AND_QUALITY_UNVERIFIED",
+      "message": "File/dependency readiness does not prove loading, identity or lip sync"
+    },
+    {
+      "source": "photo",
+      "code": "MODEL_LOAD_AND_QUALITY_UNVERIFIED",
+      "message": "File/dependency readiness does not prove loading, identity or lip sync"
+    },
+    {
+      "source": "video",
+      "code": "MODEL_LOAD_AND_QUALITY_UNVERIFIED",
+      "message": "File/dependency readiness does not prove loading, identity or lip sync"
+    }
+  ],
+  "assets": {
+    "pptx": {
+      "sha256": "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592",
+      "page_count": 63
+    },
+    "photo": {
+      "path": "D:\\Task_test\\images.jpg",
+      "sha256": "2a77d59a9de0fdd64617a536d1a9476ee89381bc66c41f8d7ab4e6dd3a8d050a",
+      "size_bytes": 4196,
+      "format": "JPEG",
+      "width": 180,
+      "height": 168
+    },
+    "video": {
+      "path": "D:\\Task_test\\DANK1NG_孩子们记住_性格决定命运_态度决定成败_7645412515383862181.mp4",
+      "sha256": "873838fceb297444e333e910e5628933f7917d910b3f4a6b1bdabc586e1ef54b",
+      "size_bytes": 1170102,
+      "duration_seconds": 15.0,
+      "format": "mov,mp4,m4a,3gp,3g2,mj2",
+      "codec": "hevc",
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "aac",
+          "codec_long_name": "AAC (Advanced Audio Coding)",
+          "profile": "HE-AACv2",
+          "codec_type": "audio",
+          "codec_tag_string": "mp4a",
+          "codec_tag": "0x6134706d",
+          "mime_codec_string": "mp4a.40.29",
+          "sample_fmt": "fltp",
+          "sample_rate": "44100",
+          "channels": 2,
+          "channel_layout": "stereo",
+          "bits_per_sample": 0,
+          "initial_padding": 7106,
+          "id": "0x1",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "time_base": "1/44100",
+          "start_pts": 0,
+          "start_time": "0.000000",
+          "duration_ts": 662514,
+          "duration": "15.022993",
+          "bit_rate": "35020",
+          "nb_frames": "327",
+          "extradata_size": 4,
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "language": "und",
+            "handler_name": "SoundHandler"
+          }
+        },
+        {
+          "index": 1,
+          "codec_name": "hevc",
+          "codec_long_name": "H.265 / HEVC (High Efficiency Video Coding)",
+          "profile": "Main",
+          "codec_type": "video",
+          "codec_tag_string": "hvc1",
+          "codec_tag": "0x31637668",
+          "width": 720,
+          "height": 1280,
+          "coded_width": 720,
+          "coded_height": 1280,
+          "has_b_frames": 4,
+          "sample_aspect_ratio": "1:1",
+          "display_aspect_ratio": "9:16",
+          "pix_fmt": "yuv420p",
+          "level": 186,
+          "color_range": "tv",
+          "color_space": "bt709",
+          "color_transfer": "bt709",
+          "color_primaries": "bt709",
+          "chroma_location": "left",
+          "view_ids_available": "",
+          "view_pos_available": "",
+          "id": "0x2",
+          "r_frame_rate": "30/1",
+          "avg_frame_rate": "30/1",
+          "time_base": "1/15360",
+          "start_pts": 0,
+          "start_time": "0.000000",
+          "duration_ts": 230400,
+          "duration": "15.000000",
+          "bit_rate": "581514",
+          "nb_frames": "450",
+          "extradata_size": 205,
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "language": "und",
+            "handler_name": "VideoHandler"
+          }
+        }
+      ],
+      "sample_rate": null,
+      "width": 720,
+      "height": 1280,
+      "fps": 30.0
+    },
+    "reference_audio": {
+      "path": "D:\\XuTao_Task\\storage\\m1\\reference-0-7.5s.wav",
+      "sha256": "9add37be988ebe858b84c2f7cad39768671a4b7a92ec88fdafe70db8a5567a8c",
+      "size_bytes": 360078,
+      "duration_seconds": 7.5,
+      "format": "wav",
+      "codec": "pcm_s16le",
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "pcm_s16le",
+          "codec_long_name": "PCM signed 16-bit little-endian",
+          "codec_type": "audio",
+          "codec_tag_string": "[1][0][0][0]",
+          "codec_tag": "0x0001",
+          "sample_fmt": "s16",
+          "sample_rate": "24000",
+          "channels": 1,
+          "bits_per_sample": 16,
+          "initial_padding": 0,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "time_base": "1/24000",
+          "duration_ts": 180000,
+          "duration": "7.500000",
+          "bit_rate": "384000",
+          "disposition": {
+            "default": 0,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          }
+        }
+      ],
+      "sample_rate": "24000",
+      "width": null,
+      "height": null,
+      "silence_seconds": 0,
+      "silence_ratio": 0.0,
+      "max_volume_db": -0.7,
+      "silence_policy": {
+        "noise_db": -45,
+        "min_seconds": 1,
+        "max_ratio": 0.95
+      }
+    }
+  },
+  "health": {
+    "tts": {
+      "role": "tts",
+      "ready": true,
+      "model_loaded": false,
+      "readiness_scope": "configuration_checksums_runtime_module_discovery_torch_cuda_and_mmcv_binary; no native generation",
+      "dependencies": {
+        "torch": "2.5.1+cu118",
+        "cuda_runtime": "11.8",
+        "cuda_available": true,
+        "missing_modules": []
+      },
+      "blockers": [],
+      "quality_verified": false
+    },
+    "photo": {
+      "role": "photo",
+      "ready": true,
+      "model_loaded": false,
+      "readiness_scope": "configuration_checksums_runtime_module_discovery_torch_cuda_and_mmcv_binary; no native generation",
+      "dependencies": {
+        "torch": "1.12.1+cu113",
+        "cuda_runtime": "11.3",
+        "cuda_available": true,
+        "missing_modules": []
+      },
+      "blockers": [],
+      "quality_verified": false
+    },
+    "video": {
+      "role": "video",
+      "ready": true,
+      "model_loaded": false,
+      "readiness_scope": "configuration_checksums_runtime_module_discovery_torch_cuda_and_mmcv_binary; no native generation",
+      "dependencies": {
+        "torch": "2.0.1+cu118",
+        "cuda_runtime": "11.8",
+        "cuda_available": true,
+        "missing_modules": []
+      },
+      "blockers": [],
+      "quality_verified": false
+    }
+  },
+  "generation_called": false,
+  "estimated_seconds": null,
+  "estimated_peak_vram_mib": null,
+  "model_quality_passed": false
+}

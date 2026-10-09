@@ -1,0 +1,47 @@
+{
+  "checked_at": "2026-10-01",
+  "pip_install_note": "TLS SSLEOFError; did not disable certificate verification; used PowerShell HTTPS download from official PyPI metadata and offline wheel install",
+  "wheels": [
+    {
+      "package": "lxml",
+      "version": "6.1.3",
+      "filename": "lxml-6.1.3-cp310-cp310-win_amd64.whl",
+      "source": "https://files.pythonhosted.org/packages/7a/bf/74b6785beac6488fd395e78796339bc197fbad6fd6103b41b15a4009dc4b/lxml-6.1.3-cp310-cp310-win_amd64.whl",
+      "sha256": "18a4db52b5a7b53a3540b0b0f4123319334621ee8083d496de314d0bf06ff59a",
+      "official_checksum_matches": true
+    },
+    {
+      "package": "pillow",
+      "version": "12.3.0",
+      "filename": "pillow-12.3.0-cp310-cp310-win_amd64.whl",
+      "source": "https://files.pythonhosted.org/packages/48/7c/8fa0039574c476d7c6fa57dd7c32a130436877c6ec1e5ce1cc8ec44878c1/pillow-12.3.0-cp310-cp310-win_amd64.whl",
+      "sha256": "300557495eb45ebb8aec96c2da9c4be642fbf7cd937278b4013ba894ea8eb0eb",
+      "official_checksum_matches": true
+    },
+    {
+      "package": "python_pptx",
+      "version": "1.0.2",
+      "filename": "python_pptx-1.0.2-py3-none-any.whl",
+      "source": "https://files.pythonhosted.org/packages/d9/4f/00be2196329ebbff56ce564aa94efb0fbc828d00de250b1980de1a34ab49/python_pptx-1.0.2-py3-none-any.whl",
+      "sha256": "160838e0b8565a8b1f67947675886e9fea18aa5e795db7ae531606d68e785cba",
+      "official_checksum_matches": true
+    },
+    {
+      "package": "xlsxwriter",
+      "version": "3.2.9",
+      "filename": "xlsxwriter-3.2.9-py3-none-any.whl",
+      "source": "https://files.pythonhosted.org/packages/3a/0c/3662f4a66880196a590b202f0db82d919dd2f89e99a27fadef91c4a33d41/xlsxwriter-3.2.9-py3-none-any.whl",
+      "sha256": "9a5db42bc5dff014806c58a20b9eae7322a134abb6fce3c92c181bfb275ec5b3",
+      "official_checksum_matches": true
+    }
+  ],
+  "ffmpeg": {
+    "source": "https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip",
+    "discoverable_from": "https://ffmpeg.org/download.html",
+    "sha256": "60f467265b1e312373dbcd92200c2618a74850f98d3d078e94296bb3fa2047ba",
+    "official_checksum_matches": true,
+    "local_path": ".tools/ffmpeg/ffmpeg-9.0.2-essentials_build",
+    "version": "9.0.2",
+    "license": "GPL build, see locally bundled LICENSE and build configuration; no redistribution in Git"
+  }
+}

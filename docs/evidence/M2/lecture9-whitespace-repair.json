@@ -1,0 +1,16 @@
+{
+  "at": "2026-10-09T06:05:55.541401+00:00",
+  "contract": "complete-object-v5",
+  "first_failed_job": "7b59d596-4cb1-4546-a421-72d38e1f7249",
+  "first_failed_record": "lecture9-short-reading-first.json",
+  "cause": "Complete root display/reading bodies differed only in layout whitespace. Provider sentence_pairs used pinyin; prior fallback treated layout newline as spoken boundary. Valid JSON attempts 2/3 were strictly refused. No new script saved.",
+  "repair": "Only exact full-body identity modulo whitespace can be re-paired at punctuation boundaries; original spans and bodies remain unchanged, measured TTS timing is required. Non-identical unmatched sentences and missing bodies still reject.",
+  "limits_unchanged": {
+    "format_corrections": 2,
+    "http_requests": 4,
+    "course_generations": 3,
+    "max_tokens": 8000
+  },
+  "teacher_confirmation": false,
+  "paid_allowed": false
+}

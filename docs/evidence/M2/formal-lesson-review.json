@@ -1,0 +1,673 @@
+{
+  "created_at": "2026-10-02T05:43:19.567191+00:00",
+  "project_id": "b7022084-d5b4-44e0-9321-3bfc78434b24",
+  "source_project_id": "ff95b51c-8e49-49d8-9d82-957069befbdf",
+  "formal_scope": {
+    "first": 5,
+    "last": 14,
+    "title": "无线接入与多址技术",
+    "user_selected": true
+  },
+  "active_pages": 10,
+  "teacher_confirmed_count": 0,
+  "question_count": 10,
+  "questions": [
+    {
+      "source_page_id": "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-369",
+      "question_sha256": "4bb0ba13ddd8bbf8e5df22cb9d0d62c46f051e4fe784090127867f0eeac7672b"
+    },
+    {
+      "source_page_id": "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-349",
+      "question_sha256": "0059109bd7feda2173d8578ac9484e64d552478cdb14953ef12435ba55d32fd2"
+    },
+    {
+      "source_page_id": "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-351",
+      "question_sha256": "b63a0e234f905104e2cca286df94582873ef1c3b0514d83dbe91d03c9fce524f"
+    },
+    {
+      "source_page_id": "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-352",
+      "question_sha256": "8a1613d9bf04ad4da6d26132940b0d79d6127771a0d1eec31e664f51727bbdc5"
+    },
+    {
+      "source_page_id": "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-353",
+      "question_sha256": "56d7a043c0804439ee63e9bf5263498fbef2a00ab5d7f6ade0ede64bb04c64a2"
+    },
+    {
+      "source_page_id": "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-360",
+      "question_sha256": "9d73ecf156c1b62724aa93d27daec58311d3024760f2f28393353a69328b681f"
+    },
+    {
+      "source_page_id": "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-361",
+      "question_sha256": "4bc5b4291c03a1c7338596de3f14dd20f543a0753034bfc5cf03dcf5bc69779d"
+    },
+    {
+      "source_page_id": "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-362",
+      "question_sha256": "814442ae14fe9e9832fbb8e42892d8dfa0f82fe05d9b62f56a2a4b820eb8d8a9"
+    },
+    {
+      "source_page_id": "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-363",
+      "question_sha256": "85b97169ee1315a62bad4c9974df7fabd9a85040942995f540609c517add793c"
+    },
+    {
+      "source_page_id": "a334a5c5aba1c192026e3fd143805459f16f03a5d3baf75fa5c190c48333d592:slide-372",
+      "question_sha256": "b59c2387ef30e1fce54daebf5f17142127b7c29ebdaaf7433554c515afcfa6e6"
+    }
+  ],
+  "pending_items": [
+    {
+      "source_index": 5,
+      "count": 1
+    },
+    {
+      "source_index": 6,
+      "count": 2
+    },
+    {
+      "source_index": 7,
+      "count": 1
+    },
+    {
+      "source_index": 8,
+      "count": 1
+    },
+    {
+      "source_index": 9,
+      "count": 1
+    },
+    {
+      "source_index": 10,
+      "count": 1
+    },
+    {
+      "source_index": 11,
+      "count": 1
+    },
+    {
+      "source_index": 12,
+      "count": 1
+    },
+    {
+      "source_index": 13,
+      "count": 1
+    },
+    {
+      "source_index": 14,
+      "count": 1
+    }
+  ],
+  "auditions": [
+    {
+      "source_index": 5,
+      "state": "completed",
+      "error": null,
+      "output": {
+        "path": "auditions/719423ae-89bd-4798-9f1e-8e8dc980f4ff.wav",
+        "sha256": "94c4eff70899636d6f750047cd0451be88284a48f26931664b152ca8d8f181df",
+        "duration_seconds": 47.66,
+        "sample_rate": "32000",
+        "request_id": "6f6c9f3f-3f57-49fd-bda3-440413a14c36",
+        "provider": "GPT-SoVITS",
+        "input_key": "4a955a2a9cefe72bea846f70b9f99b9796c7dd662c35e23d46ce70f10a363db8",
+        "version_id": "e2c6cc99-800a-4e27-b0ff-589f3405e63c",
+        "stale": false,
+        "human_review": null,
+        "quality_verified": false,
+        "native_model": {
+          "provider": "GPT-SoVITS",
+          "actual_weight_version": "v2",
+          "loaded_primary_weights": {
+            "t2s_weights_path": {
+              "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\gsv-v2final-pretrained\\s1bert25hz-5kh-longer-epoch=12-step=369668.ckpt",
+              "sha256": "732f94e63b148066e24c7f9d2637f3374083e637635f07fbdb695dee20ddbe1f"
+            },
+            "vits_weights_path": {
+              "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\gsv-v2final-pretrained\\s2G2333k.pth",
+              "sha256": "924fdccaa3c574bf139c25c9759aa1ed3b3f99e19a7c529ee996c2bc17663695"
+            }
+          },
+          "inference_config_sha256": "3a4dfe7a0d6f01144ea1ca841e2592e0f9b8b25e9d818b677d61f8c753efd9b3",
+          "cold_load_seconds": 2.7330092000047443,
+          "tokenizer_backend": "jieba",
+          "first_inference_seconds": 24.58545129999402,
+          "warm_seconds": null,
+          "speed_factor": 1.0,
+          "speech_timeline": [
+            {
+              "text_sha256": "60ee08190872bbe3733db755e5cd87d172fa7b36b7d00895f2752d5d06ca6095",
+              "start_seconds": 0.0,
+              "end_seconds": 47.66
+            }
+          ]
+        },
+        "silence_ratio": 0.052761078472513635,
+        "draft_preview": true
+      }
+    },
+    {
+      "source_index": 6,
+      "state": "completed",
+      "error": null,
+      "output": {
+        "path": "auditions/d4bddb83-dce6-4ba1-8322-1476b82504e9.wav",
+        "sha256": "92e83c496dff47122c08e7c99a58718d4c8135308735f613212167b17ded40a3",
+        "duration_seconds": 49.76,
+        "sample_rate": "32000",
+        "request_id": "e9b2857c-b004-410f-962c-a17afde2dfdf",
+        "provider": "GPT-SoVITS",
+        "input_key": "ec7afdf60d6f42fc5e8f54d1b72bb9fa7b054f4a092613dc268eaf3a5eb571fe",
+        "version_id": "f8a2725e-fac6-41ca-ab44-c29e6a103771",
+        "stale": false,
+        "human_review": null,
+        "quality_verified": false,
+        "native_model": {
+          "provider": "GPT-SoVITS",
+          "actual_weight_version": "v2",
+          "loaded_primary_weights": {
+            "t2s_weights_path": {
+              "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\gsv-v2final-pretrained\\s1bert25hz-5kh-longer-epoch=12-step=369668.ckpt",
+              "sha256": "732f94e63b148066e24c7f9d2637f3374083e637635f07fbdb695dee20ddbe1f"
+            },
+            "vits_weights_path": {
+              "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\gsv-v2final-pretrained\\s2G2333k.pth",
+              "sha256": "924fdccaa3c574bf139c25c9759aa1ed3b3f99e19a7c529ee996c2bc17663695"
+            }
+          },
+          "inference_config_sha256": "3a4dfe7a0d6f01144ea1ca841e2592e0f9b8b25e9d818b677d61f8c753efd9b3",
+          "cold_load_seconds": 2.732401300003403,
+          "tokenizer_backend": "jieba",
+          "first_inference_seconds": 23.2409719999996,
+          "warm_seconds": null,
+          "speed_factor": 1.0,
+          "speech_timeline": [
+            {
+              "text_sha256": "0ce660279a709e7f4d26b90e085df4198c511f493150d5d104073c7f7b2cb25d",
+              "start_seconds": 0.0,
+              "end_seconds": 49.76
+            }
+          ]
+        },
+        "silence_ratio": 0.0,
+        "draft_preview": true
+      }
+    },
+    {
+      "source_index": 7,
+      "state": "completed",
+      "error": null,
+      "output": {
+        "path": "auditions/a5135d91-62e4-43cd-b3d5-10d45b4fe79a.wav",
+        "sha256": "67f79b5b6704e244b48b25e83716a450c6db3bba5f8319331106ec83e82446ba",
+        "duration_seconds": 35.26,
+        "sample_rate": "32000",
+        "request_id": "c010a376-3984-4794-9c84-78772de202b8",
+        "provider": "GPT-SoVITS",
+        "input_key": "78accd44c90c93f1a029165226b4447e0df292aeba8f5d2747b507793057c173",
+        "version_id": "cb916d18-06a3-4510-992f-f90fcae6662d",
+        "stale": false,
+        "human_review": null,
+        "quality_verified": false,
+        "native_model": {
+          "provider": "GPT-SoVITS",
+          "actual_weight_version": "v2",
+          "loaded_primary_weights": {
+            "t2s_weights_path": {
+              "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\gsv-v2final-pretrained\\s1bert25hz-5kh-longer-epoch=12-step=369668.ckpt",
+              "sha256": "732f94e63b148066e24c7f9d2637f3374083e637635f07fbdb695dee20ddbe1f"
+            },
+            "vits_weights_path": {
+              "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\gsv-v2final-pretrained\\s2G2333k.pth",
+              "sha256": "924fdccaa3c574bf139c25c9759aa1ed3b3f99e19a7c529ee996c2bc17663695"
+            }
+          },
+          "inference_config_sha256": "3a4dfe7a0d6f01144ea1ca841e2592e0f9b8b25e9d818b677d61f8c753efd9b3",
+          "cold_load_seconds": 2.3580989000038244,
+          "tokenizer_backend": "jieba",
+          "first_inference_seconds": 19.344095099993865,
+          "warm_seconds": null,
+          "speed_factor": 1.0,
+          "speech_timeline": [
+            {
+              "text_sha256": "97d75ad1e7eec74668c3d0f62d59b20102580b25a3b887ebbd9e51747fd830ce",
+              "start_seconds": 0.0,
+              "end_seconds": 35.26
+            }
+          ]
+        },
+        "silence_ratio": 0.0,
+        "draft_preview": true
+      }
+    },
+    {
+      "source_index": 8,
+      "state": "completed",
+      "error": null,
+      "output": {
+        "path": "auditions/4d7ca2aa-947b-4675-86cf-3f0755f09578.wav",
+        "sha256": "6f2d43fd034646cf15961b18c0a2abe18594fcde55332fc16bdd91bf9e9f98f5",
+        "duration_seconds": 45.64,
+        "sample_rate": "32000",
+        "request_id": "134c7cac-8825-4406-81b1-592157714db9",
+        "provider": "GPT-SoVITS",
+        "input_key": "d37421fda1af8ac45e6ddc0eec05745c27800d2b09462ea614b7e1a1e3573dc7",
+        "version_id": "7b19535e-ca06-4d64-ae62-e769515eda8c",
+        "stale": false,
+        "human_review": null,
+        "quality_verified": false,
+        "native_model": {
+          "provider": "GPT-SoVITS",
+          "actual_weight_version": "v2",
+          "loaded_primary_weights": {
+            "t2s_weights_path": {
+              "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\gsv-v2final-pretrained\\s1bert25hz-5kh-longer-epoch=12-step=369668.ckpt",
+              "sha256": "732f94e63b148066e24c7f9d2637f3374083e637635f07fbdb695dee20ddbe1f"
+            },
+            "vits_weights_path": {
+              "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\gsv-v2final-pretrained\\s2G2333k.pth",
+              "sha256": "924fdccaa3c574bf139c25c9759aa1ed3b3f99e19a7c529ee996c2bc17663695"
+            }
+          },
+          "inference_config_sha256": "3a4dfe7a0d6f01144ea1ca841e2592e0f9b8b25e9d818b677d61f8c753efd9b3",
+          "cold_load_seconds": 2.367328299995279,
+          "tokenizer_backend": "jieba",
+          "first_inference_seconds": 21.902327100004186,
+          "warm_seconds": null,
+          "speed_factor": 1.0,
+          "speech_timeline": [
+            {
+              "text_sha256": "d9db781dc9e4f20a0f82e93f5cbf3cab3f457ae96a5e03138dbdbfc75c1c114e",
+              "start_seconds": 0.0,
+              "end_seconds": 45.64
+            }
+          ]
+        },
+        "silence_ratio": 0.0,
+        "draft_preview": true
+      }
+    },
+    {
+      "source_index": 9,
+      "state": "completed",
+      "error": null,
+      "output": {
+        "path": "auditions/7a4bfa9f-8d5f-4373-922e-45831f496aac.wav",
+        "sha256": "e3606241ba808394bd29ca690f865b203f99da9649a047fb2da76c04e85046e5",
+        "duration_seconds": 26.42,
+        "sample_rate": "32000",
+        "request_id": "64dad108-d932-4d30-98db-290b32580761",
+        "provider": "GPT-SoVITS",
+        "input_key": "f889d8b072d42625c217bbc126b1a0357dac4e415a7c09aba991ba9b44910b36",
+        "version_id": "c986853a-3aee-4f88-8b2e-6a49d0fc448a",
+        "stale": false,
+        "human_review": null,
+        "quality_verified": false,
+        "native_model": {
+          "provider": "GPT-SoVITS",
+          "actual_weight_version": "v2",
+          "loaded_primary_weights": {
+            "t2s_weights_path": {
+              "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\gsv-v2final-pretrained\\s1bert25hz-5kh-longer-epoch=12-step=369668.ckpt",
+              "sha256": "732f94e63b148066e24c7f9d2637f3374083e637635f07fbdb695dee20ddbe1f"
+            },
+            "vits_weights_path": {
+              "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\gsv-v2final-pretrained\\s2G2333k.pth",
+              "sha256": "924fdccaa3c574bf139c25c9759aa1ed3b3f99e19a7c529ee996c2bc17663695"
+            }
+          },
+          "inference_config_sha256": "3a4dfe7a0d6f01144ea1ca841e2592e0f9b8b25e9d818b677d61f8c753efd9b3",
+          "cold_load_seconds": 2.3416345000005094,
+          "tokenizer_backend": "jieba",
+          "first_inference_seconds": 16.110855699997046,
+          "warm_seconds": null,
+          "speed_factor": 1.0,
+          "speech_timeline": [
+            {
+              "text_sha256": "ed5d32a4a5f12aa224dcb39d11b6dd075ffb66b666af39a63bac093f71e9fcc6",
+              "start_seconds": 0.0,
+              "end_seconds": 26.42
+            }
+          ]
+        },
+        "silence_ratio": 0.0,
+        "draft_preview": true
+      }
+    },
+    {
+      "source_index": 10,
+      "state": "completed",
+      "error": null,
+      "output": {
+        "path": "auditions/1319a1bb-5111-42f8-ae35-725ea416f9f6.wav",
+        "sha256": "3adecfeccb06fd195759bd75daf22b54f56d35eb28713d60d9dc0aeeb8d8b73b",
+        "duration_seconds": 39.4,
+        "sample_rate": "32000",
+        "request_id": "caf9ea2c-a178-43f6-a0b8-5b35e9fc5aaa",
+        "provider": "GPT-SoVITS",
+        "input_key": "c45e6a6b48e186fec0020516438b9c267c294127b482dcdf0e79bb4f4df378cd",
+        "version_id": "cc214d84-4524-446b-aea6-e7fef30487cc",
+        "stale": false,
+        "human_review": null,
+        "quality_verified": false,
+        "native_model": {
+          "provider": "GPT-SoVITS",
+          "actual_weight_version": "v2",
+          "loaded_primary_weights": {
+            "t2s_weights_path": {
+              "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\gsv-v2final-pretrained\\s1bert25hz-5kh-longer-epoch=12-step=369668.ckpt",
+              "sha256": "732f94e63b148066e24c7f9d2637f3374083e637635f07fbdb695dee20ddbe1f"
+            },
+            "vits_weights_path": {
+              "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\gsv-v2final-pretrained\\s2G2333k.pth",
+              "sha256": "924fdccaa3c574bf139c25c9759aa1ed3b3f99e19a7c529ee996c2bc17663695"
+            }
+          },
+          "inference_config_sha256": "3a4dfe7a0d6f01144ea1ca841e2592e0f9b8b25e9d818b677d61f8c753efd9b3",
+          "cold_load_seconds": 2.4296512000000803,
+          "tokenizer_backend": "jieba",
+          "first_inference_seconds": 20.274875299990526,
+          "warm_seconds": null,
+          "speed_factor": 1.0,
+          "speech_timeline": [
+            {
+              "text_sha256": "93a7b2cf422af3755764b576a1ba0d00b29212d8910f2307ab9396ea19406ef8",
+              "start_seconds": 0.0,
+              "end_seconds": 39.4
+            }
+          ]
+        },
+        "silence_ratio": 0.0,
+        "draft_preview": true
+      }
+    },
+    {
+      "source_index": 11,
+      "state": "completed",
+      "error": null,
+      "output": {
+        "path": "auditions/de0636d7-833e-426a-b682-422c3c391197.wav",
+        "sha256": "877d7497a0a171b4de69e86fee1a332a205a5c47895e506a9fd7007e6e709cfa",
+        "duration_seconds": 49.24,
+        "sample_rate": "32000",
+        "request_id": "87759342-ed0e-47a1-ac67-151ec771529a",
+        "provider": "GPT-SoVITS",
+        "input_key": "3984999c9efd7f3327ce583eb7694e4e70b9a25a394c5ffc9ae4e3a19c5013b5",
+        "version_id": "e9731f3c-dd5b-4207-8fa0-ce139753d766",
+        "stale": false,
+        "human_review": null,
+        "quality_verified": false,
+        "native_model": {
+          "provider": "GPT-SoVITS",
+          "actual_weight_version": "v2",
+          "loaded_primary_weights": {
+            "t2s_weights_path": {
+              "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\gsv-v2final-pretrained\\s1bert25hz-5kh-longer-epoch=12-step=369668.ckpt",
+              "sha256": "732f94e63b148066e24c7f9d2637f3374083e637635f07fbdb695dee20ddbe1f"
+            },
+            "vits_weights_path": {
+              "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\gsv-v2final-pretrained\\s2G2333k.pth",
+              "sha256": "924fdccaa3c574bf139c25c9759aa1ed3b3f99e19a7c529ee996c2bc17663695"
+            }
+          },
+          "inference_config_sha256": "3a4dfe7a0d6f01144ea1ca841e2592e0f9b8b25e9d818b677d61f8c753efd9b3",
+          "cold_load_seconds": 2.3213503000006313,
+          "tokenizer_backend": "jieba",
+          "first_inference_seconds": 22.867611299996497,
+          "warm_seconds": null,
+          "speed_factor": 1.0,
+          "speech_timeline": [
+            {
+              "text_sha256": "0b592db2543a319e293faae0b0ba9f74f327bb524db26530924589d601c660a7",
+              "start_seconds": 0.0,
+              "end_seconds": 49.24
+            }
+          ]
+        },
+        "silence_ratio": 0.0,
+        "draft_preview": true
+      }
+    },
+    {
+      "source_index": 12,
+      "state": "completed",
+      "error": null,
+      "output": {
+        "path": "auditions/87108c2a-b4e1-44a1-89f8-7810d529ec5a.wav",
+        "sha256": "de5a45315748728d1962a45fe33cc177588fe857cf77f99d5b4799e439c47fd1",
+        "duration_seconds": 3.06,
+        "sample_rate": "32000",
+        "request_id": "8cc39ab1-145f-4c53-9f5d-0f36a489e9ae",
+        "provider": "GPT-SoVITS",
+        "input_key": "0288830f9e4a35f4ef8feda09a4f969db7bb0ec3221af77762f8896f45f334d3",
+        "version_id": "cf59e1c4-3c8d-4e74-8295-3718ff1d5947",
+        "stale": false,
+        "human_review": null,
+        "quality_verified": false,
+        "native_model": {
+          "provider": "GPT-SoVITS",
+          "actual_weight_version": "v2",
+          "loaded_primary_weights": {
+            "t2s_weights_path": {
+              "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\gsv-v2final-pretrained\\s1bert25hz-5kh-longer-epoch=12-step=369668.ckpt",
+              "sha256": "732f94e63b148066e24c7f9d2637f3374083e637635f07fbdb695dee20ddbe1f"
+            },
+            "vits_weights_path": {
+              "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\gsv-v2final-pretrained\\s2G2333k.pth",
+              "sha256": "924fdccaa3c574bf139c25c9759aa1ed3b3f99e19a7c529ee996c2bc17663695"
+            }
+          },
+          "inference_config_sha256": "3a4dfe7a0d6f01144ea1ca841e2592e0f9b8b25e9d818b677d61f8c753efd9b3",
+          "cold_load_seconds": 2.383063100001891,
+          "tokenizer_backend": "jieba",
+          "first_inference_seconds": 5.175325100004557,
+          "warm_seconds": null,
+          "speed_factor": 1.0,
+          "speech_timeline": [
+            {
+              "text_sha256": "6dc6eaa7967ca63de760486094e018decb5ae5af7c31baf1937bbe20abcee972",
+              "start_seconds": 0.0,
+              "end_seconds": 3.06
+            }
+          ]
+        },
+        "silence_ratio": 0.0,
+        "draft_preview": true
+      }
+    },
+    {
+      "source_index": 13,
+      "state": "completed",
+      "error": null,
+      "output": {
+        "path": "auditions/0be54cee-447b-45ca-851a-5505eb57d8ef.wav",
+        "sha256": "d89df48d37be3a4b0e7c46df6ef33f19f2c2121288bb1de85dfad961c71ba756",
+        "duration_seconds": 109.92,
+        "sample_rate": "32000",
+        "request_id": "39b69ec8-6673-45d5-88f9-046c4cb42961",
+        "provider": "GPT-SoVITS",
+        "input_key": "a44b9136fd6196ef4d36dcc2297386b90ceb58beedbe05c10d7ea3f819e5a3d5",
+        "version_id": "b67c4452-d99e-43a4-9a95-9d8e21b05306",
+        "stale": false,
+        "human_review": null,
+        "quality_verified": false,
+        "native_model": {
+          "provider": "GPT-SoVITS",
+          "actual_weight_version": "v2",
+          "loaded_primary_weights": {
+            "t2s_weights_path": {
+              "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\gsv-v2final-pretrained\\s1bert25hz-5kh-longer-epoch=12-step=369668.ckpt",
+              "sha256": "732f94e63b148066e24c7f9d2637f3374083e637635f07fbdb695dee20ddbe1f"
+            },
+            "vits_weights_path": {
+              "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\gsv-v2final-pretrained\\s2G2333k.pth",
+              "sha256": "924fdccaa3c574bf139c25c9759aa1ed3b3f99e19a7c529ee996c2bc17663695"
+            }
+          },
+          "inference_config_sha256": "3a4dfe7a0d6f01144ea1ca841e2592e0f9b8b25e9d818b677d61f8c753efd9b3",
+          "cold_load_seconds": 2.3755197999998927,
+          "tokenizer_backend": "jieba",
+          "first_inference_seconds": 40.884895099996356,
+          "warm_seconds": null,
+          "speed_factor": 1.0,
+          "speech_timeline": [
+            {
+              "text_sha256": "b4527abb14e1b9fcd6b67f8be6d74f356727ba6f5e6348aaee48b4f42f4374c0",
+              "start_seconds": 0.0,
+              "end_seconds": 109.92
+            }
+          ]
+        },
+        "silence_ratio": 0.009472798398835516,
+        "draft_preview": true
+      }
+    },
+    {
+      "source_index": 14,
+      "state": "completed",
+      "error": null,
+      "output": {
+        "path": "auditions/9d50c432-828d-4fba-aff5-648bcb6a7b58.wav",
+        "sha256": "2b627bc7667f182276282edd819709106737490d3675e0da27c3ad90cc653f00",
+        "duration_seconds": 28.52,
+        "sample_rate": "32000",
+        "request_id": "5f9987ef-8fb5-4d06-970c-d5db6f88672b",
+        "provider": "GPT-SoVITS",
+        "input_key": "742954b449b5771af22900ac8d5bfd2bdc14151831215008be18ed07a66b5284",
+        "version_id": "8cf6d476-54d6-481f-bc39-355bceac7fd3",
+        "stale": false,
+        "human_review": null,
+        "quality_verified": false,
+        "native_model": {
+          "provider": "GPT-SoVITS",
+          "actual_weight_version": "v2",
+          "loaded_primary_weights": {
+            "t2s_weights_path": {
+              "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\gsv-v2final-pretrained\\s1bert25hz-5kh-longer-epoch=12-step=369668.ckpt",
+              "sha256": "732f94e63b148066e24c7f9d2637f3374083e637635f07fbdb695dee20ddbe1f"
+            },
+            "vits_weights_path": {
+              "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\gsv-v2final-pretrained\\s2G2333k.pth",
+              "sha256": "924fdccaa3c574bf139c25c9759aa1ed3b3f99e19a7c529ee996c2bc17663695"
+            }
+          },
+          "inference_config_sha256": "3a4dfe7a0d6f01144ea1ca841e2592e0f9b8b25e9d818b677d61f8c753efd9b3",
+          "cold_load_seconds": 2.3466546999989077,
+          "tokenizer_backend": "jieba",
+          "first_inference_seconds": 16.865348999999696,
+          "warm_seconds": null,
+          "speed_factor": 1.0,
+          "speech_timeline": [
+            {
+              "text_sha256": "86a5cf88e0cde2bc7aae2cc037bf6a3fee6f333373f423d6ff01d99b32f3848f",
+              "start_seconds": 0.0,
+              "end_seconds": 28.52
+            }
+          ]
+        },
+        "silence_ratio": 0.0,
+        "draft_preview": true
+      }
+    }
+  ],
+  "snapshot_created": false,
+  "teacher_review": "pending",
+  "private_review_packet": {
+    "path": "D:\\XuTao_Task\\storage\\m2\\projects\\b7022084-d5b4-44e0-9321-3bfc78434b24\\teacher-review-packet.md",
+    "sha256": "cf1e7dee0295442e0ea1d19ac1005384d0cea6370eb3e3f6c0a0ab8b7207b9a1"
+  },
+  "preflight": {
+    "ready": false,
+    "blocker_counts": {
+      "AUDITION_REQUIRED": 10,
+      "TEACHING_CHECK_REQUIRED": 1,
+      "REVIEW_REQUIRED": 10
+    }
+  },
+  "unconfirmed_freeze_http_status": 422,
+  "real_audition_redecode": [
+    {
+      "source_index": 5,
+      "sha256": "94c4eff70899636d6f750047cd0451be88284a48f26931664b152ca8d8f181df",
+      "duration_seconds": 47.66,
+      "silence_ratio": 0.052761078472513635,
+      "provider": "GPT-SoVITS",
+      "draft_preview": true
+    },
+    {
+      "source_index": 6,
+      "sha256": "92e83c496dff47122c08e7c99a58718d4c8135308735f613212167b17ded40a3",
+      "duration_seconds": 49.76,
+      "silence_ratio": 0.0,
+      "provider": "GPT-SoVITS",
+      "draft_preview": true
+    },
+    {
+      "source_index": 7,
+      "sha256": "67f79b5b6704e244b48b25e83716a450c6db3bba5f8319331106ec83e82446ba",
+      "duration_seconds": 35.26,
+      "silence_ratio": 0.0,
+      "provider": "GPT-SoVITS",
+      "draft_preview": true
+    },
+    {
+      "source_index": 8,
+      "sha256": "6f2d43fd034646cf15961b18c0a2abe18594fcde55332fc16bdd91bf9e9f98f5",
+      "duration_seconds": 45.64,
+      "silence_ratio": 0.0,
+      "provider": "GPT-SoVITS",
+      "draft_preview": true
+    },
+    {
+      "source_index": 9,
+      "sha256": "e3606241ba808394bd29ca690f865b203f99da9649a047fb2da76c04e85046e5",
+      "duration_seconds": 26.42,
+      "silence_ratio": 0.0,
+      "provider": "GPT-SoVITS",
+      "draft_preview": true
+    },
+    {
+      "source_index": 10,
+      "sha256": "3adecfeccb06fd195759bd75daf22b54f56d35eb28713d60d9dc0aeeb8d8b73b",
+      "duration_seconds": 39.4,
+      "silence_ratio": 0.0,
+      "provider": "GPT-SoVITS",
+      "draft_preview": true
+    },
+    {
+      "source_index": 11,
+      "sha256": "877d7497a0a171b4de69e86fee1a332a205a5c47895e506a9fd7007e6e709cfa",
+      "duration_seconds": 49.24,
+      "silence_ratio": 0.0,
+      "provider": "GPT-SoVITS",
+      "draft_preview": true
+    },
+    {
+      "source_index": 12,
+      "sha256": "de5a45315748728d1962a45fe33cc177588fe857cf77f99d5b4799e439c47fd1",
+      "duration_seconds": 3.06,
+      "silence_ratio": 0.0,
+      "provider": "GPT-SoVITS",
+      "draft_preview": true
+    },
+    {
+      "source_index": 13,
+      "sha256": "d89df48d37be3a4b0e7c46df6ef33f19f2c2121288bb1de85dfad961c71ba756",
+      "duration_seconds": 109.92,
+      "silence_ratio": 0.009472798398835516,
+      "provider": "GPT-SoVITS",
+      "draft_preview": true
+    },
+    {
+      "source_index": 14,
+      "sha256": "2b627bc7667f182276282edd819709106737490d3675e0da27c3ad90cc653f00",
+      "duration_seconds": 28.52,
+      "silence_ratio": 0.0,
+      "provider": "GPT-SoVITS",
+      "draft_preview": true
+    }
+  ],
+  "private_review_items": {
+    "path": "D:\\XuTao_Task\\storage\\m2\\projects\\b7022084-d5b4-44e0-9321-3bfc78434b24\\teacher-review-items.json",
+    "sha256": "8291a0283c785263c0f30782999f5f13e484aea6ca2498438f92252310f74a09"
+  },
+  "review_item_count": 54,
+  "verified_at": "2026-10-02T06:03:39.656659+00:00"
+}

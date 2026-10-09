@@ -1,0 +1,38 @@
+<script setup>
+import {ref,onMounted,onUnmounted,watch} from 'vue'
+const props=defineProps({project:Object,api:Function,selected:String})
+const snapshots=ref([]),snapshotId=ref(''),mode=ref(props.project.config.mode||'photo'),jobs=ref([]),error=ref(''),notice=ref(''),busy=ref(false),mapping=ref('{}'),players=ref({})
+const notes=ref({}),reviewChecks=ref({})
+const layouts=ref([]),layoutNotes=ref({}),layoutChecks=ref({})
+async function loadLayouts(){layouts.value=snapshotId.value?await props.api(`/projects/${props.project.id}/snapshots/${snapshotId.value}/layout-review`):[]}
+watch(snapshotId,()=>loadLayouts().catch(e=>error.value=e.message))
+async function confirmLayout(item){await act(async()=>{await props.api(`/projects/${props.project.id}/snapshots/${snapshotId.value}/layout-review`,{method:'POST',body:JSON.stringify({scene_id:item.scene_id,binding:item.binding,no_obstruction:layoutChecks.value[item.scene_id]===true,note:layoutNotes.value[item.scene_id]||''})});await loadLayouts()})}
+const labels={queued:'排队',running:'处理中',completed:'成果就绪',failed:'失败',canceled:'已取消',valid:'有效',pending:'等待',not_required:'主动隐藏',tts:'语音',portrait:'人物',compose:'合成'}
+let pollDisconnected=false
+async function refresh(){jobs.value=await props.api(`/projects/${props.project.id}/media-jobs`);if(pollDisconnected){error.value='';pollDisconnected=false}}
+async function act(fn){error.value='';busy.value=true;try{await fn();await refresh()}catch(e){error.value=e.message}finally{busy.value=false}}
+async function submit(preview,sample){await act(async()=>{const body={preview,subtitle_units:JSON.parse(mapping.value)};if(preview){body.revision=props.project.revision;body.mode=mode.value}else body.snapshot_id=snapshotId.value;if(sample)body.scene_ids=[props.selected||props.project.scenes.find(s=>!s.skipped)?.id];const j=await props.api(`/projects/${props.project.id}/media-jobs`,{method:'POST',body:JSON.stringify(body)});notice.value=`任务已登记：${j.id}。重复提交复用同一逻辑任务。`})}
+async function confirm(j){await act(async()=>{await props.api(`/projects/${props.project.id}/media-jobs/${j.id}/review`,{method:'POST',body:JSON.stringify({checks:reviewChecks.value[j.id]||{},note:notes.value[j.id]||''})});notice.value='单页样片人工确认已保存，可提交对应审核快照整课。'})}
+function jump(j,time){const p=players.value[j.id];if(p){p.currentTime=time;p.play().catch(()=>{})}}
+let polling
+onMounted(async()=>{await act(async()=>{snapshots.value=await props.api(`/projects/${props.project.id}/snapshots`);snapshotId.value=snapshots.value[0]?.id||''});polling=setInterval(()=>refresh().catch(e=>{pollDisconnected=true;error.value='连接中断，正在恢复服务端状态：'+e.message}),2000)})
+onUnmounted(()=>clearInterval(polling))
+</script>
+<template>
+<section class="panel"><h2>视频闭环 · 任务与成果</h2><p>正式整课消费已冻结审核快照，并要求 M1 人工评审、同配置 720p 单页样片人工确认。GPU 与试听共用串行队列。</p>
+<p class="warning" v-if="error" role="alert">{{error}}</p><p role="status">{{notice}}</p>
+<label>已冻结 M2 审核快照<select v-model="snapshotId" aria-label="M2 审核快照"><option value="">尚未选择审核快照</option><option v-for="s in snapshots" :value="s.id">版本 {{s.revision}} · {{s.frozen_at}}</option></select></label>
+<p v-if="!snapshots.length" class="warning">尚无正式审核快照。请完成教学核查与正式试听，在生成前检查中冻结。草稿预览不计正式通过。</p>
+<div class="actions"><button @click="submit(false,true)" :disabled="busy||!snapshotId">生成当前页 720p 审核样片</button><button class="primary" @click="submit(false,false)" :disabled="busy||!snapshotId">提交审核快照整课生成</button></div>
+<details v-if="layouts.length"><summary>逐页重点区域与布局确认 · {{layouts.filter(x=>x.review).length}} / {{layouts.length}}</summary><p>逐页查看原页和配置，确认人物与字幕区域不遮挡重点。侧栏会为人物预留画面，小窗按角落叠加；最终效果还需播放样片核查。布局修改后确认失效。</p><article v-for="item in layouts" :key="item.scene_id" class="panel"><h3>原页 {{item.source_index}} · {{item.review?'已人工记录':'待教师核查'}}</h3><img class="asset-preview" :src="`/api/projects/${project.id}/files/${item.image}`" alt="布局核查原页"><p>{{item.config.show_teacher?'显示人物':'隐藏人物'}} · {{item.config.layout==='sidebar'?'侧栏预留':'小窗叠加'}} · {{item.config.position}} · 宽度 {{item.config.size*100}}% · {{item.config.subtitles?'底部字幕':'不烧录字幕'}}</p><label><input type="checkbox" v-model="layoutChecks[item.scene_id]">已核查人物、字幕和原页重点区域无遮挡</label><label>逐页布局核查记录<input v-model="layoutNotes[item.scene_id]" aria-label="逐页布局核查记录"></label><button @click="confirmLayout(item)" :disabled="!layoutChecks[item.scene_id]||!layoutNotes[item.scene_id]?.trim()">保存此页人工布局确认</button></article></details>
+<details><summary>草稿真实预览与字幕对应</summary><p class="warning">未审核工程预览，使用真实模型；视频叠加 DRAFT 标识，不保存教师确认。</p><label>草稿人物路径<select v-model="mode" aria-label="草稿人物路径"><option value="photo">照片 · SadTalker</option><option value="video">原视频序列 · MuseTalk</option></select></label><button @click="submit(true,true)" :disabled="busy">生成当前页草稿真实样片</button><button @click="submit(true,false)" :disabled="busy">生成活动页草稿整片</button>
+<label>逐句字幕对应（可选 JSON）<textarea v-model="mapping" rows="5" aria-label="逐句字幕对应"></textarea></label><p class="hint">默认为自动按句配对。显示稿与读法稿句数不同时填写：{"片段ID":[{"display":"显示句。","reading":"实际读法句。"}]}。必须完整覆盖两稿，停顿事件独立保存。</p></details>
+</section>
+<section v-for="j in jobs" :key="j.id" class="panel"><h3>{{j.preview?'草稿 · 未审核':j.output_kind==='sample'?'审核单页样片':'审核快照整课'}} · {{j.mode==='photo'?'照片路径':'视频序列路径'}}</h3><p>{{labels[j.state]||j.state}} · {{j.stage}} · 执行第 {{j.generation}} 代 · 恢复 {{j.recoveries}} 次</p><p>片段有效 {{j.progress.valid}} / {{j.progress.total}} · 失败 {{j.progress.failed}} · 语音 {{j.progress.tts}} · 人物 {{j.progress.portrait}} · 合成 {{j.progress.compose}}</p>
+<p class="warning" v-if="j.error">{{j.error.code}} · {{j.error.message}} {{j.error.remedy}}</p><p v-if="j.cancel_requested&&j.state==='running'" class="warning">已请求取消，等待当前模型到达可中断点；不会生成下一片段。</p>
+<div class="actions"><button v-if="['queued','running'].includes(j.state)" @click="act(()=>api(`/projects/${project.id}/media-jobs/${j.id}/cancel`,{method:'POST'}))">取消任务</button><button v-if="j.state==='failed'" :disabled="j.generation>=3" @click="act(()=>api(`/projects/${project.id}/media-jobs/${j.id}/retry`,{method:'POST'}))">重试失败片段（保留有效缓存）</button></div>
+<details><summary>逐页状态与缓存</summary><div v-for="s in j.scenes"><p>原页 {{s.source_index}} · {{labels[s.state]||s.state}} · {{s.active_stage}}</p><p>{{s.stage_states}}</p><pre>{{s.cache_hits}}</pre><p class="warning">{{s.error?.message}}</p><video v-if="s.preview_path" controls preload="none" class="asset-preview" :src="`/api/projects/${project.id}/files/${s.preview_path}`"></video></div></details>
+<template v-if="j.result"><video :ref="el=>players[j.id]=el" controls preload="metadata" class="course-player" :src="`/api/projects/${project.id}/files/${j.result.path}`"></video><p>{{j.result.duration_seconds.toFixed(2)}} 秒 · {{j.result.width}}×{{j.result.height}} · 25 fps · 人工视听质量仍需核查</p><div class="actions"><button v-for="p in j.result.timeline" @click="jump(j,p.start)">原页 {{j.scenes.find(s=>s.id===p.scene_id)?.source_index}} · {{p.start.toFixed(2)}} 秒</button></div><div class="actions"><a v-for="(label,k) in {mp4:'MP4 视频',srt:'SRT 字幕',script:'逐页讲稿',manifest:'JSON 清单'}" :href="`/api/projects/${project.id}/media-jobs/${j.id}/exports/${k}`" download>{{label}}</a></div>
+<details v-if="!j.preview&&j.output_kind==='sample'"><summary>单页样片教师确认</summary><div v-for="(label,k) in {identity_voice:'人物与音色一致',lipsync_seams:'口型及接缝正确',subtitles_timing:'字幕与切页时间正确',layout_no_obstruction:'布局和重点区域无遮挡'}"><label><input type="checkbox" :checked="reviewChecks[j.id]?.[k]||false" @change="reviewChecks[j.id]={...reviewChecks[j.id],[k]:$event.target.checked}">{{label}}</label></div><label>样片核查记录<input v-model="notes[j.id]" aria-label="样片核查记录"></label><button @click="confirm(j)">我已核查，确认这份样片</button></details>
+</template></section>
+</template>

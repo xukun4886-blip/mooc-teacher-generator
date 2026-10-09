@@ -1,0 +1,163 @@
+{
+  "request_id": "0a9f651f-238d-4fea-bb13-c34a2d24fa2c",
+  "total_seconds": 46.57576960000006,
+  "native": {
+    "provider": "GPT-SoVITS",
+    "actual_weight_version": "v2",
+    "loaded_primary_weights": {
+      "t2s_weights_path": {
+        "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\gsv-v2final-pretrained\\s1bert25hz-5kh-longer-epoch=12-step=369668.ckpt",
+        "sha256": "732f94e63b148066e24c7f9d2637f3374083e637635f07fbdb695dee20ddbe1f"
+      },
+      "vits_weights_path": {
+        "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\gsv-v2final-pretrained\\s2G2333k.pth",
+        "sha256": "924fdccaa3c574bf139c25c9759aa1ed3b3f99e19a7c529ee996c2bc17663695"
+      }
+    },
+    "inference_config_sha256": "3a4dfe7a0d6f01144ea1ca841e2592e0f9b8b25e9d818b677d61f8c753efd9b3",
+    "cold_load_seconds": 2.4947590000010678,
+    "tokenizer_backend": "jieba",
+    "first_inference_seconds": 25.024573199996667,
+    "warm_seconds": null
+  },
+  "native_loads": {
+    "loaded_files": [
+      {
+        "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\gsv-v2final-pretrained\\s1bert25hz-5kh-longer-epoch=12-step=369668.ckpt",
+        "sha256": "732f94e63b148066e24c7f9d2637f3374083e637635f07fbdb695dee20ddbe1f"
+      },
+      {
+        "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\gsv-v2final-pretrained\\s2G2333k.pth",
+        "sha256": "924fdccaa3c574bf139c25c9759aa1ed3b3f99e19a7c529ee996c2bc17663695"
+      },
+      {
+        "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\chinese-roberta-wwm-ext-large\\pytorch_model.bin",
+        "sha256": "e53a693acc59ace251d143d068096ae0d7b79e4b1b503fa84c9dcf576448c1d8"
+      },
+      {
+        "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\chinese-hubert-base\\pytorch_model.bin",
+        "sha256": "24164f129c66499d1346e2aa55f183250c223161ec2770c0da3d3b08cf432d3c"
+      }
+    ],
+    "scope": "successful torch.load and safetensors.load_file calls in isolated native process",
+    "elapsed_native_seconds": 36.81543999999849,
+    "torch_peak_allocated_mib": 1550.92578125,
+    "torch_peak_reserved_mib": 1644.0,
+    "quality_passed": false
+  },
+  "device_peak_used_mib": 3055,
+  "sample_count": 36,
+  "cold_process": true,
+  "warm_seconds": null,
+  "quality_verified": false,
+  "same_process_warm_run": {
+    "request_id": "41f5a6ed-2e10-4beb-be4b-80e2f649bcb6",
+    "native_model_record": {
+      "provider": "GPT-SoVITS",
+      "actual_weight_version": "v2",
+      "loaded_primary_weights": {
+        "t2s_weights_path": {
+          "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\gsv-v2final-pretrained\\s1bert25hz-5kh-longer-epoch=12-step=369668.ckpt",
+          "sha256": "732f94e63b148066e24c7f9d2637f3374083e637635f07fbdb695dee20ddbe1f"
+        },
+        "vits_weights_path": {
+          "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\gsv-v2final-pretrained\\s2G2333k.pth",
+          "sha256": "924fdccaa3c574bf139c25c9759aa1ed3b3f99e19a7c529ee996c2bc17663695"
+        }
+      },
+      "inference_config_sha256": "3a4dfe7a0d6f01144ea1ca841e2592e0f9b8b25e9d818b677d61f8c753efd9b3",
+      "cold_load_seconds": 2.7828997999968124,
+      "tokenizer_backend": "jieba",
+      "first_inference_seconds": 25.380052100001194,
+      "warm_seconds": 14.303988299994671
+    },
+    "warm_output": {
+      "path": "D:\\XuTao_Task\\storage\\m1\\requests\\41f5a6ed-2e10-4beb-be4b-80e2f649bcb6\\audio-warm.wav",
+      "sha256": "077b420fad26c8ece294ae716d6777afa21466064fb2d2523e3568edc0aad436",
+      "size_bytes": 3180844,
+      "duration_seconds": 49.7,
+      "format": "wav",
+      "codec": "pcm_s16le",
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "pcm_s16le",
+          "codec_long_name": "PCM signed 16-bit little-endian",
+          "codec_type": "audio",
+          "codec_tag_string": "[1][0][0][0]",
+          "codec_tag": "0x0001",
+          "sample_fmt": "s16",
+          "sample_rate": "32000",
+          "channels": 1,
+          "bits_per_sample": 16,
+          "initial_padding": 0,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "time_base": "1/32000",
+          "duration_ts": 1590400,
+          "duration": "49.700000",
+          "bit_rate": "512000",
+          "disposition": {
+            "default": 0,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          }
+        }
+      ],
+      "sample_rate": "32000",
+      "width": null,
+      "height": null,
+      "silence_seconds": 0,
+      "silence_ratio": 0.0,
+      "max_volume_db": -0.3,
+      "silence_policy": {
+        "noise_db": -45,
+        "min_seconds": 1,
+        "max_ratio": 0.95
+      }
+    },
+    "elapsed_seconds": 65.41441459999623,
+    "warm_seconds": 14.303988299994671,
+    "native_loads": {
+      "loaded_files": [
+        {
+          "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\gsv-v2final-pretrained\\s1bert25hz-5kh-longer-epoch=12-step=369668.ckpt",
+          "sha256": "732f94e63b148066e24c7f9d2637f3374083e637635f07fbdb695dee20ddbe1f"
+        },
+        {
+          "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\gsv-v2final-pretrained\\s2G2333k.pth",
+          "sha256": "924fdccaa3c574bf139c25c9759aa1ed3b3f99e19a7c529ee996c2bc17663695"
+        },
+        {
+          "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\chinese-roberta-wwm-ext-large\\pytorch_model.bin",
+          "sha256": "e53a693acc59ace251d143d068096ae0d7b79e4b1b503fa84c9dcf576448c1d8"
+        },
+        {
+          "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\chinese-hubert-base\\pytorch_model.bin",
+          "sha256": "24164f129c66499d1346e2aa55f183250c223161ec2770c0da3d3b08cf432d3c"
+        }
+      ],
+      "scope": "successful torch.load and safetensors.load_file calls in isolated native process",
+      "elapsed_native_seconds": 55.04884619999939,
+      "torch_peak_allocated_mib": 1550.92578125,
+      "torch_peak_reserved_mib": 1644.0,
+      "quality_passed": false
+    }
+  }
+}

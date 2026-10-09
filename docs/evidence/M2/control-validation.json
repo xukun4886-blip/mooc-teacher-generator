@@ -1,0 +1,95 @@
+{
+  "engineering_only": true,
+  "project_id": "421bffc0-8111-4550-b13e-c08a983b036e",
+  "source_project_id": "57866fdf-6350-400b-9911-8c9bd9cc407f",
+  "video_selection": {
+    "range": {
+      "start": 2,
+      "end": 7
+    },
+    "actual_duration_seconds": 5.0,
+    "sha256": "52979447adc7be43c9b868c38ee0d056cf38e34ef54a812aa23e382dbd2f5f2e",
+    "original_retained": true
+  },
+  "audition": {
+    "path": "auditions/9123d7dc-56b4-4025-8a46-b17eaedf23ca.wav",
+    "sha256": "8c998ef4449b4be329a87980b5312badb45e49c73351831897eda73f9a45bbf4",
+    "duration_seconds": 4.88,
+    "sample_rate": "32000",
+    "request_id": "31801fdd-0a11-40cd-bfcf-68b45953d324",
+    "provider": "GPT-SoVITS",
+    "input_key": "d553a42c0347c4fb338031f5a51338e72499936826da034c3f5521f6910fc8be",
+    "version_id": "fc36a5b6-d609-4b76-8409-002c0a561198",
+    "stale": false,
+    "human_review": null,
+    "quality_verified": false,
+    "native_model": {
+      "provider": "GPT-SoVITS",
+      "actual_weight_version": "v2",
+      "loaded_primary_weights": {
+        "t2s_weights_path": {
+          "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\gsv-v2final-pretrained\\s1bert25hz-5kh-longer-epoch=12-step=369668.ckpt",
+          "sha256": "732f94e63b148066e24c7f9d2637f3374083e637635f07fbdb695dee20ddbe1f"
+        },
+        "vits_weights_path": {
+          "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\gsv-v2final-pretrained\\s2G2333k.pth",
+          "sha256": "924fdccaa3c574bf139c25c9759aa1ed3b3f99e19a7c529ee996c2bc17663695"
+        }
+      },
+      "inference_config_sha256": "3a4dfe7a0d6f01144ea1ca841e2592e0f9b8b25e9d818b677d61f8c753efd9b3",
+      "cold_load_seconds": 2.5012920000008307,
+      "tokenizer_backend": "jieba",
+      "first_inference_seconds": 6.479469300000346,
+      "warm_seconds": null,
+      "speed_factor": 1.2,
+      "speech_timeline": [
+        {
+          "text_sha256": "d278dd58619a3759741b3501b3b6212a9f75bcd28df736e4e1624946afe3f12c",
+          "start_seconds": 0.25,
+          "end_seconds": 2.09
+        },
+        {
+          "type": "pause",
+          "start_seconds": 2.09,
+          "end_seconds": 2.49
+        },
+        {
+          "text_sha256": "a2b7a9af1abd9b95d847ef5f6bd5806512b40ae26af18cf54fa91798733d05fb",
+          "start_seconds": 2.49,
+          "end_seconds": 4.53
+        },
+        {
+          "type": "pause",
+          "start_seconds": 4.53,
+          "end_seconds": 4.88
+        }
+      ]
+    },
+    "silence_ratio": 0.0
+  },
+  "controlled_audio": "D:\\XuTao_Task\\storage\\m2\\projects\\421bffc0-8111-4550-b13e-c08a983b036e\\auditions\\9123d7dc-56b4-4025-8a46-b17eaedf23ca.wav",
+  "pause_pcm_verification": [
+    {
+      "type": "pause",
+      "start_seconds": 0,
+      "end_seconds": 0.25,
+      "exact_zero_pcm_frames": 8000
+    },
+    {
+      "type": "pause",
+      "start_seconds": 2.09,
+      "end_seconds": 2.49,
+      "exact_zero_pcm_frames": 12800
+    },
+    {
+      "type": "pause",
+      "start_seconds": 4.53,
+      "end_seconds": 4.88,
+      "exact_zero_pcm_frames": 11200
+    }
+  ],
+  "native_speed_factor": 1.2,
+  "control_markers_not_spoken": "directive removed from every native speech segment; intervals inserted as exact zero samples",
+  "human_review": "pending",
+  "passed_engineering_checks": true
+}

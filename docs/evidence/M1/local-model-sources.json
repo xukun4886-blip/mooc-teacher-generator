@@ -1,0 +1,30 @@
+{
+  "schema_version": "m1.source-preparation.v1",
+  "scope": "source-only",
+  "repositories": [
+    {
+      "repository": "RVC-Boss/GPT-SoVITS",
+      "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS",
+      "actual_code_revision": "48b1a0169a28582a8984402f82cf438d3bfa6aca",
+      "installed_model_environment": false,
+      "weights_downloaded": false,
+      "generation_called": false
+    },
+    {
+      "repository": "OpenTalker/SadTalker",
+      "path": "D:\\XuTao_Task\\.tools\\models\\SadTalker",
+      "actual_code_revision": "cd4c0465ae0b54a6f85af57f5c65fec9fe23e7f8",
+      "installed_model_environment": false,
+      "weights_downloaded": false,
+      "generation_called": false
+    },
+    {
+      "repository": "TMElyralab/MuseTalk",
+      "path": "D:\\XuTao_Task\\.tools\\models\\MuseTalk",
+      "actual_code_revision": "0a89dec45a0192b824e3cf4daf96c239440c5ed8",
+      "installed_model_environment": false,
+      "weights_downloaded": false,
+      "generation_called": false
+    }
+  ]
+}

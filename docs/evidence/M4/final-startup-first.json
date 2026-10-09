@@ -1,0 +1,14 @@
+{
+  "started_at": "2026-10-08T17:29:54.661217+00:00",
+  "active_jobs_before": 0,
+  "previous_process": {
+    "command_line": "D:\\dev\\python\\python3.10.4\\python.exe -m mooc_m2 --port 8765",
+    "pid": 26928
+  },
+  "method": "documented PowerShell m2_start.ps1 -NoBrowser; hidden independent long-lived process",
+  "teacher_confirmation_submitted": false,
+  "state": "failed",
+  "code": "STARTUP_TIMEOUT",
+  "launcher_pid": 31640,
+  "finished_at": "2026-10-08T17:30:55.774513+00:00"
+}

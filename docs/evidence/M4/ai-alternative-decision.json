@@ -1,0 +1,57 @@
+{
+  "checked_at": "2026-10-08T17:24:08.349951+00:00",
+  "candidate": "glm-4.1v-thinking-flash",
+  "official_source": "https://docs.bigmodel.cn/cn/guide/models/free/glm-4.1v-thinking-flash.md",
+  "source_saved_in_controlled_storage": "D:\\XuTao_Task\\storage\\m4-review\\provider-docs\\glm-4.1v-thinking-flash.md",
+  "source_sha256": "d8b368f298eb4e0d993e24cf9608ba1a8ce9f7ce22f2270a24aa4c2dc3b98625",
+  "price_class": "free according to official current model-overview",
+  "http_minimal_reachable": true,
+  "course_schema_compatible": {
+    "photo": "Two complete new-upload AI drafts validated; first incomplete reading body rejected, generation 2 completed; one page recovered pairs only from complete equal sentence boundaries",
+    "video": "Two actual new-upload AI drafts validated and native original video sequence media completed, generation 1"
+  },
+  "configuration_changed": true,
+  "teacher_quality_verified": false,
+  "paid_allowed": false,
+  "format_checked_at": "2026-10-08T17:24:51.785367+00:00",
+  "format_http_status": 200,
+  "provider_error_code": null,
+  "format_finish_reason": "stop",
+  "format_response_path": "D:\\XuTao_Task\\storage\\m4-review\\provider-docs\\alternative-format-response.json",
+  "format_response_sha256": "f309c56ea9be3a01acb4c52283dee68e44c3ba8bbceda7e9b5206ecec3504154",
+  "request_options": {
+    "thinking": {
+      "type": "disabled"
+    },
+    "max_tokens": 4000,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "basic_json_options_compatible": true,
+  "usage": {
+    "completion_tokens": 229,
+    "prompt_tokens": 87,
+    "total_tokens": 316
+  },
+  "literal_probe_text_exact": false,
+  "format_note": "Valid JSON probe; punctuation exact check remains false. Subsequent full two-page course schema and actual media/browser checks completed for both modes; human quality remains unverified.",
+  "configuration_changed_at": "2026-10-08T17:29:50.317720+00:00",
+  "previous_model": "glm-4.6v-flash",
+  "config_before_sha256": "bfa5b6c3506969fed3933f2c9be48cff7143ba412af26c7f603a63d9df541766",
+  "config_after_sha256": "50b0d9eee0aac24514e948fda19e749984036929ded4e0cf10fc0bfae8aad3f2",
+  "backup_path": "D:\\XuTao_Task\\storage\\m4-review\\m2-before-free-vision.json",
+  "automatic_fallback": false,
+  "reason": "Existing free GLM-4.6V repeatedly returned 429/1305; same-provider officially free vision candidate reachable and JSON options verified. Independent new-upload verification follows; prior failures retained.",
+  "full_chain_completed": true,
+  "course_schema_initial_observations": {
+    "video": "Two actual new-upload page drafts validated and passed to native media",
+    "photo": "First page validated; second page rejected with AI_FORMAT_INVALID because reading body is incomplete and provided sentence pairs do not cover it; first response retained, generation 2 bounded retry queued"
+  },
+  "functional_chain_checked_at": "2026-10-08T18:05:22.602337+00:00",
+  "functional_chain_scope": "Both two-page new-upload chains; not formal ten-page/three-minute acceptance or human quality",
+  "functional_chain_projects": {
+    "photo": "c156d76b-7daa-497d-a601-64c8513b937b",
+    "video": "0091c9cc-f11c-43d0-adcc-82263d176f3f"
+  }
+}

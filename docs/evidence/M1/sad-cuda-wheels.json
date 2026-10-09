@@ -1,0 +1,25 @@
+{
+  "wheels": [
+    {
+      "path": "C:\\Users\\\u53ca\u65f6\u884c\u4e50\\.cache\\mooc-m1-wheels\\downloaded\\torch-1.12.1+cu113-cp310-cp310-win_amd64.whl",
+      "source": "https://download-r2.pytorch.org/whl/cu113/torch-1.12.1%2Bcu113-cp310-cp310-win_amd64.whl",
+      "index": "https://download.pytorch.org/whl/cu113/torch/",
+      "sha256": "8b83783f6537b48b75b6ba5d62d7acfd94546689223bb0d3a7d39886148b8d17",
+      "bytes": 2143763326
+    },
+    {
+      "path": "C:\\Users\\\u53ca\u65f6\u884c\u4e50\\.cache\\mooc-m1-wheels\\downloaded\\torchvision-0.13.1+cu113-cp310-cp310-win_amd64.whl",
+      "source": "https://download-r2.pytorch.org/whl/cu113/torchvision-0.13.1%2Bcu113-cp310-cp310-win_amd64.whl",
+      "index": "https://download.pytorch.org/whl/cu113/torchvision/",
+      "sha256": "ee7882e31ef973e2cf067d88ddef0a8f5b369c2dd9195236b90b479de0507c15",
+      "bytes": 4738164
+    },
+    {
+      "path": "C:\\Users\\\u53ca\u65f6\u884c\u4e50\\.cache\\mooc-m1-wheels\\downloaded\\torchaudio-0.12.1+cu113-cp310-cp310-win_amd64.whl",
+      "source": "https://download-r2.pytorch.org/whl/cu113/torchaudio-0.12.1%2Bcu113-cp310-cp310-win_amd64.whl",
+      "index": "https://download.pytorch.org/whl/cu113/torchaudio/",
+      "sha256": "6bac9b01959f9fb2d9464039ec4cea5a22b481528f3619e333b9c4d379149781",
+      "bytes": 1201994
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "source_tts_request": "0a9f651f-238d-4fea-bb13-c34a2d24fa2c",
+  "source_interval_seconds": [
+    10,
+    40
+  ],
+  "audio": {
+    "path": "D:\\XuTao_Task\\storage\\m1\\driver-b-30s.wav",
+    "sha256": "aa428b8af9a374c7a203b9e09bf5f7fb7978cf908f3968884d78d1aee91933e1",
+    "size_bytes": 1920078,
+    "duration_seconds": 30.0,
+    "format": "wav",
+    "codec": "pcm_s16le",
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "pcm_s16le",
+        "codec_long_name": "PCM signed 16-bit little-endian",
+        "codec_type": "audio",
+        "codec_tag_string": "[1][0][0][0]",
+        "codec_tag": "0x0001",
+        "sample_fmt": "s16",
+        "sample_rate": "32000",
+        "channels": 1,
+        "bits_per_sample": 16,
+        "initial_padding": 0,
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/32000",
+        "duration_ts": 960000,
+        "duration": "30.000000",
+        "bit_rate": "512000",
+        "disposition": {
+          "default": 0,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        }
+      }
+    ],
+    "sample_rate": "32000",
+    "width": null,
+    "height": null,
+    "silence_seconds": 0,
+    "silence_ratio": 0.0,
+    "max_volume_db": -0.3,
+    "silence_policy": {
+      "noise_db": -45,
+      "min_seconds": 1,
+      "max_ratio": 0.95
+    }
+  },
+  "script_authorization": "user confirmed the full script; this is a continuous excerpt, not new text",
+  "same_voice": true,
+  "quality_verified": false
+}

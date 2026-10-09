@@ -1,0 +1,40 @@
+{
+  "at": "2026-10-09T04:16:09.580457+00:00",
+  "scope": "known reading quality issues, not exhaustive teacher assessment or required pre-generation review",
+  "rows": [
+    {
+      "page": 4,
+      "scene_id": "36bf7744-77f6-46f1-9965-fe011afb9ca5",
+      "version_id": "da92454c-e143-499c-8a54-29394eea413f",
+      "note": "旧保存稿的数字读法有偏差，按用户指令原历史保持",
+      "teacher_confirmed": false,
+      "pedagogical_quality_passed": false
+    },
+    {
+      "page": 11,
+      "scene_id": "d02c3e35-c42f-4541-b4d7-0955788242e9",
+      "version_id": "6f2acb0a-247a-48b8-b046-fa3ca4d5bfc2",
+      "note": "200–2000读法二零零至二零零；降低读为低下；结构有效不能代表语义正确",
+      "teacher_confirmed": false,
+      "pedagogical_quality_passed": false
+    },
+    {
+      "page": 24,
+      "scene_id": "3caada09-b0b2-4942-a374-e17f0cd92964",
+      "version_id": "23f637e3-c925-4607-a9c1-5b9c1e061113",
+      "note": "短页感谢读为gan xie，v4严格拒绝，真实补修另记录",
+      "teacher_confirmed": false,
+      "pedagogical_quality_passed": false
+    }
+  ],
+  "teacher_confirmation_count": 0,
+  "latest_updates": {
+    "at": "2026-10-09T06:54:52.255002+00:00",
+    "original_rows_retained": true,
+    "page24_current_version": "cfc97915-f742-4d9c-817b-cb1055b619f6",
+    "page24_pinyin_body_replaced_from_strict_saved_response": true,
+    "page4_and_page11_reading_issues_still_pending": true,
+    "teacher_confirmation_count": 0,
+    "human_quality_passed": false
+  }
+}

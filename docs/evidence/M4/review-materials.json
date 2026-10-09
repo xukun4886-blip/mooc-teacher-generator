@@ -1,0 +1,44 @@
+{
+  "at": "2026-10-08T16:11:24.237816+00:00",
+  "teacher_review_pack": {
+    "path": "D:\\XuTao_Task\\storage\\m4-review\\teacher-review-pack.json",
+    "sha256": "e20770419624eaac6dcf58a0eea1f25d23f807fd3b68069416d52ab253ea203a",
+    "questions": 6,
+    "status": "pending_teacher_review"
+  },
+  "three_script_sources": {
+    "path": "D:\\XuTao_Task\\storage\\m4-review\\three-script-sources.json",
+    "sha256": "58d5191cee1e845079039fb833a2ea4a22df59b5f0d2c8fe675024d4b4664dad",
+    "sources": [
+      "actual AI version",
+      "original notes unchanged",
+      "actual external imported ten pages"
+    ],
+    "formal_confirmed": false
+  },
+  "media_review_forms": {
+    "photo": {
+      "path": "D:\\XuTao_Task\\storage\\m4-review\\photo-00621df3-be2a-4f55-a733-0a755059fc89-human-review.json",
+      "sha256": "ed40c387199e2b15637309994a9ad9b7bb792ac13aba1a78efedf17d638a5c15",
+      "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+      "status": "pending_human_review",
+      "subtitle_samples": 20,
+      "lipsync_candidates": 20,
+      "ten_second_samples": 5,
+      "counts_as_formal_acceptance": false,
+      "existing_form_preserved": true
+    },
+    "video": {
+      "path": "D:\\XuTao_Task\\storage\\m4-review\\video-a9af3ded-7d4f-4dad-8501-1967388be917-human-review.json",
+      "sha256": "c387fb60d9ecae19c2d9995a4ac7d9aaa1bd390c8b298eed7b2fcd00a45a4378",
+      "job_id": "a9af3ded-7d4f-4dad-8501-1967388be917",
+      "status": "pending_human_review",
+      "subtitle_samples": 20,
+      "lipsync_candidates": 20,
+      "ten_second_samples": 5,
+      "counts_as_formal_acceptance": false,
+      "existing_form_preserved": true
+    }
+  },
+  "updated_at": "2026-10-08T17:34:08.658519+00:00"
+}

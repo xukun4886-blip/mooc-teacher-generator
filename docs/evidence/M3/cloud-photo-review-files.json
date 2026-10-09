@@ -1,0 +1,30 @@
+[
+  {
+    "run": "30s-warm-b2",
+    "path": "D:\\XuTao_Task\\storage\\cloud-samples\\deliverables\\30s-warm-b2.mp4",
+    "source_path": "D:\\XuTao_Task\\storage\\cloud-samples\\requests\\42757a38ef3dd6c698ce12224abb913f84633351fbc06fc631670ad96f293cff\\portrait.mp4",
+    "sha256": "1fc61b9d2671b1e9eb1e85c65e8e97caf52e470d0f2ecac9099203b4b50c237c",
+    "inputs": {
+      "photo_sha256": "ce1d8e92e640c5b32bfd5c160f71738fa9c8c16b0418737c5c5b3b849bc4e92a",
+      "audio_sha256": "25795c9a9dd2e52aadbd3514162d5e49ba566f22b410dd3dad6aeb582e632c91",
+      "model_key": "163159a0a1368f3797850abe2218fee960c40a591bcdc6af90f0dba99d4eacc4",
+      "batch_size": 2
+    },
+    "quality_verified": false,
+    "scope": "Exact byte copy of native sample for review, no re-encoding; original output retained."
+  },
+  {
+    "run": "82s-warm-b2",
+    "path": "D:\\XuTao_Task\\storage\\cloud-samples\\deliverables\\82s-warm-b2.mp4",
+    "source_path": "D:\\XuTao_Task\\storage\\cloud-samples\\requests\\af90b0b7c0c999bd529565c29a6226e6dbd3f18805376c0e27b73ab667354849\\portrait.mp4",
+    "sha256": "c4ac8e17c73f2a4e3f305d93762837a2bc42d08563e6172268c589ed5d93fd7e",
+    "inputs": {
+      "photo_sha256": "ce1d8e92e640c5b32bfd5c160f71738fa9c8c16b0418737c5c5b3b849bc4e92a",
+      "audio_sha256": "8fe5f51ef44b40108845de91e471f644dc24645ff37cabd96843c5c2ab5a7c3f",
+      "model_key": "163159a0a1368f3797850abe2218fee960c40a591bcdc6af90f0dba99d4eacc4",
+      "batch_size": 2
+    },
+    "quality_verified": false,
+    "scope": "Exact byte copy of native sample for review, no re-encoding; original output retained."
+  }
+]

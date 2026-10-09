@@ -1,0 +1,445 @@
+{
+  "schema": "mooc.cloud-photo-benchmark.v1",
+  "date": "2026-10-09",
+  "authorized_destination": "Designated existing GPU server via private SSH tunnel",
+  "server_model_key": "163159a0a1368f3797850abe2218fee960c40a591bcdc6af90f0dba99d4eacc4",
+  "runs": [
+    {
+      "run": "30s-cold-b1",
+      "evidence": "docs\\evidence\\M3\\cloud-sample-30s-cold-b1.json",
+      "evidence_sha256": "b80893a497bdc7aa65349308f06fd88c331f28bf9a3a5cff386a835930aadc02",
+      "fresh_generation": true,
+      "cloud_result_cache_hit": false,
+      "remote_id": "9988414503d2d055fae9c00fe172900d1d98496f29f1599a45d53650947d6cba",
+      "inputs": {
+        "photo_sha256": "ce1d8e92e640c5b32bfd5c160f71738fa9c8c16b0418737c5c5b3b849bc4e92a",
+        "audio_sha256": "25795c9a9dd2e52aadbd3514162d5e49ba566f22b410dd3dad6aeb582e632c91",
+        "model_key": "163159a0a1368f3797850abe2218fee960c40a591bcdc6af90f0dba99d4eacc4",
+        "batch_size": 1
+      },
+      "output": {
+        "path": "D:\\XuTao_Task\\storage\\cloud-samples\\requests\\67fee70cfcd75beae432cda53d2c614a57d1eef6365947201fbe8a106fc1e07b\\portrait.mp4",
+        "sha256": "26178c3d5b8f03bf9df3ce3e5a5fa96cee236528778cb90ca42a939b43a57f12",
+        "size_bytes": 2873700,
+        "duration_seconds": 30.0,
+        "width": 670,
+        "height": 670,
+        "fps": 25.0
+      },
+      "adapter_elapsed_seconds": 100.86338619999879,
+      "worker_wall_seconds": 97.08562795352191,
+      "model_load_seconds": 9.750945878215134,
+      "model_warm": false,
+      "photo_preprocess_cache_hit": false,
+      "photo_preprocess_seconds": 0.6772347576916218,
+      "audio_preprocess_seconds": 0.7211291110143065,
+      "audio_to_coeff_seconds": 0.2990003153681755,
+      "render_data_seconds": 0.057192808017134666,
+      "renderer_breakdown": {
+        "face_renderer_with_cpu_offload_seconds": 58.355144024826586,
+        "small_video_encoding_seconds": 1.336311954073608,
+        "ffmpeg_audio_mux_seconds": 0.4303035205230117,
+        "seamless_clone_seconds": 19.857447089627385,
+        "full_photo_decode_clone_encode_mux_seconds": 22.538003416731954
+      },
+      "resources": {
+        "peak_allocated_mib": 1716.31103515625,
+        "peak_reserved_mib": 1962.0,
+        "device": "NVIDIA GeForce RTX 4080 SUPER",
+        "device_total_mib": 32230.8125
+      },
+      "transfer_timings": {
+        "upload_seconds": 0.9877890999923693,
+        "remote_wait_seconds": 98.12454039999284,
+        "download_seconds": 0.5003311000036774
+      },
+      "quality_verified": false
+    },
+    {
+      "run": "30s-warm-b1",
+      "evidence": "docs\\evidence\\M3\\cloud-sample-30s-warm-b1.json",
+      "evidence_sha256": "12185bfa323d9554894ac1cc9678207dfe64b850af896469532bf6bfd8271bb5",
+      "fresh_generation": true,
+      "cloud_result_cache_hit": false,
+      "remote_id": "dcee44fc41455adc8cd831b548e88a4eda124ff7830ef6d9d068602c09988fb2",
+      "inputs": {
+        "photo_sha256": "ce1d8e92e640c5b32bfd5c160f71738fa9c8c16b0418737c5c5b3b849bc4e92a",
+        "audio_sha256": "25795c9a9dd2e52aadbd3514162d5e49ba566f22b410dd3dad6aeb582e632c91",
+        "model_key": "163159a0a1368f3797850abe2218fee960c40a591bcdc6af90f0dba99d4eacc4",
+        "batch_size": 1
+      },
+      "output": {
+        "path": "D:\\XuTao_Task\\storage\\cloud-samples\\requests\\25da7c28f2f37a0d7912760ef01a65a404714f7179dfedfe074c744824f8c848\\portrait.mp4",
+        "sha256": "74ee0ae1f75dcc6e42b19a524c37459ca4963aacc3408ec926a1a1a6c56e6551",
+        "size_bytes": 2926713,
+        "duration_seconds": 30.0,
+        "width": 670,
+        "height": 670,
+        "fps": 25.0
+      },
+      "adapter_elapsed_seconds": 87.5552572000015,
+      "worker_wall_seconds": 85.4617528654635,
+      "model_load_seconds": 0.0,
+      "model_warm": true,
+      "photo_preprocess_cache_hit": true,
+      "photo_preprocess_seconds": 3.317836672067642e-05,
+      "audio_preprocess_seconds": 0.6346893487498164,
+      "audio_to_coeff_seconds": 0.2982514379546046,
+      "render_data_seconds": 0.101598403416574,
+      "renderer_breakdown": {
+        "face_renderer_with_cpu_offload_seconds": 58.79253984056413,
+        "small_video_encoding_seconds": 1.264613263309002,
+        "ffmpeg_audio_mux_seconds": 0.4276894722133875,
+        "seamless_clone_seconds": 18.89594865217805,
+        "full_photo_decode_clone_encode_mux_seconds": 21.05534223932773
+      },
+      "resources": {
+        "peak_allocated_mib": 1714.671875,
+        "peak_reserved_mib": 1962.0,
+        "device": "NVIDIA GeForce RTX 4080 SUPER",
+        "device_total_mib": 32230.8125
+      },
+      "transfer_timings": {
+        "upload_seconds": 0.17653150000842288,
+        "remote_wait_seconds": 85.6157269999967,
+        "download_seconds": 0.47942129999864846
+      },
+      "quality_verified": false
+    },
+    {
+      "run": "82s-cold-b1",
+      "evidence": "docs\\evidence\\M3\\cloud-sample-82s-cold-b1.json",
+      "evidence_sha256": "ecaeaeee37e4e1ae5a63e0432e85ef7887ecc2906d3aa45f45edac7b00533f46",
+      "fresh_generation": true,
+      "cloud_result_cache_hit": false,
+      "remote_id": "aa4b301c41f40b07f6c2bc8ba698e16f20f5ac904d176df949854d5b9f8c457d",
+      "inputs": {
+        "photo_sha256": "ce1d8e92e640c5b32bfd5c160f71738fa9c8c16b0418737c5c5b3b849bc4e92a",
+        "audio_sha256": "8fe5f51ef44b40108845de91e471f644dc24645ff37cabd96843c5c2ab5a7c3f",
+        "model_key": "163159a0a1368f3797850abe2218fee960c40a591bcdc6af90f0dba99d4eacc4",
+        "batch_size": 1
+      },
+      "output": {
+        "path": "D:\\XuTao_Task\\storage\\cloud-samples\\requests\\6c4a88101a13c32c73c9519269fcfe386a28d213adbb3e581c2aa712f4227e13\\portrait.mp4",
+        "sha256": "93608757d8e9bd2f59a0dfa30a943538fbdb2e7134eb26f768162956e8325a48",
+        "size_bytes": 7973219,
+        "duration_seconds": 82.0,
+        "width": 670,
+        "height": 670,
+        "fps": 25.0
+      },
+      "adapter_elapsed_seconds": 238.59189799999876,
+      "worker_wall_seconds": 234.48040814511478,
+      "model_load_seconds": 9.75846366211772,
+      "model_warm": false,
+      "photo_preprocess_cache_hit": true,
+      "photo_preprocess_seconds": 1.0575167834758759e-05,
+      "audio_preprocess_seconds": 1.1327665885910392,
+      "audio_to_coeff_seconds": 1.184421225450933,
+      "render_data_seconds": 0.23957153130322695,
+      "renderer_breakdown": {
+        "face_renderer_with_cpu_offload_seconds": 154.92969092726707,
+        "small_video_encoding_seconds": 3.307448621839285,
+        "ffmpeg_audio_mux_seconds": 0.7752232532948256,
+        "seamless_clone_seconds": 50.40927757974714,
+        "full_photo_decode_clone_encode_mux_seconds": 56.3811738146469
+      },
+      "resources": {
+        "peak_allocated_mib": 1723.08447265625,
+        "peak_reserved_mib": 1938.0,
+        "device": "NVIDIA GeForce RTX 4080 SUPER",
+        "device_total_mib": 32230.8125
+      },
+      "transfer_timings": {
+        "upload_seconds": 0.7804486999957589,
+        "remote_wait_seconds": 235.72079140000278,
+        "download_seconds": 0.6539781000028597
+      },
+      "quality_verified": false
+    },
+    {
+      "run": "82s-warm-b1",
+      "evidence": "docs\\evidence\\M3\\cloud-sample-82s-warm-b1.json",
+      "evidence_sha256": "017909e979a4d191f0dd5fa43ce308b9bd9bf5d3a294b29a81ce757f4bae6206",
+      "fresh_generation": true,
+      "cloud_result_cache_hit": false,
+      "remote_id": "f1302804434732e2d8cb622d030498c34edb7b03ed6022d424f85ed480b13b5e",
+      "inputs": {
+        "photo_sha256": "ce1d8e92e640c5b32bfd5c160f71738fa9c8c16b0418737c5c5b3b849bc4e92a",
+        "audio_sha256": "8fe5f51ef44b40108845de91e471f644dc24645ff37cabd96843c5c2ab5a7c3f",
+        "model_key": "163159a0a1368f3797850abe2218fee960c40a591bcdc6af90f0dba99d4eacc4",
+        "batch_size": 1
+      },
+      "output": {
+        "path": "D:\\XuTao_Task\\storage\\cloud-samples\\requests\\b62d0401ff39dabc5033072ef3b3e83f39a7aba42b7c5c66fdc609f8640d3e52\\portrait.mp4",
+        "sha256": "d7b455a31c145a74755eda02601009113469361cb2f5b5b2f37e52b450312a80",
+        "size_bytes": 7941105,
+        "duration_seconds": 82.0,
+        "width": 670,
+        "height": 670,
+        "fps": 25.0
+      },
+      "adapter_elapsed_seconds": 221.49280510000244,
+      "worker_wall_seconds": 217.3015302568674,
+      "model_load_seconds": 0.0,
+      "model_warm": true,
+      "photo_preprocess_cache_hit": true,
+      "photo_preprocess_seconds": 4.8629939556121826e-05,
+      "audio_preprocess_seconds": 0.9686863394454122,
+      "audio_to_coeff_seconds": 0.7928197858855128,
+      "render_data_seconds": 0.24786884430795908,
+      "renderer_breakdown": {
+        "face_renderer_with_cpu_offload_seconds": 152.82677876856178,
+        "small_video_encoding_seconds": 3.427226897329092,
+        "ffmpeg_audio_mux_seconds": 0.7841488225385547,
+        "seamless_clone_seconds": 45.6934081139043,
+        "full_photo_decode_clone_encode_mux_seconds": 51.310713664628565
+      },
+      "resources": {
+        "peak_allocated_mib": 1723.45947265625,
+        "peak_reserved_mib": 1938.0,
+        "device": "NVIDIA GeForce RTX 4080 SUPER",
+        "device_total_mib": 32230.8125
+      },
+      "transfer_timings": {
+        "upload_seconds": 0.18878440000116825,
+        "remote_wait_seconds": 219.06968320001033,
+        "download_seconds": 0.6375934000097914
+      },
+      "quality_verified": false
+    },
+    {
+      "run": "30s-warm-b2",
+      "evidence": "docs\\evidence\\M3\\cloud-sample-30s-warm-b2.json",
+      "evidence_sha256": "e35a756797c5b7ea2cb0076ad3d95e07b963b3cefdcc850f86ea9e5cf5dff839",
+      "fresh_generation": true,
+      "cloud_result_cache_hit": false,
+      "remote_id": "7b7f9f058d07cde422bb9ab835bf2c217ffa83e5465ad0533f6699c082090af1",
+      "inputs": {
+        "photo_sha256": "ce1d8e92e640c5b32bfd5c160f71738fa9c8c16b0418737c5c5b3b849bc4e92a",
+        "audio_sha256": "25795c9a9dd2e52aadbd3514162d5e49ba566f22b410dd3dad6aeb582e632c91",
+        "model_key": "163159a0a1368f3797850abe2218fee960c40a591bcdc6af90f0dba99d4eacc4",
+        "batch_size": 2
+      },
+      "output": {
+        "path": "D:\\XuTao_Task\\storage\\cloud-samples\\requests\\42757a38ef3dd6c698ce12224abb913f84633351fbc06fc631670ad96f293cff\\portrait.mp4",
+        "sha256": "1fc61b9d2671b1e9eb1e85c65e8e97caf52e470d0f2ecac9099203b4b50c237c",
+        "size_bytes": 2927798,
+        "duration_seconds": 30.0,
+        "width": 670,
+        "height": 670,
+        "fps": 25.0
+      },
+      "adapter_elapsed_seconds": 64.14618409999821,
+      "worker_wall_seconds": 61.427185682579875,
+      "model_load_seconds": 0.0,
+      "model_warm": true,
+      "photo_preprocess_cache_hit": true,
+      "photo_preprocess_seconds": 4.4590793550014496e-05,
+      "audio_preprocess_seconds": 0.608737152069807,
+      "audio_to_coeff_seconds": 0.388440796174109,
+      "render_data_seconds": 0.10521302558481693,
+      "renderer_breakdown": {
+        "face_renderer_with_cpu_offload_seconds": 36.390286137349904,
+        "small_video_encoding_seconds": 1.4571470115333796,
+        "ffmpeg_audio_mux_seconds": 0.43977001402527094,
+        "seamless_clone_seconds": 16.528450780548155,
+        "full_photo_decode_clone_encode_mux_seconds": 19.02915792260319
+      },
+      "resources": {
+        "peak_allocated_mib": 2230.3515625,
+        "peak_reserved_mib": 2646.0,
+        "device": "NVIDIA GeForce RTX 4080 SUPER",
+        "device_total_mib": 32230.8125
+      },
+      "transfer_timings": {
+        "upload_seconds": 0.173806799997692,
+        "remote_wait_seconds": 62.25822970000445,
+        "download_seconds": 0.466406100007589
+      },
+      "quality_verified": false
+    },
+    {
+      "run": "30s-warm-b4",
+      "evidence": "docs\\evidence\\M3\\cloud-sample-30s-warm-b4.json",
+      "evidence_sha256": "182a054a1d29e33075d9158e488c78822823ddbcca99d34f5ff2b8848a601a11",
+      "fresh_generation": true,
+      "cloud_result_cache_hit": false,
+      "remote_id": "0fd94ebfed62cb9b8a585a5b506b38b722d2d584b9f6f268bd2a974936246a96",
+      "inputs": {
+        "photo_sha256": "ce1d8e92e640c5b32bfd5c160f71738fa9c8c16b0418737c5c5b3b849bc4e92a",
+        "audio_sha256": "25795c9a9dd2e52aadbd3514162d5e49ba566f22b410dd3dad6aeb582e632c91",
+        "model_key": "163159a0a1368f3797850abe2218fee960c40a591bcdc6af90f0dba99d4eacc4",
+        "batch_size": 4
+      },
+      "output": {
+        "path": "D:\\XuTao_Task\\storage\\cloud-samples\\requests\\9a12761bc3710f5bc67d66d4ab603024db3d2fbd97fa05d4e7259a602fb6616e\\portrait.mp4",
+        "sha256": "9466cc102d7454e75ceb2949f592d3efca8e1eac11a52b48ca018ff1dcad9467",
+        "size_bytes": 2915748,
+        "duration_seconds": 30.0,
+        "width": 670,
+        "height": 670,
+        "fps": 25.0
+      },
+      "adapter_elapsed_seconds": 68.33953260000271,
+      "worker_wall_seconds": 65.88932521361858,
+      "model_load_seconds": 0.0,
+      "model_warm": true,
+      "photo_preprocess_cache_hit": true,
+      "photo_preprocess_seconds": 4.5291148126125336e-05,
+      "audio_preprocess_seconds": 0.46456865034997463,
+      "audio_to_coeff_seconds": 0.30123375449329615,
+      "render_data_seconds": 0.10514991916716099,
+      "renderer_breakdown": {
+        "face_renderer_with_cpu_offload_seconds": 38.49506194982678,
+        "small_video_encoding_seconds": 1.3656747434288263,
+        "ffmpeg_audio_mux_seconds": 0.37340153101831675,
+        "seamless_clone_seconds": 19.091696768067777,
+        "full_photo_decode_clone_encode_mux_seconds": 21.792180510237813
+      },
+      "resources": {
+        "peak_allocated_mib": 3263.29541015625,
+        "peak_reserved_mib": 4804.0,
+        "device": "NVIDIA GeForce RTX 4080 SUPER",
+        "device_total_mib": 32230.8125
+      },
+      "transfer_timings": {
+        "upload_seconds": 0.174540000007255,
+        "remote_wait_seconds": 66.43613360000018,
+        "download_seconds": 0.4655389999970794
+      },
+      "quality_verified": false
+    },
+    {
+      "run": "82s-warm-b2",
+      "evidence": "docs\\evidence\\M3\\cloud-sample-82s-warm-b2.json",
+      "evidence_sha256": "1daeb246bb8edcaac2543425ba09b4b838eed475e64ff9382c1225ac350b0c9f",
+      "fresh_generation": true,
+      "cloud_result_cache_hit": false,
+      "remote_id": "11291a3aa951d0f29e9d7a6f7cf1a9ba4cda6fffda22232df6f317e98490e91e",
+      "inputs": {
+        "photo_sha256": "ce1d8e92e640c5b32bfd5c160f71738fa9c8c16b0418737c5c5b3b849bc4e92a",
+        "audio_sha256": "8fe5f51ef44b40108845de91e471f644dc24645ff37cabd96843c5c2ab5a7c3f",
+        "model_key": "163159a0a1368f3797850abe2218fee960c40a591bcdc6af90f0dba99d4eacc4",
+        "batch_size": 2
+      },
+      "output": {
+        "path": "D:\\XuTao_Task\\storage\\cloud-samples\\requests\\af90b0b7c0c999bd529565c29a6226e6dbd3f18805376c0e27b73ab667354849\\portrait.mp4",
+        "sha256": "c4ac8e17c73f2a4e3f305d93762837a2bc42d08563e6172268c589ed5d93fd7e",
+        "size_bytes": 8040530,
+        "duration_seconds": 82.0,
+        "width": 670,
+        "height": 670,
+        "fps": 25.0
+      },
+      "adapter_elapsed_seconds": 170.59527239999443,
+      "worker_wall_seconds": 166.89675803203136,
+      "model_load_seconds": 0.0,
+      "model_warm": true,
+      "photo_preprocess_cache_hit": true,
+      "photo_preprocess_seconds": 4.884600639343262e-05,
+      "audio_preprocess_seconds": 0.9716631937772036,
+      "audio_to_coeff_seconds": 0.7830947879701853,
+      "render_data_seconds": 0.24952256679534912,
+      "renderer_breakdown": {
+        "face_renderer_with_cpu_offload_seconds": 101.09990851394832,
+        "small_video_encoding_seconds": 3.275191940367222,
+        "ffmpeg_audio_mux_seconds": 0.766853122971952,
+        "seamless_clone_seconds": 47.22988732717931,
+        "full_photo_decode_clone_encode_mux_seconds": 53.18091554753482
+      },
+      "resources": {
+        "peak_allocated_mib": 2240.0009765625,
+        "peak_reserved_mib": 4804.0,
+        "device": "NVIDIA GeForce RTX 4080 SUPER",
+        "device_total_mib": 32230.8125
+      },
+      "transfer_timings": {
+        "upload_seconds": 0.18682219999027438,
+        "remote_wait_seconds": 168.1358137000061,
+        "download_seconds": 0.8553876999940258
+      },
+      "quality_verified": false
+    },
+    {
+      "run": "82s-warm-b4",
+      "evidence": "docs\\evidence\\M3\\cloud-sample-82s-warm-b4.json",
+      "evidence_sha256": "987f3efca8c106af4b87b8ebc7ba50ad0863661177715067f70501519d00677a",
+      "fresh_generation": true,
+      "cloud_result_cache_hit": false,
+      "remote_id": "d846b6b1e4c5b4d1084f2c370cc45dabbfabd368518c0e4caa9aa344761ed165",
+      "inputs": {
+        "photo_sha256": "ce1d8e92e640c5b32bfd5c160f71738fa9c8c16b0418737c5c5b3b849bc4e92a",
+        "audio_sha256": "8fe5f51ef44b40108845de91e471f644dc24645ff37cabd96843c5c2ab5a7c3f",
+        "model_key": "163159a0a1368f3797850abe2218fee960c40a591bcdc6af90f0dba99d4eacc4",
+        "batch_size": 4
+      },
+      "output": {
+        "path": "D:\\XuTao_Task\\storage\\cloud-samples\\requests\\36362bff889fef44274596fc498941ce06488c1fe68a476217da2ce376defaa3\\portrait.mp4",
+        "sha256": "211ce5641fbadd4fb58ba4c161bb8ca478e346b36051fd81dcf8b124ef6636a4",
+        "size_bytes": 8056831,
+        "duration_seconds": 82.0,
+        "width": 670,
+        "height": 670,
+        "fps": 25.0
+      },
+      "adapter_elapsed_seconds": 172.3525060999964,
+      "worker_wall_seconds": 168.14810737315565,
+      "model_load_seconds": 0.0,
+      "model_warm": true,
+      "photo_preprocess_cache_hit": true,
+      "photo_preprocess_seconds": 4.587043076753616e-05,
+      "audio_preprocess_seconds": 0.95484668482095,
+      "audio_to_coeff_seconds": 0.7938792649656534,
+      "render_data_seconds": 0.24649761989712715,
+      "renderer_breakdown": {
+        "face_renderer_with_cpu_offload_seconds": 104.40427664387971,
+        "small_video_encoding_seconds": 3.199522408656776,
+        "ffmpeg_audio_mux_seconds": 0.7672657333314419,
+        "seamless_clone_seconds": 44.746664769016206,
+        "full_photo_decode_clone_encode_mux_seconds": 50.42897687014192
+      },
+      "resources": {
+        "peak_allocated_mib": 3273.79541015625,
+        "peak_reserved_mib": 4804.0,
+        "device": "NVIDIA GeForce RTX 4080 SUPER",
+        "device_total_mib": 32230.8125
+      },
+      "transfer_timings": {
+        "upload_seconds": 0.19177039999340195,
+        "remote_wait_seconds": 169.80319219999365,
+        "download_seconds": 0.7952683999901637
+      },
+      "quality_verified": false
+    }
+  ],
+  "distinct_fresh_jobs": 8,
+  "human_quality_passed": false,
+  "random_seed": null,
+  "trial_count_per_condition": 1,
+  "no_full_course_run": true,
+  "local_comparison_scope": "Historical Lecture9 page9 same-photo/audio request 702.50s; different torch/CUDA/OS and uncontrolled seed, no fresh local run this turn.",
+  "timing_scope": "Adapter elapsed starts after health/input validation/receipt setup. Worker wall includes model load and final checks. Renderer subphases are nested and cannot be summed twice.",
+  "memory_scope": "allocated peaks measure live tensors; warm reserved peaks include allocator cache retained from previous larger batches. Long batch2 reserved 4804MiB is not its isolated minimum requirement.",
+  "projections": [
+    {
+      "run": "82s-warm-b1",
+      "single_page_speed_ratio_vs_historical_local": 3.1716605859175706,
+      "projected_fresh_media_minutes": 58.14177225613119,
+      "estimated_not_full_course_measurement": true
+    },
+    {
+      "run": "82s-warm-b2",
+      "single_page_speed_ratio_vs_historical_local": 4.117933575280149,
+      "projected_fresh_media_minutes": 49.95734604004984,
+      "estimated_not_full_course_measurement": true
+    },
+    {
+      "run": "82s-warm-b4",
+      "single_page_speed_ratio_vs_historical_local": 4.075948855611185,
+      "projected_fresh_media_minutes": 50.23991277362503,
+      "estimated_not_full_course_measurement": true
+    }
+  ],
+  "projection_scope": "Historical mixed 24-page TTS and portrait totals plus successful-generation mixed residual; assumes sample speed ratio generalizes to all pages. Excludes PPT/ASR/AI, first deployment and host idle billing; no whole-course baseline or quality approval."
+}

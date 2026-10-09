@@ -1,0 +1,1464 @@
+{
+  "checked_at": "2026-10-09T03:42:08.692116+00:00",
+  "state": {
+    "id": "84d7c4ab-221a-4fd6-b404-1104713acf5d",
+    "project_id": "11604689-6106-451f-b40b-95089e07b5b5",
+    "state": "failed",
+    "stage": "photo_native_generation",
+    "error": {
+      "code": "RESOURCE_INSUFFICIENT",
+      "message": "Process exited with code 1",
+      "source": "photo",
+      "remedy": "查看受控原生日志；检查资源及配置后有限重试，不降级人物或声音"
+    },
+    "scripts_ready": 24,
+    "total": 24,
+    "generation": 1,
+    "media": {
+      "id": "89055bfa-566c-4e86-b4e9-969073b1a9ae",
+      "project_id": "11604689-6106-451f-b40b-95089e07b5b5",
+      "kind": "m3",
+      "state": "failed",
+      "stage": "photo_native_generation",
+      "created_at": "2026-10-09T03:24:08.614975+00:00",
+      "generation": 1,
+      "execution": "4c1cc05f-a0de-4e62-9290-c5515ac86739",
+      "cancel_requested": false,
+      "result": null,
+      "error": {
+        "code": "RESOURCE_INSUFFICIENT",
+        "message": "Process exited with code 1",
+        "source": "photo",
+        "remedy": "查看受控原生日志；检查资源及配置后有限重试，不降级人物或声音"
+      },
+      "recoveries": 0,
+      "started_at": "2026-10-09T03:24:08.652123+00:00",
+      "updated_at": "2026-10-09T03:32:10.433250+00:00",
+      "elapsed_seconds": 1048.0612843000054,
+      "finished_at": "2026-10-09T03:41:36.730566+00:00",
+      "preview": true,
+      "snapshot_id": "draft:d72109a77ed5101f71ce9a16ca009f0e786e21ac44c47b1bf8f90299175717c1",
+      "mode": "photo",
+      "output_kind": "course",
+      "scenes": [
+        {
+          "id": "b241fb64-f99f-4ff8-aa25-12ecf4d42a10",
+          "source_index": 1,
+          "state": "valid",
+          "active_stage": null,
+          "stage_states": {
+            "tts": "valid",
+            "portrait": "valid",
+            "compose": "valid"
+          },
+          "cache_hits": {
+            "tts": {
+              "hit": false,
+              "key": "5c965eff8360f4ee456f449ccbb5857167c13f52a2a81f42ccae28abf700a700",
+              "reason": "no_valid_compatible_media"
+            },
+            "portrait": {
+              "hit": false,
+              "key": "534276c37136b9e4886b54c08bbfbbf80e7feae56c91ea0cfce216a4a10fce5d",
+              "reason": "current_audio_or_person_inputs_require_generation"
+            },
+            "compose": {
+              "hit": false,
+              "key": "6a067fc47feaed6d4735e12968421308d3f2f74713a018d9f9b4ebd3972b1900",
+              "reason": "composition_inputs_changed_or_missing"
+            }
+          },
+          "error": null,
+          "preview_path": "m3/cache/compose/6a067fc47feaed6d4735e12968421308d3f2f74713a018d9f9b4ebd3972b1900/page.mp4"
+        },
+        {
+          "id": "6b17e715-e35a-41b3-85ba-1ee2b69031dc",
+          "source_index": 2,
+          "state": "valid",
+          "active_stage": null,
+          "stage_states": {
+            "tts": "valid",
+            "portrait": "valid",
+            "compose": "valid"
+          },
+          "cache_hits": {
+            "tts": {
+              "hit": false,
+              "key": "45ca22141f02a11bed2284ec92e54d79a11f58dbb140d63afa0f4d4bb8fbe5a8",
+              "reason": "no_valid_compatible_media"
+            },
+            "portrait": {
+              "hit": false,
+              "key": "d55fc9be889403e6239094d13d4cb4a7cb71aa933dc4ad01109242f3f206e12d",
+              "reason": "current_audio_or_person_inputs_require_generation"
+            },
+            "compose": {
+              "hit": false,
+              "key": "bb5c31159f9148ddb38d088ecc609635e6bdcb8131999389e8add6dcf2350f42",
+              "reason": "composition_inputs_changed_or_missing"
+            }
+          },
+          "error": null,
+          "preview_path": "m3/cache/compose/bb5c31159f9148ddb38d088ecc609635e6bdcb8131999389e8add6dcf2350f42/page.mp4"
+        },
+        {
+          "id": "b2db94c6-3a53-4845-8c19-f00f6268f34e",
+          "source_index": 3,
+          "state": "failed",
+          "active_stage": "portrait",
+          "stage_states": {
+            "tts": "valid",
+            "portrait": "failed",
+            "compose": "pending"
+          },
+          "cache_hits": {
+            "tts": {
+              "hit": false,
+              "key": "22fcba93d8ea0e91ba0462d75b33f3f3964333013ed1674dfade138300bfa00a",
+              "reason": "no_valid_compatible_media"
+            },
+            "portrait": {
+              "hit": false,
+              "key": "050326eb42fe11512bc3d4fdd95b0f7e158be345215e25e8079d759219e53eac",
+              "reason": "current_audio_or_person_inputs_require_generation"
+            }
+          },
+          "error": {
+            "code": "RESOURCE_INSUFFICIENT",
+            "message": "Process exited with code 1",
+            "source": "photo",
+            "remedy": "查看受控原生日志；检查资源及配置后有限重试，不降级人物或声音"
+          },
+          "preview_path": null
+        },
+        {
+          "id": "36bf7744-77f6-46f1-9965-fe011afb9ca5",
+          "source_index": 4,
+          "state": "pending",
+          "active_stage": null,
+          "stage_states": {
+            "tts": "pending",
+            "portrait": "pending",
+            "compose": "pending"
+          },
+          "cache_hits": {},
+          "error": null,
+          "preview_path": null
+        },
+        {
+          "id": "98eeb49f-f4d2-4c6c-bbbe-087b03fae8f8",
+          "source_index": 5,
+          "state": "pending",
+          "active_stage": null,
+          "stage_states": {
+            "tts": "pending",
+            "portrait": "pending",
+            "compose": "pending"
+          },
+          "cache_hits": {},
+          "error": null,
+          "preview_path": null
+        },
+        {
+          "id": "3b3e6fe3-5ada-4725-b271-8502cd71ccd0",
+          "source_index": 6,
+          "state": "pending",
+          "active_stage": null,
+          "stage_states": {
+            "tts": "pending",
+            "portrait": "pending",
+            "compose": "pending"
+          },
+          "cache_hits": {},
+          "error": null,
+          "preview_path": null
+        },
+        {
+          "id": "82568956-8cb3-4a34-9637-84a25f0ca2c2",
+          "source_index": 7,
+          "state": "pending",
+          "active_stage": null,
+          "stage_states": {
+            "tts": "pending",
+            "portrait": "pending",
+            "compose": "pending"
+          },
+          "cache_hits": {},
+          "error": null,
+          "preview_path": null
+        },
+        {
+          "id": "6ec6087f-4ba3-4fcb-951a-cc4c6e81b9c4",
+          "source_index": 8,
+          "state": "pending",
+          "active_stage": null,
+          "stage_states": {
+            "tts": "pending",
+            "portrait": "pending",
+            "compose": "pending"
+          },
+          "cache_hits": {},
+          "error": null,
+          "preview_path": null
+        },
+        {
+          "id": "4991bc56-31cb-4902-a546-ae61f8f2c09d",
+          "source_index": 9,
+          "state": "pending",
+          "active_stage": null,
+          "stage_states": {
+            "tts": "pending",
+            "portrait": "pending",
+            "compose": "pending"
+          },
+          "cache_hits": {},
+          "error": null,
+          "preview_path": null
+        },
+        {
+          "id": "4ea07dee-9245-4d75-ab5e-f54ef9ba38ba",
+          "source_index": 10,
+          "state": "pending",
+          "active_stage": null,
+          "stage_states": {
+            "tts": "pending",
+            "portrait": "pending",
+            "compose": "pending"
+          },
+          "cache_hits": {},
+          "error": null,
+          "preview_path": null
+        },
+        {
+          "id": "d02c3e35-c42f-4541-b4d7-0955788242e9",
+          "source_index": 11,
+          "state": "pending",
+          "active_stage": null,
+          "stage_states": {
+            "tts": "pending",
+            "portrait": "pending",
+            "compose": "pending"
+          },
+          "cache_hits": {},
+          "error": null,
+          "preview_path": null
+        },
+        {
+          "id": "b2b83170-f9ab-43e5-9c67-49b18166c5a6",
+          "source_index": 12,
+          "state": "pending",
+          "active_stage": null,
+          "stage_states": {
+            "tts": "pending",
+            "portrait": "pending",
+            "compose": "pending"
+          },
+          "cache_hits": {},
+          "error": null,
+          "preview_path": null
+        },
+        {
+          "id": "6bb6207d-b9ef-452c-b8f9-17d2a581d79f",
+          "source_index": 13,
+          "state": "pending",
+          "active_stage": null,
+          "stage_states": {
+            "tts": "pending",
+            "portrait": "pending",
+            "compose": "pending"
+          },
+          "cache_hits": {},
+          "error": null,
+          "preview_path": null
+        },
+        {
+          "id": "cae4ae72-cd06-42f9-bdf3-1e8c2dac3186",
+          "source_index": 14,
+          "state": "pending",
+          "active_stage": null,
+          "stage_states": {
+            "tts": "pending",
+            "portrait": "pending",
+            "compose": "pending"
+          },
+          "cache_hits": {},
+          "error": null,
+          "preview_path": null
+        },
+        {
+          "id": "3a057bcc-fbc9-4252-a6bb-79145dc1d430",
+          "source_index": 15,
+          "state": "pending",
+          "active_stage": null,
+          "stage_states": {
+            "tts": "pending",
+            "portrait": "pending",
+            "compose": "pending"
+          },
+          "cache_hits": {},
+          "error": null,
+          "preview_path": null
+        },
+        {
+          "id": "336ef90d-3bdb-40a3-bfe3-0aa6f917178d",
+          "source_index": 16,
+          "state": "pending",
+          "active_stage": null,
+          "stage_states": {
+            "tts": "pending",
+            "portrait": "pending",
+            "compose": "pending"
+          },
+          "cache_hits": {},
+          "error": null,
+          "preview_path": null
+        },
+        {
+          "id": "016bf11e-034a-421c-92bb-94e1843d84c5",
+          "source_index": 17,
+          "state": "pending",
+          "active_stage": null,
+          "stage_states": {
+            "tts": "pending",
+            "portrait": "pending",
+            "compose": "pending"
+          },
+          "cache_hits": {},
+          "error": null,
+          "preview_path": null
+        },
+        {
+          "id": "9dbaaece-590d-4300-acfb-ac28682e0e7a",
+          "source_index": 18,
+          "state": "pending",
+          "active_stage": null,
+          "stage_states": {
+            "tts": "pending",
+            "portrait": "pending",
+            "compose": "pending"
+          },
+          "cache_hits": {},
+          "error": null,
+          "preview_path": null
+        },
+        {
+          "id": "3df7b4c1-f4e7-40f9-840c-3db85a236047",
+          "source_index": 19,
+          "state": "pending",
+          "active_stage": null,
+          "stage_states": {
+            "tts": "pending",
+            "portrait": "pending",
+            "compose": "pending"
+          },
+          "cache_hits": {},
+          "error": null,
+          "preview_path": null
+        },
+        {
+          "id": "bbe0cc21-0061-43b5-9cb6-6bbb6bb82ac8",
+          "source_index": 20,
+          "state": "pending",
+          "active_stage": null,
+          "stage_states": {
+            "tts": "pending",
+            "portrait": "pending",
+            "compose": "pending"
+          },
+          "cache_hits": {},
+          "error": null,
+          "preview_path": null
+        },
+        {
+          "id": "038aa1b3-0f6c-4151-ac93-6dc502558d2c",
+          "source_index": 21,
+          "state": "pending",
+          "active_stage": null,
+          "stage_states": {
+            "tts": "pending",
+            "portrait": "pending",
+            "compose": "pending"
+          },
+          "cache_hits": {},
+          "error": null,
+          "preview_path": null
+        },
+        {
+          "id": "8bf96710-9762-4530-a34c-150f82ad76ae",
+          "source_index": 22,
+          "state": "pending",
+          "active_stage": null,
+          "stage_states": {
+            "tts": "pending",
+            "portrait": "pending",
+            "compose": "pending"
+          },
+          "cache_hits": {},
+          "error": null,
+          "preview_path": null
+        },
+        {
+          "id": "1e3abe2c-aced-440a-b488-4c49718feeb0",
+          "source_index": 23,
+          "state": "pending",
+          "active_stage": null,
+          "stage_states": {
+            "tts": "pending",
+            "portrait": "pending",
+            "compose": "pending"
+          },
+          "cache_hits": {},
+          "error": null,
+          "preview_path": null
+        },
+        {
+          "id": "3caada09-b0b2-4942-a374-e17f0cd92964",
+          "source_index": 24,
+          "state": "pending",
+          "active_stage": null,
+          "stage_states": {
+            "tts": "pending",
+            "portrait": "pending",
+            "compose": "pending"
+          },
+          "cache_hits": {},
+          "error": null,
+          "preview_path": null
+        }
+      ],
+      "progress": {
+        "tts": 3,
+        "portrait": 2,
+        "compose": 2,
+        "total": 24,
+        "valid": 2,
+        "failed": 1
+      }
+    },
+    "teacher_confirmation": null,
+    "is_current": true,
+    "retry_allowed": true
+  },
+  "saved_scripts": 24,
+  "old_jobs_unchanged": true,
+  "old_ten_script_histories_unchanged": true,
+  "assets_unchanged": true,
+  "teacher_confirmations": 0,
+  "ai_attempts": [
+    {
+      "at": "2026-10-09T03:19:31.935448+00:00",
+      "scene_id": "d02c3e35-c42f-4541-b4d7-0955788242e9",
+      "status": 200,
+      "attempt": 1,
+      "generation": 1,
+      "elapsed_seconds": 24.578,
+      "request_sha256": "56ade25e65dd76b603e498c46973db853a3b808d3801a2ad428afbaceb11b74d",
+      "request_options": {
+        "max_tokens": 8000
+      },
+      "prompt_text_sha256": "704abb1c011da537c2bb3016c9caa0a6070f70b2d8a38d91f1cf6f9316067e2d",
+      "provider_record": {
+        "response_id": "20261009111907222c6288b3024b5b",
+        "response_sha256": "c1476d13625883f49a37b74f8fd354a634267be9b97ebaa5f2304019544a8611",
+        "path": "ai-responses/84d7c4ab-221a-4fd6-b404-1104713acf5d-180eb3fc-07af-463f-a100-89390bcfb92f.json"
+      },
+      "draft_contract": "complete-object-v3",
+      "finish_reason": "stop",
+      "format_error": "AI_OUTPUT_JSON_INVALID",
+      "format_reason": "输出不是完整JSON对象",
+      "format_retry": 1
+    },
+    {
+      "at": "2026-10-09T03:19:59.850622+00:00",
+      "scene_id": "d02c3e35-c42f-4541-b4d7-0955788242e9",
+      "status": 200,
+      "attempt": 2,
+      "generation": 1,
+      "elapsed_seconds": 27.875,
+      "request_sha256": "e08d4797827815c6ec5f2846c945cc563f67d08608468896c481144f6af7904f",
+      "request_options": {
+        "max_tokens": 8000
+      },
+      "prompt_text_sha256": "704abb1c011da537c2bb3016c9caa0a6070f70b2d8a38d91f1cf6f9316067e2d",
+      "provider_record": {
+        "response_id": "20261009111932ec86b28021314769",
+        "response_sha256": "401fa09b5c90aaeeef0affcda568198c92707cb3c6759cae38325d5eed4a461a",
+        "path": "ai-responses/84d7c4ab-221a-4fd6-b404-1104713acf5d-f4b4ecdc-1e7d-4a13-9255-6920fae1f346.json"
+      },
+      "draft_contract": "complete-object-v3",
+      "finish_reason": "stop",
+      "expanded_current_source_count": 0,
+      "format_error": "SUBTITLE_MAPPING_REQUIRED",
+      "pairing_method": "complete_text_sentence_boundaries"
+    },
+    {
+      "at": "2026-10-09T03:20:31.553640+00:00",
+      "scene_id": "b2b83170-f9ab-43e5-9c67-49b18166c5a6",
+      "status": 200,
+      "attempt": 1,
+      "generation": 1,
+      "elapsed_seconds": 31.625,
+      "request_sha256": "b86695ed6b2cb8baf648bdc03fc7a9951d3db9e220667d00170ac1b8a0ae881d",
+      "request_options": {
+        "max_tokens": 8000
+      },
+      "prompt_text_sha256": "33471bcef962f847f7f06e8af22c4674a271c2ccaf2db04c4bf6a955b48945d2",
+      "provider_record": {
+        "response_id": "20261009112011a0a14161b5204d31",
+        "response_sha256": "b16d5224c380870975ed52a772734eb81b011fd74e4f775dd7104d0819a8827c",
+        "path": "ai-responses/84d7c4ab-221a-4fd6-b404-1104713acf5d-3f59b195-a734-4cc0-b43b-4d16c4163a32.json"
+      },
+      "draft_contract": "complete-object-v3",
+      "finish_reason": "stop",
+      "expanded_current_source_count": 1,
+      "pairing_method": "provider_validated"
+    },
+    {
+      "at": "2026-10-09T03:20:44.285404+00:00",
+      "scene_id": "6bb6207d-b9ef-452c-b8f9-17d2a581d79f",
+      "status": 200,
+      "attempt": 1,
+      "generation": 1,
+      "elapsed_seconds": 12.641,
+      "request_sha256": "5fdb35392932fe75f2c770f9a8fd32d52ea2557dc2861ad91dcc655795866950",
+      "request_options": {
+        "max_tokens": 8000
+      },
+      "prompt_text_sha256": "8effc7b454d65640cd8c18d7df7b1922f09c0551e50d3210bd0cec3ed3eb5dae",
+      "provider_record": {
+        "response_id": "202610091120314350e872fb1f4370",
+        "response_sha256": "8a06274c8c982033410bbb2c59a436881b3a83c9b083a7f5e978cbf4e3f57209",
+        "path": "ai-responses/84d7c4ab-221a-4fd6-b404-1104713acf5d-2026bd93-4e34-4f4e-93b7-30589c6b4d69.json"
+      },
+      "draft_contract": "complete-object-v3",
+      "finish_reason": "stop",
+      "expanded_current_source_count": 1,
+      "format_error": "SUBTITLE_MAPPING_REQUIRED",
+      "pairing_method": "complete_text_sentence_boundaries"
+    },
+    {
+      "at": "2026-10-09T03:20:51.034861+00:00",
+      "scene_id": "cae4ae72-cd06-42f9-bdf3-1e8c2dac3186",
+      "status": 200,
+      "attempt": 1,
+      "generation": 1,
+      "elapsed_seconds": 6.688,
+      "request_sha256": "7e77dcccfe4fac1ce8b2d6eefb2d5eb7cd6b7bc179487cc3bd71c5dab604015d",
+      "request_options": {
+        "max_tokens": 8000
+      },
+      "prompt_text_sha256": "c23b7b6c3d135efe092383afeebbf65bfd699c6263ac26051bad126de926a566",
+      "provider_record": {
+        "response_id": "202610091120444a1534112c094463",
+        "response_sha256": "e301a9bd74973e01f55725a417ea6ec04a9263e655bd68df09de318af05f78e6",
+        "path": "ai-responses/84d7c4ab-221a-4fd6-b404-1104713acf5d-2918b147-5033-4e4c-bd6a-4c7b5d00fb3a.json"
+      },
+      "draft_contract": "complete-object-v3",
+      "finish_reason": "stop",
+      "expanded_current_source_count": 0,
+      "format_error": "SUBTITLE_MAPPING_REQUIRED",
+      "pairing_method": "complete_text_sentence_boundaries"
+    },
+    {
+      "at": "2026-10-09T03:21:05.700779+00:00",
+      "scene_id": "3a057bcc-fbc9-4252-a6bb-79145dc1d430",
+      "status": 200,
+      "attempt": 1,
+      "generation": 1,
+      "elapsed_seconds": 14.61,
+      "request_sha256": "54225590b1d8ba542dea83b8f34f0a6c1d45990e9899d28f7c7ae80835981d4d",
+      "request_options": {
+        "max_tokens": 8000
+      },
+      "prompt_text_sha256": "3db8f61e5f8ff84f75bd2f0d14c35f303bb22c7ed1b1ae51adc54c596c69bff6",
+      "provider_record": {
+        "response_id": "202610091120510cef6a77815c45b8",
+        "response_sha256": "6ddd2bca8f3953f644125d2e5806c10e830ecc930d774a6f7d72cd55d0229bf9",
+        "path": "ai-responses/84d7c4ab-221a-4fd6-b404-1104713acf5d-99051163-1c81-4a8f-9a44-050907f93497.json"
+      },
+      "draft_contract": "complete-object-v3",
+      "finish_reason": "stop",
+      "expanded_current_source_count": 1,
+      "format_error": "SUBTITLE_MAPPING_REQUIRED",
+      "pairing_method": "complete_text_sentence_boundaries"
+    },
+    {
+      "at": "2026-10-09T03:21:24.166943+00:00",
+      "scene_id": "336ef90d-3bdb-40a3-bfe3-0aa6f917178d",
+      "status": 200,
+      "attempt": 1,
+      "generation": 1,
+      "elapsed_seconds": 18.391,
+      "request_sha256": "f6b6503d3504cfe0ca50db63694b890232278c8191c2bf0924b0c70a824612d8",
+      "request_options": {
+        "max_tokens": 8000
+      },
+      "prompt_text_sha256": "82aa3b8d22ffbb2e27ef1074ef2fab003385fc811111854383f43ff420c7d046",
+      "provider_record": {
+        "response_id": "20261009112106f111cb1ab94e4bff",
+        "response_sha256": "11316b64c0c9c8ca5d9efc36c94bd80b5642ade817da1aec0fc4c4ce40d3f6ac",
+        "path": "ai-responses/84d7c4ab-221a-4fd6-b404-1104713acf5d-1d83abca-3706-4020-9ce0-e795943b558b.json"
+      },
+      "draft_contract": "complete-object-v3",
+      "finish_reason": "stop",
+      "expanded_current_source_count": 1,
+      "pairing_method": "provider_validated"
+    },
+    {
+      "at": "2026-10-09T03:21:34.902600+00:00",
+      "scene_id": "016bf11e-034a-421c-92bb-94e1843d84c5",
+      "status": 200,
+      "attempt": 1,
+      "generation": 1,
+      "elapsed_seconds": 10.656,
+      "request_sha256": "54a3938c44702db01a8b89a17a14bafc6a66544723f8dcce10b1f17c04ab82ff",
+      "request_options": {
+        "max_tokens": 8000
+      },
+      "prompt_text_sha256": "b9e8cac9e079fe12bb749b2b3b6b328da50d50ef57dbaa1b4282e200043be62d",
+      "provider_record": {
+        "response_id": "20261009112124cdabf19370b646c7",
+        "response_sha256": "dbbd7bc1012be774039b33e6353f3f48231649c1f77c8d631807156654a6c55f",
+        "path": "ai-responses/84d7c4ab-221a-4fd6-b404-1104713acf5d-311b913b-b96e-4c74-ab83-301783c2f9c9.json"
+      },
+      "draft_contract": "complete-object-v3",
+      "finish_reason": "stop",
+      "expanded_current_source_count": 0,
+      "pairing_method": "provider_validated"
+    },
+    {
+      "at": "2026-10-09T03:21:54.882308+00:00",
+      "scene_id": "9dbaaece-590d-4300-acfb-ac28682e0e7a",
+      "status": 200,
+      "attempt": 1,
+      "generation": 1,
+      "elapsed_seconds": 19.906,
+      "request_sha256": "6398cb1da5eb32b7730cda03ebdf208c6812a96962f458691e45252066857bbf",
+      "request_options": {
+        "max_tokens": 8000
+      },
+      "prompt_text_sha256": "01ac7cfbf83754d80d80334266bc196456d39d7aa3a97777d04de018408f70d9",
+      "provider_record": {
+        "response_id": "20261009112135aceb5a7b994b4a60",
+        "response_sha256": "dc3ec5bbc873d71e66202aaa42b299b9428adcd0e0427e2486e9041011cbd4e0",
+        "path": "ai-responses/84d7c4ab-221a-4fd6-b404-1104713acf5d-d67e8d75-795f-4980-909c-1cf1a51062ff.json"
+      },
+      "draft_contract": "complete-object-v3",
+      "finish_reason": "stop",
+      "format_error": "AI_OUTPUT_JSON_INVALID",
+      "format_reason": "输出不是完整JSON对象",
+      "format_retry": 1
+    },
+    {
+      "at": "2026-10-09T03:21:59.799702+00:00",
+      "scene_id": "9dbaaece-590d-4300-acfb-ac28682e0e7a",
+      "status": 200,
+      "attempt": 2,
+      "generation": 1,
+      "elapsed_seconds": 4.875,
+      "request_sha256": "3400db4ef404e33a1f9984a0520171e0bcc7530e7a4c5306c8a7e99f4406a380",
+      "request_options": {
+        "max_tokens": 8000
+      },
+      "prompt_text_sha256": "01ac7cfbf83754d80d80334266bc196456d39d7aa3a97777d04de018408f70d9",
+      "provider_record": {
+        "response_id": "20261009112155d9edc638654540f2",
+        "response_sha256": "25081ee694a111b8dce2d6fb1382dd0acb0540597c3b3943372026045b96f06f",
+        "path": "ai-responses/84d7c4ab-221a-4fd6-b404-1104713acf5d-7f8461bb-3d0b-4f65-a8f6-96b57047a2a8.json"
+      },
+      "draft_contract": "complete-object-v3",
+      "finish_reason": "stop",
+      "expanded_current_source_count": 1,
+      "pairing_method": "provider_validated"
+    },
+    {
+      "at": "2026-10-09T03:22:15.084640+00:00",
+      "scene_id": "3df7b4c1-f4e7-40f9-840c-3db85a236047",
+      "status": 200,
+      "attempt": 1,
+      "generation": 1,
+      "elapsed_seconds": 15.204,
+      "request_sha256": "c8a7dd99cba16d840bf40573b13e92cb9abd17ded22a99f42150428c0822a20b",
+      "request_options": {
+        "max_tokens": 8000
+      },
+      "prompt_text_sha256": "bf9b071109423b7a9cdca9bb1fc2d79e005a933f837d60d727f683f2c6904662",
+      "provider_record": {
+        "response_id": "202610091122000b9af191895d43a2",
+        "response_sha256": "e52b6d84a6fab17fc0dca17e76ae140a47e7bf3ab96738f5e4ac914f5455bd28",
+        "path": "ai-responses/84d7c4ab-221a-4fd6-b404-1104713acf5d-33424561-730d-4269-96b5-143d4bc50c56.json"
+      },
+      "draft_contract": "complete-object-v3",
+      "finish_reason": "stop",
+      "expanded_current_source_count": 1,
+      "pairing_method": "provider_validated"
+    },
+    {
+      "at": "2026-10-09T03:22:29.215195+00:00",
+      "scene_id": "bbe0cc21-0061-43b5-9cb6-6bbb6bb82ac8",
+      "status": 200,
+      "attempt": 1,
+      "generation": 1,
+      "elapsed_seconds": 14.047,
+      "request_sha256": "aa50eca1d329f077982e2b080c62706145ef3f901300e2db954c6fbd47ab2956",
+      "request_options": {
+        "max_tokens": 8000
+      },
+      "prompt_text_sha256": "5c85833289cf60727f4990b07db37332c4cd35f24b06193869c871b0243c5468",
+      "provider_record": {
+        "response_id": "20261009112215af18b4e319384399",
+        "response_sha256": "73270f3cafb733044c723c0259386eb9c433cc0222ac1357447f5fa8c93de67a",
+        "path": "ai-responses/84d7c4ab-221a-4fd6-b404-1104713acf5d-3eb8f5f3-6076-410f-a785-1563e371d5bd.json"
+      },
+      "draft_contract": "complete-object-v3",
+      "finish_reason": "stop",
+      "format_error": "AI_OUTPUT_JSON_INVALID",
+      "format_reason": "输出不是完整JSON对象",
+      "format_retry": 1
+    },
+    {
+      "at": "2026-10-09T03:22:38.499306+00:00",
+      "scene_id": "bbe0cc21-0061-43b5-9cb6-6bbb6bb82ac8",
+      "status": 200,
+      "attempt": 2,
+      "generation": 1,
+      "elapsed_seconds": 9.25,
+      "request_sha256": "d19eb5550b8b1b7b5a7a1c364ed6b8ae746f338c4b538f066a184a2281abdfa4",
+      "request_options": {
+        "max_tokens": 8000
+      },
+      "prompt_text_sha256": "5c85833289cf60727f4990b07db37332c4cd35f24b06193869c871b0243c5468",
+      "provider_record": {
+        "response_id": "20261009112229041fc7bf440b4282",
+        "response_sha256": "8f95de70107e8e733e74b28356a639200652f69793c578f3d8d9f103476ea3c9",
+        "path": "ai-responses/84d7c4ab-221a-4fd6-b404-1104713acf5d-52262bee-d371-4580-8b26-c4d3dbd87816.json"
+      },
+      "draft_contract": "complete-object-v3",
+      "finish_reason": "stop",
+      "expanded_current_source_count": 1,
+      "pairing_method": "provider_validated"
+    },
+    {
+      "at": "2026-10-09T03:22:54.211858+00:00",
+      "scene_id": "038aa1b3-0f6c-4151-ac93-6dc502558d2c",
+      "status": 200,
+      "attempt": 1,
+      "generation": 1,
+      "elapsed_seconds": 15.641,
+      "request_sha256": "0bf9f02ebbe395a69a5c209f3aabb12fe3fb6b36a5782bb776d81474f559d3ca",
+      "request_options": {
+        "max_tokens": 8000
+      },
+      "prompt_text_sha256": "3fbed5b501162bf6a45a6e7da2e7fcb9fc4c407fd44f4d68cf93b188b363ebf6",
+      "provider_record": {
+        "response_id": "202610091122388668ebf65e7d4e69",
+        "response_sha256": "46a988530645b961b52b29408fd0a383c2fafc8264405a3060c7bd7e3de60a25",
+        "path": "ai-responses/84d7c4ab-221a-4fd6-b404-1104713acf5d-6abdbe5b-fb1a-411b-bc3c-466168b6349a.json"
+      },
+      "draft_contract": "complete-object-v3",
+      "finish_reason": "stop",
+      "format_error": "AI_OUTPUT_JSON_INVALID",
+      "format_reason": "输出不是完整JSON对象",
+      "format_retry": 1
+    },
+    {
+      "at": "2026-10-09T03:23:11.863650+00:00",
+      "scene_id": "038aa1b3-0f6c-4151-ac93-6dc502558d2c",
+      "status": 200,
+      "attempt": 2,
+      "generation": 1,
+      "elapsed_seconds": 17.625,
+      "request_sha256": "7203b312febe8a828375a0debd8f990cf9d0dc5167a4ac596915be1d510de9ee",
+      "request_options": {
+        "max_tokens": 8000
+      },
+      "prompt_text_sha256": "3fbed5b501162bf6a45a6e7da2e7fcb9fc4c407fd44f4d68cf93b188b363ebf6",
+      "provider_record": {
+        "response_id": "202610091122547876a1f106214eae",
+        "response_sha256": "4c6e42891f6d54b2de797a254a6e0ebdd0592e397a0185ac0703bbdbd7dfc6b0",
+        "path": "ai-responses/84d7c4ab-221a-4fd6-b404-1104713acf5d-2795f6ec-e41e-407f-936b-31a6eececf62.json"
+      },
+      "draft_contract": "complete-object-v3",
+      "finish_reason": "stop",
+      "expanded_current_source_count": 1,
+      "pairing_method": "provider_validated"
+    },
+    {
+      "at": "2026-10-09T03:23:39.276294+00:00",
+      "scene_id": "8bf96710-9762-4530-a34c-150f82ad76ae",
+      "status": 200,
+      "attempt": 1,
+      "generation": 1,
+      "elapsed_seconds": 27.344,
+      "request_sha256": "6dc48f716355069f1705fe627360af37c6508c4a0c316fba854e4365713f6140",
+      "request_options": {
+        "max_tokens": 8000
+      },
+      "prompt_text_sha256": "ab39c3c754dba9c33024300ba7ceac9a2dad8e17cebd1d20fdc6d0d4a2dd2580",
+      "provider_record": {
+        "response_id": "20261009112312b5b30eb5ffb148e5",
+        "response_sha256": "e17c129f3f384873501e80c1f2fbb682b93762b47e100fdfed085709dad3ff5e",
+        "path": "ai-responses/84d7c4ab-221a-4fd6-b404-1104713acf5d-f420ca7e-7913-4fd9-bcdc-e1e2e9ee929f.json"
+      },
+      "draft_contract": "complete-object-v3",
+      "finish_reason": "stop",
+      "expanded_current_source_count": 1,
+      "format_error": "SUBTITLE_MAPPING_REQUIRED",
+      "pairing_method": "complete_text_sentence_boundaries"
+    },
+    {
+      "at": "2026-10-09T03:23:52.460099+00:00",
+      "scene_id": "1e3abe2c-aced-440a-b488-4c49718feeb0",
+      "status": 200,
+      "attempt": 1,
+      "generation": 1,
+      "elapsed_seconds": 13.11,
+      "request_sha256": "c9f8e608b88484730eeec800268f6ab68db4e819b39f354a72fe4fe49f73a9ff",
+      "request_options": {
+        "max_tokens": 8000
+      },
+      "prompt_text_sha256": "f451254d8ea37a02578ea6e4941b701c64b376c29210061eb89b5bf3d6a7bae1",
+      "provider_record": {
+        "response_id": "20261009112339e3239a8e624047f6",
+        "response_sha256": "dbaa8584705f39a9fdc4b097b26e33d71d5109fd181f0a4ec2df0b1dc3b3bd8e",
+        "path": "ai-responses/84d7c4ab-221a-4fd6-b404-1104713acf5d-25aef96b-6bee-4c37-adb9-89a6421409cf.json"
+      },
+      "draft_contract": "complete-object-v3",
+      "finish_reason": "stop",
+      "expanded_current_source_count": 1,
+      "pairing_method": "provider_validated"
+    },
+    {
+      "at": "2026-10-09T03:24:08.422702+00:00",
+      "scene_id": "3caada09-b0b2-4942-a374-e17f0cd92964",
+      "status": 200,
+      "attempt": 1,
+      "generation": 1,
+      "elapsed_seconds": 15.906,
+      "request_sha256": "2121c2130c23eb76c289a5bc85ff59a41bde28f78d7557a757b49339f13fdf6e",
+      "request_options": {
+        "max_tokens": 8000
+      },
+      "prompt_text_sha256": "6f764aae41a0f57d403da64c3393424a2de9cecdfe09c4b1bfa62602c26204a0",
+      "provider_record": {
+        "response_id": "20261009112352ccdba32881884849",
+        "response_sha256": "e6c16c7fa2f3882fc866eab997a91ba92d13b371e6cbf8f42196fed95f2c3e21",
+        "path": "ai-responses/84d7c4ab-221a-4fd6-b404-1104713acf5d-710e2230-0792-4f4b-935a-a8f3587dec2d.json"
+      },
+      "draft_contract": "complete-object-v3",
+      "finish_reason": "stop",
+      "expanded_current_source_count": 0,
+      "pairing_method": "provider_validated"
+    }
+  ],
+  "failed_generations": [],
+  "page11_version": {
+    "id": "6f2acb0a-247a-48b8-b046-fa3ca4d5bfc2",
+    "number": 1,
+    "mode": "ai",
+    "raw_display": "9.2卫星互联网架构 LEO卫星是否能跟用户手机直接通信？\n答：可以，信号在自由空间传播时会衰减，衰减程度与距离的平方成正比。\nGEO卫星距离地面约36000公里。\nLEO卫星距离地面通常只有几百公里（例如200-2000公里，大部分互联网星座在500-600公里）。\n距离大幅缩短，意味着信号衰减急剧减少。粗略计算，从36000公里缩短到500公里，距离减小了72倍，信号衰减理论上可以减少约72²≈5000倍以上（约37 dB）。\n更小的衰减意味着：\n从用户设备到卫星，所需的发射功率可以大大降低。标准手机的发射功率很低，足以到达LEO卫星（虽然仍然是挑战，但比到达GEO可能所需功率低几个数量级）。\n从卫星到用户设备，所需的卫星发射功率可以降低，或用户设备所需的接收灵敏度/天线增益可以降低",
+    "raw_reading": "9.2卫星互联网架构 LEO卫星是否能跟用户手机直接通信？\n答：可以，信 号 在 自 由 空 间 传 播 时 会 衰 减 ，衰 减 程 度 与 距 离 的 平 方 成 正 比 。\nGEO 卫 星 距 离 地 面 约 三 万 六 千 公 里 。\nLEO 卫 星 距 离 地 面 通 常 只 有 几 百 公 里 （ 例 如 二 零 零 至 二 零 零 公 里 ， 大 部 分 电 子 网 星 座 在 五 百 至 六 百 公 里 ） 。\n距 离 大 幅 缩 短 ，意 味 着 信 号 衰 减 急 剧 减 少 。粗 略 计 算 ，从 三 万 六 千 公 里 缩 短 到 五 百 公 里 ，距 离 减 小 了 七 十 二 倍 ，信 号 衰 减 理 论 上 可 以 减 少 约 七 十 二 二 次 方 约 五 千 倍 以 上 （ 约 三 七 分 贝 ）。\n更 小 的 衰 减 意 味 着 ：\n从 用 户 设 备 到 卫 星 ，所 需 的 发 射 功 率 可 以 大 大 低 下 。标 准 手 机 的 发 射 功 率 很 低 ，足 以 到 达 LEO 卫 星 （虽 然 仍 然 是 挑 战 ，但 比 到 达 GEO 可 能 所 需 功 率 低 几 个 数 量 级 ） 。\n从 卫 星 到 用 户 设 备 ，所 需 的 卫 星 发 射 功 率 可 以 低 下 ，或 用 户 设 备 所 需 的 接 收 灵 敏 度 / 天 线 增 益 可 以 低 下",
+    "display_text": "9.2卫星互联网架构 LEO卫星是否能跟用户手机直接通信？\n答：可以，信号在自由空间传播时会衰减，衰减程度与距离的平方成正比。\nGEO卫星距离地面约36000公里。\nLEO卫星距离地面通常只有几百公里（例如200-2000公里，大部分互联网星座在500-600公里）。\n距离大幅缩短，意味着信号衰减急剧减少。粗略计算，从36000公里缩短到500公里，距离减小了72倍，信号衰减理论上可以减少约72²≈5000倍以上（约37 dB）。\n更小的衰减意味着：\n从用户设备到卫星，所需的发射功率可以大大降低。标准手机的发射功率很低，足以到达LEO卫星（虽然仍然是挑战，但比到达GEO可能所需功率低几个数量级）。\n从卫星到用户设备，所需的卫星发射功率可以降低，或用户设备所需的接收灵敏度/天线增益可以降低",
+    "reading_text": "9.2卫星互联网架构 LEO卫星是否能跟用户手机直接通信？\n答：可以，信 号 在 自 由 空 间 传 播 时 会 衰 减 ，衰 减 程 度 与 距 离 的 平 方 成 正 比 。\nGEO 卫 星 距 离 地 面 约 三 万 六 千 公 里 。\nLEO 卫 星 距 离 地 面 通 常 只 有 几 百 公 里 （ 例 如 二 零 零 至 二 零 零 公 里 ， 大 部 分 电 子 网 星 座 在 五 百 至 六 百 公 里 ） 。\n距 离 大 幅 缩 短 ，意 味 着 信 号 衰 减 急 剧 减 少 。粗 略 计 算 ，从 三 万 六 千 公 里 缩 短 到 五 百 公 里 ，距 离 减 小 了 七 十 二 倍 ，信 号 衰 减 理 论 上 可 以 减 少 约 七 十 二 二 次 方 约 五 千 倍 以 上 （ 约 三 七 分 贝 ）。\n更 小 的 衰 减 意 味 着 ：\n从 用 户 设 备 到 卫 星 ，所 需 的 发 射 功 率 可 以 大 大 低 下 。标 准 手 机 的 发 射 功 率 很 低 ，足 以 到 达 LEO 卫 星 （虽 然 仍 然 是 挑 战 ，但 比 到 达 GEO 可 能 所 需 功 率 低 几 个 数 量 级 ） 。\n从 卫 星 到 用 户 设 备 ，所 需 的 卫 星 发 射 功 率 可 以 低 下 ，或 用 户 设 备 所 需 的 接 收 灵 敏 度 / 天 线 增 益 可 以 低 下",
+    "control_events": [],
+    "provenance": {
+      "model": "glm-4.1v-thinking-flash",
+      "provider": "open.bigmodel.cn",
+      "response_id": "20261009111932ec86b28021314769",
+      "usage": {
+        "completion_tokens": 2377,
+        "prompt_tokens": 6351,
+        "total_tokens": 8728
+      },
+      "context_sha256": "0918d1979be89cc5da14d6b16a84f06e869b7b7284e1226b9e611a45ce214248",
+      "source_page_ids": [
+        "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-357"
+      ],
+      "image_sha256": [
+        "90e822b2d917bc29e251bcc400f308639326788edc6ab8297a7037da358f35dc"
+      ],
+      "extensions": [],
+      "batch_id": null,
+      "instruction_sha256": "afde8491eb8906fe20952520f665194248eed9febcc9a9bed7ab502099d998eb",
+      "draft_contract": "complete-object-v3",
+      "sentence_pairs": [
+        {
+          "display": "9.2卫星互联网架构 LEO卫星是否能跟用户手机直接通信？\n",
+          "reading": "9.2卫星互联网架构 LEO卫星是否能跟用户手机直接通信？\n"
+        },
+        {
+          "display": "答：可以，信号在自由空间传播时会衰减，衰减程度与距离的平方成正比。\n",
+          "reading": "答：可以，信 号 在 自 由 空 间 传 播 时 会 衰 减 ，衰 减 程 度 与 距 离 的 平 方 成 正 比 。\n"
+        },
+        {
+          "display": "GEO卫星距离地面约36000公里。\n",
+          "reading": "GEO 卫 星 距 离 地 面 约 三 万 六 千 公 里 。\n"
+        },
+        {
+          "display": "LEO卫星距离地面通常只有几百公里（例如200-2000公里，大部分互联网星座在500-600公里）。\n",
+          "reading": "LEO 卫 星 距 离 地 面 通 常 只 有 几 百 公 里 （ 例 如 二 零 零 至 二 零 零 公 里 ， 大 部 分 电 子 网 星 座 在 五 百 至 六 百 公 里 ） 。\n"
+        },
+        {
+          "display": "距离大幅缩短，意味着信号衰减急剧减少。",
+          "reading": "距 离 大 幅 缩 短 ，意 味 着 信 号 衰 减 急 剧 减 少 。"
+        },
+        {
+          "display": "粗略计算，从36000公里缩短到500公里，距离减小了72倍，信号衰减理论上可以减少约72²≈5000倍以上（约37 dB）。\n",
+          "reading": "粗 略 计 算 ，从 三 万 六 千 公 里 缩 短 到 五 百 公 里 ，距 离 减 小 了 七 十 二 倍 ，信 号 衰 减 理 论 上 可 以 减 少 约 七 十 二 二 次 方 约 五 千 倍 以 上 （ 约 三 七 分 贝 ）。\n"
+        },
+        {
+          "display": "更小的衰减意味着：\n",
+          "reading": "更 小 的 衰 减 意 味 着 ：\n"
+        },
+        {
+          "display": "从用户设备到卫星，所需的发射功率可以大大降低。",
+          "reading": "从 用 户 设 备 到 卫 星 ，所 需 的 发 射 功 率 可 以 大 大 低 下 。"
+        },
+        {
+          "display": "标准手机的发射功率很低，足以到达LEO卫星（虽然仍然是挑战，但比到达GEO可能所需功率低几个数量级）。\n",
+          "reading": "标 准 手 机 的 发 射 功 率 很 低 ，足 以 到 达 LEO 卫 星 （虽 然 仍 然 是 挑 战 ，但 比 到 达 GEO 可 能 所 需 功 率 低 几 个 数 量 级 ） 。\n"
+        },
+        {
+          "display": "从卫星到用户设备，所需的卫星发射功率可以降低，或用户设备所需的接收灵敏度/天线增益可以降低",
+          "reading": "从 卫 星 到 用 户 设 备 ，所 需 的 卫 星 发 射 功 率 可 以 低 下 ，或 用 户 设 备 所 需 的 接 收 灵 敏 度 / 天 线 增 益 可 以 低 下"
+        }
+      ],
+      "pairing_method": "complete_text_sentence_boundaries",
+      "provider_record": {
+        "response_id": "20261009111932ec86b28021314769",
+        "response_sha256": "401fa09b5c90aaeeef0affcda568198c92707cb3c6759cae38325d5eed4a461a",
+        "path": "ai-responses/84d7c4ab-221a-4fd6-b404-1104713acf5d-f4b4ecdc-1e7d-4a13-9255-6920fae1f346.json"
+      },
+      "expanded_current_source_count": 0
+    },
+    "created_at": "2026-10-09T03:19:59.888508+00:00",
+    "author": "ai:glm-4.1v-thinking-flash",
+    "checks": {
+      "knowledge_points": [
+        "LEO卫星能够与用户手机直接通信",
+        "GEO与LEO卫星的距离差异导致信号衰减不同",
+        "信号衰减与距离平方成正比",
+        "LEO通信模式下设备功耗需求更低"
+      ],
+      "questions": [
+        {
+          "question": "为什么LEO卫星能够和用户手机直接通信？",
+          "answer": "因为LEO卫星距离地面较近（几百公里），而GEO卫星距离地面约36000公里；信号衰减程度与距离平方成正比，所以LEO卫星信号衰减更小，使得用户手机能直接与LEO卫星通信。",
+          "source_page_id": "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717:slide-357"
+        }
+      ],
+      "terms": [],
+      "pending": []
+    },
+    "teacher_review": null
+  },
+  "metrics_frozen": false,
+  "scope": "24-page actual user photo course; unreviewed draft",
+  "media_checkpoints": {
+    "job_id": "89055bfa-566c-4e86-b4e9-969073b1a9ae",
+    "state": "failed",
+    "stage": "photo_native_generation",
+    "generation": 1,
+    "started_at": "2026-10-09T03:24:08.652123+00:00",
+    "finished_at": "2026-10-09T03:41:36.730566+00:00",
+    "elapsed_seconds": 1048.0612843000054,
+    "error": {
+      "code": "RESOURCE_INSUFFICIENT",
+      "message": "Process exited with code 1",
+      "source": "photo",
+      "remedy": "查看受控原生日志；检查资源及配置后有限重试，不降级人物或声音"
+    },
+    "history": [],
+    "recoveries": 0,
+    "scenes": [
+      {
+        "source_index": 1,
+        "scene_id": "b241fb64-f99f-4ff8-aa25-12ecf4d42a10",
+        "state": "valid",
+        "stage_states": {
+          "tts": "valid",
+          "portrait": "valid",
+          "compose": "valid"
+        },
+        "error": null,
+        "tts": {
+          "sha256": "836908684bd496778d5d7803561c8d6ce2c96210bfa6fdc87e544d3fcab8c7bd",
+          "duration_seconds": 19.02,
+          "provider": "GPT-SoVITS",
+          "request_id": "e7d040e5-cb85-46d2-ad14-5fb0e30b4b20",
+          "elapsed_seconds": 44.72600759999477
+        },
+        "portrait": {
+          "sha256": "1c812b9daece27230aa7c7211079ea074ca981fd51efa24c67a95b35360233df",
+          "audio_sha256": "836908684bd496778d5d7803561c8d6ce2c96210bfa6fdc87e544d3fcab8c7bd",
+          "duration_seconds": 19.0,
+          "provider": "SadTalker",
+          "request_id": "a787e9e6-bb6b-48c1-93ec-405c0ecb3143",
+          "elapsed_seconds": 189.01587480000308,
+          "native_driving": null
+        },
+        "compose": {
+          "sha256": "f45a537b713ab80d3979448232861562701dc9fa193782d3269e3d9f1360c9e8",
+          "size_bytes": 873237,
+          "duration_seconds": 19.04,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "codec": "h264",
+          "sample_rate": null,
+          "width": 1920,
+          "height": 1080,
+          "fps": 25.0,
+          "audio_check": {
+            "duration_seconds": 19.04,
+            "silence_ratio": 0.0,
+            "max_volume_db": -3.9
+          },
+          "frame_padding_seconds": 0.019999999999999574,
+          "path": "m3/cache/compose/6a067fc47feaed6d4735e12968421308d3f2f74713a018d9f9b4ebd3972b1900/page.mp4"
+        },
+        "captions": [
+          {
+            "start": 0.0,
+            "end": 19.02,
+            "text": "移动互联网络技术，授课老师是王辛迪，授课对象为网络工程系大三本科生，该课程属于专业核心课程，联系方式是[teacher-email-redacted]。",
+            "method": "measured_sentence_synthesis",
+            "word_alignment_verified": false
+          }
+        ],
+        "script_version": "2c941402-4987-4825-87b1-226b20dc48e0"
+      },
+      {
+        "source_index": 2,
+        "scene_id": "6b17e715-e35a-41b3-85ba-1ee2b69031dc",
+        "state": "valid",
+        "stage_states": {
+          "tts": "valid",
+          "portrait": "valid",
+          "compose": "valid"
+        },
+        "error": null,
+        "tts": {
+          "sha256": "bbe44311de6fc4f48dea5f618861b0f929ddeb9b149e0c09d31d3bc8c48230aa",
+          "duration_seconds": 13.68,
+          "provider": "GPT-SoVITS",
+          "request_id": "21497c9d-99d1-4b36-944e-65c32f9706bd",
+          "elapsed_seconds": 37.393333100000746
+        },
+        "portrait": {
+          "sha256": "173289b83b10a23a480b2e9e0d37a087601a99926bd9162fe2e1290f6b7b04b6",
+          "audio_sha256": "bbe44311de6fc4f48dea5f618861b0f929ddeb9b149e0c09d31d3bc8c48230aa",
+          "duration_seconds": 13.68,
+          "provider": "SadTalker",
+          "request_id": "4b532bc7-b7ca-461e-83aa-cc833a2e9900",
+          "elapsed_seconds": 141.69748999999865,
+          "native_driving": null
+        },
+        "compose": {
+          "sha256": "94b26ff76b751c2f589376bd9f9ce6b9ee2dce9ad0148953c7ca1f22e15e8287",
+          "size_bytes": 677765,
+          "duration_seconds": 13.68,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "codec": "h264",
+          "sample_rate": null,
+          "width": 1920,
+          "height": 1080,
+          "fps": 25.0,
+          "audio_check": {
+            "duration_seconds": 13.68,
+            "silence_ratio": 0.0,
+            "max_volume_db": -3.7
+          },
+          "frame_padding_seconds": 0.0,
+          "path": "m3/cache/compose/bb5c31159f9148ddb38d088ecc609635e6bdcb8131999389e8add6dcf2350f42/page.mp4"
+        },
+        "captions": [
+          {
+            "start": 0.0,
+            "end": 13.68,
+            "text": "本页面展示的是章节目录，包含第九章的两个主要部分，分别是9.1概述和9.2卫星互联网架构，这两部分构成了本章的核心内容框架。",
+            "method": "measured_sentence_synthesis",
+            "word_alignment_verified": false
+          }
+        ],
+        "script_version": "01baf483-5ac4-45a5-943a-9b654d934197"
+      },
+      {
+        "source_index": 3,
+        "scene_id": "b2db94c6-3a53-4845-8c19-f00f6268f34e",
+        "state": "failed",
+        "stage_states": {
+          "tts": "valid",
+          "portrait": "failed",
+          "compose": "pending"
+        },
+        "error": {
+          "code": "RESOURCE_INSUFFICIENT",
+          "message": "Process exited with code 1",
+          "source": "photo",
+          "remedy": "查看受控原生日志；检查资源及配置后有限重试，不降级人物或声音"
+        },
+        "tts": {
+          "sha256": "2858e7cfc268c2d238c26285263801c5d0ab979652035d87b7fdd5135115e998",
+          "duration_seconds": 69.34,
+          "provider": "GPT-SoVITS",
+          "request_id": "f1f98892-406a-4f90-a729-e3e5d9d9eff4",
+          "elapsed_seconds": 54.58981320000021
+        },
+        "portrait": null,
+        "compose": null,
+        "captions": [
+          {
+            "start": 0.0,
+            "end": 4.94,
+            "text": "本页介绍四种地球轨道类型及其相关参数与应用特点。",
+            "method": "measured_sentence_synthesis",
+            "word_alignment_verified": false
+          },
+          {
+            "start": 4.94,
+            "end": 69.34,
+            "text": "LEO（低地球轨道）高度为200–2,000公里（常见200–1,200公里），特点是轨道周期短（约90分钟），常用于对地观测卫星（如气象卫星）、空间站（如国际空间站）及部分通信卫星（如星链星座）；MEO（中地球轨道）高度为2,000–36,000公里（部分资料定义1,200–36,000公里），典型应用为导航卫星（如GPS、GLONASS），轨道周期约12小时；GEO（地球同步轨道）高度约35,786公里，卫星运行周期与地球自转同步（24小时），静止轨道（GSO）是GEO的特殊形式（主要应用于通信和气象卫星；HEO（高地球轨道）通常指高于36,000公里的轨道（部分资料将GEO归为此类），包括大椭圆轨道（如莫尼亚轨道），适用于覆盖高纬度地区的通信或科研任务。",
+            "method": "measured_sentence_synthesis",
+            "word_alignment_verified": false
+          }
+        ],
+        "script_version": "c8f245f2-8cd2-4a39-9d45-8fe6e4fdeb91"
+      },
+      {
+        "source_index": 4,
+        "scene_id": "36bf7744-77f6-46f1-9965-fe011afb9ca5",
+        "state": "pending",
+        "stage_states": {
+          "tts": "pending",
+          "portrait": "pending",
+          "compose": "pending"
+        },
+        "error": null,
+        "tts": null,
+        "portrait": null,
+        "compose": null,
+        "captions": null,
+        "script_version": "da92454c-e143-499c-8a54-29394eea413f"
+      },
+      {
+        "source_index": 5,
+        "scene_id": "98eeb49f-f4d2-4c6c-bbbe-087b03fae8f8",
+        "state": "pending",
+        "stage_states": {
+          "tts": "pending",
+          "portrait": "pending",
+          "compose": "pending"
+        },
+        "error": null,
+        "tts": null,
+        "portrait": null,
+        "compose": null,
+        "captions": null,
+        "script_version": "4a7faa1f-40e4-494b-9c0d-b87a526d3084"
+      },
+      {
+        "source_index": 6,
+        "scene_id": "3b3e6fe3-5ada-4725-b271-8502cd71ccd0",
+        "state": "pending",
+        "stage_states": {
+          "tts": "pending",
+          "portrait": "pending",
+          "compose": "pending"
+        },
+        "error": null,
+        "tts": null,
+        "portrait": null,
+        "compose": null,
+        "captions": null,
+        "script_version": "a3e227f5-8e9f-4519-a3c2-3b517ccfbfc7"
+      },
+      {
+        "source_index": 7,
+        "scene_id": "82568956-8cb3-4a34-9637-84a25f0ca2c2",
+        "state": "pending",
+        "stage_states": {
+          "tts": "pending",
+          "portrait": "pending",
+          "compose": "pending"
+        },
+        "error": null,
+        "tts": null,
+        "portrait": null,
+        "compose": null,
+        "captions": null,
+        "script_version": "89f8567e-b795-4835-8a61-157f14afb942"
+      },
+      {
+        "source_index": 8,
+        "scene_id": "6ec6087f-4ba3-4fcb-951a-cc4c6e81b9c4",
+        "state": "pending",
+        "stage_states": {
+          "tts": "pending",
+          "portrait": "pending",
+          "compose": "pending"
+        },
+        "error": null,
+        "tts": null,
+        "portrait": null,
+        "compose": null,
+        "captions": null,
+        "script_version": "d0d5978d-2ea5-4a09-bf4b-fba2a9554607"
+      },
+      {
+        "source_index": 9,
+        "scene_id": "4991bc56-31cb-4902-a546-ae61f8f2c09d",
+        "state": "pending",
+        "stage_states": {
+          "tts": "pending",
+          "portrait": "pending",
+          "compose": "pending"
+        },
+        "error": null,
+        "tts": null,
+        "portrait": null,
+        "compose": null,
+        "captions": null,
+        "script_version": "7c562f5f-e001-4985-a735-42e6d96c710b"
+      },
+      {
+        "source_index": 10,
+        "scene_id": "4ea07dee-9245-4d75-ab5e-f54ef9ba38ba",
+        "state": "pending",
+        "stage_states": {
+          "tts": "pending",
+          "portrait": "pending",
+          "compose": "pending"
+        },
+        "error": null,
+        "tts": null,
+        "portrait": null,
+        "compose": null,
+        "captions": null,
+        "script_version": "bbdc04c4-b0dd-4766-98e1-f483100b9c50"
+      },
+      {
+        "source_index": 11,
+        "scene_id": "d02c3e35-c42f-4541-b4d7-0955788242e9",
+        "state": "pending",
+        "stage_states": {
+          "tts": "pending",
+          "portrait": "pending",
+          "compose": "pending"
+        },
+        "error": null,
+        "tts": null,
+        "portrait": null,
+        "compose": null,
+        "captions": null,
+        "script_version": "6f2acb0a-247a-48b8-b046-fa3ca4d5bfc2"
+      },
+      {
+        "source_index": 12,
+        "scene_id": "b2b83170-f9ab-43e5-9c67-49b18166c5a6",
+        "state": "pending",
+        "stage_states": {
+          "tts": "pending",
+          "portrait": "pending",
+          "compose": "pending"
+        },
+        "error": null,
+        "tts": null,
+        "portrait": null,
+        "compose": null,
+        "captions": null,
+        "script_version": "d170b29e-2647-45e7-80ea-b5de1b1c1e06"
+      },
+      {
+        "source_index": 13,
+        "scene_id": "6bb6207d-b9ef-452c-b8f9-17d2a581d79f",
+        "state": "pending",
+        "stage_states": {
+          "tts": "pending",
+          "portrait": "pending",
+          "compose": "pending"
+        },
+        "error": null,
+        "tts": null,
+        "portrait": null,
+        "compose": null,
+        "captions": null,
+        "script_version": "11e01c2d-a0da-4062-be42-9575943bf1a6"
+      },
+      {
+        "source_index": 14,
+        "scene_id": "cae4ae72-cd06-42f9-bdf3-1e8c2dac3186",
+        "state": "pending",
+        "stage_states": {
+          "tts": "pending",
+          "portrait": "pending",
+          "compose": "pending"
+        },
+        "error": null,
+        "tts": null,
+        "portrait": null,
+        "compose": null,
+        "captions": null,
+        "script_version": "4b3d79ac-dab5-4d3c-99ee-32a1a5521639"
+      },
+      {
+        "source_index": 15,
+        "scene_id": "3a057bcc-fbc9-4252-a6bb-79145dc1d430",
+        "state": "pending",
+        "stage_states": {
+          "tts": "pending",
+          "portrait": "pending",
+          "compose": "pending"
+        },
+        "error": null,
+        "tts": null,
+        "portrait": null,
+        "compose": null,
+        "captions": null,
+        "script_version": "f9a67ed5-8dca-4676-85ab-c68aa7de1402"
+      },
+      {
+        "source_index": 16,
+        "scene_id": "336ef90d-3bdb-40a3-bfe3-0aa6f917178d",
+        "state": "pending",
+        "stage_states": {
+          "tts": "pending",
+          "portrait": "pending",
+          "compose": "pending"
+        },
+        "error": null,
+        "tts": null,
+        "portrait": null,
+        "compose": null,
+        "captions": null,
+        "script_version": "12ae5854-14d8-4a85-ab58-da2cd33fec45"
+      },
+      {
+        "source_index": 17,
+        "scene_id": "016bf11e-034a-421c-92bb-94e1843d84c5",
+        "state": "pending",
+        "stage_states": {
+          "tts": "pending",
+          "portrait": "pending",
+          "compose": "pending"
+        },
+        "error": null,
+        "tts": null,
+        "portrait": null,
+        "compose": null,
+        "captions": null,
+        "script_version": "a6599ade-961a-413e-adbe-4e627b3f50d9"
+      },
+      {
+        "source_index": 18,
+        "scene_id": "9dbaaece-590d-4300-acfb-ac28682e0e7a",
+        "state": "pending",
+        "stage_states": {
+          "tts": "pending",
+          "portrait": "pending",
+          "compose": "pending"
+        },
+        "error": null,
+        "tts": null,
+        "portrait": null,
+        "compose": null,
+        "captions": null,
+        "script_version": "a37d9a36-9041-445c-9664-bc55cae32e7c"
+      },
+      {
+        "source_index": 19,
+        "scene_id": "3df7b4c1-f4e7-40f9-840c-3db85a236047",
+        "state": "pending",
+        "stage_states": {
+          "tts": "pending",
+          "portrait": "pending",
+          "compose": "pending"
+        },
+        "error": null,
+        "tts": null,
+        "portrait": null,
+        "compose": null,
+        "captions": null,
+        "script_version": "a1f32611-fa4a-440e-b0ff-45f69db9c783"
+      },
+      {
+        "source_index": 20,
+        "scene_id": "bbe0cc21-0061-43b5-9cb6-6bbb6bb82ac8",
+        "state": "pending",
+        "stage_states": {
+          "tts": "pending",
+          "portrait": "pending",
+          "compose": "pending"
+        },
+        "error": null,
+        "tts": null,
+        "portrait": null,
+        "compose": null,
+        "captions": null,
+        "script_version": "1119ba1d-2553-499f-b386-e506da898344"
+      },
+      {
+        "source_index": 21,
+        "scene_id": "038aa1b3-0f6c-4151-ac93-6dc502558d2c",
+        "state": "pending",
+        "stage_states": {
+          "tts": "pending",
+          "portrait": "pending",
+          "compose": "pending"
+        },
+        "error": null,
+        "tts": null,
+        "portrait": null,
+        "compose": null,
+        "captions": null,
+        "script_version": "c0cc0353-a119-4867-b3a8-4316d8c2665f"
+      },
+      {
+        "source_index": 22,
+        "scene_id": "8bf96710-9762-4530-a34c-150f82ad76ae",
+        "state": "pending",
+        "stage_states": {
+          "tts": "pending",
+          "portrait": "pending",
+          "compose": "pending"
+        },
+        "error": null,
+        "tts": null,
+        "portrait": null,
+        "compose": null,
+        "captions": null,
+        "script_version": "b4645ef1-ec87-4163-9389-a80003baab75"
+      },
+      {
+        "source_index": 23,
+        "scene_id": "1e3abe2c-aced-440a-b488-4c49718feeb0",
+        "state": "pending",
+        "stage_states": {
+          "tts": "pending",
+          "portrait": "pending",
+          "compose": "pending"
+        },
+        "error": null,
+        "tts": null,
+        "portrait": null,
+        "compose": null,
+        "captions": null,
+        "script_version": "fe2bfa26-1638-4d36-80d0-b68985c14bf4"
+      },
+      {
+        "source_index": 24,
+        "scene_id": "3caada09-b0b2-4942-a374-e17f0cd92964",
+        "state": "pending",
+        "stage_states": {
+          "tts": "pending",
+          "portrait": "pending",
+          "compose": "pending"
+        },
+        "error": null,
+        "tts": null,
+        "portrait": null,
+        "compose": null,
+        "captions": null,
+        "script_version": "23f637e3-c925-4607-a9c1-5b9c1e061113"
+      }
+    ]
+  }
+}

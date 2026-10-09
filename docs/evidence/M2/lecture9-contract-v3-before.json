@@ -1,0 +1,226 @@
+{
+  "at": "2026-10-09T03:18:27.432155+00:00",
+  "project_id": "11604689-6106-451f-b40b-95089e07b5b5",
+  "ready": 10,
+  "old_jobs": {
+    "0a4a4faa-6e32-4e97-a990-585d6476ffa9": "f77bbf6bff627858736c4e08cb0629865580d1f2f2872e7481ad09f1c3f8333d",
+    "0eaf6185-d796-4be2-95a7-8a3218c75fb6": "2320111d2790db82e421c7497f9d9ddd79591997d1232b806596d3223f7c5692",
+    "b37b5c2a-0c8f-48d9-b32e-a06f4b1e7a23": "b199e1bd74898569209a3a9c21fafc20f42460979c35695b26f7ef18b219c5a7"
+  },
+  "old_versions": {
+    "b241fb64-f99f-4ff8-aa25-12ecf4d42a10": "380155258f0e6891aaa5cf75dee358cdf27954e6d68c2c08a004ec1867be0ef6",
+    "6b17e715-e35a-41b3-85ba-1ee2b69031dc": "bf410ac0ad72b455379176db62220ebd79a906fa37993d715a402d22db6dbec2",
+    "b2db94c6-3a53-4845-8c19-f00f6268f34e": "5dbab48d8f06f36d5a560e8f893f29e3e282764b43e0b7abab950902580fa583",
+    "36bf7744-77f6-46f1-9965-fe011afb9ca5": "274340980a54a8b0ef20e45cdaee7f6045557df1e21bcf8fb517346473eccc83",
+    "98eeb49f-f4d2-4c6c-bbbe-087b03fae8f8": "aff633fe59f7d7e6f37925678e91f47117814f755a3f76fc11293bc4d166fbb0",
+    "3b3e6fe3-5ada-4725-b271-8502cd71ccd0": "708b5eb802f8a8845479cc8963071de9fedb0656751789ab987785c4bed1eb02",
+    "82568956-8cb3-4a34-9637-84a25f0ca2c2": "779810cb7ca0c8edd5f10600f7fd469bdfdf953dff08bfd8c9d997b9d15a3649",
+    "6ec6087f-4ba3-4fcb-951a-cc4c6e81b9c4": "7e56ef4ddea602c9db1550a69baca9903332a27fdd5a5a8f0dad0df0b409ff38",
+    "4991bc56-31cb-4902-a546-ae61f8f2c09d": "868d24852ae43abd84090384f09a5fa940996602543d9a7377b373c9522b897d",
+    "4ea07dee-9245-4d75-ab5e-f54ef9ba38ba": "bf0856ffb4b8f86f00a771d051d47aa0883c287d7ecf06683f11565d91b979a4"
+  },
+  "assets_sha256": "10c3045d4c6f6972fdc3e5f2241b24a3b7a1506ee6eb46f06fa9ba792f44e11c",
+  "teacher_confirmed": 0,
+  "page11_attempts": [
+    {
+      "job_id": "b37b5c2a-0c8f-48d9-b32e-a06f4b1e7a23",
+      "at": "2026-10-09T03:05:00.889474+00:00",
+      "scene_id": "d02c3e35-c42f-4541-b4d7-0955788242e9",
+      "status": 200,
+      "attempt": 1,
+      "generation": 2,
+      "provider_record": {
+        "response_id": "2026100911032892c7a9f0716d4183",
+        "response_sha256": "92e8b51183f8c265e26792463c0c1f47f7b761a3efe52cda7a1cbaabd797b28c",
+        "path": "ai-responses/b37b5c2a-0c8f-48d9-b32e-a06f4b1e7a23-155b1947-79f0-4eda-9a0a-09a081438809.json"
+      },
+      "draft_contract": "complete-object-v2",
+      "finish_reason": "length",
+      "format_error": "AI_OUTPUT_TRUNCATED",
+      "format_reason": "输出达到长度上限，不能确认正文完整",
+      "format_retry": 1,
+      "content_chars": 13019,
+      "usage": {
+        "completion_tokens": 8002,
+        "prompt_tokens": 7885,
+        "total_tokens": 15887
+      },
+      "json_invalid": true
+    },
+    {
+      "job_id": "b37b5c2a-0c8f-48d9-b32e-a06f4b1e7a23",
+      "at": "2026-10-09T03:05:26.492512+00:00",
+      "scene_id": "d02c3e35-c42f-4541-b4d7-0955788242e9",
+      "status": 200,
+      "attempt": 2,
+      "generation": 2,
+      "provider_record": {
+        "response_id": "202610091105017592304998a04f66",
+        "response_sha256": "5e0fb2e8f4e973f49c9124b112bde5bad6300cb48fac22f49183a1d004615a8d",
+        "path": "ai-responses/b37b5c2a-0c8f-48d9-b32e-a06f4b1e7a23-c0193732-1f5b-4754-8ebf-6c85cd177439.json"
+      },
+      "draft_contract": "complete-object-v2",
+      "finish_reason": "stop",
+      "format_error": "SUBTITLE_MAPPING_REQUIRED",
+      "format_reason": "显示和读法正文不能完整逐句对应",
+      "format_retry": 2,
+      "content_chars": 2046,
+      "usage": {
+        "completion_tokens": 2161,
+        "prompt_tokens": 7947,
+        "total_tokens": 10108
+      },
+      "top_level_keys": [
+        "display_text",
+        "reading_text",
+        "knowledge_points",
+        "questions",
+        "terms",
+        "pending",
+        "extensions",
+        "sentence_pairs"
+      ],
+      "missing_fields": []
+    },
+    {
+      "job_id": "b37b5c2a-0c8f-48d9-b32e-a06f4b1e7a23",
+      "at": "2026-10-09T03:05:55.736447+00:00",
+      "scene_id": "d02c3e35-c42f-4541-b4d7-0955788242e9",
+      "status": 200,
+      "attempt": 3,
+      "generation": 2,
+      "provider_record": {
+        "response_id": "202610091105267abb996fbea34ce9",
+        "response_sha256": "28ef8fcc19c43a85227d73b4ceaa6a4b3852eb16bee69f000232a47c046304bb",
+        "path": "ai-responses/b37b5c2a-0c8f-48d9-b32e-a06f4b1e7a23-c4f0507a-ed32-4cfb-b53e-d025a45d2084.json"
+      },
+      "draft_contract": "complete-object-v2",
+      "finish_reason": "stop",
+      "format_error": "SUBTITLE_MAPPING_REQUIRED",
+      "format_reason": "显示和读法正文不能完整逐句对应",
+      "content_chars": 2072,
+      "usage": {
+        "completion_tokens": 2869,
+        "prompt_tokens": 8010,
+        "total_tokens": 10879
+      },
+      "top_level_keys": [
+        "display_text",
+        "reading_text",
+        "knowledge_points",
+        "questions",
+        "terms",
+        "pending",
+        "extensions",
+        "sentence_pairs"
+      ],
+      "missing_fields": []
+    },
+    {
+      "job_id": "b37b5c2a-0c8f-48d9-b32e-a06f4b1e7a23",
+      "at": "2026-10-09T03:09:15.140771+00:00",
+      "scene_id": "d02c3e35-c42f-4541-b4d7-0955788242e9",
+      "status": 200,
+      "attempt": 1,
+      "generation": 3,
+      "provider_record": {
+        "response_id": "202610091107571452aa633ebd434f",
+        "response_sha256": "189b8b2b37fbea0c329180453272e8a09a5ba85d58cb5e83ccf91c1a27b10833",
+        "path": "ai-responses/b37b5c2a-0c8f-48d9-b32e-a06f4b1e7a23-6a2df39b-bd3d-46eb-b169-a41184a9f17b.json"
+      },
+      "draft_contract": "complete-object-v2",
+      "finish_reason": "stop",
+      "format_error": "AI_OUTPUT_JSON_INVALID",
+      "format_reason": "输出不是完整JSON对象",
+      "format_retry": 1,
+      "content_chars": 13205,
+      "usage": {
+        "completion_tokens": 7470,
+        "prompt_tokens": 7885,
+        "total_tokens": 15355
+      },
+      "json_invalid": true
+    },
+    {
+      "job_id": "b37b5c2a-0c8f-48d9-b32e-a06f4b1e7a23",
+      "at": "2026-10-09T03:09:15.282619+00:00",
+      "scene_id": "d02c3e35-c42f-4541-b4d7-0955788242e9",
+      "status": 429,
+      "attempt": 2,
+      "generation": 3,
+      "provider_error_code": "1305",
+      "wait_seconds": 15
+    },
+    {
+      "job_id": "b37b5c2a-0c8f-48d9-b32e-a06f4b1e7a23",
+      "at": "2026-10-09T03:10:28.299004+00:00",
+      "scene_id": "d02c3e35-c42f-4541-b4d7-0955788242e9",
+      "status": 200,
+      "attempt": 3,
+      "generation": 3,
+      "provider_record": {
+        "response_id": "20261009110941e57e8d7d7a064424",
+        "response_sha256": "9b432292a687e94040f1bba58cdf8426844b83b174da4541c750e3c1ff7a5faf",
+        "path": "ai-responses/b37b5c2a-0c8f-48d9-b32e-a06f4b1e7a23-db2ab39e-ff2b-4616-a108-20a77fe2e755.json"
+      },
+      "draft_contract": "complete-object-v2",
+      "finish_reason": "stop",
+      "format_error": "AI_OUTPUT_TOPLEVEL_INVALID",
+      "format_reason": "输出必须是单个对象，不能混入输入或数组",
+      "format_retry": 2,
+      "content_chars": 5097,
+      "usage": {
+        "completion_tokens": 4225,
+        "prompt_tokens": 7943,
+        "total_tokens": 12168
+      },
+      "top_level_keys": "list",
+      "missing_fields": [
+        "display_text",
+        "reading_text",
+        "knowledge_points",
+        "questions",
+        "terms",
+        "pending",
+        "extensions"
+      ]
+    },
+    {
+      "job_id": "b37b5c2a-0c8f-48d9-b32e-a06f4b1e7a23",
+      "at": "2026-10-09T03:10:49.776349+00:00",
+      "scene_id": "d02c3e35-c42f-4541-b4d7-0955788242e9",
+      "status": 200,
+      "attempt": 4,
+      "generation": 3,
+      "provider_record": {
+        "response_id": "2026100911102871ccb2301c9c4b98",
+        "response_sha256": "571417a58e738b681074276231950f15ad2d8a8368239182b0a445b56de6e2e1",
+        "path": "ai-responses/b37b5c2a-0c8f-48d9-b32e-a06f4b1e7a23-03ceaf0f-2726-4e47-8641-5d3041953e16.json"
+      },
+      "draft_contract": "complete-object-v2",
+      "finish_reason": "stop",
+      "format_error": "AI_OUTPUT_FIELDS_INVALID",
+      "format_reason": "讲稿字段缺失",
+      "content_chars": 3614,
+      "usage": {
+        "completion_tokens": 2146,
+        "prompt_tokens": 8007,
+        "total_tokens": 10153
+      },
+      "top_level_keys": [
+        "config",
+        "kind",
+        "pages"
+      ],
+      "missing_fields": [
+        "display_text",
+        "reading_text",
+        "knowledge_points",
+        "questions",
+        "terms",
+        "pending",
+        "extensions"
+      ]
+    }
+  ]
+}

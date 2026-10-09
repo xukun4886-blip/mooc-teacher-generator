@@ -1,0 +1,14 @@
+{
+  "checked_at": "2026-10-09T03:26:13.915929+00:00",
+  "previous_listener_pid": 4420,
+  "previous_started_local": "2026-10-09 10:50:07",
+  "queue_idle_before_restart": true,
+  "api_specific_error": "第11页自动讲稿未通过检查：讲稿字段缺失；已生成讲稿保留",
+  "browser": "Codex In-app Browser",
+  "browser_url": "http://127.0.0.1:8765/?project=11604689-6106-451f-b40b-95089e07b5b5",
+  "loaded_script_after_reload": "/assets/index-Mfzcx2aY.js",
+  "bundle_sha256": "429494f44ad110a79bab7fb4cf9a0e573e7699cc7cac25313fde8ff636753958",
+  "teacher_confirmation_submitted": false,
+  "user_screenshot_browser_accessible": false,
+  "scope": "actual reloaded browser and HTTP disk agreement; does not identify the earlier screenshot cache"
+}

@@ -1,0 +1,37 @@
+{
+  "project_id": "7f8a55f8-1fdd-4075-854a-0fb9d8488325",
+  "browser": "Codex in-app browser",
+  "url": "http://127.0.0.1:8765/",
+  "date": "2026-10-01",
+  "viewport_tests": [
+    "default narrow layout",
+    "1440x900 desktop three columns"
+  ],
+  "checks": {
+    "authenticated_list": true,
+    "real_original_image_displayed": true,
+    "browser_edit_save_reopen": true,
+    "survived_actual_backend_process_restart": true,
+    "literal_brackets_preserved": true,
+    "directive_not_in_reading_text": true,
+    "affected_confirmation_revoked": true,
+    "prior_audition_stale": true,
+    "unconfirmed_tts_disabled": true,
+    "page_controls_saved": true,
+    "preflight_blockers_displayed": true,
+    "snapshot_disabled_when_blocked": true,
+    "console_errors": []
+  },
+  "fixed_during_browser_test": "preflight UI GET changed to required POST; successful browser rerun",
+  "screenshots": [
+    {
+      "path": "workbench-desktop.jpg",
+      "sha256": "001429b8b37f76097e0a4c8777235bca755a7a17544281f1b904f657fd5ea306"
+    },
+    {
+      "path": "preflight-desktop.jpg",
+      "sha256": "2dcdf069e82a2fba6217e7ed76e8b2966f8d0e804d661311719667988d02025f"
+    }
+  ],
+  "scope": "engineering UI checks only; no human voice/course approval"
+}

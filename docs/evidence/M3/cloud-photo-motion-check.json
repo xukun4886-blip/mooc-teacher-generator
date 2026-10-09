@@ -1,0 +1,58 @@
+[
+  {
+    "run": "30s-cold-b1",
+    "sampled_frames": 30,
+    "unique_frame_hashes": 30,
+    "whole_clip_static": false,
+    "scope": "Whole frame hashes at 1 fps only; natural motion and lip sync quality still require human review."
+  },
+  {
+    "run": "30s-warm-b1",
+    "sampled_frames": 30,
+    "unique_frame_hashes": 30,
+    "whole_clip_static": false,
+    "scope": "Whole frame hashes at 1 fps only; natural motion and lip sync quality still require human review."
+  },
+  {
+    "run": "82s-cold-b1",
+    "sampled_frames": 82,
+    "unique_frame_hashes": 82,
+    "whole_clip_static": false,
+    "scope": "Whole frame hashes at 1 fps only; natural motion and lip sync quality still require human review."
+  },
+  {
+    "run": "82s-warm-b1",
+    "sampled_frames": 82,
+    "unique_frame_hashes": 82,
+    "whole_clip_static": false,
+    "scope": "Whole frame hashes at 1 fps only; natural motion and lip sync quality still require human review."
+  },
+  {
+    "run": "30s-warm-b2",
+    "sampled_frames": 30,
+    "unique_frame_hashes": 30,
+    "whole_clip_static": false,
+    "scope": "Whole frame hashes at 1 fps only; natural motion and lip sync quality still require human review."
+  },
+  {
+    "run": "30s-warm-b4",
+    "sampled_frames": 30,
+    "unique_frame_hashes": 30,
+    "whole_clip_static": false,
+    "scope": "Whole frame hashes at 1 fps only; natural motion and lip sync quality still require human review."
+  },
+  {
+    "run": "82s-warm-b2",
+    "sampled_frames": 82,
+    "unique_frame_hashes": 82,
+    "whole_clip_static": false,
+    "scope": "Whole frame hashes at 1 fps only; natural motion and lip sync quality still require human review."
+  },
+  {
+    "run": "82s-warm-b4",
+    "sampled_frames": 82,
+    "unique_frame_hashes": 82,
+    "whole_clip_static": false,
+    "scope": "Whole frame hashes at 1 fps only; natural motion and lip sync quality still require human review."
+  }
+]

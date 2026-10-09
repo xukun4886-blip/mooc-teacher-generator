@@ -1,0 +1,820 @@
+{
+  "at": "2026-10-09T03:00:32.881723+00:00",
+  "scope": "M4 preacceptance only",
+  "formal_passed": false,
+  "metrics_frozen": false,
+  "AC": {
+    "AC01": {
+      "status": "partial",
+      "finding": "工程上传/保存/删除检查通过；原页5–14十页重新上传渲染；完整3课件数据及人工保真待补"
+    },
+    "AC02": {
+      "status": "blocked",
+      "finding": "教师知识点、95%覆盖及关键数值/公式/待确认清零未评"
+    },
+    "AC03": {
+      "status": "blocked",
+      "finding": "真实中文语音可解码；全部基线逐句人工核查/术语读法待评"
+    },
+    "AC04": {
+      "status": "blocked",
+      "finding": "仅1位授权教师，5段/教师及本人+2评审独立评分未齐"
+    },
+    "AC05": {
+      "status": "partial",
+      "finding": "两路径已有真实短课；独立十页外部稿长课结果见M3，不计正式质量通过"
+    },
+    "AC06": {
+      "status": "blocked",
+      "finding": "每路径20个发音起点的人工逐帧/波形复核待执行"
+    },
+    "AC07": {
+      "status": "partial",
+      "finding": "真实句段时间轴/原页切换已实现；20句人工字幕误差与重点区域待评"
+    },
+    "AC08": {
+      "status": "partial",
+      "finding": "四类导出/摘要/解码有实测；十页成果以最终记录为准，连续播放人工评审待执行"
+    },
+    "AC09": {
+      "status": "partial",
+      "finding": "改稿/布局局部缓存工程通过；真实生成期重启保留同任务和有效片段"
+    },
+    "AC10": {
+      "status": "blocked",
+      "finding": "12有效任务/11首次成功及近上限长任务不足；限流和恢复分开保留"
+    },
+    "AC11": {
+      "status": "partial",
+      "finding": "三稿源工程检查通过；十页外部稿精确映射；原4.6限流失败保留，同提供方免费4.1新上传两页复验单列，不计正式样本"
+    },
+    "AC12": {
+      "status": "engineering_passed",
+      "finding": "区间/数组/引用原文保留，采样停顿和事件不朗读检查通过；非教学评分"
+    },
+    "AC13": {
+      "status": "partial",
+      "finding": "3页显隐/位置/大小/布局工程及先前真实短课通过；人工无遮挡待评"
+    },
+    "AC14": {
+      "status": "engineering_passed",
+      "finding": "缺输入/配置、正式未审核阻断；未审核草稿允许先制作；无付费回退或虚构基线"
+    },
+    "AC15": {
+      "status": "engineering_passed",
+      "finding": "TTS/人物服务失败、可解码静音注入均失败且不提供完整成果；首次错误/恢复保留"
+    },
+    "AC16": {
+      "status": "partial",
+      "finding": "重复提交/消息与真实子进程死亡工程通过；真实长课同任务重启，最终恢复完成见长课记录"
+    },
+    "AC17": {
+      "status": "partial",
+      "finding": "讲稿/参考/模型/布局分层失效及后续偏移工程通过；正式全样例和质量待验证"
+    },
+    "AC18": {
+      "status": "blocked",
+      "finding": "现有草稿问题有来源；所有基线课时教师核查与3评审评分未完成"
+    }
+  },
+  "NFR": {
+    "NFR01": {
+      "status": "partial",
+      "finding": "SQLite实际重启与文件摘要；长课有效片段恢复"
+    },
+    "NFR02": {
+      "status": "partial",
+      "finding": "单worker锁/排队/资源不足和有限重试检查；真实OOM前序记录保留，足额资源样本待补"
+    },
+    "NFR03": {
+      "status": "partial",
+      "finding": "阶段/实际页数、模型耗时与设备/模型资源；十页同进程预热尚未验证"
+    },
+    "NFR04": {
+      "status": "blocked",
+      "finding": "文件/静音及严格教师模式已检；教学/视听评分待评"
+    },
+    "NFR05": {
+      "status": "partial",
+      "finding": "已有授权、身份绑定、本机会话/目录隔离、删除工程测试及证据密钥扫描；足额教师待补"
+    },
+    "NFR06": {
+      "status": "partial",
+      "finding": "内置浏览器实际验证；独立环境pip check通过；另机重建与多个主流桌面浏览器版本待补"
+    },
+    "NFR07": {
+      "status": "partial",
+      "finding": "版本/权重逐项核对、适配契约及配置模板；干净机器安装未验证"
+    },
+    "NFR08": {
+      "status": "partial",
+      "finding": "任务/阶段/错误/耗时、临时文件/项目删除检查通过；日志脱敏检查覆盖本轮证据"
+    }
+  },
+  "tests": {
+    "engineering-tests.xml": {
+      "tests": "83",
+      "failures": "0",
+      "errors": "0",
+      "time": "215.350"
+    },
+    "targeted-final-tests.xml": {
+      "tests": "18",
+      "failures": "0",
+      "errors": "0",
+      "time": "45.308"
+    },
+    "lifecycle-tests.xml": {
+      "tests": "9",
+      "failures": "0",
+      "errors": "0",
+      "time": "63.544"
+    },
+    "repair-tests-final.xml": {
+      "tests": "7",
+      "failures": "0",
+      "errors": "0",
+      "time": "20.488"
+    },
+    "temp-files-final.xml": {
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "time": "1.787"
+    },
+    "free-vision-tests.xml": {
+      "tests": "8",
+      "failures": "0",
+      "errors": "0",
+      "time": "19.259"
+    },
+    "free-vision-content-tests.xml": {
+      "tests": "11",
+      "failures": "0",
+      "errors": "0",
+      "time": "9.174"
+    },
+    "engineering-tests-final.xml": {
+      "tests": "85",
+      "failures": "0",
+      "errors": "0",
+      "time": "240.072"
+    },
+    "ppt-reselect-tests.xml": {
+      "tests": "7",
+      "failures": "0",
+      "errors": "0",
+      "time": "6.699"
+    },
+    "ppt-reselect-regression.xml": {
+      "tests": "46",
+      "failures": "0",
+      "errors": "0",
+      "time": "58.046"
+    },
+    "M2/lecture9-format-tests-first.xml": {
+      "tests": "34",
+      "failures": "0",
+      "errors": "0",
+      "time": "72.264"
+    },
+    "M2/lecture9-format-regression.xml": {
+      "tests": "100",
+      "failures": "0",
+      "errors": "0",
+      "time": "232.437"
+    }
+  },
+  "source_unchanged": true,
+  "teacher_confirmations_added": 0,
+  "source_snapshot_count": 0,
+  "current_project_review_guards": {
+    "0f8b2d74-d3da-4036-9a37-990017f645bd": {
+      "confirmed_scenes": 0,
+      "formal_snapshots": 0,
+      "course_confirmations": 0
+    },
+    "af3e551b-ec62-4080-9c60-070e94bb93bd": {
+      "confirmed_scenes": 0,
+      "formal_snapshots": 0,
+      "course_confirmations": 0
+    },
+    "491a2257-77c8-4618-97e6-42448f871b4a": {
+      "confirmed_scenes": 0,
+      "formal_snapshots": 0,
+      "course_confirmations": 0
+    },
+    "8c6f67d5-858b-41ec-80b9-50e9682f96a6": {
+      "confirmed_scenes": 0,
+      "formal_snapshots": 0,
+      "course_confirmations": 0
+    },
+    "92f7b222-dace-42c7-8be7-140beaa0497f": {
+      "confirmed_scenes": 0,
+      "formal_snapshots": 0,
+      "course_confirmations": 0
+    },
+    "014dbf68-ac9a-4a8a-8b90-63f0d5d6a1e7": {
+      "confirmed_scenes": 0,
+      "formal_snapshots": 0,
+      "course_confirmations": 0
+    },
+    "c156d76b-7daa-497d-a601-64c8513b937b": {
+      "confirmed_scenes": 0,
+      "formal_snapshots": 0,
+      "course_confirmations": 0
+    },
+    "0091c9cc-f11c-43d0-adcc-82263d176f3f": {
+      "confirmed_scenes": 0,
+      "formal_snapshots": 0,
+      "course_confirmations": 0
+    }
+  },
+  "documents": 38,
+  "links": 429,
+  "errors": [],
+  "evidence_secret_scan_findings": [],
+  "external_long_courses": {
+    "photo": {
+      "project_id": "92f7b222-dace-42c7-8be7-140beaa0497f",
+      "state": "completed",
+      "duration_seconds": 163.88
+    },
+    "video": {
+      "project_id": "014dbf68-ac9a-4a8a-8b90-63f0d5d6a1e7",
+      "state": "completed",
+      "duration_seconds": 163.88
+    }
+  },
+  "input_baseline": {
+    "authorized_teachers_available": 1,
+    "required_teachers": 2,
+    "required_decks": 3,
+    "required_valid_tasks": 12,
+    "required_near_limit_tasks": 1
+  },
+  "source_docx_sha256": {
+    "数字人教师慕课生成系统需求文档.docx": "c5cc38bc222dcd330b240d3b7f1bb87d151096844daa7b3457d9c7e25ef60bcc",
+    "数字人教师慕课生成系统需求文档_V1.1.docx": "5d6b8dba9e0bbda41f2019747bf4def306d487190d13ddd6b48788c8c13e79e1"
+  },
+  "fresh_ai_chain": {
+    "photo": {
+      "project_id": "c156d76b-7daa-497d-a601-64c8513b937b",
+      "state": "completed",
+      "versions_before_generate": 0,
+      "ai_model": "glm-4.1v-thinking-flash",
+      "formal_baseline": false,
+      "error": null
+    },
+    "video": {
+      "project_id": "0091c9cc-f11c-43d0-adcc-82263d176f3f",
+      "state": "completed",
+      "versions_before_generate": 0,
+      "ai_model": "glm-4.1v-thinking-flash",
+      "formal_baseline": false,
+      "error": null
+    }
+  },
+  "FR": {
+    "FR01": {
+      "content": "项目管理",
+      "work_items": [
+        "M2-F01"
+      ],
+      "acceptance_cases": [
+        "AC01"
+      ],
+      "formal_passed": false,
+      "linked_preacceptance": {
+        "AC01": {
+          "status": "partial",
+          "finding": "工程上传/保存/删除检查通过；原页5–14十页重新上传渲染；完整3课件数据及人工保真待补"
+        }
+      }
+    },
+    "FR02": {
+      "content": "上传与素材检查",
+      "work_items": [
+        "M1-F01",
+        "M2-F01"
+      ],
+      "acceptance_cases": [
+        "AC01",
+        "AC14"
+      ],
+      "formal_passed": false,
+      "linked_preacceptance": {
+        "AC01": {
+          "status": "partial",
+          "finding": "工程上传/保存/删除检查通过；原页5–14十页重新上传渲染；完整3课件数据及人工保真待补"
+        },
+        "AC14": {
+          "status": "engineering_passed",
+          "finding": "缺输入/配置、正式未审核阻断；未审核草稿允许先制作；无付费回退或虚构基线"
+        }
+      }
+    },
+    "FR03": {
+      "content": "原页解析与还原",
+      "work_items": [
+        "M1-F02",
+        "M2-F02"
+      ],
+      "acceptance_cases": [
+        "AC01",
+        "AC02",
+        "AC11"
+      ],
+      "formal_passed": false,
+      "linked_preacceptance": {
+        "AC01": {
+          "status": "partial",
+          "finding": "工程上传/保存/删除检查通过；原页5–14十页重新上传渲染；完整3课件数据及人工保真待补"
+        },
+        "AC02": {
+          "status": "blocked",
+          "finding": "教师知识点、95%覆盖及关键数值/公式/待确认清零未评"
+        },
+        "AC11": {
+          "status": "partial",
+          "finding": "三稿源工程检查通过；十页外部稿精确映射；原4.6限流失败保留，同提供方免费4.1新上传两页复验单列，不计正式样本"
+        }
+      }
+    },
+    "FR04": {
+      "content": "讲解结构规划",
+      "work_items": [
+        "M2-F02",
+        "M2-F03"
+      ],
+      "acceptance_cases": [
+        "AC02",
+        "AC18"
+      ],
+      "formal_passed": false,
+      "linked_preacceptance": {
+        "AC02": {
+          "status": "blocked",
+          "finding": "教师知识点、95%覆盖及关键数值/公式/待确认清零未评"
+        },
+        "AC18": {
+          "status": "blocked",
+          "finding": "现有草稿问题有来源；所有基线课时教师核查与3评审评分未完成"
+        }
+      }
+    },
+    "FR05": {
+      "content": "逐页讲稿生成",
+      "work_items": [
+        "M2-F03"
+      ],
+      "acceptance_cases": [
+        "AC02",
+        "AC11"
+      ],
+      "formal_passed": false,
+      "linked_preacceptance": {
+        "AC02": {
+          "status": "blocked",
+          "finding": "教师知识点、95%覆盖及关键数值/公式/待确认清零未评"
+        },
+        "AC11": {
+          "status": "partial",
+          "finding": "三稿源工程检查通过；十页外部稿精确映射；原4.6限流失败保留，同提供方免费4.1新上传两页复验单列，不计正式样本"
+        }
+      }
+    },
+    "FR06": {
+      "content": "讲稿编辑及版本",
+      "work_items": [
+        "M2-F04",
+        "M3-F05"
+      ],
+      "acceptance_cases": [
+        "AC02",
+        "AC09",
+        "AC17"
+      ],
+      "formal_passed": false,
+      "linked_preacceptance": {
+        "AC02": {
+          "status": "blocked",
+          "finding": "教师知识点、95%覆盖及关键数值/公式/待确认清零未评"
+        },
+        "AC09": {
+          "status": "partial",
+          "finding": "改稿/布局局部缓存工程通过；真实生成期重启保留同任务和有效片段"
+        },
+        "AC17": {
+          "status": "partial",
+          "finding": "讲稿/参考/模型/布局分层失效及后续偏移工程通过；正式全样例和质量待验证"
+        }
+      }
+    },
+    "FR07": {
+      "content": "教学核对",
+      "work_items": [
+        "M2-F04",
+        "M4-F02"
+      ],
+      "acceptance_cases": [
+        "AC02",
+        "AC12",
+        "AC18"
+      ],
+      "formal_passed": false,
+      "linked_preacceptance": {
+        "AC02": {
+          "status": "blocked",
+          "finding": "教师知识点、95%覆盖及关键数值/公式/待确认清零未评"
+        },
+        "AC12": {
+          "status": "engineering_passed",
+          "finding": "区间/数组/引用原文保留，采样停顿和事件不朗读检查通过；非教学评分"
+        },
+        "AC18": {
+          "status": "blocked",
+          "finding": "现有草稿问题有来源；所有基线课时教师核查与3评审评分未完成"
+        }
+      }
+    },
+    "FR08": {
+      "content": "教师音色合成",
+      "work_items": [
+        "M1-F03",
+        "M2-F05",
+        "M3-F01"
+      ],
+      "acceptance_cases": [
+        "AC03",
+        "AC04",
+        "AC15"
+      ],
+      "formal_passed": false,
+      "linked_preacceptance": {
+        "AC03": {
+          "status": "blocked",
+          "finding": "真实中文语音可解码；全部基线逐句人工核查/术语读法待评"
+        },
+        "AC04": {
+          "status": "blocked",
+          "finding": "仅1位授权教师，5段/教师及本人+2评审独立评分未齐"
+        },
+        "AC15": {
+          "status": "engineering_passed",
+          "finding": "TTS/人物服务失败、可解码静音注入均失败且不提供完整成果；首次错误/恢复保留"
+        }
+      }
+    },
+    "FR09": {
+      "content": "照片驱动人物",
+      "work_items": [
+        "M1-F04",
+        "M3-F01"
+      ],
+      "acceptance_cases": [
+        "AC04",
+        "AC05",
+        "AC06",
+        "AC15"
+      ],
+      "formal_passed": false,
+      "linked_preacceptance": {
+        "AC04": {
+          "status": "blocked",
+          "finding": "仅1位授权教师，5段/教师及本人+2评审独立评分未齐"
+        },
+        "AC05": {
+          "status": "partial",
+          "finding": "两路径已有真实短课；独立十页外部稿长课结果见M3，不计正式质量通过"
+        },
+        "AC06": {
+          "status": "blocked",
+          "finding": "每路径20个发音起点的人工逐帧/波形复核待执行"
+        },
+        "AC15": {
+          "status": "engineering_passed",
+          "finding": "TTS/人物服务失败、可解码静音注入均失败且不提供完整成果；首次错误/恢复保留"
+        }
+      }
+    },
+    "FR10": {
+      "content": "视频驱动人物",
+      "work_items": [
+        "M1-F05",
+        "M3-F01"
+      ],
+      "acceptance_cases": [
+        "AC04",
+        "AC05",
+        "AC06",
+        "AC15"
+      ],
+      "formal_passed": false,
+      "linked_preacceptance": {
+        "AC04": {
+          "status": "blocked",
+          "finding": "仅1位授权教师，5段/教师及本人+2评审独立评分未齐"
+        },
+        "AC05": {
+          "status": "partial",
+          "finding": "两路径已有真实短课；独立十页外部稿长课结果见M3，不计正式质量通过"
+        },
+        "AC06": {
+          "status": "blocked",
+          "finding": "每路径20个发音起点的人工逐帧/波形复核待执行"
+        },
+        "AC15": {
+          "status": "engineering_passed",
+          "finding": "TTS/人物服务失败、可解码静音注入均失败且不提供完整成果；首次错误/恢复保留"
+        }
+      }
+    },
+    "FR11": {
+      "content": "时间轴与字幕",
+      "work_items": [
+        "M3-F02",
+        "M3-F05"
+      ],
+      "acceptance_cases": [
+        "AC06",
+        "AC07",
+        "AC17"
+      ],
+      "formal_passed": false,
+      "linked_preacceptance": {
+        "AC06": {
+          "status": "blocked",
+          "finding": "每路径20个发音起点的人工逐帧/波形复核待执行"
+        },
+        "AC07": {
+          "status": "partial",
+          "finding": "真实句段时间轴/原页切换已实现；20句人工字幕误差与重点区域待评"
+        },
+        "AC17": {
+          "status": "partial",
+          "finding": "讲稿/参考/模型/布局分层失效及后续偏移工程通过；正式全样例和质量待验证"
+        }
+      }
+    },
+    "FR12": {
+      "content": "布局与合成",
+      "work_items": [
+        "M2-F05",
+        "M3-F03"
+      ],
+      "acceptance_cases": [
+        "AC07",
+        "AC08",
+        "AC13"
+      ],
+      "formal_passed": false,
+      "linked_preacceptance": {
+        "AC07": {
+          "status": "partial",
+          "finding": "真实句段时间轴/原页切换已实现；20句人工字幕误差与重点区域待评"
+        },
+        "AC08": {
+          "status": "partial",
+          "finding": "四类导出/摘要/解码有实测；十页成果以最终记录为准，连续播放人工评审待执行"
+        },
+        "AC13": {
+          "status": "partial",
+          "finding": "3页显隐/位置/大小/布局工程及先前真实短课通过；人工无遮挡待评"
+        }
+      }
+    },
+    "FR13": {
+      "content": "异步任务及重做",
+      "work_items": [
+        "M3-F04",
+        "M3-F05"
+      ],
+      "acceptance_cases": [
+        "AC09",
+        "AC10",
+        "AC16",
+        "AC17"
+      ],
+      "formal_passed": false,
+      "linked_preacceptance": {
+        "AC09": {
+          "status": "partial",
+          "finding": "改稿/布局局部缓存工程通过；真实生成期重启保留同任务和有效片段"
+        },
+        "AC10": {
+          "status": "blocked",
+          "finding": "12有效任务/11首次成功及近上限长任务不足；限流和恢复分开保留"
+        },
+        "AC16": {
+          "status": "partial",
+          "finding": "重复提交/消息与真实子进程死亡工程通过；真实长课同任务重启，最终恢复完成见长课记录"
+        },
+        "AC17": {
+          "status": "partial",
+          "finding": "讲稿/参考/模型/布局分层失效及后续偏移工程通过；正式全样例和质量待验证"
+        }
+      }
+    },
+    "FR14": {
+      "content": "预览及导出",
+      "work_items": [
+        "M3-F06",
+        "M4-F05"
+      ],
+      "acceptance_cases": [
+        "AC08",
+        "AC15"
+      ],
+      "formal_passed": false,
+      "linked_preacceptance": {
+        "AC08": {
+          "status": "partial",
+          "finding": "四类导出/摘要/解码有实测；十页成果以最终记录为准，连续播放人工评审待执行"
+        },
+        "AC15": {
+          "status": "engineering_passed",
+          "finding": "TTS/人物服务失败、可解码静音注入均失败且不提供完整成果；首次错误/恢复保留"
+        }
+      }
+    },
+    "FR15": {
+      "content": "生成前预检",
+      "work_items": [
+        "M1-F06",
+        "M2-F06",
+        "M3-F06"
+      ],
+      "acceptance_cases": [
+        "AC14"
+      ],
+      "formal_passed": false,
+      "linked_preacceptance": {
+        "AC14": {
+          "status": "engineering_passed",
+          "finding": "缺输入/配置、正式未审核阻断；未审核草稿允许先制作；无付费回退或虚构基线"
+        }
+      }
+    },
+    "FR16": {
+      "content": "三种讲稿入口",
+      "work_items": [
+        "M2-F03"
+      ],
+      "acceptance_cases": [
+        "AC11"
+      ],
+      "formal_passed": false,
+      "linked_preacceptance": {
+        "AC11": {
+          "status": "partial",
+          "finding": "三稿源工程检查通过；十页外部稿精确映射；原4.6限流失败保留，同提供方免费4.1新上传两页复验单列，不计正式样本"
+        }
+      }
+    },
+    "FR17": {
+      "content": "页面讲解控制",
+      "work_items": [
+        "M2-F05",
+        "M3-F02",
+        "M3-F03"
+      ],
+      "acceptance_cases": [
+        "AC12",
+        "AC13"
+      ],
+      "formal_passed": false,
+      "linked_preacceptance": {
+        "AC12": {
+          "status": "engineering_passed",
+          "finding": "区间/数组/引用原文保留，采样停顿和事件不朗读检查通过；非教学评分"
+        },
+        "AC13": {
+          "status": "partial",
+          "finding": "3页显隐/位置/大小/布局工程及先前真实短课通过；人工无遮挡待评"
+        }
+      }
+    },
+    "FR18": {
+      "content": "模型能力及教师一致性",
+      "work_items": [
+        "M1-F06",
+        "M2-F06",
+        "M3-F01",
+        "M3-F06"
+      ],
+      "acceptance_cases": [
+        "AC14",
+        "AC15"
+      ],
+      "formal_passed": false,
+      "linked_preacceptance": {
+        "AC14": {
+          "status": "engineering_passed",
+          "finding": "缺输入/配置、正式未审核阻断；未审核草稿允许先制作；无付费回退或虚构基线"
+        },
+        "AC15": {
+          "status": "engineering_passed",
+          "finding": "TTS/人物服务失败、可解码静音注入均失败且不提供完整成果；首次错误/恢复保留"
+        }
+      }
+    },
+    "FR19": {
+      "content": "片段状态与缓存",
+      "work_items": [
+        "M3-F04",
+        "M3-F05"
+      ],
+      "acceptance_cases": [
+        "AC16",
+        "AC17"
+      ],
+      "formal_passed": false,
+      "linked_preacceptance": {
+        "AC16": {
+          "status": "partial",
+          "finding": "重复提交/消息与真实子进程死亡工程通过；真实长课同任务重启，最终恢复完成见长课记录"
+        },
+        "AC17": {
+          "status": "partial",
+          "finding": "讲稿/参考/模型/布局分层失效及后续偏移工程通过；正式全样例和质量待验证"
+        }
+      }
+    },
+    "FR20": {
+      "content": "教学与理解性评估",
+      "work_items": [
+        "M2-F04",
+        "M4-F01",
+        "M4-F02"
+      ],
+      "acceptance_cases": [
+        "AC18"
+      ],
+      "formal_passed": false,
+      "linked_preacceptance": {
+        "AC18": {
+          "status": "blocked",
+          "finding": "现有草稿问题有来源；所有基线课时教师核查与3评审评分未完成"
+        }
+      }
+    }
+  },
+  "implementation_sha256": {
+    "mooc_m1\\adapters.py": "0c5c7606fa828d36557546781a0722723c3c6b7845bb3251653cfc714eff47ee",
+    "mooc_m1\\core.py": "203deab7c0e7e3a4c3208466e674b0d2c2e37ede5957de6af2d218de21fe08ff",
+    "mooc_m1\\environment.py": "7ca86e6f5e9117555c7816db08c0de8f7aee58e4b970d5f4a89ffae6d4d25205",
+    "mooc_m1\\media.py": "1336ab5bb5cb470e302d887db205bf12dee41b0ca7f431ddb3dba50cc268ade9",
+    "mooc_m1\\model_worker.py": "f5073cb3c2f5ee7eab284151c31319c00f2ac8800bdd92f542ef15600bd2d8ae",
+    "mooc_m1\\office_worker.py": "cad5cc87b49a2914de11bed0f8de1959c7c4848aed9579f85b811853de858461",
+    "mooc_m1\\ppt.py": "57a55648e396e9db16b09a7f0783533263faa14c6c693104af67074f16ee51fc",
+    "mooc_m1\\preflight.py": "43ba173342ead14a173a8baff1c38277a98317caf6308df4bc932253dfd0704f",
+    "mooc_m1\\resources.py": "5f797e21e72b4751b7a9985f8ce0e73b2144451d19e0d564d0c0d94916c7c232",
+    "mooc_m1\\__init__.py": "37a1b7895c7e513e736e4838eaf03fc5477f6f3d8c99b38ea3c8153349526b7e",
+    "mooc_m1\\__main__.py": "4f6f21ec49bddd714e72c13950f7d174c46cbd1f38a9f55d188d906908f8691b",
+    "mooc_m2\\ai_draft.py": "35ee5aa4192e4eb9ed6897f57034cc7a164fec62a9793c34e66cbcedbde80d9f",
+    "mooc_m2\\api.py": "d3c54bbc456919a016be4786cc204c1fc457c2cfb0f372067c3ca246f5641e98",
+    "mooc_m2\\content.py": "66fe6c153ba48659638cc005fc363af3729dd5fd66949535657891e11bbfe32b",
+    "mooc_m2\\course.py": "e6b7c14342f1e402e8964d6e119642d1da74f918d73ff3f4bc630ef4f5a8aa76",
+    "mooc_m2\\office_convert.py": "caa22d506c43b022c87e06b3e13ab618662b13f0d743d8f6a0362014da9b8171",
+    "mooc_m2\\service.py": "61ce3d5156beeaf71e28ebc5382eb05b13d63754e394515b408dafbfd0530920",
+    "mooc_m2\\store.py": "30a83b51e02dc347848182ddfabaefa6c02b957835d951834d34b26fd734740f",
+    "mooc_m2\\__init__.py": "ef268156d01ecbdb0a5640026054516ee5a5ccdba5091651d3ca499307676432",
+    "mooc_m2\\__main__.py": "cc2abf9de4500df3db8a364b8bba87cea8883c530573fcd21ca8dfb627d1ed11",
+    "mooc_m3\\pipeline.py": "3493c8ad94f51f63d4e07e2d7306605ac244a61164f9a61e9a3cc024875726c1",
+    "mooc_m3\\render.py": "2737d88dbbd54599a14d46aa1a0b8161568779527dd3710e05a2b670cbc1b364",
+    "mooc_m3\\review.py": "96d45d47008eec80f9ed665d43a6b72a76b707d080e57faee6db7bd8af263909",
+    "mooc_m3\\timeline.py": "10a6f2d1efd139f664a1ac4ddd012eb229e4821577624f6e645631c2e1160103",
+    "mooc_m3\\__init__.py": "9f09328424604d4d2df3e29babd8190bc689684d3ae7c16673d156726963fc60",
+    "frontend\\src\\App.vue": "180b17864518fe6e1d1754ad37677cf4bc34eb2323b2febab03fe8f52b0566e8",
+    "frontend\\src\\AssetSelection.vue": "84317bd7eafa971580593d89273d59acc336cd9c2db15a74da2e1a37c23f263a",
+    "frontend\\src\\M1Review.vue": "7544065aefe0e34da070e7291fe869451789026f7a54b45f18bf10c1ed6d9931",
+    "frontend\\src\\main.js": "9086249a9084c8581fa15c4f2af1f27034b03aef4bb20d12276580acc1adf020",
+    "frontend\\src\\MediaWorkbench.vue": "b3411a38ee872d372ae413528741d68503dcaded19eb9873cafa124f9010f60c",
+    "frontend\\src\\OneClick.vue": "b13d15225fabaf98ac7571aaf1020be11961712e9c8091de47e9fc63b6127e45",
+    "frontend\\src\\ReviewForm.vue": "e5ff74bdaac74a744870af8cbc49c037a0c6a01cb2ea054e66cad79bed5d8755",
+    "frontend\\src\\style.css": "fd29dc2bd5edd7a4884dc4da4d22c1ed084ff7f04783125c8edfc2428cecbb3f",
+    "tools\\m2_start.ps1": "ddac2ad719df19440e9a3e37020e88166e842a779f712557eba641083a0624c1",
+    "tools\\m2_open.py": "bfcf7344d37fe7a8db8998736b21799b9ced319e4634a496ebb958217d29967d",
+    "config\\m4.example.json": "3eaa208b189bdca1ac55430518b42fcab686d64457d7271079c8f5a1d091a948",
+    "tools\\m4_closeout.py": "537b3c71356799a714508ed096407bb57811ce979187abb1fa1afb0ec0288103",
+    "tools\\m4_delivery_check.py": "433f6c50da25e813576d84cf5cf063e53fe6101ff16906a49589f26d62ee62d1",
+    "tools\\m4_external_courses.py": "20ffa74fac387b9126757a4576966200eb1a7350d4674372ee2ad59b3bfc8285",
+    "tools\\m4_finalize_startup.py": "7d6c5870aa9ad8449259ef11283b47f724fcfaf7655280603e03a0e099835b0a",
+    "tools\\m4_fresh_ai_validation.py": "eadd43c8c53dc2bb85d72309cc4823d150bf5f02cb5a4e23d6c17b5a2a7b8dac",
+    "tools\\m4_live_restart.py": "6715c4e9329ce86019b6660907cf35ca38c8ccc6064caf1f7dc1f900a05cdc0a",
+    "tools\\m4_long_report.py": "1ea6782b3b5052014acc7a613cac029495060cc061075f0152f2b590db3a4f03",
+    "tools\\m4_ppt_reselect.py": "ae3f20f6e9f6ac68b857e8cc09992056dc8ef633fb692a7f86902a536c997a3f",
+    "tools\\m4_real_validation.py": "50cc84c6717bbd97ff89c4e1c6cf1a01a6c767fcaecf9741f61ce6b09d3e88b3",
+    "tools\\m4_report.py": "d2f0b20d408c37a045343ff453247bf809c1698214e964524459f036acb02ee7",
+    "tools\\m4_review_pack.py": "e0a6a2f0717d9cd0c5d71fc73d9f9ec77a1e91a939d07ab6c18990705b736549",
+    "tools\\m4_watch.py": "166f6f03fbd2ec1b0a91e6d7f31b022520ebbda3f83ef9e22d20d574bcefdc2e",
+    "requirements-m1.txt": "a1b5d5be96a081c744e20b87ba2e7b1576be68726773d2a80f103bdb2da3860c",
+    "requirements-m2.txt": "ad996f5727738980b3b04fccf0998913900b755cd55967b4a818a93a660be840",
+    "frontend\\package-lock.json": "9164565014ea2a6c6ba5d21c49b94894c8f016a2d9c58b68ae22ab5288375082"
+  },
+  "local_config_sha256": {
+    "config\\m1.local.json": "6c84b56344cd358752dc62cd64b60c308b791d0a764011336b57f6b331596f0c",
+    "config\\m2.local.json": "36b026e848bc9dd4a16c8e71c6ad84b4ae3ed593afc16d32ef83805c9f2d73f8"
+  }
+}

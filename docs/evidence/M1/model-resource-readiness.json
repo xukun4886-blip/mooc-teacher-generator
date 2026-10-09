@@ -1,0 +1,590 @@
+{
+  "recorded_at": "2026-10-01T12:27:40.030966+00:00",
+  "models": {
+    "tts": {
+      "latest_success": {
+        "request_id": "41f5a6ed-2e10-4beb-be4b-80e2f649bcb6",
+        "role": "tts",
+        "state": "media_ready",
+        "created_at": "2026-10-01T11:43:34.558802+00:00",
+        "stage": "awaiting_human_review",
+        "output": {
+          "path": "D:\\XuTao_Task\\storage\\m1\\requests\\41f5a6ed-2e10-4beb-be4b-80e2f649bcb6\\audio.wav",
+          "sha256": "583b26b8f7d316d8bd427e584519fc597c12f0b084a2ae07466a8e2885b6f57d",
+          "size_bytes": 3180844,
+          "duration_seconds": 49.7,
+          "width": null,
+          "height": null,
+          "sample_rate": "32000",
+          "codec": "pcm_s16le",
+          "silence_ratio": 0.0,
+          "max_volume_db": -0.3
+        },
+        "warm_output": {
+          "path": "D:\\XuTao_Task\\storage\\m1\\requests\\41f5a6ed-2e10-4beb-be4b-80e2f649bcb6\\audio-warm.wav",
+          "sha256": "077b420fad26c8ece294ae716d6777afa21466064fb2d2523e3568edc0aad436",
+          "size_bytes": 3180844,
+          "duration_seconds": 49.7,
+          "width": null,
+          "height": null,
+          "sample_rate": "32000",
+          "codec": "pcm_s16le",
+          "silence_ratio": 0.0,
+          "max_volume_db": -0.3
+        },
+        "inputs": {
+          "reference_audio": {
+            "path": "D:\\XuTao_Task\\storage\\m1\\reference-0-7.5s.wav",
+            "sha256": "9add37be988ebe858b84c2f7cad39768671a4b7a92ec88fdafe70db8a5567a8c",
+            "size_bytes": 360078,
+            "duration_seconds": 7.5,
+            "width": null,
+            "height": null,
+            "sample_rate": "24000",
+            "codec": "pcm_s16le",
+            "silence_ratio": 0.0,
+            "max_volume_db": -0.7
+          }
+        },
+        "actual_provider": "GPT-SoVITS",
+        "code_revision": "48b1a0169a28582a8984402f82cf438d3bfa6aca",
+        "actual_weight_version": "v2",
+        "native_model_record": {
+          "provider": "GPT-SoVITS",
+          "actual_weight_version": "v2",
+          "loaded_primary_weights": {
+            "t2s_weights_path": {
+              "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\gsv-v2final-pretrained\\s1bert25hz-5kh-longer-epoch=12-step=369668.ckpt",
+              "sha256": "732f94e63b148066e24c7f9d2637f3374083e637635f07fbdb695dee20ddbe1f"
+            },
+            "vits_weights_path": {
+              "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\gsv-v2final-pretrained\\s2G2333k.pth",
+              "sha256": "924fdccaa3c574bf139c25c9759aa1ed3b3f99e19a7c529ee996c2bc17663695"
+            }
+          },
+          "inference_config_sha256": "3a4dfe7a0d6f01144ea1ca841e2592e0f9b8b25e9d818b677d61f8c753efd9b3",
+          "cold_load_seconds": 2.7828997999968124,
+          "tokenizer_backend": "jieba",
+          "first_inference_seconds": 25.380052100001194,
+          "warm_seconds": 14.303988299994671
+        },
+        "native_loads": {
+          "loaded_files": [
+            {
+              "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\gsv-v2final-pretrained\\s1bert25hz-5kh-longer-epoch=12-step=369668.ckpt",
+              "sha256": "732f94e63b148066e24c7f9d2637f3374083e637635f07fbdb695dee20ddbe1f"
+            },
+            {
+              "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\gsv-v2final-pretrained\\s2G2333k.pth",
+              "sha256": "924fdccaa3c574bf139c25c9759aa1ed3b3f99e19a7c529ee996c2bc17663695"
+            },
+            {
+              "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\chinese-roberta-wwm-ext-large\\pytorch_model.bin",
+              "sha256": "e53a693acc59ace251d143d068096ae0d7b79e4b1b503fa84c9dcf576448c1d8"
+            },
+            {
+              "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\chinese-hubert-base\\pytorch_model.bin",
+              "sha256": "24164f129c66499d1346e2aa55f183250c223161ec2770c0da3d3b08cf432d3c"
+            }
+          ],
+          "scope": "successful torch.load and safetensors.load_file calls in isolated native process",
+          "elapsed_native_seconds": 55.04884619999939,
+          "torch_peak_allocated_mib": 1550.92578125,
+          "torch_peak_reserved_mib": 1644.0,
+          "quality_passed": false
+        },
+        "native_driving": null,
+        "elapsed_seconds": 65.41441459999623,
+        "warm_seconds": 14.303988299994671,
+        "error": null,
+        "device_peak_used_mib": 2078,
+        "device_sample_count": 52,
+        "device_scope": "whole device including desktop and other processes; not model allocated VRAM",
+        "quality_verified": false,
+        "controlled_status_path": "D:\\XuTao_Task\\storage\\m1\\requests\\41f5a6ed-2e10-4beb-be4b-80e2f649bcb6\\status.json"
+      },
+      "native_failures": [
+        {
+          "request_id": "c9073c95-38cd-4a2f-a57d-1db454c5cd13",
+          "role": "tts",
+          "state": "failed",
+          "created_at": "2026-10-01T11:12:43.856587+00:00",
+          "stage": "native_generation",
+          "output": null,
+          "warm_output": null,
+          "inputs": {
+            "reference_audio": {
+              "path": "D:\\XuTao_Task\\storage\\m1\\reference-0-7.5s.wav",
+              "sha256": "9add37be988ebe858b84c2f7cad39768671a4b7a92ec88fdafe70db8a5567a8c",
+              "size_bytes": 360078,
+              "duration_seconds": 7.5,
+              "width": null,
+              "height": null,
+              "sample_rate": "24000",
+              "codec": "pcm_s16le",
+              "silence_ratio": 0.0,
+              "max_volume_db": -0.7
+            }
+          },
+          "actual_provider": null,
+          "code_revision": null,
+          "actual_weight_version": null,
+          "native_model_record": null,
+          "native_loads": {
+            "loaded_files": [],
+            "scope": "successful torch.load and safetensors.load_file calls in isolated native process",
+            "elapsed_native_seconds": 8.171947200000432,
+            "torch_peak_allocated_mib": 0.0,
+            "torch_peak_reserved_mib": 0.0,
+            "quality_passed": false
+          },
+          "native_driving": null,
+          "elapsed_seconds": 17.84286879999854,
+          "warm_seconds": null,
+          "error": {
+            "code": "RUN_FAILED",
+            "message": "Process exited with code 1",
+            "source": "C:\\Users\\及时行乐\\.cache\\mooc-m1-gpt\\Scripts\\python.exe",
+            "remedy": null
+          },
+          "device_peak_used_mib": 1305,
+          "device_sample_count": 10,
+          "device_scope": "whole device including desktop and other processes; not model allocated VRAM",
+          "quality_verified": false,
+          "controlled_status_path": "D:\\XuTao_Task\\storage\\m1\\requests\\c9073c95-38cd-4a2f-a57d-1db454c5cd13\\status.json"
+        },
+        {
+          "request_id": "523563d8-5c21-4115-aad7-e03e6f524574",
+          "role": "tts",
+          "state": "failed",
+          "created_at": "2026-10-01T11:13:54.096625+00:00",
+          "stage": "native_generation",
+          "output": null,
+          "warm_output": null,
+          "inputs": {
+            "reference_audio": {
+              "path": "D:\\XuTao_Task\\storage\\m1\\reference-0-7.5s.wav",
+              "sha256": "9add37be988ebe858b84c2f7cad39768671a4b7a92ec88fdafe70db8a5567a8c",
+              "size_bytes": 360078,
+              "duration_seconds": 7.5,
+              "width": null,
+              "height": null,
+              "sample_rate": "24000",
+              "codec": "pcm_s16le",
+              "silence_ratio": 0.0,
+              "max_volume_db": -0.7
+            }
+          },
+          "actual_provider": null,
+          "code_revision": null,
+          "actual_weight_version": null,
+          "native_model_record": null,
+          "native_loads": null,
+          "native_driving": null,
+          "elapsed_seconds": 346.6202142000002,
+          "warm_seconds": null,
+          "error": {
+            "code": "RUN_FAILED",
+            "message": "Process exited with code 1",
+            "source": "C:\\Users\\及时行乐\\.cache\\mooc-m1-gpt\\Scripts\\python.exe",
+            "remedy": null
+          },
+          "device_peak_used_mib": 2994,
+          "device_sample_count": 299,
+          "device_scope": "whole device including desktop and other processes; not model allocated VRAM",
+          "quality_verified": false,
+          "controlled_status_path": "D:\\XuTao_Task\\storage\\m1\\requests\\523563d8-5c21-4115-aad7-e03e6f524574\\status.json"
+        },
+        {
+          "request_id": "f743f3f9-f391-45e0-9b88-dc09dd3cd463",
+          "role": "tts",
+          "state": "failed",
+          "created_at": "2026-10-01T11:21:39.154169+00:00",
+          "stage": "native_generation",
+          "output": null,
+          "warm_output": null,
+          "inputs": {
+            "reference_audio": {
+              "path": "D:\\XuTao_Task\\storage\\m1\\reference-0-7.5s.wav",
+              "sha256": "9add37be988ebe858b84c2f7cad39768671a4b7a92ec88fdafe70db8a5567a8c",
+              "size_bytes": 360078,
+              "duration_seconds": 7.5,
+              "width": null,
+              "height": null,
+              "sample_rate": "24000",
+              "codec": "pcm_s16le",
+              "silence_ratio": 0.0,
+              "max_volume_db": -0.7
+            }
+          },
+          "actual_provider": null,
+          "code_revision": null,
+          "actual_weight_version": null,
+          "native_model_record": null,
+          "native_loads": null,
+          "native_driving": null,
+          "elapsed_seconds": 131.90048849999584,
+          "warm_seconds": null,
+          "error": {
+            "code": "RUN_FAILED",
+            "message": "Process exited with code 1",
+            "source": "C:\\Users\\及时行乐\\.cache\\mooc-m1-gpt\\Scripts\\python.exe",
+            "remedy": null
+          },
+          "device_peak_used_mib": 2992,
+          "device_sample_count": 112,
+          "device_scope": "whole device including desktop and other processes; not model allocated VRAM",
+          "quality_verified": false,
+          "controlled_status_path": "D:\\XuTao_Task\\storage\\m1\\requests\\f743f3f9-f391-45e0-9b88-dc09dd3cd463\\status.json"
+        }
+      ]
+    },
+    "photo": {
+      "latest_success": {
+        "request_id": "0876724b-2a6d-4df9-b298-2ddc46dd48b7",
+        "role": "photo",
+        "state": "media_ready",
+        "created_at": "2026-10-01T11:45:30.520706+00:00",
+        "stage": "awaiting_human_review",
+        "output": {
+          "path": "D:\\XuTao_Task\\storage\\m1\\requests\\0876724b-2a6d-4df9-b298-2ddc46dd48b7\\video.mp4",
+          "sha256": "5edf7c3333414e1aa19793f1fe525836d0a3fa019dd9de95e2952b18ae2711ee",
+          "size_bytes": 669390,
+          "duration_seconds": 30.0,
+          "width": 180,
+          "height": 168,
+          "fps": 25.0,
+          "sample_rate": null,
+          "codec": "mpeg4"
+        },
+        "warm_output": {
+          "path": "D:\\XuTao_Task\\storage\\m1\\requests\\0876724b-2a6d-4df9-b298-2ddc46dd48b7\\video-warm.mp4",
+          "sha256": "0ab483df454a1c06e20a5e75945f7349efc80f10f5b45188453b010eb5b2b328",
+          "size_bytes": 668370,
+          "duration_seconds": 30.0,
+          "width": 180,
+          "height": 168,
+          "fps": 25.0,
+          "sample_rate": null,
+          "codec": "mpeg4"
+        },
+        "inputs": {
+          "audio": {
+            "path": "D:\\XuTao_Task\\storage\\m1\\driver-30s.wav",
+            "sha256": "25795c9a9dd2e52aadbd3514162d5e49ba566f22b410dd3dad6aeb582e632c91",
+            "size_bytes": 1920078,
+            "duration_seconds": 30.0,
+            "width": null,
+            "height": null,
+            "sample_rate": "32000",
+            "codec": "pcm_s16le",
+            "silence_ratio": 0.0,
+            "max_volume_db": -0.3
+          },
+          "photo": {
+            "path": "D:\\Task_test\\images.jpg",
+            "sha256": "2a77d59a9de0fdd64617a536d1a9476ee89381bc66c41f8d7ab4e6dd3a8d050a",
+            "size_bytes": 4196,
+            "width": 180,
+            "height": 168
+          },
+          "warm_audio": {
+            "path": "D:\\XuTao_Task\\storage\\m1\\driver-b-30s.wav",
+            "sha256": "aa428b8af9a374c7a203b9e09bf5f7fb7978cf908f3968884d78d1aee91933e1",
+            "size_bytes": 1920078,
+            "duration_seconds": 30.0,
+            "width": null,
+            "height": null,
+            "sample_rate": "32000",
+            "codec": "pcm_s16le",
+            "silence_ratio": 0.0,
+            "max_volume_db": -0.3
+          }
+        },
+        "actual_provider": "SadTalker",
+        "code_revision": "cd4c0465ae0b54a6f85af57f5c65fec9fe23e7f8",
+        "actual_weight_version": "v0.0.2_256",
+        "native_model_record": {
+          "provider": "SadTalker",
+          "actual_weight_version": "v0.0.2_256",
+          "cold_model_load_seconds": 3.162804999999935,
+          "first_generation_seconds": 635.7349400000021,
+          "warm_seconds": 844.8934193999958,
+          "warm_scope": "same native instances; different current audio",
+          "enhancer": null,
+          "preprocess": "full",
+          "size": 256,
+          "quality_passed": false
+        },
+        "native_loads": {
+          "loaded_files": [
+            {
+              "path": "D:\\XuTao_Task\\.tools\\models\\SadTalker\\gfpgan\\weights\\alignment_WFLW_4HG.pth",
+              "sha256": "bbfd137307a4c7debd5c283b9b0ce539466cee417ac0a155e184d857f9f2899c"
+            },
+            {
+              "path": "D:\\XuTao_Task\\.tools\\models\\SadTalker\\gfpgan\\weights\\detection_Resnet50_Final.pth",
+              "sha256": "6d1de9c2944f2ccddca5f5e010ea5ae64a39845a86311af6fdf30841b0a5a16d"
+            },
+            {
+              "path": "D:\\XuTao_Task\\.tools\\models\\SadTalker\\checkpoints\\SadTalker_V0.0.2_256.safetensors",
+              "sha256": "c211f5d6de003516bf1bbda9f47049a4c9c99133b1ab565c6961e5af16477bff"
+            },
+            {
+              "path": "D:\\XuTao_Task\\.tools\\models\\SadTalker\\checkpoints\\mapping_00109-model.pth.tar",
+              "sha256": "84a8642468a3fcfdd9ab6be955267043116c2bec2284686a5262f1eaf017f64c"
+            }
+          ],
+          "scope": "successful torch.load and safetensors.load_file calls in isolated native process",
+          "elapsed_native_seconds": 1484.0810325999992,
+          "torch_peak_allocated_mib": 2318.6474609375,
+          "torch_peak_reserved_mib": 3224.0,
+          "quality_passed": false
+        },
+        "native_driving": null,
+        "elapsed_seconds": 1491.794174499999,
+        "warm_seconds": 844.8934193999958,
+        "error": null,
+        "device_peak_used_mib": 3939,
+        "device_sample_count": 1276,
+        "device_scope": "whole device including desktop and other processes; not model allocated VRAM",
+        "quality_verified": false,
+        "controlled_status_path": "D:\\XuTao_Task\\storage\\m1\\requests\\0876724b-2a6d-4df9-b298-2ddc46dd48b7\\status.json"
+      },
+      "native_failures": []
+    },
+    "video": {
+      "latest_success": {
+        "request_id": "b48f13bf-4e91-4546-ae80-74f5f0885e77",
+        "role": "video",
+        "state": "media_ready",
+        "created_at": "2026-10-01T12:11:41.562636+00:00",
+        "stage": "awaiting_human_review",
+        "output": {
+          "path": "D:\\XuTao_Task\\storage\\m1\\requests\\b48f13bf-4e91-4546-ae80-74f5f0885e77\\video.mp4",
+          "sha256": "a0c575c805d6ca8bda5da1e80946e8c1911f2f7c0d771cc8c8c28ab2f3273e9d",
+          "size_bytes": 4542499,
+          "duration_seconds": 30.0,
+          "width": 720,
+          "height": 1280,
+          "fps": 30.0,
+          "sample_rate": null,
+          "codec": "h264"
+        },
+        "warm_output": {
+          "path": "D:\\XuTao_Task\\storage\\m1\\requests\\b48f13bf-4e91-4546-ae80-74f5f0885e77\\video-warm.mp4",
+          "sha256": "f3e57c42b3481a49b61e37fe13e2b3e5de19f98f5a7b49f0b7842525218bfe03",
+          "size_bytes": 4537122,
+          "duration_seconds": 30.0,
+          "width": 720,
+          "height": 1280,
+          "fps": 30.0,
+          "sample_rate": null,
+          "codec": "h264"
+        },
+        "inputs": {
+          "audio": {
+            "path": "D:\\XuTao_Task\\storage\\m1\\driver-30s.wav",
+            "sha256": "25795c9a9dd2e52aadbd3514162d5e49ba566f22b410dd3dad6aeb582e632c91",
+            "size_bytes": 1920078,
+            "duration_seconds": 30.0,
+            "width": null,
+            "height": null,
+            "sample_rate": "32000",
+            "codec": "pcm_s16le",
+            "silence_ratio": 0.0,
+            "max_volume_db": -0.3
+          },
+          "video": {
+            "path": "D:\\Task_test\\DANK1NG_孩子们记住_性格决定命运_态度决定成败_7645412515383862181.mp4",
+            "sha256": "873838fceb297444e333e910e5628933f7917d910b3f4a6b1bdabc586e1ef54b",
+            "size_bytes": 1170102,
+            "duration_seconds": 15.0,
+            "width": 720,
+            "height": 1280,
+            "fps": 30.0,
+            "sample_rate": null,
+            "codec": "hevc"
+          },
+          "warm_audio": {
+            "path": "D:\\XuTao_Task\\storage\\m1\\driver-b-30s.wav",
+            "sha256": "aa428b8af9a374c7a203b9e09bf5f7fb7978cf908f3968884d78d1aee91933e1",
+            "size_bytes": 1920078,
+            "duration_seconds": 30.0,
+            "width": null,
+            "height": null,
+            "sample_rate": "32000",
+            "codec": "pcm_s16le",
+            "silence_ratio": 0.0,
+            "max_volume_db": -0.3
+          }
+        },
+        "actual_provider": "MuseTalk",
+        "code_revision": "0a89dec45a0192b824e3cf4daf96c239440c5ed8",
+        "actual_weight_version": "v15",
+        "native_model_record": {
+          "provider": "MuseTalk",
+          "actual_weight_version": "v15",
+          "memory_profile": "cpu_staged_fp16",
+          "inference_device": "cuda:0",
+          "same_primary_weight_sha256": "7ebf6c98c181e20838e4c0054e96e944ac60d5d692cc01db42839fe11b787007",
+          "cold_core_load_seconds": 10.832597799999348,
+          "warm_seconds": 405.42225559999497,
+          "quality_passed": false,
+          "first_generation_seconds": 437.637346800002,
+          "warm_scope": "same native models; original full sequence; different current audio; fresh preprocessing"
+        },
+        "native_loads": {
+          "loaded_files": [
+            {
+              "path": "D:\\XuTao_Task\\.tools\\models\\MuseTalk\\models\\dwpose\\dw-ll_ucoco_384.pth",
+              "sha256": "0d9408b13cd863c4e95a149dd31232f88f2a12aa6cf8964ed74d7d97748c7a07"
+            },
+            {
+              "path": "D:\\XuTao_Task\\.tools\\models\\MuseTalk\\musetalk\\utils\\face_detection\\detection\\sfd\\s3fd.pth",
+              "sha256": "619a31681264d3f7f7fc7a16a42cbbe8b23f31a256f75a366e5a1bcd59b33543"
+            },
+            {
+              "path": "D:\\XuTao_Task\\.tools\\models\\MuseTalk\\models\\sd-vae\\diffusion_pytorch_model.bin",
+              "sha256": "1b4889b6b1d4ce7ae320a02dedaeff1780ad77d415ea0d744b476155c6377ddc"
+            },
+            {
+              "path": "D:\\XuTao_Task\\.tools\\models\\MuseTalk\\models\\musetalkV15\\unet.pth",
+              "sha256": "7ebf6c98c181e20838e4c0054e96e944ac60d5d692cc01db42839fe11b787007"
+            },
+            {
+              "path": "D:\\XuTao_Task\\.tools\\models\\MuseTalk\\models\\whisper\\pytorch_model.bin",
+              "sha256": "9607f98a2b22d9e229ae43c52ecea79dcede9e0c5cfae67e8da6eda86d8aac1d"
+            },
+            {
+              "path": "D:\\XuTao_Task\\.tools\\models\\MuseTalk\\models\\face-parse-bisent\\resnet18-5c106cde.pth",
+              "sha256": "5c106cde386e87d4033832f2996f5493238eda96ccf559d1d62760c4de0613f8"
+            },
+            {
+              "path": "D:\\XuTao_Task\\.tools\\models\\MuseTalk\\models\\face-parse-bisent\\79999_iter.pth",
+              "sha256": "468e13ca13a9b43cc0881a9f99083a430e9c0a38abd935431d1c28ee94b26567"
+            }
+          ],
+          "scope": "successful torch.load and safetensors.load_file calls in isolated native process",
+          "elapsed_native_seconds": 849.0944246000072,
+          "torch_peak_allocated_mib": 2885.111328125,
+          "torch_peak_reserved_mib": 3276.0,
+          "quality_passed": false
+        },
+        "native_driving": [
+          {
+            "audio_path": "D:\\XuTao_Task\\storage\\m1\\muse-native\\b48f13bf-4e91-4546-ae80-74f5f0885e77\\driver.wav",
+            "audio_sha256": "25795c9a9dd2e52aadbd3514162d5e49ba566f22b410dd3dad6aeb582e632c91",
+            "decoded_samples_16k": 480000,
+            "mel_features_sha256": "5b2f2daf7d1e80ca2a1fe112804ed2d22e11e7c20b5aae187610b095df550532",
+            "whisper_chunks_shape": [
+              900,
+              50,
+              384
+            ],
+            "whisper_chunks_sha256": "0da9514316ba2c9d248eb37202581dfc616cb7502e47942d5c6a39464ca1cc8f"
+          },
+          {
+            "audio_path": "D:\\XuTao_Task\\storage\\m1\\muse-native\\b48f13bf-4e91-4546-ae80-74f5f0885e77\\driver-warm.wav",
+            "audio_sha256": "aa428b8af9a374c7a203b9e09bf5f7fb7978cf908f3968884d78d1aee91933e1",
+            "decoded_samples_16k": 480000,
+            "mel_features_sha256": "3f1d473fb030ca23e7f4d8c83383996d674b0335e74e950d661ee35c92b78c49",
+            "whisper_chunks_shape": [
+              900,
+              50,
+              384
+            ],
+            "whisper_chunks_sha256": "0b5bc56d21a57bc57163824f2bf43fbea952cb75807e285ea0d05566351709d9"
+          }
+        ],
+        "elapsed_seconds": 866.2146807000026,
+        "warm_seconds": 405.42225559999497,
+        "error": null,
+        "device_peak_used_mib": 3693,
+        "device_sample_count": 720,
+        "device_scope": "whole device including desktop and other processes; not model allocated VRAM",
+        "quality_verified": false,
+        "controlled_status_path": "D:\\XuTao_Task\\storage\\m1\\requests\\b48f13bf-4e91-4546-ae80-74f5f0885e77\\status.json"
+      },
+      "native_failures": [
+        {
+          "request_id": "18aba88a-6236-47b8-a3d8-337335f96328",
+          "role": "video",
+          "state": "failed",
+          "created_at": "2026-10-01T11:33:04.959209+00:00",
+          "stage": "native_generation",
+          "output": null,
+          "warm_output": null,
+          "inputs": {
+            "audio": {
+              "path": "D:\\XuTao_Task\\storage\\m1\\driver-30s.wav",
+              "sha256": "25795c9a9dd2e52aadbd3514162d5e49ba566f22b410dd3dad6aeb582e632c91",
+              "size_bytes": 1920078,
+              "duration_seconds": 30.0,
+              "width": null,
+              "height": null,
+              "sample_rate": "32000",
+              "codec": "pcm_s16le",
+              "silence_ratio": 0.0,
+              "max_volume_db": -0.3
+            },
+            "video": {
+              "path": "D:\\Task_test\\DANK1NG_孩子们记住_性格决定命运_态度决定成败_7645412515383862181.mp4",
+              "sha256": "873838fceb297444e333e910e5628933f7917d910b3f4a6b1bdabc586e1ef54b",
+              "size_bytes": 1170102,
+              "duration_seconds": 15.0,
+              "width": 720,
+              "height": 1280,
+              "fps": 30.0,
+              "sample_rate": null,
+              "codec": "hevc"
+            }
+          },
+          "actual_provider": null,
+          "code_revision": null,
+          "actual_weight_version": null,
+          "native_model_record": null,
+          "native_loads": {
+            "loaded_files": [
+              {
+                "path": "D:\\XuTao_Task\\.tools\\models\\MuseTalk\\models\\dwpose\\dw-ll_ucoco_384.pth",
+                "sha256": "0d9408b13cd863c4e95a149dd31232f88f2a12aa6cf8964ed74d7d97748c7a07"
+              },
+              {
+                "path": "D:\\XuTao_Task\\.tools\\models\\MuseTalk\\musetalk\\utils\\face_detection\\detection\\sfd\\s3fd.pth",
+                "sha256": "619a31681264d3f7f7fc7a16a42cbbe8b23f31a256f75a366e5a1bcd59b33543"
+              },
+              {
+                "path": "D:\\XuTao_Task\\.tools\\models\\MuseTalk\\models\\sd-vae\\diffusion_pytorch_model.bin",
+                "sha256": "1b4889b6b1d4ce7ae320a02dedaeff1780ad77d415ea0d744b476155c6377ddc"
+              }
+            ],
+            "scope": "successful torch.load and safetensors.load_file calls in isolated native process",
+            "elapsed_native_seconds": 17.357275300004403,
+            "torch_peak_allocated_mib": 3484.14990234375,
+            "torch_peak_reserved_mib": 3538.0,
+            "quality_passed": false
+          },
+          "native_driving": null,
+          "elapsed_seconds": 29.690233300003456,
+          "warm_seconds": null,
+          "error": {
+            "code": "RESOURCE_INSUFFICIENT",
+            "message": "Process exited with code 1",
+            "source": "C:\\Users\\及时行乐\\.cache\\mooc-m1-muse\\Scripts\\python.exe",
+            "remedy": null
+          },
+          "device_peak_used_mib": 3899,
+          "device_sample_count": 18,
+          "device_scope": "whole device including desktop and other processes; not model allocated VRAM",
+          "quality_verified": false,
+          "controlled_status_path": "D:\\XuTao_Task\\storage\\m1\\requests\\18aba88a-6236-47b8-a3d8-337335f96328\\status.json"
+        }
+      ]
+    }
+  },
+  "gpu_policy": "serialized inference on RTX 3050 Laptop 4096MiB; no simultaneous model residency claim",
+  "whole_device_vram_note": "includes desktop and other processes; torch allocated/reserved reported separately",
+  "long_task_estimate": null,
+  "m1_passed": false
+}

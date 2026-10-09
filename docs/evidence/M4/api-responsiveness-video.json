@@ -1,0 +1,46 @@
+{
+  "scope": "Five actual HTTP observations while original-video course job is running; stage is persisted worker state, GPU sample is device-wide, no SLA frozen",
+  "observations": [
+    {
+      "at": "2026-10-08T16:50:29.093004+00:00",
+      "http_status": 200,
+      "elapsed_seconds": 0.052385100001629326,
+      "task_state": "running",
+      "stage": "video_native_generation",
+      "gpu_utilization_percent_and_memory_mib": "92, 2945"
+    },
+    {
+      "at": "2026-10-08T16:50:31.252603+00:00",
+      "http_status": 200,
+      "elapsed_seconds": 0.035446399999273126,
+      "task_state": "running",
+      "stage": "video_native_generation",
+      "gpu_utilization_percent_and_memory_mib": "93, 2937"
+    },
+    {
+      "at": "2026-10-08T16:50:33.444793+00:00",
+      "http_status": 200,
+      "elapsed_seconds": 0.03224210000007588,
+      "task_state": "running",
+      "stage": "video_native_generation",
+      "gpu_utilization_percent_and_memory_mib": "95, 2937"
+    },
+    {
+      "at": "2026-10-08T16:50:35.615390+00:00",
+      "http_status": 200,
+      "elapsed_seconds": 0.033049100000425824,
+      "task_state": "running",
+      "stage": "video_native_generation",
+      "gpu_utilization_percent_and_memory_mib": "94, 2938"
+    },
+    {
+      "at": "2026-10-08T16:50:37.754887+00:00",
+      "http_status": 200,
+      "elapsed_seconds": 0.03675119999934395,
+      "task_state": "running",
+      "stage": "video_native_generation",
+      "gpu_utilization_percent_and_memory_mib": "92, 2952"
+    }
+  ],
+  "maximum_seconds": 0.052385100001629326
+}

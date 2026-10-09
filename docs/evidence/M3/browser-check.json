@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-02",
+  "browser": "Codex In-app Browser, actual Chromium page interactions",
+  "url": "http://127.0.0.1:8765/",
+  "formal_project_id": "b7022084-d5b4-44e0-9321-3bfc78434b24",
+  "engineering_project_id": "51e482f8-73c5-4462-95d0-2a86eaa74313",
+  "formal_gates": {
+    "confirmed_pages": 0,
+    "snapshots": 0,
+    "formal_sample_button_disabled": true,
+    "formal_course_button_disabled": true,
+    "teacher_decisions_automatically_filled": false
+  },
+  "m1_review": {
+    "original_reference_seconds": 21.119958,
+    "selected_reference_seconds": 7.5,
+    "source_video_seconds": 15.022993,
+    "full_tts_seconds": 49.7,
+    "native_portrait_samples": 6,
+    "native_portrait_sample_seconds": 30,
+    "loaded_media_ready_state": 4,
+    "engineering_draft_note_saved_and_reloaded": true,
+    "pending_criteria_after_reload": 11,
+    "completed_button_disabled": true,
+    "human_quality_review_performed": false
+  },
+  "real_draft_playback": {
+    "paths": ["photo", "video_sequence"],
+    "pages_per_path": 3,
+    "duration_seconds": 11.16,
+    "ready_state": 4,
+    "page_6_jump_seconds": 3.56,
+    "page_7_jump_seconds": 6.64,
+    "page_7_observed_paused_seconds": 6.689607,
+    "page_7_observed_image": "original page 7 with current teacher in reserved sidebar",
+    "page_6_observed_paused_seconds": 3.56,
+    "draft_mark_visible": true,
+    "refresh_restored_same_project_and_tab": true,
+    "original_aac_copy_offset_seconds": 0.021328,
+    "fixed_export_version": 2,
+    "old_exports_preserved_in_controlled_history": true
+  },
+  "exports": {
+    "visible_links": ["mp4", "srt", "script", "manifest"],
+    "actual_browser_srt_download": "C:/Users/及时行乐/Downloads/draft-course.srt",
+    "all_four_file_checks": "final-check.json"
+  },
+  "responsive": {
+    "desktop": {"width": 1440, "height": 1000},
+    "narrow": {"width": 390, "height": 844, "document_scroll_width": 375, "horizontal_overflow": false},
+    "temporary_viewport_reset": true
+  },
+  "screenshots": [
+    "browser-formal-blocked.jpg",
+    "browser-review-draft.jpg",
+    "browser-real-course-desktop.jpg",
+    "browser-real-course-narrow.jpg"
+  ],
+  "quality_verified": false,
+  "formal_validation_completed": false
+}

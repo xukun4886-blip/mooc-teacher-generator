@@ -1,0 +1,91 @@
+{
+  "at": "2026-10-09T06:55:45.502131+00:00",
+  "media_id": "3c71bde5-a379-452b-9992-2064c7878a46",
+  "state": "completed",
+  "duration_seconds": 720.6,
+  "real_elapsed_seconds": 615.1759959000046,
+  "valid_pages": 24,
+  "cache_hits": {
+    "tts": 22,
+    "portrait": 22,
+    "compose": 0
+  },
+  "paid_allowed": false,
+  "metrics_frozen": false,
+  "teacher_confirmation_filled": false,
+  "exports": {
+    "mp4": "D:\\XuTao_Task\\storage\\m2\\projects\\11604689-6106-451f-b40b-95089e07b5b5\\m3\\jobs\\3c71bde5-a379-452b-9992-2064c7878a46\\generation-1\\course.mp4",
+    "srt": "D:\\XuTao_Task\\storage\\m2\\projects\\11604689-6106-451f-b40b-95089e07b5b5\\m3\\jobs\\3c71bde5-a379-452b-9992-2064c7878a46\\generation-1\\course.srt",
+    "script": "D:\\XuTao_Task\\storage\\m2\\projects\\11604689-6106-451f-b40b-95089e07b5b5\\m3\\jobs\\3c71bde5-a379-452b-9992-2064c7878a46\\generation-1\\scripts.md",
+    "manifest": "D:\\XuTao_Task\\storage\\m2\\projects\\11604689-6106-451f-b40b-95089e07b5b5\\m3\\jobs\\3c71bde5-a379-452b-9992-2064c7878a46\\generation-1\\manifest.json"
+  },
+  "artifact_hashes": {
+    "mp4": "053d5486b22e2d41b80f5526d401f303d60ff83281db8f822ad44666e882c4c0",
+    "srt": "ff4563e24884fdd8f7f728e9ed3236bef3035f0526dd84d0cc55202248371f9f",
+    "script": "5cc8b810f91057df3b6be27e87218929c48a3d87de26f85868d53a2835d1001a",
+    "manifest": "6184a2bbbe88dcb3c0e098c3b6cec04ea958192a382cc0d6e1098cb95df7765c"
+  },
+  "frames": [
+    {
+      "page": 1,
+      "seconds": 5,
+      "path": "D:\\XuTao_Task\\storage\\m4-review\\lecture9-final-frames\\page-1.png",
+      "sha256": "0fd2da9c87607355bd1c0c80f1d03580328afa798d4a4071ae237676d7ea3863"
+    },
+    {
+      "page": 11,
+      "seconds": 446.772,
+      "path": "D:\\XuTao_Task\\storage\\m4-review\\lecture9-final-frames\\page-11.png",
+      "sha256": "f53ed942f4dd7bd5d956b15671eba0e93962bbcb039f62dd6c17fb972d34376d"
+    },
+    {
+      "page": 24,
+      "seconds": 718.5,
+      "path": "D:\\XuTao_Task\\storage\\m4-review\\lecture9-final-frames\\page-24.png",
+      "sha256": "be4796f31442a56da80b02cd4ed80a703f28c4d998e352dc710c13ccd87be2c3"
+    }
+  ],
+  "browser_download": {
+    "path": "C:\\Users\\及时行乐\\Downloads\\draft-course (6).mp4",
+    "bytes": 38140371,
+    "sha256": "053d5486b22e2d41b80f5526d401f303d60ff83281db8f822ad44666e882c4c0",
+    "matches_final_export": true
+  },
+  "runtime_health": {
+    "application": "mooc-workbench",
+    "version": "0.3.0",
+    "worker_alive": true,
+    "scope": "local service liveness; does not certify model or teaching quality"
+  },
+  "frontend_bundle": {
+    "path": "/assets/index-Mfzcx2aY.js",
+    "sha256": "429494f44ad110a79bab7fb4cf9a0e573e7699cc7cac25313fde8ff636753958",
+    "new_exhaustion_hint_in_served_bundle": true
+  },
+  "current_generation": {
+    "id": "a9c7bd42-2fe8-46ac-8bb8-6af67cd837e0",
+    "state": "completed",
+    "stage": "draft_preview_ready",
+    "is_current": true,
+    "teacher_confirmation": null
+  },
+  "range_request": {
+    "status": 206,
+    "bytes": 1024,
+    "content_range": "bytes 0-1023/38140371"
+  },
+  "documentation": {
+    "files": 41,
+    "local_links_checked": 511,
+    "errors": [],
+    "stable_work_items": 24,
+    "fr": 20,
+    "nfr": 8,
+    "ac": 18
+  },
+  "credential_scan": {
+    "files": 250,
+    "credential_value_found": false,
+    "scope": "source/config/evidence; value never printed"
+  }
+}

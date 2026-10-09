@@ -1,0 +1,56 @@
+{
+  "checked_at": "2026-10-08T15:28:04.689Z",
+  "browser": "Codex in-app browser",
+  "uploads": {
+    "photo": "0f8b2d74-d3da-4036-9a37-990017f645bd",
+    "video": "491a2257-77c8-4618-97e6-42448f871b4a",
+    "method": "UI filechooser for all three original inputs in each course",
+    "ppt_pages": 2
+  },
+  "media": {
+    "saved_photo": {
+      "readyState": 4,
+      "duration": 7.08,
+      "width": 1920,
+      "height": 1080,
+      "error": null,
+      "play_clicked": true,
+      "download": "C:/Users/及时行乐/Downloads/draft-course.mp4"
+    },
+    "saved_video": {
+      "readyState": 4,
+      "duration": 7.08,
+      "width": 1920,
+      "height": 1080,
+      "error": null,
+      "play_clicked": true,
+      "paused_after_play": false,
+      "currentTime_after_play": 0.220588,
+      "download": "C:/Users/及时行乐/Downloads/draft-course (1).mp4",
+      "reload_completed_restored": true,
+      "teacher_confirmation_checked": false,
+      "confirmation_button_disabled": true
+    }
+  },
+  "layout": {
+    "desktop": {
+      "content_width": 1265,
+      "scroll_width": 1265,
+      "upload_columns": 3,
+      "advanced_open": false
+    },
+    "mobile": {
+      "content_width": 375,
+      "scroll_width": 375,
+      "upload_columns": 1,
+      "advanced_open": false
+    },
+    "viewport_override_reset": true
+  },
+  "advanced": {
+    "query_preserved_on_reload": true,
+    "project": "0149cf34-bc8a-4f15-af29-93ed66c3899b",
+    "legacy_editing_retained": true
+  },
+  "teacher_confirmation_submitted": false
+}

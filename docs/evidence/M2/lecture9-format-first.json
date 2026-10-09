@@ -1,0 +1,156 @@
+{
+  "recorded_at": "2026-10-09T02:49:10.583478+00:00",
+  "project_id": "11604689-6106-451f-b40b-95089e07b5b5",
+  "course_name": "Lecture 9",
+  "original_job_id": "0eaf6185-d796-4be2-95a7-8a3218c75fb6",
+  "original_job_sha256": "5fb3eefc9f132d54e1248960dada2e87b01443825c4c257b80434be5e2a0ccb3",
+  "page_count": 24,
+  "state": "failed",
+  "generation": 3,
+  "error": {
+    "code": "AI_FORMAT_INVALID",
+    "message": "AI 输出格式或答案来源无效；原讲稿已保留",
+    "source": "b2db94c6-3a53-4845-8c19-f00f6268f34e",
+    "remedy": "重试此页，或由教师编写讲稿"
+  },
+  "scripts_ready": 2,
+  "ai_attempts": [
+    {
+      "at": "2026-10-09T02:36:04.474739+00:00",
+      "scene_id": "b241fb64-f99f-4ff8-aa25-12ecf4d42a10",
+      "status": 200,
+      "attempt": 1,
+      "generation": 1,
+      "provider_record": {
+        "response_id": "202610091035507666b5baf7904e9a",
+        "response_sha256": "1bad2a2e42dbc7fc1e24058bcf6f285ed3744ac4da7cc453209c5718703262a1",
+        "path": "ai-responses/0eaf6185-d796-4be2-95a7-8a3218c75fb6-0e50b9ab-d89c-4f66-aa2c-8474e68cabba.json"
+      },
+      "output_type": "dict",
+      "output_items": null,
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 1354,
+        "prompt_tokens": 7508,
+        "total_tokens": 8862
+      },
+      "response_sha256": "1bad2a2e42dbc7fc1e24058bcf6f285ed3744ac4da7cc453209c5718703262a1"
+    },
+    {
+      "at": "2026-10-09T02:36:20.268135+00:00",
+      "scene_id": "6b17e715-e35a-41b3-85ba-1ee2b69031dc",
+      "status": 200,
+      "attempt": 1,
+      "generation": 1,
+      "provider_record": {
+        "response_id": "202610091036040ff5dc0fc1554ea4",
+        "response_sha256": "5a5ecf6291e44ec14d952add9924a89f5604df6ee67296ba3ffc916dd536ba34",
+        "path": "ai-responses/0eaf6185-d796-4be2-95a7-8a3218c75fb6-5f216333-5b8c-43a2-a481-9d800bb8933a.json"
+      },
+      "output_type": "dict",
+      "output_items": null,
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 973,
+        "prompt_tokens": 7834,
+        "total_tokens": 8807
+      },
+      "response_sha256": "5a5ecf6291e44ec14d952add9924a89f5604df6ee67296ba3ffc916dd536ba34"
+    },
+    {
+      "at": "2026-10-09T02:37:04.374625+00:00",
+      "scene_id": "b2db94c6-3a53-4845-8c19-f00f6268f34e",
+      "status": 200,
+      "attempt": 1,
+      "generation": 1,
+      "provider_record": {
+        "response_id": "20261009103631b6c424634b4b44a6",
+        "response_sha256": "966e020bcaf32dc7af45e80415031240236e01ad7e450d9f5224fd4110815ba9",
+        "path": "ai-responses/0eaf6185-d796-4be2-95a7-8a3218c75fb6-816cec92-c506-422e-8fc9-2a1e9fe067fe.json"
+      },
+      "output_type": "list",
+      "output_items": 2,
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 2600,
+        "prompt_tokens": 7881,
+        "total_tokens": 10481
+      },
+      "response_sha256": "966e020bcaf32dc7af45e80415031240236e01ad7e450d9f5224fd4110815ba9"
+    },
+    {
+      "at": "2026-10-09T02:37:11.944788+00:00",
+      "scene_id": "b2db94c6-3a53-4845-8c19-f00f6268f34e",
+      "status": 429,
+      "attempt": 1,
+      "generation": 2,
+      "provider_error_code": "1305",
+      "wait_seconds": 5
+    },
+    {
+      "at": "2026-10-09T02:37:57.514764+00:00",
+      "scene_id": "b2db94c6-3a53-4845-8c19-f00f6268f34e",
+      "status": 200,
+      "attempt": 2,
+      "generation": 2,
+      "provider_record": {
+        "response_id": "2026100910371790b6f56161dd4290",
+        "response_sha256": "f9fa57a149a7e84ce2357a164ed56d1db338be0e499469611d4fff8bc28d23f1",
+        "path": "ai-responses/0eaf6185-d796-4be2-95a7-8a3218c75fb6-6fa3af20-0710-4822-973c-041b3dd94e30.json"
+      },
+      "output_type": "list",
+      "output_items": 2,
+      "finish_reason": "length",
+      "usage": {
+        "completion_tokens": 4002,
+        "prompt_tokens": 7881,
+        "total_tokens": 11883
+      },
+      "response_sha256": "f9fa57a149a7e84ce2357a164ed56d1db338be0e499469611d4fff8bc28d23f1"
+    },
+    {
+      "at": "2026-10-09T02:38:54.985491+00:00",
+      "scene_id": "b2db94c6-3a53-4845-8c19-f00f6268f34e",
+      "status": 200,
+      "attempt": 1,
+      "generation": 3,
+      "provider_record": {
+        "response_id": "20261009103810ca39735484b04b23",
+        "response_sha256": "e237fea9b374167058476a6c9fc866aeb2c0b8bc760fe238b40243c92e92f5ac",
+        "path": "ai-responses/0eaf6185-d796-4be2-95a7-8a3218c75fb6-4a999ede-3920-4b94-8a3b-1a4f5b1cee9b.json"
+      },
+      "output_type": "list",
+      "output_items": 5,
+      "finish_reason": "length",
+      "usage": {
+        "completion_tokens": 4002,
+        "prompt_tokens": 7881,
+        "total_tokens": 11883
+      },
+      "response_sha256": "e237fea9b374167058476a6c9fc866aeb2c0b8bc760fe238b40243c92e92f5ac"
+    }
+  ],
+  "preserved_versions": {
+    "b241fb64-f99f-4ff8-aa25-12ecf4d42a10": "b09e3e9c29d7472cc1330c280a4e149dcbb86ef272620c4ba2802511fb9bf3c5",
+    "6b17e715-e35a-41b3-85ba-1ee2b69031dc": "2c6499659a99178d5ebdf111d8c19e77b99addde9e48abe9ca8f0ad3630b1013"
+  },
+  "input_hashes": {
+    "photo": {
+      "sha256": "ce1d8e92e640c5b32bfd5c160f71738fa9c8c16b0418737c5c5b3b849bc4e92a",
+      "selected_sha256": null,
+      "state": "ready"
+    },
+    "reference_audio": {
+      "sha256": "7c89c7f525155dd1fd6634c96b7169e958af86dc100b35120aade07eb15e52ea",
+      "selected_sha256": "9add37be988ebe858b84c2f7cad39768671a4b7a92ec88fdafe70db8a5567a8c",
+      "state": "ready"
+    },
+    "pptx": {
+      "sha256": "679b6775143c34d3385a53a3fa8ae5097165b8de4a65fa1ba6172a1359723717",
+      "selected_sha256": null,
+      "state": "ready"
+    }
+  },
+  "teacher_confirmations": 0,
+  "scope": "Original user course failure, no teacher or model self-rating; full responses remain protected"
+}

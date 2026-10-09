@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="18" time="2.544" timestamp="2026-10-01T23:36:08.397768+08:00" hostname="LAPTOP-94TPVL4F"><testcase classname="tests.test_m2" name="test_auth_and_cross_site" time="0.096" /><testcase classname="tests.test_m2" name="test_project_reopen_conflict_copy_delete" time="0.147" /><testcase classname="tests.test_m2" name="test_symbol_and_pause_offsets" time="0.001" /><testcase classname="tests.test_m2" name="test_mapping_reorder_skip_merge_split" time="0.117" /><testcase classname="tests.test_m2" name="test_notes_external_ai_missing_and_rollback" time="0.125" /><testcase classname="tests.test_m2" name="test_empty_notes_blocked" time="0.068" /><testcase classname="tests.test_m2" name="test_review_invalidation_and_snapshot_isolation" time="0.125" /><testcase classname="tests.test_m2" name="test_three_page_inheritance_and_media_invalidation" time="0.157" /><testcase classname="tests.test_m2" name="test_preflight_missing_input_and_teacher_questions" time="0.069" /><testcase classname="tests.test_m2" name="test_upload_actual_format_limits_and_path_isolation" time="0.206" /><testcase classname="tests.test_m2" name="test_photo_crop_is_real_and_copy_owned" time="0.329" /><testcase classname="tests.test_m2" name="test_job_restart_reports_interruption_and_delete_busy" time="0.082" /><testcase classname="tests.test_m2" name="test_ai_provider_context_and_non_overwrite" time="0.070"><failure message="AttributeError: 'Response' object has no attribute 'status_code'">app = &lt;fastapi.applications.FastAPI object at 0x0000014D5DE753C0&gt;
+client = &lt;starlette.testclient.TestClient object at 0x0000014D5DE76F50&gt;
+monkeypatch = &lt;_pytest.monkeypatch.MonkeyPatch object at 0x0000014D5DEAB2B0&gt;
+
+    def test_ai_provider_context_and_non_overwrite(app, client, monkeypatch):
+        p = seed(app)
+        svc = app.state.service
+        image = svc.store.file(p["id"], "missing.png")
+        Image.new("RGB", (100, 60)).save(image)
+        svc.config["ai"] = {"base_url": "http://127.0.0.1:9999/v1", "model": "test-double", "api_key_env": "", "allow_paid": False}
+        sid = p["scenes"][0]["id"]
+        p = cmd(client, p, "script", {"scene_id": sid, "display_text": "人工版本必须保留"})
+        sent = []
+        class Response:
+            def raise_for_status(self): pass
+            def json(self):
+                obj = {"display_text": "AI 草稿", "reading_text": "AI 草稿", "knowledge_points": ["知识点"], "questions": [], "terms": [], "pending": ["数值待确认"], "extensions": ["模型补充"]}
+                return {"choices": [{"message": {"content": json.dumps(obj)}}]}
+        def post(self, url, **kwargs):
+            sent.append(kwargs["json"])
+            return Response()
+        monkeypatch.setattr("httpx.Client.post", post)
+&gt;       assert client.post(f"/api/projects/{p['id']}/scenes/{sid}/ai", json={"revision": p["revision"]}).status_code == 200
+E       AttributeError: 'Response' object has no attribute 'status_code'
+
+tests\test_m2.py:250: AttributeError</failure></testcase><testcase classname="tests.test_m2" name="test_config_rejects_invalid[values0]" time="0.001" /><testcase classname="tests.test_m2" name="test_config_rejects_invalid[values1]" time="0.001" /><testcase classname="tests.test_m2" name="test_config_rejects_invalid[values2]" time="0.001" /><testcase classname="tests.test_m2" name="test_config_rejects_invalid[values3]" time="0.001" /><testcase classname="tests.test_m2" name="test_config_rejects_invalid[values4]" time="0.001" /></testsuite></testsuites>

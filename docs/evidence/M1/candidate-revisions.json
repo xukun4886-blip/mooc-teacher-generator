@@ -1,0 +1,20 @@
+[
+  {
+    "repository": "RVC-Boss/GPT-SoVITS",
+    "code_revision": "48b1a0169a28582a8984402f82cf438d3bfa6aca",
+    "checked_at": "2026-10-01",
+    "url": "https://github.com/RVC-Boss/GPT-SoVITS/tree/48b1a0169a28582a8984402f82cf438d3bfa6aca"
+  },
+  {
+    "repository": "OpenTalker/SadTalker",
+    "code_revision": "cd4c0465ae0b54a6f85af57f5c65fec9fe23e7f8",
+    "checked_at": "2026-10-01",
+    "url": "https://github.com/OpenTalker/SadTalker/tree/cd4c0465ae0b54a6f85af57f5c65fec9fe23e7f8"
+  },
+  {
+    "repository": "TMElyralab/MuseTalk",
+    "code_revision": "0a89dec45a0192b824e3cf4daf96c239440c5ed8",
+    "checked_at": "2026-10-01",
+    "url": "https://github.com/TMElyralab/MuseTalk/tree/0a89dec45a0192b824e3cf4daf96c239440c5ed8"
+  }
+]

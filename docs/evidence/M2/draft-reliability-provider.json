@@ -1,0 +1,24 @@
+{
+  "verified_date": "2026-10-09",
+  "sources": [
+    {
+      "url": "https://docs.bigmodel.cn/cn/guide/start/pricing.md",
+      "status": 200,
+      "sha256": "7224d9566404ed86a97dbfb41cf1703f1f31a25d2b4e91953018ceb5be638d0b",
+      "model_rows": [
+        "  | GLM-4.7-FlashX | 200K | 0.5 | 3 | 限时免费 | 0.1 |",
+        "  | GLM-4.7-Flash | 200K | 免费 | 免费 | 限时免费 | 免费 |"
+      ]
+    },
+    {
+      "url": "https://docs.bigmodel.cn/cn/guide/models/free/glm-4.7-flash.md",
+      "status": 200,
+      "sha256": "8da85ba3cecd6cf017c011a854484784fedc2991d4710fcfe23964347b0b7ad0",
+      "verified_facts": {
+        "model": "glm-4.7-flash",
+        "text_model": true,
+        "thinking_parameter_example_present": true
+      }
+    }
+  ]
+}

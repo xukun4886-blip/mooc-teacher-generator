@@ -1,0 +1,13 @@
+{
+  "kind": "same_completed_job_idempotency_query",
+  "remote_id": "9988414503d2d055fae9c00fe172900d1d98496f29f1599a45d53650947d6cba",
+  "cloud_output_cache_hit": true,
+  "new_inference": false,
+  "new_upload": false,
+  "result_download_tested_in_this_query": false,
+  "elapsed_remote_http_seconds": 0.011412648484110832,
+  "job_count_before": 6,
+  "job_count_after": 6,
+  "output_sha256": "26178c3d5b8f03bf9df3ce3e5a5fa96cee236528778cb90ca42a939b43a57f12",
+  "scope": "Remote localhost POST only; excludes SSH/network and local media checks; never a fresh-generation baseline."
+}

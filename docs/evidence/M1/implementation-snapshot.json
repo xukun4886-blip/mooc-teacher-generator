@@ -1,0 +1,17 @@
+{
+  "scope": "current M1 implementation files; snapshots do not retroactively attest earlier requests before source edits",
+  "files": [
+    {
+      "path": "D:\\XuTao_Task\\mooc_m1\\adapters.py",
+      "sha256": "be53617ebc9ed0c9f2b28c522dfde69da3627e0d22d0447b30d036adbb4b2ae0"
+    },
+    {
+      "path": "D:\\XuTao_Task\\mooc_m1\\model_worker.py",
+      "sha256": "4986aa1184d6f0345dc1df1bca8cb29db552b4118c2e763ca1921df7f46a538f"
+    },
+    {
+      "path": "D:\\XuTao_Task\\mooc_m1\\core.py",
+      "sha256": "0d30dcfcebf5feab56eafd375299fe27da22a371f3f67e22477c0399c8c5ab53"
+    }
+  ]
+}

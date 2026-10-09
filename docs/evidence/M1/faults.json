@@ -1,0 +1,144 @@
+{
+  "scope": "real media-tool and control-process faults only",
+  "native_model_failure_validation": "blocked: no native model installed",
+  "not_voice_or_avatar_capability_evidence": true,
+  "cases": [
+    {
+      "scenario": "empty_audio",
+      "expected": "NO_VALID_MEDIA",
+      "actual": {
+        "code": "NO_VALID_MEDIA",
+        "message": "Missing or empty media",
+        "source": "D:\\XuTao_Task\\storage\\m1\\faults\\empty.wav",
+        "remedy": null
+      },
+      "input_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "success_output": false
+    },
+    {
+      "scenario": "undecodable_video",
+      "expected": "UNDECODABLE",
+      "actual": {
+        "code": "UNDECODABLE",
+        "message": "Media probe failed",
+        "source": "D:\\XuTao_Task\\storage\\m1\\faults\\invalid.mp4",
+        "remedy": null
+      },
+      "input_sha256": "f6fe08b37ffd0217fbef54777cbd8f858db9e958a859f8d83455980b814ece8a",
+      "success_output": false
+    },
+    {
+      "scenario": "decodable_but_silent_audio",
+      "expected": "ABNORMAL_SILENCE",
+      "actual": {
+        "code": "ABNORMAL_SILENCE",
+        "message": "Audio is predominantly silent",
+        "source": "D:\\XuTao_Task\\storage\\m1\\faults\\silence.wav",
+        "remedy": null
+      },
+      "input_sha256": "20eaebffe1816e0ffa6f7f854f5ef4ea80d5349faaf0ce1fec1b713e7fde58fa",
+      "success_output": false
+    },
+    {
+      "scenario": "process_timeout",
+      "expected": "TIMEOUT",
+      "actual": {
+        "code": "TIMEOUT",
+        "message": "Operation exceeded configured timeout",
+        "source": "D:\\XuTao_Task\\.venv-m1\\Scripts\\python.exe",
+        "remedy": null
+      },
+      "input_sha256": null,
+      "success_output": false
+    },
+    {
+      "scenario": "forced_worker_failure",
+      "expected": "RUN_FAILED",
+      "actual": {
+        "code": "RUN_FAILED",
+        "message": "Process exited with code 1",
+        "source": "D:\\XuTao_Task\\.venv-m1\\Scripts\\python.exe",
+        "remedy": null
+      },
+      "input_sha256": null,
+      "success_output": false
+    },
+    {
+      "scenario": "oom_error_classification",
+      "expected": "RESOURCE_INSUFFICIENT",
+      "actual": {
+        "code": "RESOURCE_INSUFFICIENT",
+        "message": "Process exited with code 1",
+        "source": "D:\\XuTao_Task\\.venv-m1\\Scripts\\python.exe",
+        "remedy": null
+      },
+      "input_sha256": null,
+      "success_output": false
+    },
+    {
+      "scenario": "tts_missing_configuration",
+      "actual": {
+        "code": "SERVICE_CONFIG_MISSING",
+        "message": "Local model configuration missing",
+        "source": "tts",
+        "remedy": "Configure an isolated interpreter, pinned code and complete weights"
+      },
+      "request_id": "d1a1d5a3-1df4-4130-a2e5-084f49d4bffa",
+      "success_output": false
+    },
+    {
+      "scenario": "photo_missing_configuration",
+      "actual": {
+        "code": "SERVICE_CONFIG_MISSING",
+        "message": "Local model configuration missing",
+        "source": "photo",
+        "remedy": "Configure an isolated interpreter, pinned code and complete weights"
+      },
+      "request_id": "0143b28f-d6e5-4ab0-896b-f8ccf094e79b",
+      "success_output": false
+    },
+    {
+      "scenario": "video_missing_configuration",
+      "actual": {
+        "code": "SERVICE_CONFIG_MISSING",
+        "message": "Local model configuration missing",
+        "source": "video",
+        "remedy": "Configure an isolated interpreter, pinned code and complete weights"
+      },
+      "request_id": "92cc52e9-eb3a-48ea-9d5d-01f56666f403",
+      "success_output": false
+    },
+    {
+      "scenario": "missing_weight",
+      "health": {
+        "role": "video",
+        "ready": false,
+        "model_loaded": false,
+        "readiness_scope": "configuration_files_and_torch_only",
+        "dependencies": null,
+        "blockers": [
+          {
+            "code": "MODEL_NOT_READY",
+            "message": "Model/auxiliary weight usage review is incomplete",
+            "source": "video",
+            "remedy": null
+          },
+          {
+            "code": "RUN_FAILED",
+            "message": "Process exited with code 128",
+            "source": "git",
+            "remedy": null
+          },
+          {
+            "code": "MODEL_NOT_READY",
+            "message": "Weight missing or checksum unconfigured",
+            "source": "video",
+            "remedy": null
+          }
+        ],
+        "quality_verified": false
+      },
+      "success_output": false
+    }
+  ]
+}

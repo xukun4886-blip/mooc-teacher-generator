@@ -1,0 +1,1183 @@
+{
+  "project_id": "57866fdf-6350-400b-9911-8c9bd9cc407f",
+  "controlled_storage": "D:\\XuTao_Task\\storage\\m2\\projects\\57866fdf-6350-400b-9911-8c9bd9cc407f",
+  "engineering_only": true,
+  "page_count": 10,
+  "reopen_original_ids": true,
+  "notes_literal": true,
+  "external_literal": true,
+  "authorization_reused_from": "M1 user-confirmed local material authorization",
+  "auditions": [
+    {
+      "source_index": 1,
+      "scene_id": "4630c7e2-5b84-464f-bf1c-f383a1e5f999",
+      "state": "completed",
+      "error": null,
+      "path": "auditions/6c7f2d69-6363-4a87-8898-4f54ffe65208.wav",
+      "sha256": "2662404a2f285043aabc1bf36b8b50273d7347bbd977a88a1e927c02059f138f",
+      "duration_seconds": 4.64,
+      "sample_rate": "32000",
+      "request_id": "c14e2d30-9a8b-4ae6-b9b8-81cac4e2dfde",
+      "provider": "GPT-SoVITS",
+      "input_key": "ee7f82ec49febc07e0f8cdc484f4172ba54f96c231acd9bb2b4f8085d613b960",
+      "version_id": "87efee3a-8c25-4219-8ae3-62990a1beefe",
+      "stale": false,
+      "human_review": null,
+      "quality_verified": false,
+      "native_model": {
+        "provider": "GPT-SoVITS",
+        "actual_weight_version": "v2",
+        "loaded_primary_weights": {
+          "t2s_weights_path": {
+            "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\gsv-v2final-pretrained\\s1bert25hz-5kh-longer-epoch=12-step=369668.ckpt",
+            "sha256": "732f94e63b148066e24c7f9d2637f3374083e637635f07fbdb695dee20ddbe1f"
+          },
+          "vits_weights_path": {
+            "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\gsv-v2final-pretrained\\s2G2333k.pth",
+            "sha256": "924fdccaa3c574bf139c25c9759aa1ed3b3f99e19a7c529ee996c2bc17663695"
+          }
+        },
+        "inference_config_sha256": "3a4dfe7a0d6f01144ea1ca841e2592e0f9b8b25e9d818b677d61f8c753efd9b3",
+        "cold_load_seconds": 2.774294999995618,
+        "tokenizer_backend": "jieba",
+        "first_inference_seconds": 7.194327500001236,
+        "warm_seconds": null,
+        "speed_factor": 1.0,
+        "speech_timeline": [
+          {
+            "text_sha256": "5f5800ce1747dacd82e1626ac34a65bcf7ebc794a8b076b1116fa2863fc2e126",
+            "start_seconds": 0.5,
+            "end_seconds": 4.64
+          }
+        ]
+      },
+      "silence_ratio": 0.0,
+      "controlled_path": "D:\\XuTao_Task\\storage\\m2\\projects\\57866fdf-6350-400b-9911-8c9bd9cc407f\\auditions\\6c7f2d69-6363-4a87-8898-4f54ffe65208.wav",
+      "effective_config": {
+        "course_name": "M2 十页工程验证 · 待人工评审",
+        "chapter": "",
+        "audience": "",
+        "detail": "标准",
+        "target_seconds": 90,
+        "resolution": "1080p",
+        "subtitles": true,
+        "mode": "photo",
+        "show_teacher": false,
+        "position": "bottom-right",
+        "size": 0.25,
+        "speed": 1.0,
+        "pause_before": 0.5,
+        "pause_after": 0.0,
+        "terms": {}
+      },
+      "decoded_frames": 148480
+    },
+    {
+      "source_index": 2,
+      "scene_id": "c7408e0b-6856-409b-822f-d71c5435a8f4",
+      "state": "completed",
+      "error": null,
+      "path": "auditions/5eaec57c-9e7f-4ce5-a03d-d3360e259bc6.wav",
+      "sha256": "f20621d8dca0489e45801ee151362ab4510de0e8beab9827ba8c01c29435f795",
+      "duration_seconds": 5.64,
+      "sample_rate": "32000",
+      "request_id": "5d3a9750-93a0-4eb1-ae05-602e5828b2b7",
+      "provider": "GPT-SoVITS",
+      "input_key": "837b718fdb4e150f2a518a81c23aad4d07b8cd83c3b6c2773dac7c007f1212a8",
+      "version_id": "2832b78d-3db3-42ea-87a7-067e882f9199",
+      "stale": false,
+      "human_review": null,
+      "quality_verified": false,
+      "native_model": {
+        "provider": "GPT-SoVITS",
+        "actual_weight_version": "v2",
+        "loaded_primary_weights": {
+          "t2s_weights_path": {
+            "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\gsv-v2final-pretrained\\s1bert25hz-5kh-longer-epoch=12-step=369668.ckpt",
+            "sha256": "732f94e63b148066e24c7f9d2637f3374083e637635f07fbdb695dee20ddbe1f"
+          },
+          "vits_weights_path": {
+            "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\gsv-v2final-pretrained\\s2G2333k.pth",
+            "sha256": "924fdccaa3c574bf139c25c9759aa1ed3b3f99e19a7c529ee996c2bc17663695"
+          }
+        },
+        "inference_config_sha256": "3a4dfe7a0d6f01144ea1ca841e2592e0f9b8b25e9d818b677d61f8c753efd9b3",
+        "cold_load_seconds": 2.4188242000018363,
+        "tokenizer_backend": "jieba",
+        "first_inference_seconds": 9.806172000004153,
+        "warm_seconds": null,
+        "speed_factor": 0.9,
+        "speech_timeline": [
+          {
+            "text_sha256": "ceea2fea7b2b857c0d3b7a1413d1e97a37b0c3822d324bacbbbaafc9cf4857fa",
+            "start_seconds": 0.0,
+            "end_seconds": 4.94
+          },
+          {
+            "type": "pause",
+            "start_seconds": 4.94,
+            "end_seconds": 5.64
+          }
+        ]
+      },
+      "silence_ratio": 0.17992021276595746,
+      "controlled_path": "D:\\XuTao_Task\\storage\\m2\\projects\\57866fdf-6350-400b-9911-8c9bd9cc407f\\auditions\\5eaec57c-9e7f-4ce5-a03d-d3360e259bc6.wav",
+      "effective_config": {
+        "course_name": "M2 十页工程验证 · 待人工评审",
+        "chapter": "",
+        "audience": "",
+        "detail": "标准",
+        "target_seconds": 90,
+        "resolution": "1080p",
+        "subtitles": true,
+        "mode": "photo",
+        "show_teacher": true,
+        "position": "top-left",
+        "size": 0.35,
+        "speed": 0.9,
+        "pause_before": 0.0,
+        "pause_after": 0.7,
+        "terms": {}
+      },
+      "decoded_frames": 180480
+    },
+    {
+      "source_index": 3,
+      "scene_id": "de728693-d5ec-4f25-833e-0d25c78457f7",
+      "state": "completed",
+      "error": null,
+      "path": "auditions/85bba70e-0a8a-4613-aa20-c88924dc864c.wav",
+      "sha256": "7c6c2ab723bca551ff21aa2f70669d0c187ae11eda33a9fef54afe31ae2af219",
+      "duration_seconds": 3.78,
+      "sample_rate": "32000",
+      "request_id": "e2f23da8-5293-4a69-99b2-fc53880cf28a",
+      "provider": "GPT-SoVITS",
+      "input_key": "31acdd474c90d0aaa2564f20d9a730ea8653cc0d1b7a26da9915c0e4bf05fff0",
+      "version_id": "bf9076e3-ad3f-4bc3-9b59-1d31132e67c3",
+      "stale": false,
+      "human_review": null,
+      "quality_verified": false,
+      "native_model": {
+        "provider": "GPT-SoVITS",
+        "actual_weight_version": "v2",
+        "loaded_primary_weights": {
+          "t2s_weights_path": {
+            "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\gsv-v2final-pretrained\\s1bert25hz-5kh-longer-epoch=12-step=369668.ckpt",
+            "sha256": "732f94e63b148066e24c7f9d2637f3374083e637635f07fbdb695dee20ddbe1f"
+          },
+          "vits_weights_path": {
+            "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\gsv-v2final-pretrained\\s2G2333k.pth",
+            "sha256": "924fdccaa3c574bf139c25c9759aa1ed3b3f99e19a7c529ee996c2bc17663695"
+          }
+        },
+        "inference_config_sha256": "3a4dfe7a0d6f01144ea1ca841e2592e0f9b8b25e9d818b677d61f8c753efd9b3",
+        "cold_load_seconds": 2.371588399997563,
+        "tokenizer_backend": "jieba",
+        "first_inference_seconds": 10.223528900001838,
+        "warm_seconds": null,
+        "speed_factor": 1.1,
+        "speech_timeline": [
+          {
+            "text_sha256": "6a47753a66f4e1b77d397482911b7e60177ae000863949ea65d5668893672d67",
+            "start_seconds": 0.0,
+            "end_seconds": 3.78
+          }
+        ]
+      },
+      "silence_ratio": 0.0,
+      "controlled_path": "D:\\XuTao_Task\\storage\\m2\\projects\\57866fdf-6350-400b-9911-8c9bd9cc407f\\auditions\\85bba70e-0a8a-4613-aa20-c88924dc864c.wav",
+      "effective_config": {
+        "course_name": "M2 十页工程验证 · 待人工评审",
+        "chapter": "",
+        "audience": "",
+        "detail": "标准",
+        "target_seconds": 90,
+        "resolution": "1080p",
+        "subtitles": true,
+        "mode": "photo",
+        "show_teacher": true,
+        "position": "bottom-right",
+        "size": 0.2,
+        "speed": 1.1,
+        "pause_before": 0.0,
+        "pause_after": 0.0,
+        "terms": {}
+      },
+      "decoded_frames": 120960
+    },
+    {
+      "source_index": 4,
+      "scene_id": "d87ef97c-dc52-45be-9e24-da95d2c9d4af",
+      "state": "completed",
+      "error": null,
+      "path": "auditions/dbc69d3b-5f0e-4062-9a61-36cedcb58613.wav",
+      "sha256": "895da97c302689f2183b297c9def868e0390f535a6e3121a239fd1332820dcfb",
+      "duration_seconds": 4.08,
+      "sample_rate": "32000",
+      "request_id": "13bab33f-2b3e-4499-bd18-1f4e640eacc9",
+      "provider": "GPT-SoVITS",
+      "input_key": "4d2ea187c94796d4f63e9edf0a6efe47b4cb64ce8405bc5ac74a50130a0a2e76",
+      "version_id": "9db46bef-ca0a-42a5-8971-e549cca927dc",
+      "stale": false,
+      "human_review": null,
+      "quality_verified": false,
+      "native_model": {
+        "provider": "GPT-SoVITS",
+        "actual_weight_version": "v2",
+        "loaded_primary_weights": {
+          "t2s_weights_path": {
+            "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\gsv-v2final-pretrained\\s1bert25hz-5kh-longer-epoch=12-step=369668.ckpt",
+            "sha256": "732f94e63b148066e24c7f9d2637f3374083e637635f07fbdb695dee20ddbe1f"
+          },
+          "vits_weights_path": {
+            "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\gsv-v2final-pretrained\\s2G2333k.pth",
+            "sha256": "924fdccaa3c574bf139c25c9759aa1ed3b3f99e19a7c529ee996c2bc17663695"
+          }
+        },
+        "inference_config_sha256": "3a4dfe7a0d6f01144ea1ca841e2592e0f9b8b25e9d818b677d61f8c753efd9b3",
+        "cold_load_seconds": 2.4015246000053594,
+        "tokenizer_backend": "jieba",
+        "first_inference_seconds": 9.591030199997476,
+        "warm_seconds": null,
+        "speed_factor": 1.0,
+        "speech_timeline": [
+          {
+            "text_sha256": "e603225f8664b730268a94e3c9cc1e4382b923dd042108973801ee509bba16a8",
+            "start_seconds": 0.0,
+            "end_seconds": 4.08
+          }
+        ]
+      },
+      "silence_ratio": 0.0,
+      "controlled_path": "D:\\XuTao_Task\\storage\\m2\\projects\\57866fdf-6350-400b-9911-8c9bd9cc407f\\auditions\\dbc69d3b-5f0e-4062-9a61-36cedcb58613.wav",
+      "effective_config": {
+        "course_name": "M2 十页工程验证 · 待人工评审",
+        "chapter": "",
+        "audience": "",
+        "detail": "标准",
+        "target_seconds": 90,
+        "resolution": "1080p",
+        "subtitles": true,
+        "mode": "photo",
+        "show_teacher": true,
+        "position": "bottom-right",
+        "size": 0.25,
+        "speed": 1.0,
+        "pause_before": 0.0,
+        "pause_after": 0.0,
+        "terms": {}
+      },
+      "decoded_frames": 130560
+    },
+    {
+      "source_index": 5,
+      "scene_id": "3ad69934-4879-43e5-b2bf-6533b440b2c4",
+      "state": "completed",
+      "error": null,
+      "path": "auditions/fec9ee47-0608-42d5-879b-1d1c7a9ca38f.wav",
+      "sha256": "35d74424aa970d9d8d9fa75be0a3dba4bd05c410d244363568d74fb87e6d06c2",
+      "duration_seconds": 5.58,
+      "sample_rate": "32000",
+      "request_id": "568ed75d-6646-4133-adf9-ff376d5a09fd",
+      "provider": "GPT-SoVITS",
+      "input_key": "9d97219e7bf7a1029a907e876508e06e9568a2f4e755c68589e94d198f5e3419",
+      "version_id": "bdfd75cf-7be0-4b18-ae84-d62fbd9710a4",
+      "stale": false,
+      "human_review": null,
+      "quality_verified": false,
+      "native_model": {
+        "provider": "GPT-SoVITS",
+        "actual_weight_version": "v2",
+        "loaded_primary_weights": {
+          "t2s_weights_path": {
+            "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\gsv-v2final-pretrained\\s1bert25hz-5kh-longer-epoch=12-step=369668.ckpt",
+            "sha256": "732f94e63b148066e24c7f9d2637f3374083e637635f07fbdb695dee20ddbe1f"
+          },
+          "vits_weights_path": {
+            "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\gsv-v2final-pretrained\\s2G2333k.pth",
+            "sha256": "924fdccaa3c574bf139c25c9759aa1ed3b3f99e19a7c529ee996c2bc17663695"
+          }
+        },
+        "inference_config_sha256": "3a4dfe7a0d6f01144ea1ca841e2592e0f9b8b25e9d818b677d61f8c753efd9b3",
+        "cold_load_seconds": 2.418724100003601,
+        "tokenizer_backend": "jieba",
+        "first_inference_seconds": 6.5652190999971936,
+        "warm_seconds": null,
+        "speed_factor": 1.0,
+        "speech_timeline": [
+          {
+            "text_sha256": "69041da3885af09db7bfde941c44fe2cfa0e0c3bb4bf39f83cf0a82839bc5df3",
+            "start_seconds": 0.0,
+            "end_seconds": 5.58
+          }
+        ]
+      },
+      "silence_ratio": 0.0,
+      "controlled_path": "D:\\XuTao_Task\\storage\\m2\\projects\\57866fdf-6350-400b-9911-8c9bd9cc407f\\auditions\\fec9ee47-0608-42d5-879b-1d1c7a9ca38f.wav",
+      "effective_config": {
+        "course_name": "M2 十页工程验证 · 待人工评审",
+        "chapter": "",
+        "audience": "",
+        "detail": "标准",
+        "target_seconds": 90,
+        "resolution": "1080p",
+        "subtitles": true,
+        "mode": "photo",
+        "show_teacher": true,
+        "position": "bottom-right",
+        "size": 0.25,
+        "speed": 1.0,
+        "pause_before": 0.0,
+        "pause_after": 0.0,
+        "terms": {}
+      },
+      "decoded_frames": 178560
+    },
+    {
+      "source_index": 6,
+      "scene_id": "39be1b21-6040-48df-a9e0-1fa3d6d9bea6",
+      "state": "completed",
+      "error": null,
+      "path": "auditions/7195581a-259e-4935-86bb-4861957ad4e1.wav",
+      "sha256": "a996739bed49332a4a4a07a9f4c3a50bc0824576f3fbaef27feef5090aff89c1",
+      "duration_seconds": 5.86,
+      "sample_rate": "32000",
+      "request_id": "cc70120d-c1bc-4eb7-8897-6793ca3c17a3",
+      "provider": "GPT-SoVITS",
+      "input_key": "3c501f37a23c5e3bb4681fe8fd900732b7c7e5d2dfcc2129bcd1840d01ca18ff",
+      "version_id": "ff073648-2a6e-4f6d-be34-bc0b4cfd458b",
+      "stale": false,
+      "human_review": null,
+      "quality_verified": false,
+      "native_model": {
+        "provider": "GPT-SoVITS",
+        "actual_weight_version": "v2",
+        "loaded_primary_weights": {
+          "t2s_weights_path": {
+            "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\gsv-v2final-pretrained\\s1bert25hz-5kh-longer-epoch=12-step=369668.ckpt",
+            "sha256": "732f94e63b148066e24c7f9d2637f3374083e637635f07fbdb695dee20ddbe1f"
+          },
+          "vits_weights_path": {
+            "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\gsv-v2final-pretrained\\s2G2333k.pth",
+            "sha256": "924fdccaa3c574bf139c25c9759aa1ed3b3f99e19a7c529ee996c2bc17663695"
+          }
+        },
+        "inference_config_sha256": "3a4dfe7a0d6f01144ea1ca841e2592e0f9b8b25e9d818b677d61f8c753efd9b3",
+        "cold_load_seconds": 2.392493100000138,
+        "tokenizer_backend": "jieba",
+        "first_inference_seconds": 6.603774999995949,
+        "warm_seconds": null,
+        "speed_factor": 1.0,
+        "speech_timeline": [
+          {
+            "text_sha256": "f9e43d54755162ff6cc07495825231b0e4814c3983c1183e3f9b79db4dd542c2",
+            "start_seconds": 0.0,
+            "end_seconds": 5.86
+          }
+        ]
+      },
+      "silence_ratio": 0.0,
+      "controlled_path": "D:\\XuTao_Task\\storage\\m2\\projects\\57866fdf-6350-400b-9911-8c9bd9cc407f\\auditions\\7195581a-259e-4935-86bb-4861957ad4e1.wav",
+      "effective_config": {
+        "course_name": "M2 十页工程验证 · 待人工评审",
+        "chapter": "",
+        "audience": "",
+        "detail": "标准",
+        "target_seconds": 90,
+        "resolution": "1080p",
+        "subtitles": true,
+        "mode": "photo",
+        "show_teacher": true,
+        "position": "bottom-right",
+        "size": 0.25,
+        "speed": 1.0,
+        "pause_before": 0.0,
+        "pause_after": 0.0,
+        "terms": {}
+      },
+      "decoded_frames": 187520
+    },
+    {
+      "source_index": 7,
+      "scene_id": "437e4db8-d975-4a4f-bbce-db8190c3c678",
+      "state": "completed",
+      "error": null,
+      "path": "auditions/47869d8b-5b21-4c80-83bd-50022207d33f.wav",
+      "sha256": "aee2dbec02b680b5c597917799605ae086498656c33a55d83c464365f44704c9",
+      "duration_seconds": 3.92,
+      "sample_rate": "32000",
+      "request_id": "6cc6af74-d426-4158-82fc-2f9eec952785",
+      "provider": "GPT-SoVITS",
+      "input_key": "b67d1582644ce158fec03cb9185ff726ae6ae51460a56466581e0993b8e63eba",
+      "version_id": "c87ed600-7e37-47b6-91bf-46b31549fda5",
+      "stale": false,
+      "human_review": null,
+      "quality_verified": false,
+      "native_model": {
+        "provider": "GPT-SoVITS",
+        "actual_weight_version": "v2",
+        "loaded_primary_weights": {
+          "t2s_weights_path": {
+            "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\gsv-v2final-pretrained\\s1bert25hz-5kh-longer-epoch=12-step=369668.ckpt",
+            "sha256": "732f94e63b148066e24c7f9d2637f3374083e637635f07fbdb695dee20ddbe1f"
+          },
+          "vits_weights_path": {
+            "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\gsv-v2final-pretrained\\s2G2333k.pth",
+            "sha256": "924fdccaa3c574bf139c25c9759aa1ed3b3f99e19a7c529ee996c2bc17663695"
+          }
+        },
+        "inference_config_sha256": "3a4dfe7a0d6f01144ea1ca841e2592e0f9b8b25e9d818b677d61f8c753efd9b3",
+        "cold_load_seconds": 2.4117364000048838,
+        "tokenizer_backend": "jieba",
+        "first_inference_seconds": 5.645497899997281,
+        "warm_seconds": null,
+        "speed_factor": 1.0,
+        "speech_timeline": [
+          {
+            "text_sha256": "d0178b365f5a94d4667cd5be702b1574b7d3f4c0efb8ac73d9c6711bf39a6b0c",
+            "start_seconds": 0.0,
+            "end_seconds": 3.92
+          }
+        ]
+      },
+      "silence_ratio": 0.0,
+      "controlled_path": "D:\\XuTao_Task\\storage\\m2\\projects\\57866fdf-6350-400b-9911-8c9bd9cc407f\\auditions\\47869d8b-5b21-4c80-83bd-50022207d33f.wav",
+      "effective_config": {
+        "course_name": "M2 十页工程验证 · 待人工评审",
+        "chapter": "",
+        "audience": "",
+        "detail": "标准",
+        "target_seconds": 90,
+        "resolution": "1080p",
+        "subtitles": true,
+        "mode": "photo",
+        "show_teacher": true,
+        "position": "bottom-right",
+        "size": 0.25,
+        "speed": 1.0,
+        "pause_before": 0.0,
+        "pause_after": 0.0,
+        "terms": {}
+      },
+      "decoded_frames": 125440
+    },
+    {
+      "source_index": 8,
+      "scene_id": "220a33f6-3050-4794-83c0-1f59f020b3ed",
+      "state": "completed",
+      "error": null,
+      "path": "auditions/27697db8-589d-4029-adcf-c0f92b3df24d.wav",
+      "sha256": "dbd0b0c82b0dda2249a630c7d7a6b6feb7421c08d8d04749c1f1a4fb1c57221c",
+      "duration_seconds": 4.48,
+      "sample_rate": "32000",
+      "request_id": "79982ab9-837d-4c10-9429-3c554f0d7ed8",
+      "provider": "GPT-SoVITS",
+      "input_key": "3bb5e0d75028e5a26e33d6504425ea27c9f7848133e1bfa9738e1a199ef0596c",
+      "version_id": "3f063dab-7949-43b7-af09-0937f77cb62c",
+      "stale": false,
+      "human_review": null,
+      "quality_verified": false,
+      "native_model": {
+        "provider": "GPT-SoVITS",
+        "actual_weight_version": "v2",
+        "loaded_primary_weights": {
+          "t2s_weights_path": {
+            "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\gsv-v2final-pretrained\\s1bert25hz-5kh-longer-epoch=12-step=369668.ckpt",
+            "sha256": "732f94e63b148066e24c7f9d2637f3374083e637635f07fbdb695dee20ddbe1f"
+          },
+          "vits_weights_path": {
+            "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\gsv-v2final-pretrained\\s2G2333k.pth",
+            "sha256": "924fdccaa3c574bf139c25c9759aa1ed3b3f99e19a7c529ee996c2bc17663695"
+          }
+        },
+        "inference_config_sha256": "3a4dfe7a0d6f01144ea1ca841e2592e0f9b8b25e9d818b677d61f8c753efd9b3",
+        "cold_load_seconds": 2.416204300003301,
+        "tokenizer_backend": "jieba",
+        "first_inference_seconds": 5.84915319999709,
+        "warm_seconds": null,
+        "speed_factor": 1.0,
+        "speech_timeline": [
+          {
+            "text_sha256": "44558413067ef480dade7f809a8e11104b22221ed24c91b8e658d879a416b51f",
+            "start_seconds": 0.0,
+            "end_seconds": 4.48
+          }
+        ]
+      },
+      "silence_ratio": 0.0,
+      "controlled_path": "D:\\XuTao_Task\\storage\\m2\\projects\\57866fdf-6350-400b-9911-8c9bd9cc407f\\auditions\\27697db8-589d-4029-adcf-c0f92b3df24d.wav",
+      "effective_config": {
+        "course_name": "M2 十页工程验证 · 待人工评审",
+        "chapter": "",
+        "audience": "",
+        "detail": "标准",
+        "target_seconds": 90,
+        "resolution": "1080p",
+        "subtitles": true,
+        "mode": "photo",
+        "show_teacher": true,
+        "position": "bottom-right",
+        "size": 0.25,
+        "speed": 1.0,
+        "pause_before": 0.0,
+        "pause_after": 0.0,
+        "terms": {}
+      },
+      "decoded_frames": 143360
+    },
+    {
+      "source_index": 9,
+      "scene_id": "dff86d23-b704-4a18-accf-95f548665f73",
+      "state": "completed",
+      "error": null,
+      "path": "auditions/126dd331-b5bb-429b-9372-30be13a927b5.wav",
+      "sha256": "0a6983d0fb85d7f7f5f67ce23541d5fc144ea3e8df4f9f51c78953954b52cbd7",
+      "duration_seconds": 4.46,
+      "sample_rate": "32000",
+      "request_id": "7f1a4f4b-9a8a-4e99-9263-dc5174c369b1",
+      "provider": "GPT-SoVITS",
+      "input_key": "b9d766dd7d629dc28da84206d0445f5c4da60206f72e99791da1ca58c50000f8",
+      "version_id": "26eb3684-6986-4ab8-9b58-f4060cb2ea69",
+      "stale": false,
+      "human_review": null,
+      "quality_verified": false,
+      "native_model": {
+        "provider": "GPT-SoVITS",
+        "actual_weight_version": "v2",
+        "loaded_primary_weights": {
+          "t2s_weights_path": {
+            "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\gsv-v2final-pretrained\\s1bert25hz-5kh-longer-epoch=12-step=369668.ckpt",
+            "sha256": "732f94e63b148066e24c7f9d2637f3374083e637635f07fbdb695dee20ddbe1f"
+          },
+          "vits_weights_path": {
+            "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\gsv-v2final-pretrained\\s2G2333k.pth",
+            "sha256": "924fdccaa3c574bf139c25c9759aa1ed3b3f99e19a7c529ee996c2bc17663695"
+          }
+        },
+        "inference_config_sha256": "3a4dfe7a0d6f01144ea1ca841e2592e0f9b8b25e9d818b677d61f8c753efd9b3",
+        "cold_load_seconds": 2.365760799999407,
+        "tokenizer_backend": "jieba",
+        "first_inference_seconds": 5.622703699998965,
+        "warm_seconds": null,
+        "speed_factor": 1.0,
+        "speech_timeline": [
+          {
+            "text_sha256": "e4d4045f05ff6f75cd53d946735f283ff30194092a9456ce6824494c01c1d52e",
+            "start_seconds": 0.0,
+            "end_seconds": 4.46
+          }
+        ]
+      },
+      "silence_ratio": 0.0,
+      "controlled_path": "D:\\XuTao_Task\\storage\\m2\\projects\\57866fdf-6350-400b-9911-8c9bd9cc407f\\auditions\\126dd331-b5bb-429b-9372-30be13a927b5.wav",
+      "effective_config": {
+        "course_name": "M2 十页工程验证 · 待人工评审",
+        "chapter": "",
+        "audience": "",
+        "detail": "标准",
+        "target_seconds": 90,
+        "resolution": "1080p",
+        "subtitles": true,
+        "mode": "photo",
+        "show_teacher": true,
+        "position": "bottom-right",
+        "size": 0.25,
+        "speed": 1.0,
+        "pause_before": 0.0,
+        "pause_after": 0.0,
+        "terms": {}
+      },
+      "decoded_frames": 142720
+    },
+    {
+      "source_index": 10,
+      "scene_id": "da802fdf-79cb-46f3-870b-af210155f409",
+      "state": "completed",
+      "error": null,
+      "path": "auditions/ea519b7a-71cc-4552-8254-30607eba720a.wav",
+      "sha256": "8441b53a7ac003457b7d01d3f5b9e88276566e6a0d08b0fda05e257b6dc44015",
+      "duration_seconds": 6.2,
+      "sample_rate": "32000",
+      "request_id": "cd7a0c58-387e-4af4-94c5-caff3bc3d4f8",
+      "provider": "GPT-SoVITS",
+      "input_key": "3f3eaa9f6605f688190b60517d4ea9154a6bd2ecf82527b40b199b51215a1edd",
+      "version_id": "60b67f15-d22c-4cb1-a586-91d5e416b5ad",
+      "stale": false,
+      "human_review": null,
+      "quality_verified": false,
+      "native_model": {
+        "provider": "GPT-SoVITS",
+        "actual_weight_version": "v2",
+        "loaded_primary_weights": {
+          "t2s_weights_path": {
+            "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\gsv-v2final-pretrained\\s1bert25hz-5kh-longer-epoch=12-step=369668.ckpt",
+            "sha256": "732f94e63b148066e24c7f9d2637f3374083e637635f07fbdb695dee20ddbe1f"
+          },
+          "vits_weights_path": {
+            "path": "D:\\XuTao_Task\\.tools\\models\\GPT-SoVITS\\GPT_SoVITS\\pretrained_models\\gsv-v2final-pretrained\\s2G2333k.pth",
+            "sha256": "924fdccaa3c574bf139c25c9759aa1ed3b3f99e19a7c529ee996c2bc17663695"
+          }
+        },
+        "inference_config_sha256": "3a4dfe7a0d6f01144ea1ca841e2592e0f9b8b25e9d818b677d61f8c753efd9b3",
+        "cold_load_seconds": 2.382192599994596,
+        "tokenizer_backend": "jieba",
+        "first_inference_seconds": 6.762587000004714,
+        "warm_seconds": null,
+        "speed_factor": 1.0,
+        "speech_timeline": [
+          {
+            "text_sha256": "42df4e05459d690134fdd7e52ff8c9f4398c8f0be02a081629746611d20457c7",
+            "start_seconds": 0.0,
+            "end_seconds": 6.2
+          }
+        ]
+      },
+      "silence_ratio": 0.0,
+      "controlled_path": "D:\\XuTao_Task\\storage\\m2\\projects\\57866fdf-6350-400b-9911-8c9bd9cc407f\\auditions\\ea519b7a-71cc-4552-8254-30607eba720a.wav",
+      "effective_config": {
+        "course_name": "M2 十页工程验证 · 待人工评审",
+        "chapter": "",
+        "audience": "",
+        "detail": "标准",
+        "target_seconds": 90,
+        "resolution": "1080p",
+        "subtitles": true,
+        "mode": "photo",
+        "show_teacher": true,
+        "position": "bottom-right",
+        "size": 0.25,
+        "speed": 1.0,
+        "pause_before": 0.0,
+        "pause_after": 0.0,
+        "terms": {}
+      },
+      "decoded_frames": 198400
+    }
+  ],
+  "human_listening_review": "pending",
+  "course_teacher_review": "pending",
+  "ai_real_validation": "blocked_configuration_missing",
+  "m1_passed": false,
+  "m2_passed": false,
+  "preflight": {
+    "revision": 24,
+    "ready": false,
+    "blockers": [
+      {
+        "code": "LISTEN_REVIEW_REQUIRED",
+        "message": "音色、术语、漏句和重复未人工试听核查",
+        "source": "4630c7e2-5b84-464f-bf1c-f383a1e5f999",
+        "remedy": "播放音频并填写试听评审"
+      },
+      {
+        "code": "LISTEN_REVIEW_REQUIRED",
+        "message": "音色、术语、漏句和重复未人工试听核查",
+        "source": "c7408e0b-6856-409b-822f-d71c5435a8f4",
+        "remedy": "播放音频并填写试听评审"
+      },
+      {
+        "code": "LISTEN_REVIEW_REQUIRED",
+        "message": "音色、术语、漏句和重复未人工试听核查",
+        "source": "de728693-d5ec-4f25-833e-0d25c78457f7",
+        "remedy": "播放音频并填写试听评审"
+      },
+      {
+        "code": "LISTEN_REVIEW_REQUIRED",
+        "message": "音色、术语、漏句和重复未人工试听核查",
+        "source": "d87ef97c-dc52-45be-9e24-da95d2c9d4af",
+        "remedy": "播放音频并填写试听评审"
+      },
+      {
+        "code": "LISTEN_REVIEW_REQUIRED",
+        "message": "音色、术语、漏句和重复未人工试听核查",
+        "source": "3ad69934-4879-43e5-b2bf-6533b440b2c4",
+        "remedy": "播放音频并填写试听评审"
+      },
+      {
+        "code": "LISTEN_REVIEW_REQUIRED",
+        "message": "音色、术语、漏句和重复未人工试听核查",
+        "source": "39be1b21-6040-48df-a9e0-1fa3d6d9bea6",
+        "remedy": "播放音频并填写试听评审"
+      },
+      {
+        "code": "LISTEN_REVIEW_REQUIRED",
+        "message": "音色、术语、漏句和重复未人工试听核查",
+        "source": "437e4db8-d975-4a4f-bbce-db8190c3c678",
+        "remedy": "播放音频并填写试听评审"
+      },
+      {
+        "code": "LISTEN_REVIEW_REQUIRED",
+        "message": "音色、术语、漏句和重复未人工试听核查",
+        "source": "220a33f6-3050-4794-83c0-1f59f020b3ed",
+        "remedy": "播放音频并填写试听评审"
+      },
+      {
+        "code": "LISTEN_REVIEW_REQUIRED",
+        "message": "音色、术语、漏句和重复未人工试听核查",
+        "source": "dff86d23-b704-4a18-accf-95f548665f73",
+        "remedy": "播放音频并填写试听评审"
+      },
+      {
+        "code": "LISTEN_REVIEW_REQUIRED",
+        "message": "音色、术语、漏句和重复未人工试听核查",
+        "source": "da802fdf-79cb-46f3-870b-af210155f409",
+        "remedy": "播放音频并填写试听评审"
+      },
+      {
+        "code": "TEACHING_CHECK_REQUIRED",
+        "message": "本课时至少记录 5 个有来源和答案的理解问题",
+        "source": "teaching",
+        "remedy": "补充问题并重新审核"
+      }
+    ],
+    "warnings": [
+      {
+        "message": "照片短边低于建议 512 像素，请检查人物清晰度",
+        "source": "photo"
+      },
+      {
+        "message": "M1 人工质量评审与阶段退出仍待完成，当前快照只用于内容交接",
+        "source": "M1"
+      }
+    ],
+    "models": {
+      "tts": {
+        "capabilities": {
+          "schema_version": "m1.adapter.v1",
+          "role": "tts",
+          "provider": "GPT-SoVITS",
+          "configured": true,
+          "code_revision": "48b1a0169a28582a8984402f82cf438d3bfa6aca",
+          "weight_version": "v2",
+          "input_types": [
+            "confirmed_chinese_text",
+            "reference_audio"
+          ],
+          "chinese": {
+            "declared": true,
+            "verified": false
+          },
+          "reference_timbre": {
+            "declared": true,
+            "verified": false
+          },
+          "constraints": {
+            "reference_audio": {
+              "min_seconds": 3,
+              "max_seconds": 10
+            }
+          },
+          "quality_verified": false,
+          "immediate_cancellation": false,
+          "execution": "isolated_local_process",
+          "fee": 0,
+          "cold_seconds": null,
+          "warm_seconds": null,
+          "peak_model_vram_mib": null
+        },
+        "health": {
+          "role": "tts",
+          "ready": true,
+          "model_loaded": false,
+          "readiness_scope": "configuration_checksums_runtime_module_discovery_torch_cuda_and_mmcv_binary; no native generation",
+          "dependencies": {
+            "torch": "2.5.1+cu118",
+            "cuda_runtime": "11.8",
+            "cuda_available": true,
+            "missing_modules": []
+          },
+          "blockers": [],
+          "quality_verified": false
+        }
+      },
+      "photo": {
+        "capabilities": {
+          "schema_version": "m1.adapter.v1",
+          "role": "photo",
+          "provider": "SadTalker",
+          "configured": true,
+          "code_revision": "cd4c0465ae0b54a6f85af57f5c65fec9fe23e7f8",
+          "weight_version": "v0.0.2_256_full",
+          "input_types": [
+            "photo",
+            "current_audio"
+          ],
+          "chinese": {
+            "declared": true,
+            "verified": false
+          },
+          "reference_timbre": {
+            "declared": false,
+            "verified": false
+          },
+          "constraints": {},
+          "quality_verified": false,
+          "immediate_cancellation": false,
+          "execution": "isolated_local_process",
+          "fee": 0,
+          "cold_seconds": null,
+          "warm_seconds": null,
+          "peak_model_vram_mib": null
+        },
+        "health": {
+          "role": "photo",
+          "ready": true,
+          "model_loaded": false,
+          "readiness_scope": "configuration_checksums_runtime_module_discovery_torch_cuda_and_mmcv_binary; no native generation",
+          "dependencies": {
+            "torch": "1.12.1+cu113",
+            "cuda_runtime": "11.3",
+            "cuda_available": true,
+            "missing_modules": []
+          },
+          "blockers": [],
+          "quality_verified": false
+        }
+      }
+    },
+    "ai": {
+      "configured": false,
+      "ready": false,
+      "model": "",
+      "fee": null,
+      "reason": "请配置 AI 地址、模型与密钥环境变量；外部生成另需 allow_paid 授权"
+    },
+    "estimated_seconds": 48.64000000000001,
+    "estimate_scope": "有当前试听使用实际时长，否则字数提示",
+    "generation_seconds": null,
+    "generation_fee": null,
+    "generation_called": false,
+    "checked_at": "2026-10-01T15:43:37.477393+00:00"
+  },
+  "all_ten_real_audio": true,
+  "finished_at": "2026-10-01T15:43:37.477393+00:00",
+  "current_preflight": {
+    "revision": 24,
+    "ready": false,
+    "blockers": [
+      {
+        "code": "TEACHING_CHECK_REQUIRED",
+        "message": "知识点未完成核查",
+        "source": "4630c7e2-5b84-464f-bf1c-f383a1e5f999",
+        "remedy": "编辑新版本并完成教师教学核查"
+      },
+      {
+        "code": "LISTEN_REVIEW_REQUIRED",
+        "message": "音色、术语、漏句和重复未人工试听核查",
+        "source": "4630c7e2-5b84-464f-bf1c-f383a1e5f999",
+        "remedy": "播放音频并填写试听评审"
+      },
+      {
+        "code": "TEACHING_CHECK_REQUIRED",
+        "message": "知识点未完成核查",
+        "source": "c7408e0b-6856-409b-822f-d71c5435a8f4",
+        "remedy": "编辑新版本并完成教师教学核查"
+      },
+      {
+        "code": "LISTEN_REVIEW_REQUIRED",
+        "message": "音色、术语、漏句和重复未人工试听核查",
+        "source": "c7408e0b-6856-409b-822f-d71c5435a8f4",
+        "remedy": "播放音频并填写试听评审"
+      },
+      {
+        "code": "TEACHING_CHECK_REQUIRED",
+        "message": "知识点未完成核查",
+        "source": "de728693-d5ec-4f25-833e-0d25c78457f7",
+        "remedy": "编辑新版本并完成教师教学核查"
+      },
+      {
+        "code": "LISTEN_REVIEW_REQUIRED",
+        "message": "音色、术语、漏句和重复未人工试听核查",
+        "source": "de728693-d5ec-4f25-833e-0d25c78457f7",
+        "remedy": "播放音频并填写试听评审"
+      },
+      {
+        "code": "TEACHING_CHECK_REQUIRED",
+        "message": "知识点未完成核查",
+        "source": "d87ef97c-dc52-45be-9e24-da95d2c9d4af",
+        "remedy": "编辑新版本并完成教师教学核查"
+      },
+      {
+        "code": "LISTEN_REVIEW_REQUIRED",
+        "message": "音色、术语、漏句和重复未人工试听核查",
+        "source": "d87ef97c-dc52-45be-9e24-da95d2c9d4af",
+        "remedy": "播放音频并填写试听评审"
+      },
+      {
+        "code": "TEACHING_CHECK_REQUIRED",
+        "message": "知识点未完成核查",
+        "source": "3ad69934-4879-43e5-b2bf-6533b440b2c4",
+        "remedy": "编辑新版本并完成教师教学核查"
+      },
+      {
+        "code": "LISTEN_REVIEW_REQUIRED",
+        "message": "音色、术语、漏句和重复未人工试听核查",
+        "source": "3ad69934-4879-43e5-b2bf-6533b440b2c4",
+        "remedy": "播放音频并填写试听评审"
+      },
+      {
+        "code": "TEACHING_CHECK_REQUIRED",
+        "message": "知识点未完成核查",
+        "source": "39be1b21-6040-48df-a9e0-1fa3d6d9bea6",
+        "remedy": "编辑新版本并完成教师教学核查"
+      },
+      {
+        "code": "LISTEN_REVIEW_REQUIRED",
+        "message": "音色、术语、漏句和重复未人工试听核查",
+        "source": "39be1b21-6040-48df-a9e0-1fa3d6d9bea6",
+        "remedy": "播放音频并填写试听评审"
+      },
+      {
+        "code": "TEACHING_CHECK_REQUIRED",
+        "message": "知识点未完成核查",
+        "source": "437e4db8-d975-4a4f-bbce-db8190c3c678",
+        "remedy": "编辑新版本并完成教师教学核查"
+      },
+      {
+        "code": "LISTEN_REVIEW_REQUIRED",
+        "message": "音色、术语、漏句和重复未人工试听核查",
+        "source": "437e4db8-d975-4a4f-bbce-db8190c3c678",
+        "remedy": "播放音频并填写试听评审"
+      },
+      {
+        "code": "TEACHING_CHECK_REQUIRED",
+        "message": "知识点未完成核查",
+        "source": "220a33f6-3050-4794-83c0-1f59f020b3ed",
+        "remedy": "编辑新版本并完成教师教学核查"
+      },
+      {
+        "code": "LISTEN_REVIEW_REQUIRED",
+        "message": "音色、术语、漏句和重复未人工试听核查",
+        "source": "220a33f6-3050-4794-83c0-1f59f020b3ed",
+        "remedy": "播放音频并填写试听评审"
+      },
+      {
+        "code": "TEACHING_CHECK_REQUIRED",
+        "message": "知识点未完成核查",
+        "source": "dff86d23-b704-4a18-accf-95f548665f73",
+        "remedy": "编辑新版本并完成教师教学核查"
+      },
+      {
+        "code": "LISTEN_REVIEW_REQUIRED",
+        "message": "音色、术语、漏句和重复未人工试听核查",
+        "source": "dff86d23-b704-4a18-accf-95f548665f73",
+        "remedy": "播放音频并填写试听评审"
+      },
+      {
+        "code": "TEACHING_CHECK_REQUIRED",
+        "message": "知识点未完成核查",
+        "source": "da802fdf-79cb-46f3-870b-af210155f409",
+        "remedy": "编辑新版本并完成教师教学核查"
+      },
+      {
+        "code": "LISTEN_REVIEW_REQUIRED",
+        "message": "音色、术语、漏句和重复未人工试听核查",
+        "source": "da802fdf-79cb-46f3-870b-af210155f409",
+        "remedy": "播放音频并填写试听评审"
+      },
+      {
+        "code": "TEACHING_CHECK_REQUIRED",
+        "message": "本课时至少记录 5 个有来源和答案的理解问题",
+        "source": "teaching",
+        "remedy": "补充问题并重新审核"
+      },
+      {
+        "code": "ENGINEERING_ONLY",
+        "message": "工程项目尚未完成真实课程教学审核",
+        "source": "teaching",
+        "remedy": "使用授权课程逐页核查；工程证据不能替代正式课时"
+      }
+    ],
+    "warnings": [
+      {
+        "message": "照片短边低于建议 512 像素，请检查人物清晰度",
+        "source": "photo"
+      },
+      {
+        "message": "M1 人工质量评审与阶段退出仍待完成，当前快照只用于内容交接",
+        "source": "M1"
+      }
+    ],
+    "models": {
+      "tts": {
+        "capabilities": {
+          "schema_version": "m1.adapter.v1",
+          "role": "tts",
+          "provider": "GPT-SoVITS",
+          "configured": true,
+          "code_revision": "48b1a0169a28582a8984402f82cf438d3bfa6aca",
+          "weight_version": "v2",
+          "input_types": [
+            "confirmed_chinese_text",
+            "reference_audio"
+          ],
+          "chinese": {
+            "declared": true,
+            "verified": false
+          },
+          "reference_timbre": {
+            "declared": true,
+            "verified": false
+          },
+          "constraints": {
+            "reference_audio": {
+              "min_seconds": 3,
+              "max_seconds": 10
+            }
+          },
+          "quality_verified": false,
+          "immediate_cancellation": false,
+          "execution": "isolated_local_process",
+          "fee": 0,
+          "cold_seconds": null,
+          "warm_seconds": null,
+          "peak_model_vram_mib": null
+        },
+        "health": {
+          "role": "tts",
+          "ready": true,
+          "model_loaded": false,
+          "readiness_scope": "configuration_checksums_runtime_module_discovery_torch_cuda_and_mmcv_binary; no native generation",
+          "dependencies": {
+            "torch": "2.5.1+cu118",
+            "cuda_runtime": "11.8",
+            "cuda_available": true,
+            "missing_modules": []
+          },
+          "blockers": [],
+          "quality_verified": false
+        }
+      },
+      "photo": {
+        "capabilities": {
+          "schema_version": "m1.adapter.v1",
+          "role": "photo",
+          "provider": "SadTalker",
+          "configured": true,
+          "code_revision": "cd4c0465ae0b54a6f85af57f5c65fec9fe23e7f8",
+          "weight_version": "v0.0.2_256_full",
+          "input_types": [
+            "photo",
+            "current_audio"
+          ],
+          "chinese": {
+            "declared": true,
+            "verified": false
+          },
+          "reference_timbre": {
+            "declared": false,
+            "verified": false
+          },
+          "constraints": {},
+          "quality_verified": false,
+          "immediate_cancellation": false,
+          "execution": "isolated_local_process",
+          "fee": 0,
+          "cold_seconds": null,
+          "warm_seconds": null,
+          "peak_model_vram_mib": null
+        },
+        "health": {
+          "role": "photo",
+          "ready": true,
+          "model_loaded": false,
+          "readiness_scope": "configuration_checksums_runtime_module_discovery_torch_cuda_and_mmcv_binary; no native generation",
+          "dependencies": {
+            "torch": "1.12.1+cu113",
+            "cuda_runtime": "11.3",
+            "cuda_available": true,
+            "missing_modules": []
+          },
+          "blockers": [],
+          "quality_verified": false
+        }
+      }
+    },
+    "ai": {
+      "configured": false,
+      "ready": false,
+      "model": "",
+      "fee": null,
+      "reason": "请配置 AI 地址、模型与密钥环境变量；外部生成另需 allow_paid 授权"
+    },
+    "estimated_seconds": 48.64000000000001,
+    "estimate_scope": "有当前试听使用实际时长，否则字数提示",
+    "generation_seconds": null,
+    "generation_fee": null,
+    "generation_called": false,
+    "checked_at": "2026-10-01T16:02:49.254411+00:00"
+  },
+  "final_redecode": [
+    {
+      "scene_id": "4630c7e2-5b84-464f-bf1c-f383a1e5f999",
+      "sha256": "2662404a2f285043aabc1bf36b8b50273d7347bbd977a88a1e927c02059f138f",
+      "duration_seconds": 4.64,
+      "silence_ratio": 0.0,
+      "human_review": "pending"
+    },
+    {
+      "scene_id": "c7408e0b-6856-409b-822f-d71c5435a8f4",
+      "sha256": "f20621d8dca0489e45801ee151362ab4510de0e8beab9827ba8c01c29435f795",
+      "duration_seconds": 5.64,
+      "silence_ratio": 0.17992021276595746,
+      "human_review": "pending"
+    },
+    {
+      "scene_id": "de728693-d5ec-4f25-833e-0d25c78457f7",
+      "sha256": "7c6c2ab723bca551ff21aa2f70669d0c187ae11eda33a9fef54afe31ae2af219",
+      "duration_seconds": 3.78,
+      "silence_ratio": 0.0,
+      "human_review": "pending"
+    },
+    {
+      "scene_id": "d87ef97c-dc52-45be-9e24-da95d2c9d4af",
+      "sha256": "895da97c302689f2183b297c9def868e0390f535a6e3121a239fd1332820dcfb",
+      "duration_seconds": 4.08,
+      "silence_ratio": 0.0,
+      "human_review": "pending"
+    },
+    {
+      "scene_id": "3ad69934-4879-43e5-b2bf-6533b440b2c4",
+      "sha256": "35d74424aa970d9d8d9fa75be0a3dba4bd05c410d244363568d74fb87e6d06c2",
+      "duration_seconds": 5.58,
+      "silence_ratio": 0.0,
+      "human_review": "pending"
+    },
+    {
+      "scene_id": "39be1b21-6040-48df-a9e0-1fa3d6d9bea6",
+      "sha256": "a996739bed49332a4a4a07a9f4c3a50bc0824576f3fbaef27feef5090aff89c1",
+      "duration_seconds": 5.86,
+      "silence_ratio": 0.0,
+      "human_review": "pending"
+    },
+    {
+      "scene_id": "437e4db8-d975-4a4f-bbce-db8190c3c678",
+      "sha256": "aee2dbec02b680b5c597917799605ae086498656c33a55d83c464365f44704c9",
+      "duration_seconds": 3.92,
+      "silence_ratio": 0.0,
+      "human_review": "pending"
+    },
+    {
+      "scene_id": "220a33f6-3050-4794-83c0-1f59f020b3ed",
+      "sha256": "dbd0b0c82b0dda2249a630c7d7a6b6feb7421c08d8d04749c1f1a4fb1c57221c",
+      "duration_seconds": 4.48,
+      "silence_ratio": 0.0,
+      "human_review": "pending"
+    },
+    {
+      "scene_id": "dff86d23-b704-4a18-accf-95f548665f73",
+      "sha256": "0a6983d0fb85d7f7f5f67ce23541d5fc144ea3e8df4f9f51c78953954b52cbd7",
+      "duration_seconds": 4.46,
+      "silence_ratio": 0.0,
+      "human_review": "pending"
+    },
+    {
+      "scene_id": "da802fdf-79cb-46f3-870b-af210155f409",
+      "sha256": "8441b53a7ac003457b7d01d3f5b9e88276566e6a0d08b0fda05e257b6dc44015",
+      "duration_seconds": 6.2,
+      "silence_ratio": 0.0,
+      "human_review": "pending"
+    }
+  ],
+  "verified_at": "2026-10-01T16:02:49.254411+00:00"
+}

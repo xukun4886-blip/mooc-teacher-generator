@@ -1,0 +1,242 @@
+{
+  "browser": "Codex in-app browser",
+  "browser_version": "not exposed by enabled browser API",
+  "teacher_confirmation_submitted": false,
+  "photo": {
+    "currentTime": 82.1702,
+    "duration": 163.88,
+    "error": null,
+    "height": 1080,
+    "paused": true,
+    "readyState": 4,
+    "width": 1920,
+    "download": "C:\\Users\\及时行乐\\Downloads\\draft-course (2).mp4",
+    "play_time_advanced": true,
+    "seek_before": 80.626186,
+    "seek_after": 82.1702,
+    "teacher_checkbox_checked": false,
+    "confirm_enabled": false,
+    "download_sha256": "60f3a9978d6c3ddf3eaeb37f71f2fc01e6859487e3201b0bc9e0e46ebfbacf3d",
+    "download_sha256_verified": true,
+    "continuous_playback_observations": [
+      {
+        "at": "2026-10-08T16:49:53.932Z",
+        "currentTime": 0,
+        "paused": false,
+        "ended": false
+      },
+      {
+        "at": "2026-10-08T16:51:37.545Z",
+        "currentTime": 107.623764,
+        "duration": 163.88,
+        "ended": false,
+        "paused": false,
+        "readyState": 4
+      },
+      {
+        "at": "2026-10-08T16:52:52.633Z",
+        "currentTime": 163.88,
+        "duration": 163.88,
+        "ended": true,
+        "paused": true,
+        "readyState": 4
+      }
+    ],
+    "played_from_zero_to_ended": true,
+    "human_quality_review_completed": false,
+    "advanced_page_jump": [
+      {
+        "currentTime": 0,
+        "paused": true
+      },
+      {
+        "currentTime": 0,
+        "paused": true
+      },
+      {
+        "currentTime": 0,
+        "paused": true
+      },
+      {
+        "currentTime": 0,
+        "paused": true
+      },
+      {
+        "currentTime": 0,
+        "paused": true
+      },
+      {
+        "currentTime": 0,
+        "paused": true
+      },
+      {
+        "currentTime": 0,
+        "paused": true
+      },
+      {
+        "currentTime": 0,
+        "paused": true
+      },
+      {
+        "currentTime": 0,
+        "paused": true
+      },
+      {
+        "currentTime": 0,
+        "paused": true
+      },
+      {
+        "currentTime": 79.68,
+        "paused": false
+      }
+    ],
+    "advanced_download_paths": {
+      "SRT 字幕": "C:\\Users\\及时行乐\\Downloads\\draft-course (1).srt",
+      "逐页讲稿": "C:\\Users\\及时行乐\\Downloads\\draft-scripts.md",
+      "JSON 清单": "C:\\Users\\及时行乐\\Downloads\\draft-manifest.json"
+    },
+    "advanced_download_checks": {
+      "srt": {
+        "sha256": "3b58d075de330fb6a957cb0deb392745f6ba17e812521647383111d6a45e4781",
+        "verified": true
+      },
+      "script": {
+        "sha256": "07ab2e673927de1a59253e5dbc6cf8122d1d5ad314e1aa56145203fb2be22719",
+        "verified": true
+      },
+      "manifest": {
+        "sha256": "1bede283de96ac381b39dcd6500a25d623f5ca96341819067512d6fc7aa667f9",
+        "verified": true
+      }
+    },
+    "advanced_page_jump_completed": true,
+    "refresh_restored_completed_result": true
+  },
+  "at": "2026-10-08T16:34:05.667174+00:00",
+  "video": {
+    "currentTime": 163.88,
+    "duration": 163.88,
+    "ended": true,
+    "paused": true,
+    "readyState": 4,
+    "download": "C:\\Users\\及时行乐\\Downloads\\draft-course (3).mp4",
+    "continuous_playback_observations": [
+      {
+        "at": "2026-10-08T17:34:55.275Z",
+        "currentTime": 0,
+        "duration": 163.88,
+        "ended": false,
+        "paused": false,
+        "readyState": 4
+      },
+      {
+        "at": "2026-10-08T17:38:01.288Z",
+        "currentTime": 163.88,
+        "duration": 163.88,
+        "ended": true,
+        "paused": true,
+        "readyState": 4
+      }
+    ],
+    "played_from_zero_to_ended": true,
+    "human_quality_review_completed": false,
+    "download_sha256": "d1eb8f83f62afc41b1736317c5200814c9352a7368e66a86d44b39d1fa9ffc76",
+    "download_sha256_verified": true,
+    "seek_before": 0,
+    "seek_after": 1.6388,
+    "teacher_checkbox_checked": false,
+    "confirm_enabled": false,
+    "pointer_drag": {
+      "from_seconds": 85.489747,
+      "to_seconds": 85.489747,
+      "readyState": 4,
+      "passed": false,
+      "note": "Retargeted actual visible slider thumb after initial edge attempt did not seek.",
+      "conclusion": "Two automated drag attempts did not change media time; cause not determined. Keep pending real manual review; click and keyboard seeking did work."
+    },
+    "pointer_drag_first": {
+      "from_seconds": 1.6388,
+      "to_seconds": 1.6388,
+      "readyState": 4,
+      "passed": false
+    },
+    "progress_click_seconds": 85.489747,
+    "advanced_page_jump": [
+      {
+        "currentTime": 0,
+        "paused": true,
+        "readyState": 0
+      },
+      {
+        "currentTime": 0,
+        "paused": true,
+        "readyState": 0
+      },
+      {
+        "currentTime": 0,
+        "paused": true,
+        "readyState": 0
+      },
+      {
+        "currentTime": 0,
+        "paused": true,
+        "readyState": 0
+      },
+      {
+        "currentTime": 0,
+        "paused": true,
+        "readyState": 0
+      },
+      {
+        "currentTime": 0,
+        "paused": true,
+        "readyState": 0
+      },
+      {
+        "currentTime": 0,
+        "paused": true,
+        "readyState": 0
+      },
+      {
+        "currentTime": 0,
+        "paused": true,
+        "readyState": 0
+      },
+      {
+        "currentTime": 0,
+        "paused": true,
+        "readyState": 0
+      },
+      {
+        "currentTime": 0,
+        "paused": true,
+        "readyState": 0
+      },
+      {
+        "currentTime": 79.68,
+        "paused": false,
+        "readyState": 1
+      }
+    ],
+    "advanced_page_jump_completed": true,
+    "advanced_download_paths": {
+      "SRT 字幕": "C:\\Users\\及时行乐\\Downloads\\draft-course (2).srt",
+      "逐页讲稿": "C:\\Users\\及时行乐\\Downloads\\draft-scripts (1).md",
+      "JSON 清单": "C:\\Users\\及时行乐\\Downloads\\draft-manifest (1).json"
+    },
+    "advanced_download_checks": {
+      "srt": {
+        "sha256": "3b58d075de330fb6a957cb0deb392745f6ba17e812521647383111d6a45e4781",
+        "verified": true
+      },
+      "script": {
+        "sha256": "d4746836b443817df8e001b548fc42ebd19b837edb73f903dfd4f823312d2364",
+        "verified": true
+      },
+      "manifest": {
+        "sha256": "1b449edb8ab584f0f2a5e91dc4436bbadf60fae73548d7c7259b9f648265b9a9",
+        "verified": true
+      }
+    }
+  }
+}

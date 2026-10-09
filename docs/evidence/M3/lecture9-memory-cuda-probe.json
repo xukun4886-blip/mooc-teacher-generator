@@ -1,0 +1,10 @@
+{
+  "checked_at": "2026-10-09T03:44:28.169695+00:00",
+  "scope": "80 actual CUDA frames, exact tensor equivalence/VRAM; not real portrait capability",
+  "frames": 80,
+  "equal_values": true,
+  "fixed_output_device": "cpu",
+  "baseline_peak_allocated_mib": 120.0,
+  "fixed_peak_allocated_mib": 0.75,
+  "torch": "1.12.1+cu113"
+}

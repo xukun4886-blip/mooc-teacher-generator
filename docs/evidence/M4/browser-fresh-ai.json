@@ -1,0 +1,83 @@
+{
+  "browser": "Codex in-app browser",
+  "scope": "Two-page functional chain, not formal long-course acceptance",
+  "teacher_confirmation_submitted": false,
+  "paths": {
+    "photo": {
+      "project_id": "c156d76b-7daa-497d-a601-64c8513b937b",
+      "playback_start": {
+        "at": "2026-10-08T17:59:34.909Z",
+        "currentTime": 0,
+        "duration": 24.8,
+        "ended": false,
+        "paused": false,
+        "readyState": 4
+      },
+      "playback_end": {
+        "at": "2026-10-08T18:00:15.684Z",
+        "currentTime": 24.8,
+        "duration": 24.8,
+        "ended": true,
+        "error": null,
+        "height": 1080,
+        "paused": true,
+        "readyState": 4,
+        "width": 1920
+      },
+      "download": "C:\\Users\\及时行乐\\Downloads\\draft-course (4).mp4",
+      "intermediate_playback": {
+        "at": "2026-10-08T17:59:54.815Z",
+        "currentTime": 19.410631,
+        "duration": 24.8,
+        "ended": false,
+        "error": null,
+        "height": 1080,
+        "paused": false,
+        "readyState": 4,
+        "width": 1920
+      },
+      "played_from_zero_to_ended": true,
+      "teacher_checkbox_checked": false,
+      "confirm_enabled": false,
+      "refresh_restored_completed_result": true,
+      "download_sha256": "b1ee58c11bea202716ea7e80a23b2a639bb2f471e99ed2c3be1ca691980a5dd1",
+      "download_sha256_verified": true
+    },
+    "video": {
+      "project_id": "0091c9cc-f11c-43d0-adcc-82263d176f3f",
+      "playback_start": {
+        "at": "2026-10-08T18:00:47.886Z",
+        "currentTime": 0,
+        "duration": 26.16,
+        "ended": false,
+        "paused": false,
+        "readyState": 4
+      },
+      "playback_end": {
+        "at": "2026-10-08T18:02:18.630Z",
+        "currentTime": 26.16,
+        "duration": 26.16,
+        "ended": true,
+        "error": null,
+        "height": 1080,
+        "paused": true,
+        "readyState": 4,
+        "width": 1920
+      },
+      "played_from_zero_to_ended": true,
+      "download": "C:\\Users\\及时行乐\\Downloads\\draft-course (5).mp4",
+      "teacher_checkbox_checked": false,
+      "confirm_enabled": false,
+      "refresh_restored_completed_result": true,
+      "keyboard_seek": {
+        "currentTime": 0.2616,
+        "duration": 26.16,
+        "paused": true,
+        "readyState": 4
+      },
+      "download_sha256": "dc8e0ec0569e0c2a780544e14c2d6f379dd67dca8b387cf2fcbc6ec78ad2edaa",
+      "download_sha256_verified": true
+    }
+  },
+  "checked_at": "2026-10-08T18:05:22.599757+00:00"
+}

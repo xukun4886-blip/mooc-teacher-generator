@@ -1,0 +1,38 @@
+{
+  "started_at": "2026-10-08T15:59:57.744733+00:00",
+  "project_id": "92f7b222-dace-42c7-8be7-140beaa0497f",
+  "job_id": "00621df3-be2a-4f55-a733-0a755059fc89",
+  "before": {
+    "stage": "composing_original_page",
+    "state": "running",
+    "recoveries": 0,
+    "valid_scenes": 1,
+    "completed_media": [
+      {
+        "scene_id": "5d2cd65b-e2df-4210-b5e9-410bbf341b02",
+        "tts_sha256": "6eea09d1b24e32f58bd2bc9c0a68c04af4166b572fae0510b0bbfff453c1ef30",
+        "portrait_sha256": "3f225a71cf370a6c60dfb86c4da97b75000badc8297353eb84a2276c98874fc8",
+        "compose_sha256": "3d9b197fd6bc038328b0d4d0f55b36ad9a4fd210d1fd1253491b00a65a5734b5"
+      }
+    ]
+  },
+  "processes": {
+    "child_pids": [],
+    "server_pid": 18948
+  },
+  "teacher_confirmation_submitted": false,
+  "first_startup_failure": {
+    "code": "TIMEOUT",
+    "reason": "Background service inherited short-command Job Object; retained first interruption"
+  },
+  "owned_children_exited": null,
+  "after": {
+    "state": "running",
+    "stage": "tts_native_generation",
+    "recoveries": 2,
+    "same_job_id": true,
+    "completed_media_hashes_unchanged": true
+  },
+  "finished_at": "2026-10-08T16:00:56.018874+00:00",
+  "child_exit_scope": "No native Python child was observed at this composition boundary; native-tree proof requires real-model-restart.json or engineering crash test."
+}
